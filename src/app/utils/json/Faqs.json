@@ -1,0 +1,27 @@
+[
+    {
+        "key": 1,
+        "lable": "Are the taxes included?",
+        "description": "All prices advertised on our website and social media include all taxes. Taxes such as city tax or tourism tax are excluded to adhere to the rules and regulations of certain Countries where guest/passenger would have to pay those taxes by themselves directly."
+    },
+    {
+        "key": 2,
+        "lable": "What are the cancellation policies?",
+        "description": "Airline tickets are paid for in full at the time of booking and in case of cancellation, we reserve the right to charge an administration charge, on top of which, the airline’s charges will also apply. Please also note that some airlines may treat a name change as a cancellation and as such will not refund any funds. When the outbound segment of your flight is not used the return segment will be automatically cancelled by the airline and no right to a refund exists for such partly used tickets."
+    },
+    {
+        "key": 3,
+        "lable": "How does the date changes work?",
+        "description": "Before making any change to your reservation, we have to check if your ticket fare allows changes. Take note that all modifications like date or route changes are subject to the conditions explained by the airline based on your fare and normally, cheap tickets do not allow any type of modification."
+    },
+    {
+        "key": 4,
+        "lable": "Can I make a booking by paying a minimum deposit?",
+        "description": "To book your selected travel arrangements, you will be required to pay an instalment/deposit on account of the full price or the full balance at the time of booking depending on when you make your booking relevant to the travel date of departure. You must also pay any applicable insurance premiums and booking fees."
+    },
+    {
+        "key": 5,
+        "lable": "Once a reservation has been made, can the prices fluctuate?",
+        "description": "Price quotations are based on the prevailing cost at the date of booking. We, AeroTravels, have the liberty to change the prices at any time prior to a booking being confirmed. Once a booking has been confirmed the total amount payable has to be settled. However, once the total value has been paid the price quoted is guaranteed."
+    }
+]

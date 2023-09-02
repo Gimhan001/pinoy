@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "place": "Bacolod",
+    "briefDes": "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "place": "Palawan",
+    "briefDes": "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "place": "Cebu",
+    "briefDes": "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "place": "Palawan",
+    "briefDes": "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "description": "",
+    "image": ""
+  }
+]

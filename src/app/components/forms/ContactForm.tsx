@@ -1,66 +1,90 @@
-'use client'
+"use client";
 
 import React from "react";
-import { Col, Row } from 'antd';
-import { Button, Checkbox, Form, Input } from 'antd';
+import { Col, Row } from "antd";
+import { Button, Form, Input } from "antd";
 
 const onFinish = (values: any) => {
-  console.log('Success:', values);
+  console.log("Success:", values);
 };
 
 const onFinishFailed = (errorInfo: any) => {
-  console.log('Failed:', errorInfo);
+  console.log("Failed:", errorInfo);
 };
 
+const { TextArea } = Input;
+
 type FieldType = {
-  username?: string;
-  password?: string;
-  remember?: string;
+  fname?: string;
+  lname?: string;
+  email?: string;
+  mobile?: string;
+  subject?: string;
+  message?: string;
 };
 
 const Contact = () => {
   return (
     <Form
-    name="basic"
-    labelCol={{ span: 8 }}
-    wrapperCol={{ span: 16 }}
-    style={{ maxWidth: 600 }}
-    initialValues={{ remember: true }}
-    onFinish={onFinish}
-    onFinishFailed={onFinishFailed}
-    autoComplete="off"
-  >
-    <Form.Item<FieldType>
-      className='text-white'
-      label="Username"
-      name="username"
-      rules={[{ required: true, message: 'Please input your username!' }]}
+      name="contact"
+      initialValues={{ remember: true }}
+      onFinish={onFinish}
+      onFinishFailed={onFinishFailed}
+      autoComplete="off"
     >
-      <Input />
-    </Form.Item>
+      <div className="group grid lg:grid-cols-2 gap-x-4">
+      <Form.Item<FieldType>
+          name="fname"
+          rules={[{ required: true, message: "Please input your first name!" }]}
+        >
+          <Input className="Poppins" placeholder="First Name"/>
+        </Form.Item>
+        <Form.Item<FieldType>
+          name="lname"
+          rules={[{ required: false, message: "Please input your last name!" }]}
+        >
+          <Input placeholder="Last Name"/>
+        </Form.Item>
+      </div>
+      <div className="container grid lg:grid-cols-2 gap-x-4">
+        <Form.Item<FieldType>
+          name="email"
+          rules={[{ required: true, message: "Please input your email!" }]}
+        >
+          <Input placeholder="Email Address" type="email"/>
+        </Form.Item>
+        <Form.Item<FieldType>
+          name="mobile"
+          rules={[{ required: false, message: "Please input your mobile!" }]}
+        >
+          <Input placeholder="Mobile Number" type="number" />
+        </Form.Item>
+      </div>
+      <div className="container grid lg:grid-cols-1">
+        <Form.Item<FieldType>
+          name="subject"
+          rules={[{ required: true, message: "Please input enter subject!" }]}
+        >
+          <Input placeholder="Subject" type="text" />
+        </Form.Item>
+      </div>
+      <div className="container grid lg:grid-cols-1">
+        <Form.Item<FieldType>
+          name="message"
+          rules={[{ required: true, message: "Please enter Message!" }]}
+        >
+          <TextArea rows={4} placeholder="Message" maxLength={6} />
+        </Form.Item>
+      </div>
 
-    <Form.Item<FieldType>
-      label="Password"
-      name="password"
-      rules={[{ required: true, message: 'Please input your password!' }]}
-    >
-      <Input.Password />
-    </Form.Item>
-
-    <Form.Item<FieldType>
-      name="remember"
-      valuePropName="checked"
-      wrapperCol={{ offset: 8, span: 16 }}
-    >
-      <Checkbox>Remember me</Checkbox>
-    </Form.Item>
-
-    <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
-      <Button type="primary" htmlType="submit">
-        Submit
-      </Button>
-    </Form.Item>
-  </Form>
+      <div className="grid lg:grid-cols-6">
+        <Form.Item>
+          <Button type="primary" htmlType="submit">
+            Submit
+          </Button>
+        </Form.Item>
+      </div>
+    </Form>
   );
 };
 
