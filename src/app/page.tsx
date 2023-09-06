@@ -12,6 +12,7 @@ import RoundTripCard from "./components/card/RoundTripCard";
 import Manila from "@/app/assets/images/manila.jpg";
 import PopularDestinations from "./components/card/PopularDestinationsCard";
 import PopularDestination from "@/app/utils/json/PopularDestination.json";
+import BookingForm from "./components/forms/BookingForm";
 
 export default function Home() {
   return (
@@ -22,6 +23,13 @@ export default function Home() {
         // width={1500}
         priority
       />
+
+      <div className="container mx-auto Poppins px-4 lg:-mt-64 lg:mb-24 z-40">
+      <BookingForm />
+      </div>
+
+
+
       <div className="container mx-auto px-4 mt-8 Poppins">
         <div className="">
           <h4 className="text-2xl font-bold capitalize">
@@ -239,6 +247,7 @@ export default function Home() {
                   width={50}
                   height={50}
                   alt="Travel Experts"
+                  priority
                 />
                 <div>
                   <p className="text-sm capitalize">Expert guidance by our</p>
@@ -253,6 +262,7 @@ export default function Home() {
                   width={50}
                   height={50}
                   alt="Travel Experts"
+                  priority
                 />
                 <div>
                   <p className="text-sm capitalize">Immediate</p>
@@ -269,6 +279,7 @@ export default function Home() {
                   width={50}
                   height={50}
                   alt="Travel Experts"
+                  priority
                 />
                 <div>
                   <p className="text-sm capitalize">24-hour</p>
@@ -283,6 +294,7 @@ export default function Home() {
                   width={50}
                   height={50}
                   alt="Travel Experts"
+                  priority
                 />
                 <div>
                   <p className="text-sm capitalize">Flexible payment</p>

@@ -13,7 +13,7 @@ export default function Page() {
           alt="Pinoy"
           width={150}
           height={110}
-          className=""
+          className="nav-brand"
           priority
         />
       </Link>

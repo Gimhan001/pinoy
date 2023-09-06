@@ -2,7 +2,6 @@
 import Image from "next/image";
 import React from "react";
 import Manila from "@/app/assets/images/manila.jpg";
-import { Button, Card } from "antd";
 import RoundTrip from "@/app/utils/json/RoundTrip.json";
 
 export default function RoundTripCard() {
@@ -10,12 +9,16 @@ export default function RoundTripCard() {
     <div className="grid lg:grid-cols-4 gap-5">
       {RoundTrip.map((data, id) => {
         return (
-          <div className="group">
-            <Card
-              key={id}
-              className="rounded-b-2xl shadow-xl"
-              cover={<Image alt="example" src={Manila} />}
-            >
+          <div className="group border bg-slate-100 rounded-lg" key={id}>
+            <Image
+              className="round-card-img rounded-lg rounded-br-3xl rounded-bl-3xl"
+              alt="example"
+              src={Manila}
+              width={0}
+              height={0}
+              priority
+            />
+            <div className="p-3">
               <h4 className="text-lg text-end font-extrabold Poppins">
                 {data.price}
               </h4>
@@ -27,9 +30,11 @@ export default function RoundTripCard() {
               </p>
               <p className="text-xs Poppins text-zinc-500">{data.duration}</p>
               <div className="flex Poppins mt-4 justify-end">
-                <Button type="primary">Book Now</Button>
+                <button className="bg-blue-950 p-2 rounded-full text-sm text-white hover:bg-blue-800">
+                  Book Now
+                </button>
               </div>
-            </Card>
+            </div>
           </div>
         );
       })}
