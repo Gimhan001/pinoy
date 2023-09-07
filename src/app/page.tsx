@@ -203,7 +203,7 @@ export default function Home() {
 
         <div className="round-trip mt-8">
           <h4 className="text-2xl font-bold capitalize mb-8 ">
-            Don't Miss These Round Trip Fares
+            Do not Miss These Round Trip Fares
           </h4>
           <div>
             <RoundTripCard />
@@ -211,10 +211,10 @@ export default function Home() {
           <p className="mt-4 text-xs italic px-4">
             * All fares above were last found on: Apr 30, 2023 at 2:25 PM. Fares
             are one way or round trip as indicated above. Fares incl. all fuel
-            surcharges, taxes & fees and our service fees. Displayed fares are
+            surcharges, taxes and fees and our service fees. Displayed fares are
             based on historical data, are subject to change and cannot be
             guaranteed at the time of booking. See all booking terms and
-            conditions. Ref:tW3JFNLlEUSBYUq3Fq7cjw
+            conditions.
           </p>
         </div>
 

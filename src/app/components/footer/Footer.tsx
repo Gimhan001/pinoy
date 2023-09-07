@@ -11,8 +11,8 @@ export default function Footer() {
           <h2 className="text-lg font-bold mb-4 uppercase">Pinoy Travels</h2>
           <p className="text-sm">
             Is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's standard dummy text ever since the
-            1500s, when an unknown printer took a galley of type and scrambled
+            Ipsum has been the industry is standard dummy text ever since the
+            1500s when an unknown printer took a galley of type and scrambled
             it to make a type specimen book.
           </p>
         </div>
