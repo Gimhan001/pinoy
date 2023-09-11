@@ -13,7 +13,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 31, 109);
+  background-color: #0066C3;
   /* outline: 1px solid slategrey; */
   border-radius: 50px;
 }
@@ -34,19 +34,28 @@
 
 @layer base {
   html {
-    font-family: Poppins, system-ui, sans-serif;
+    font-family: inter, system-ui, sans-serif;
   }
+}
+
+h5, h4 {
+  color: #0066C3;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(131,58,180);
-  background: linear-gradient(90deg, rgba(147,197,253) 10%, rgba(167,139,250) 50%, rgba(147,197,253) 100%);
+  background: rgb(255, 255, 255);
+  /* background: linear-gradient(90deg, rgba(147,197,253) 10%, rgba(167,139,250) 50%, rgba(147,197,253) 100%); */
 }
 
 .navBar {
-  background: rgb(0, 31, 109);
+  background: #0066C3;
 /* background: linear-gradient(61deg, rgba(59,113,246,1) 0%, rgba(59,130,246,1) 18%, rgba(215,122,249,1) 81%, rgba(232,121,249,1) 100%); */
+}
+
+.toggle-dropdown {
+  background-color: #0066C3;
+  color: #FFFFFF;
 }
 
 /* .nav-brand {
@@ -55,7 +64,7 @@ body {
 } */
 
 .footer {
-  background: rgb(0, 31, 109);
+  background: #0066C3;
   color: #FFFFFF;
 /* background: linear-gradient(61deg, rgba(59,113,246,1) 0%, rgba(59,130,246,1) 18%, rgba(215,122,249,1) 81%, rgba(232,121,249,1) 100%); */
 }

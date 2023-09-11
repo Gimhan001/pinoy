@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="footer p-4 mt-8 Poppins">
+    <div className="footer p-4 mt-8">
       <div className="container grid lg:grid-cols-4 mx-auto">
         <div className="p-2">
           <h2 className="text-lg font-bold mb-4 uppercase">Pinoy Travels</h2>
