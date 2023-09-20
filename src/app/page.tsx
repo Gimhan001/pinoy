@@ -213,7 +213,7 @@ export default function Home() {
             <h4 className="text-2xl font-bold capitalize mb-4 text-zinc-900 ">
               our agents
             </h4>
-            <div className="mx-auto mt-4">
+            <div className="mx-auto mt-4 px-4">
               <AgentsCarousel />
             </div>
 
@@ -312,10 +312,10 @@ export default function Home() {
 
         <div className="mt-16 bg-slate-100 p-10 rounded-3xl">
           <div className="container mx-auto">
-            <h4 className="text-2xl font-bold capitalize lg:-mb-10 text-zinc-900 ">
+            <h4 className="text-2xl font-bold capitalize mb-8 text-zinc-900 ">
               Popular destinations
             </h4>
-            <div className="grid lg:grid-cols-3 gap-12 p-10 place-items-center">
+            <div className="grid lg:grid-cols-3 gap-12">
               <PopularDestinations />
             </div>
           </div>

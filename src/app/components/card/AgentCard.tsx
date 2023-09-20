@@ -27,7 +27,7 @@ export default function AgentCard(props: {
     | undefined;
 }) {
   return (
-    <div className="grid p-8">
+    <div className="grid p-6">
       <div className="group border bg-slate-100 rounded-lg">
         <Image
           className="round-card-img rounded-lg rounded-br-3xl rounded-bl-3xl"

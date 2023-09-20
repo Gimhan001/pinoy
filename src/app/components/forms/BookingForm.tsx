@@ -133,7 +133,7 @@ export default function BookingForm() {
   return (
     <div className={inter.className}>
       <div className="container mx-auto lg:-mt-32 z-40">
-        <Card className="Inter" style={{fontFamily:"Inter", borderRadius:"30px"}}>
+        <Card  style={{fontFamily:"Inter", borderRadius:"30px"}}>
           <h5 className="flex flex-row text-xl font-bold text-start capitalize mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
