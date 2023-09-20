@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -50,6 +50,7 @@ body {
 
 .navBar {
   background: #0066C3;
+  /* height: 50px; */
 /* background: linear-gradient(61deg, rgba(59,113,246,1) 0%, rgba(59,130,246,1) 18%, rgba(215,122,249,1) 81%, rgba(232,121,249,1) 100%); */
 }
 
@@ -70,7 +71,7 @@ body {
 }
 
 .Poppins {
-  font-family: Poppins;
+  font-family: Inter;
 }
 
 .round-card-img {
@@ -81,4 +82,16 @@ body {
 .offer-card-img{
   object-fit:cover;
   width: 100%;
+}
+
+.book-card {
+  background: #FFFFFF;
+}
+
+.link:hover {
+  color: #db2777;
+}
+
+.active {
+  color: #db2777;
 }

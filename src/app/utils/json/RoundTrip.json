@@ -25,14 +25,5 @@
         "price": "$1200",
         "tripType": "Round Trip",
         "image": "image3"
-    },
-    {
-        "id": 4,
-        "from": "London",
-        "to": "Taguig",
-        "duration": "02 March | 09 March",
-        "price": "$1300",
-        "tripType": "Round Trip",
-        "image": "image4"
     }
 ]

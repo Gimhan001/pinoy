@@ -8,6 +8,7 @@ import {
   Select,
   Card,
   AutoComplete,
+  Input,
   InputNumber,
   Dropdown,
   MenuProps,
@@ -20,6 +21,11 @@ import customParseFormat from "dayjs/plugin/customParseFormat";
 import type { DatePickerProps } from "antd";
 import { DownOutlined, SmileOutlined } from "@ant-design/icons";
 import { BookingModal } from "../modals/BookingModal";
+import { Inter } from "next/font/google";
+import Image from "next/image";
+import rightArrow from "@/app/assets/images/right-arrow.png";
+
+const inter = Inter({ subsets: ["latin"] });
 
 const mockVal = (str: string, repeat = 1) => ({
   value: str.repeat(repeat),
@@ -49,7 +55,7 @@ const items: MenuProps["items"] = [
   {
     key: "2",
     label: (
-      <div >
+      <div>
         <p className="font-bold">Children</p>
         <InputNumber
           type="number"
@@ -125,97 +131,111 @@ export default function BookingForm() {
   };
 
   return (
-    <Card className="Poppin shadow-3xl">
-      <h5 className="flex flex-row text-xl font-bold text-start Poppins capitalize mb-4">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          className="w-6 h-6 mr-2 mt-0.5"
-        >
-          <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
-        </svg>
-        Away to your home
-      </h5>
-      <Radio.Group
-        name="triptype"
-        id="triptype"
-        className=""
-        onChange={onChange}
-        value={value}
-        style={{ fontFamily: "Poppins" }}
-      >
-        <Radio value={"Return"}>Return</Radio>
-        <Radio value={"One Way"}>One way</Radio>
-        <Radio value={"Multi City"}>Multi City</Radio>
-        <Radio value={"Only Direct"}>Only Direct</Radio>
-      </Radio.Group>
-      <div className="container mx-auro grid lg:grid-cols-5 gap-3 mt-3">
-        <div className="group">
-          <AutoComplete
-            id="from"
-            options={options}
-            style={{ width: "100%", fontFamily: "Poppins" }}
-            onSelect={onSelect}
-            onSearch={(text) => setOptions(getPanelValue(text))}
-            placeholder="Where From"
-          />
-        </div>
-        <div className="group">
-          <AutoComplete
-            id="to"
-            options={options}
-            style={{ width: "100%" }}
-            onSelect={onSelect}
-            onSearch={(text) => setOptions(getPanelValue(text))}
-            placeholder="Where to"
-          />
-        </div>
-        <div className="group">
-          <DatePicker
-            placeholder="Departure Date"
-            style={{ width: "100%" }}
-            onChange={onChanges}
-          />
-        </div>
-        <div className="group">
-          <DatePicker
-            placeholder="Return Date"
-            style={{ width: "100%" }}
-            onChange={onChanges}
-          />
-        </div>
-        <div className="group">
-          <Dropdown
-            className="border p-1 w-full rounded-md"
-            menu={{
-              items,
-            }}
-            onOpenChange={handleOpenChange}
-            open={open}
+    <div className={inter.className}>
+      <div className="container mx-auto lg:-mt-32 z-40">
+        <Card className="Inter" style={{fontFamily:"Inter", borderRadius:"30px"}}>
+          <h5 className="flex flex-row text-xl font-bold text-start capitalize mb-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-6 h-6 mr-2 mt-0.5"
+            >
+              <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+            </svg>
+            Away to your home
+          </h5>
+
+          <Radio.Group
+            name="triptype"
+            id="triptype"
+            className=""
+            onChange={onChange}
+            value={value}
+            style={{ fontFamily: "Poppins" }}
           >
-            <Space>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
-                  clipRule="evenodd"
+            <Radio value={"Return"}>Return</Radio>
+            <Radio value={"One Way"}>One way</Radio>
+            <Radio value={"Multi City"}>Multi City</Radio>
+            <Radio value={"Only Direct"}>Only Direct</Radio>
+          </Radio.Group>
+
+          <div className="container mx-auto grid lg:grid-cols-2 gap-3 mt-3">
+            <div className="group flex pt-2 rounded-xl border-2 border-slate-700">
+              {/* <Space.Compact className="w-full"> */}
+                <AutoComplete
+                  id="from"
+                  bordered={false}
+                  options={options}
+                  style={{ width: "100%", fontFamily:"Inter" }}
+                  onSelect={onSelect}
+                  onSearch={(text) => setOptions(getPanelValue(text))}
+                  placeholder="Where From"
                 />
-              </svg>
-              Travellers
-              <DownOutlined className="ms-auto" />
-            </Space>
-          </Dropdown>
-        </div>
+                <AutoComplete
+                  id="to"
+                  bordered={false}
+                  options={options}
+                  style={{ width: "100%" }}
+                  onSelect={onSelect}
+                  onSearch={(text) => setOptions(getPanelValue(text))}
+                  placeholder="Where to"
+                />
+              {/* </Space.Compact> */}
+            </div>
+
+            <div className="group flex">
+              <div className="grid lg:grid-cols-2 gap-3">
+                <div className="flex group border-2 rounded-xl border-gray-700">
+                  <DatePicker
+                    bordered={false}
+                    placeholder="Departure Date"
+                    // style={{ width: "100%" }}
+                    onChange={onChanges}
+                  />
+                  <DatePicker
+                    bordered={false}
+                    placeholder="Return Date"
+                    // style={{ width: "100%" }}
+                    onChange={onChanges}
+                  />
+                </div>
+                <div className="group border-2 p-2 rounded-xl border-gray-700">
+                  <Dropdown
+                    className="p-1 w-full"
+                    menu={{
+                      items,
+                    }}
+                    onOpenChange={handleOpenChange}
+                    open={open}
+                  >
+                    <Space>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      Travellers
+                      <DownOutlined className="ms-auto" />
+                    </Space>
+                  </Dropdown>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid justify-center mt-8">
+            <BookingModal initialdata={"from"} />
+          </div>
+        </Card>
       </div>
-      <div className="grid justify-center mt-8">
-        <BookingModal initialdata={"from"} />
-      </div>
-    </Card>
+    </div>
   );
 }

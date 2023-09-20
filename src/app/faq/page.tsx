@@ -16,9 +16,9 @@ export default function FAQ() {
 
   return (
     <main>
-    <Image src={Banner} alt="About" priority />
-    <div className="container mx-auto w-full mt-4 font-primary">
-        <h1 className="text-3xl font-black text-center ">Common Travel FAQ</h1>
+    <Image className="-mt-6" src={Banner} width={0} height={0} alt="About" priority />
+    <div className="container mx-auto w-full mt-4">
+        <h1 className="text-3xl font-bold text-center ">Common Travel FAQ</h1>
         <p className="text-start mt-4 px-4 mb-8">
         is simply dummy text of the printing and typesetting industry. Lorem
           Ipsum has been the industry&apos;s standard dummy text ever since the

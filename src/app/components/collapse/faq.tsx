@@ -6,13 +6,6 @@ import type { CollapseProps } from 'antd';
 import { Collapse, theme } from 'antd';
 import Faqs from '@/app/utils/json/Faqs.json'
 
-
-const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
-
     
 const getItems: (panelStyle: CSSProperties) => CollapseProps['items'] = (panelStyle) => {
 
@@ -39,7 +32,7 @@ export default function faq() {
     fontFamily: 'Poppins',
   };
   return (
-    <div className='mx-4 shadow-xl border bg-transparent Poppins rounded-lg p-4'>
+    <div className='mx-4 shadow-xl border bg-slate-50 rounded-lg p-4'>
         <Collapse
       bordered={false}
     //   defaultActiveKey={['1']}

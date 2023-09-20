@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 export default function PrivacyPolicy() {
   return (
     <main className="">
-      <Image src={Banner} alt="terms&conditions" priority />
-      <div className="container mx-auto font-primary">
+      <Image className="-mt-6" src={Banner} width={0} height={0} alt="terms&conditions" priority />
+      <div className="container mx-auto">
         <div className="w-full text-center mt-4">
-          <h1 className="text-3xl font-black capitalize">Terms and conditions</h1>
+          <h1 className="text-3xl font-bold capitalize">Terms and conditions</h1>
           <p className="text-start mt-4 px-4">
           is simply dummy text of the printing and typesetting industry. Lorem
           Ipsum has been the industry&apos;s standard dummy text ever since the

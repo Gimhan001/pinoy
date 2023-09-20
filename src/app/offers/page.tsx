@@ -3,6 +3,9 @@ import React from "react";
 import Banner from "@/app/assets/images/about.jpg";
 import type { Metadata } from "next";
 import OffersCard from "../components/card/OffersCard";
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "Offers | Pinoy",
@@ -12,10 +15,10 @@ export const metadata: Metadata = {
 
 export default function Offers() {
   return (
-    <main className="">
-      <Image className="" src={Banner} alt="Offers" priority />
-      <div className="container mx-auto w-full text-center mt-4 font-primary">
-        <h1 className="text-3xl font-black">Our Offers</h1>
+    <main className={inter.className}>
+      <Image className="-mt-6" src={Banner} width={0} height={0} alt="Offers" priority />
+      <div className="container mx-auto w-full text-center mt-4">
+        <h1 className="text-3xl font-bold">Our Offers</h1>
         <p className="text-start mt-4 px-4">
         is simply dummy text of the printing and typesetting industry. Lorem
           Ipsum has been the industry&apos;s standard dummy text ever since the

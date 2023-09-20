@@ -6,12 +6,12 @@ import RoundTrip from "@/app/utils/json/RoundTrip.json";
 
 export default function RoundTripCard() {
   return (
-    <div className="grid lg:grid-cols-4 gap-5">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-20">
       {RoundTrip.map((data, id) => {
         return (
-          <div className="group border bg-slate-100 rounded-lg" key={id}>
+          <div className="group border bg-white rounded-3xl" key={id}>
             <Image
-              className="round-card-img rounded-lg rounded-br-3xl rounded-bl-3xl"
+              className="round-card-img rounded-3xl"
               alt="example"
               src={Manila}
               width={0}
@@ -30,7 +30,7 @@ export default function RoundTripCard() {
               </p>
               <p className="text-xs Poppins text-zinc-500">{data.duration}</p>
               <div className="flex Poppins mt-4 justify-end">
-                <button className="bg-blue-950 p-2 rounded-full text-sm text-white hover:bg-blue-800">
+                <button className="bg-blue-950 p-2 rounded-lg text-sm text-white hover:bg-blue-800">
                   Book Now
                 </button>
               </div>

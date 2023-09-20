@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Bacolod",
+        "class": "Economy",
+        "price": "$1223",
+        "person": "Per Person",
+        "airLine": "Emirates",
+        "airLineImage": ""
+    },
+    {
+        "id": 2,
+        "title": "Palawan",
+        "class": "Economy",
+        "price": "$111",
+        "person": "Per Person",
+        "airLine": "Emirates",
+        "airLineImage": ""
+    },
+    {
+        "id": 3,
+        "title": "Cebu",
+        "class": "Economy",
+        "price": "$2222",
+        "person": "Per Person",
+        "airLine": "Emirates",
+        "airLineImage": ""
+    }
+]

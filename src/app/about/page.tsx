@@ -2,6 +2,9 @@ import Image from "next/image";
 import React from "react";
 import Banner from "@/app/assets/images/about.jpg";
 import type { Metadata } from "next";
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "About | Pinoy",
@@ -10,10 +13,10 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <main className="">
-      <Image src={Banner} alt="About" priority />
-      <div className="container mx-auto w-full text-center mt-4 font-primary">
-        <h1 className="text-3xl font-black">About Us</h1>
+    <main className={inter.className}>
+      <Image className="-mt-6" src={Banner} width={0} height={0} alt="About" priority />
+      <div className="container mx-auto w-full text-center mt-4">
+        <h1 className="text-3xl font-bold">About Us</h1>
         <p className="text-start mt-4 px-4">
           is simply dummy text of the printing and typesetting industry. Lorem
           Ipsum has been the industry&apos;s standard dummy text ever since the
@@ -66,25 +69,25 @@ export default function About() {
           </div>
         </div>
         <div className="mx-auto flex items-center justify-center p-4">
-          <div className="h-36 w-full rounded-md bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-800 p-1">
-            <div className="h-full w-full rounded-md max-w-sm items-center justify-center bg-gray-950 back p-4">
+          <div className="h-36 w-full hover:shadow-xl transition duration-0  hover:duration-150 rounded-md bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-800  p-1">
+            <div className="h-full w-full rounded-md  items-center justify-center   bg-gray-950 back p-4">
             <h1 className="text-xl text-white text-capitalize pb-3">
-                Travel Insurance
+            Travel Insurance
               </h1>
               <p className="text-white">
-              Travel insurances to cover your holiday from any financial risks.
+              Travel insurances to cover dsdsoi your holiday from any financial risks.
               </p>
             </div>
           </div>
         </div>
         <div className="mx-auto flex items-center justify-center p-4">
-          <div className="h-36 w-full rounded-md bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-800  p-1">
-            <div className="h-full w-full rounded-md max-w-sm items-center justify-center bg-gray-950 back p-4">
+          <div className="h-36 w-full hover:shadow-xl transition duration-0  hover:duration-150 rounded-md bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-800  p-1">
+            <div className="h-full w-full rounded-md  items-center justify-center   bg-gray-950 back p-4">
             <h1 className="text-xl text-white text-capitalize pb-3">
-                Travel Advice
+            Travel Advice
               </h1>
               <p className="text-white">
-              We provide value added travel advice to passengers who are looking to travel..
+              We provide value added travel advice to passengers who are looking to travel.
               </p>
             </div>
           </div>

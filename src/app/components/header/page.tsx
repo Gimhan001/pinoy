@@ -6,12 +6,20 @@ import navBrand from "@/app/assets/images/navBrand.png";
 import { useState } from "react";
 import type { MenuProps } from "antd";
 import { Dropdown } from "antd";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faTiktok,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import { usePathname } from "next/navigation";
 
 const items: MenuProps["items"] = [
   {
     key: "1",
     label: (
-      <Link className="flex flex-center uppercase" href="/">
+      <Link className="flex flex-center uppercase link" href="/">
         Home
       </Link>
     ),
@@ -19,7 +27,7 @@ const items: MenuProps["items"] = [
   {
     key: "2",
     label: (
-      <Link className="flex flex-center uppercase" href="/offers">
+      <Link className="flex flex-center uppercase link" href="/offers">
         Offers
       </Link>
     ),
@@ -27,7 +35,7 @@ const items: MenuProps["items"] = [
   {
     key: "3",
     label: (
-      <Link className="flex flex-center uppercase" href="/about">
+      <Link className="flex flex-center uppercase link" href="/about">
         About
       </Link>
     ),
@@ -35,7 +43,7 @@ const items: MenuProps["items"] = [
   {
     key: "4",
     label: (
-      <Link className="flex flex-center uppercase" href="/contact">
+      <Link className="flex flex-center uppercase link" href="/contact">
         Conatct
       </Link>
     ),
@@ -44,42 +52,73 @@ const items: MenuProps["items"] = [
 
 export default function Page() {
   const [toggleDropdown, setToggleDropdown] = useState(false);
+  const pathname = usePathname();
   return (
     <nav className="flex gap-3 w-full text-white p-4 sticky top-0 navBar z-40 lg:rounded-br-3xl lg:rounded-bl-3xl">
-      <Link className="flex flex-center gap-2" href="/">
+      <Link className="flex flex-center" href="/">
         <Image
           src={navBrand}
           alt="Pinoy"
-          width={150}
-          height={110}
+          width={70}
+          height={70}
           className="nav-brand"
           priority
         />
       </Link>
 
-      <div className="sm:flex hidden text-end mx-auto gap-3 md:gap-5 justify-center">
-        <Link className="group flex flex-center uppercase" href="/">
-          Home
+      <div className="sm:flex hidden text-end mx-auto gap-3 lg:mt-3 md:mt-3 md:gap-5 justify-center">
+        <Link className="group flex flex-center uppercase link" href="/">
+          <p className={pathname == "/" ? "active" : ""}>Home</p>
         </Link>
-        <Link className="group flex flex-center uppercase" href="/offers">
-          Offers
+        <Link className="group flex flex-center uppercase link" href="/offers">
+          <p className={pathname == "/offers" ? "active" : ""}>Offers</p>
         </Link>
-        <Link className="group flex flex-center uppercase" href="/about">
-          About
+        <Link className="group flex flex-center uppercase link" href="/about">
+          <p className={pathname == "/about" ? "active" : ""}>About</p>
         </Link>
-        <Link className="group flex flex-center uppercase" href="/contact">
-          Conatct
+        <Link className="group flex flex-center uppercase link" href="/contact">
+          <p className={pathname == "/contact" ? "active" : ""}>Conatct</p>
         </Link>
       </div>
       <div className="sm:flex hidden">
-        <p>
-          <small>
-            Call Now
-            <a className="ml-2" href="tel:+12345678">
-              1-895-884-0175
-            </a>
-          </small>
-        </p>
+        <div className="text-end">
+          {/* <Link
+            className="link"
+            href="https://www.facebook.com"
+            target="_blank"
+          >
+            <FontAwesomeIcon className="pr-2" size="sm" icon={faFacebook} />
+          </Link>
+          <Link
+            className="link"
+            href="https://www.facebook.com"
+            target="_blank"
+          >
+            <FontAwesomeIcon className="pr-2" size="sm" icon={faInstagram} />
+          </Link>
+          <Link
+            className="link"
+            href="https://www.facebook.com"
+            target="_blank"
+          >
+            <FontAwesomeIcon className="pr-2" size="sm" icon={faTiktok} />
+          </Link>
+          <Link
+            className="link"
+            href="https://www.facebook.com"
+            target="_blank"
+          >
+            <FontAwesomeIcon className="" size="sm" icon={faYoutube} />
+          </Link> */}
+          <p>
+            <small>
+              Call Now
+              <a className="ml-2 link" href="tel:+12345678">
+                1-895-884-0175
+              </a>
+            </small>
+          </p>
+        </div>
       </div>
 
       {/* Mobile Nav */}

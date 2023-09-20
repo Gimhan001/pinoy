@@ -27,23 +27,23 @@ export default function AgentCard(props: {
     | undefined;
 }) {
   return (
-    <div className="grid gap-5 p-3">
+    <div className="grid p-8">
       <div className="group border bg-slate-100 rounded-lg">
         <Image
           className="round-card-img rounded-lg rounded-br-3xl rounded-bl-3xl"
-          alt="example"
+          alt="Agents"
           src={Profile}
           width={0}
           height={0}
           priority
         />
         <div className="p-3">
-          <h4 className="text-lg text-center font-extrabold Poppins">
+          <h4 className="text-lg text-center text-pink-700 font-extrabold">
             {props.name}
           </h4>
-          <div className="flex Poppins mt-4 justify-end">
+          <div className="flex mt-4 justify-end">
             <a href={`tel:${props.contact}`}>
-              <button className="bg-blue-950 p-2 rounded-full text-sm text-white hover:bg-blue-800">
+              <button className="bg-blue-950 p-2 rounded-lg text-sm text-white hover:bg-blue-800">
                 Call Now
               </button>
             </a>
