@@ -38,10 +38,10 @@ export default function Footer() {
         <div className="p-2">
           <h2 className="text-lg font-bold uppercase mb-4">Connect With Us</h2>
           <div className="mb-3">
-          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-2 link" size="lg" icon={faFacebook} /></Link>
-          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-2 link" size="lg" icon={faInstagram} /></Link>
-          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-2 link" size="lg" icon={faYoutube} /></Link>
-          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-2 link" size="lg" icon={faTiktok} /></Link>
+          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-3 link" size="lg" icon={faFacebook} /></Link>
+          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-3 link" size="lg" icon={faInstagram} /></Link>
+          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-3 link" size="lg" icon={faYoutube} /></Link>
+          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-3 link" size="lg" icon={faTiktok} /></Link>
           </div>
           <div>
             <h4 className="text-base text-white font-bold">We Accept</h4>

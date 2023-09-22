@@ -29,7 +29,7 @@ export default function faq() {
 
   const panelStyle: React.CSSProperties = {
     background: 'transparent',
-    fontFamily: 'Poppins',
+    fontFamily: 'Inter',
   };
   return (
     <div className='mx-4 shadow-xl border bg-slate-50 rounded-lg p-4'>

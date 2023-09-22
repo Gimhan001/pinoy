@@ -2,7 +2,7 @@ import React from "react";
 
 import { Button, Card } from "antd";
 import Image from "next/image";
-import Profile from "@/app/assets/images/profile.jpg";
+import Profile from "@/app/assets/images/profile.jpeg";
 
 export default function AgentCard(props: {
   contact:
@@ -28,22 +28,22 @@ export default function AgentCard(props: {
 }) {
   return (
     <div className="grid p-6">
-      <div className="group border bg-slate-100 rounded-lg">
+      <div className="group border bg-white rounded-lg">
         <Image
-          className="round-card-img rounded-lg rounded-br-3xl rounded-bl-3xl"
+          className="round-card-img rounded-full p-4"
           alt="Agents"
           src={Profile}
           width={0}
           height={0}
           priority
         />
-        <div className="p-3">
-          <h4 className="text-lg text-center text-pink-700 font-extrabold">
+        <div className="p-3 -mt-4">
+          <h4 className="text-base text-center text-pink-700 font-extrabold">
             {props.name}
           </h4>
-          <div className="flex mt-4 justify-end">
+          <div className="flex mt-2 justify-end">
             <a href={`tel:${props.contact}`}>
-              <button className="bg-blue-950 p-2 rounded-lg text-sm text-white hover:bg-blue-800">
+              <button className="bg-blue-950 p-1 px-2 rounded-lg text-xs text-white hover:bg-blue-800">
                 Call Now
               </button>
             </a>

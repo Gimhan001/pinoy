@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import Manila from "@/app/assets/images/manila.jpg";
 import RoundTrip from "@/app/utils/json/RoundTrip.json";
+import { RoundTripModal } from "../modals/RoundTripModal";
 
 export default function RoundTripCard() {
   return (
@@ -28,11 +29,19 @@ export default function RoundTripCard() {
               <p className="text-xs Poppins text-zinc-500 mt-2">
                 {data.tripType}
               </p>
-              <p className="text-xs Poppins text-zinc-500">{data.duration}</p>
+              <p className="text-xs Poppins text-zinc-500">{data.departure} - {data.returns}</p>
               <div className="flex Poppins mt-4 justify-end">
-                <button className="bg-blue-950 p-2 rounded-lg text-sm text-white hover:bg-blue-800">
-                  Book Now
-                </button>
+              <RoundTripModal 
+                    id={data.id}
+                    tripType={data.tripType}
+                    from={data.from}
+                    to={data.to}
+                    departure={data.departure}
+                    returns={data.returns}
+                    person={data.person}
+                    cabinClass={data.cabinClass}
+                    price={data.price}
+                  />
               </div>
             </div>
           </div>

@@ -33,17 +33,17 @@ const Contact = () => {
       autoComplete="off"
     >
       <div className="group grid lg:grid-cols-2 gap-x-4">
-      <Form.Item<FieldType>
+        <Form.Item<FieldType>
           name="fname"
           rules={[{ required: true, message: "Please input your first name!" }]}
         >
-          <Input className="Poppins" placeholder="First Name"/>
+          <Input className="Poppins" placeholder="First Name" />
         </Form.Item>
         <Form.Item<FieldType>
           name="lname"
           rules={[{ required: false, message: "Please input your last name!" }]}
         >
-          <Input placeholder="Last Name"/>
+          <Input placeholder="Last Name" />
         </Form.Item>
       </div>
       <div className="container grid lg:grid-cols-2 gap-x-4">
@@ -51,7 +51,7 @@ const Contact = () => {
           name="email"
           rules={[{ required: true, message: "Please input your email!" }]}
         >
-          <Input placeholder="Email Address" type="email"/>
+          <Input placeholder="Email Address" type="email" />
         </Form.Item>
         <Form.Item<FieldType>
           name="mobile"
@@ -79,9 +79,12 @@ const Contact = () => {
 
       <div className="grid lg:grid-cols-6">
         <Form.Item>
-          <Button type="primary" htmlType="submit">
-            Submit
-          </Button>
+          <button
+            className="bg-blue-950 p-2 px-4 rounded-lg text-sm text-white hover:bg-blue-800"
+            type="submit"
+          >
+            Send
+          </button>
         </Form.Item>
       </div>
     </Form>

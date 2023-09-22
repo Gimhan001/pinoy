@@ -6,15 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 import AgentData from "@/app/utils/json/AgentData.json";
 import AgentCard from "../card/AgentCard";
-
-function SampleNextArrow() {
-  return (
-    <div
-      style={{ display: "block", background: "red" }}
-    />
-  );
-}
-
+import OffersCard from "../card/OffersCarouselCard";
+import OffersData from "@/app/utils/json/Offers.json";
 
 export default function SimpleSlider() {
   var settings = {
@@ -27,7 +20,6 @@ export default function SimpleSlider() {
     centerPadding: "30px",
     speed: 1000,
     autoplay: true,
-    arrow: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -57,10 +49,10 @@ export default function SimpleSlider() {
   return (
     <div>
       <Slider {...settings}>
-        {AgentData.map((data, id) => {
+        {OffersData.map((data, id) => {
           return (
             <div key={id}>
-              <AgentCard name={data.name} contact={data.contact} />
+              <OffersCard id= {data.id} from={data.from} to={data.to} tripType={data.tripType} person={data.person} departure={data.departure} cabinClass={data.cabinClass} returns={data.returns} price={data.price}/>
             </div>
           );
         })}

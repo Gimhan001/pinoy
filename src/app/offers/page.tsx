@@ -3,37 +3,57 @@ import React from "react";
 import Banner from "@/app/assets/images/about.jpg";
 import type { Metadata } from "next";
 import OffersCard from "../components/card/OffersCard";
-import { Inter } from 'next/font/google'
+import { Inter } from "next/font/google";
+import OffersCarousel from "../components/carousel/OffersCarousel";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Offers | Pinoy",
   description: "Travel anywahere It is All About Travel ",
 };
 
-
 export default function Offers() {
+  
   return (
     <main className={inter.className}>
-      <Image className="-mt-6" src={Banner} width={0} height={0} alt="Offers" priority />
+      <Image
+        className="-mt-6"
+        src={Banner}
+        width={0}
+        height={0}
+        alt="Offers"
+        priority
+      />
       <div className="container mx-auto w-full text-center mt-4">
         <h1 className="text-3xl font-bold">Our Offers</h1>
         <p className="text-start mt-4 px-4">
-        is simply dummy text of the printing and typesetting industry. Lorem
+          is simply dummy text of the printing and typesetting industry. Lorem
           Ipsum has been the industry&apos;s standard dummy text ever since the
-          1500s&lsquo; when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book. It has survived not only five centuries&lsquo;
-          but also the leap into electronic typesetting remaining essentially
-          unchanged. It was popularised in the 1960s with the release of
-          Letraset sheets containing Lorem Ipsum passages&lsquo; and more recently
-          with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum.
+          1500s&lsquo; when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries&lsquo; but also the leap into electronic typesetting
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages&lsquo;
+          and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
-      <div className="container mx-auto px-4 mt-8 p-4">
-        <OffersCard />
+      <div className="px-4 mt-8 sm:grid hidden">
+        <div className="bg-slate-100 p-10 rounded-3xl">
+          <div className="container mx-auto">
+            <OffersCard />
+          </div>
+        </div>
+      </div>
+
+      <div className="px-4 mt-8 lg:hidden">
+        <div className="bg-slate-100 p-10 rounded-3xl">
+          <div className="container mx-auto">
+            <OffersCarousel />
+          </div>
+        </div>
       </div>
     </main>
-  )
+  );
 }

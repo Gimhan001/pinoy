@@ -101,9 +101,34 @@ const items: MenuProps["items"] = [
   },
 ];
 
+type initialData = {
+  tripType: string;
+  from: string;
+  to: string;
+  departure: Date;
+  returns: Date;
+  Adults: number;
+  childrens: number;
+  infants: number;
+  cabinClass: string;
+};
+
 export default function BookingForm() {
   const [value, setValue] = useState("Return");
   const [open, setOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
 
   const onChange = (e: RadioChangeEvent) => {
     console.log("radio checked", e.target.value);
@@ -126,14 +151,18 @@ export default function BookingForm() {
     setOpen(flag);
   };
 
-  const onChanges: DatePickerProps["onChange"] = (date, dateString) => {
+  const onChangeDeparture: DatePickerProps["onChange"] = (date, dateString) => {
+    console.log(date, dateString);
+  };
+
+  const onChangeReturn: DatePickerProps["onChange"] = (date, dateString) => {
     console.log(date, dateString);
   };
 
   return (
     <div className={inter.className}>
       <div className="container mx-auto lg:-mt-32 z-40">
-        <Card  style={{fontFamily:"Inter", borderRadius:"30px"}}>
+        <Card style={{ fontFamily: "Inter", borderRadius: "30px" }}>
           <h5 className="flex flex-row text-xl font-bold text-start capitalize mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -152,55 +181,55 @@ export default function BookingForm() {
             className=""
             onChange={onChange}
             value={value}
-            style={{ fontFamily: "Poppins" }}
+            style={{ fontFamily: "Inter" }}
           >
-            <Radio value={"Return"}>Return</Radio>
-            <Radio value={"One Way"}>One way</Radio>
-            <Radio value={"Multi City"}>Multi City</Radio>
-            <Radio value={"Only Direct"}>Only Direct</Radio>
+            <Radio value={"Return"} style={{ fontFamily: "Inter" }}>Return</Radio>
+            <Radio value={"One Way"} style={{ fontFamily: "Inter" }}>One way</Radio>
+            <Radio value={"Multi City"} style={{ fontFamily: "Inter" }}>Multi City</Radio>
+            <Radio value={"Only Direct"} style={{ fontFamily: "Inter" }}>Only Direct</Radio>
           </Radio.Group>
 
           <div className="container mx-auto grid lg:grid-cols-2 gap-3 mt-3">
-            <div className="group flex pt-2 rounded-xl border-2 border-slate-700">
+            <div className="group p-1 flex rounded-xl border-2 border-slate-700">
               {/* <Space.Compact className="w-full"> */}
-                <AutoComplete
-                  id="from"
-                  bordered={false}
-                  options={options}
-                  style={{ width: "100%", fontFamily:"Inter" }}
-                  onSelect={onSelect}
-                  onSearch={(text) => setOptions(getPanelValue(text))}
-                  placeholder="Where From"
-                />
-                <AutoComplete
-                  id="to"
-                  bordered={false}
-                  options={options}
-                  style={{ width: "100%" }}
-                  onSelect={onSelect}
-                  onSearch={(text) => setOptions(getPanelValue(text))}
-                  placeholder="Where to"
-                />
+              <AutoComplete
+                id="from"
+                bordered={false}
+                options={options}
+                style={{ width: "100%", fontFamily: "Inter" }}
+                onSelect={onSelect}
+                onSearch={(text) => setOptions(getPanelValue(text))}
+                placeholder="Where From"
+              />
+              <AutoComplete
+                id="to"
+                bordered={false}
+                options={options}
+                style={{ width: "100%" }}
+                onSelect={onSelect}
+                onSearch={(text) => setOptions(getPanelValue(text))}
+                placeholder="Where to"
+              />
               {/* </Space.Compact> */}
             </div>
 
-            <div className="group flex">
+            <div className="group mx-auto flex">
               <div className="grid lg:grid-cols-2 gap-3">
-                <div className="flex group border-2 rounded-xl border-gray-700">
+                <div className="flex group p-1 border-2 rounded-xl border-gray-700 w-full">
                   <DatePicker
                     bordered={false}
                     placeholder="Departure Date"
                     // style={{ width: "100%" }}
-                    onChange={onChanges}
+                    onChange={onChangeDeparture}
                   />
                   <DatePicker
                     bordered={false}
                     placeholder="Return Date"
                     // style={{ width: "100%" }}
-                    onChange={onChanges}
+                    onChange={onChangeReturn}
                   />
                 </div>
-                <div className="group border-2 p-2 rounded-xl border-gray-700">
+                <div className="group p-1 border-2 rounded-xl border-gray-700 w-full">
                   <Dropdown
                     className="p-1 w-full"
                     menu={{
@@ -232,7 +261,17 @@ export default function BookingForm() {
           </div>
 
           <div className="grid justify-center mt-8">
-            <BookingModal initialdata={"from"} />
+            <button
+              onClick={showModal}
+              className="bg-blue-900 p-1 px-8 rounded-lg text-white "
+            >
+              Search Flight
+            </button>
+            <BookingModal
+              modalOpen={isModalOpen}
+              handleOkk={handleOk}
+              handleClose={handleCancel}
+            />
           </div>
         </Card>
       </div>

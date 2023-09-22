@@ -3,54 +3,72 @@
         "id": 1,
         "from": "London",
         "to": "Manila",
-        "duration": "02 March - 09 March",
+        "departure": "09 March",
+        "returns": "09 March",
         "price": "$1500",
         "tripType": "Round Trip",
-        "image": "image1"
+        "image": "image1",
+        "person": 1,
+        "cabinClass": "Economy"
     },
     {
         "id": 2,
         "from": "London",
         "to": "Davao",
-        "duration": "02 March - 09 March",
+        "departure": "09 March",
+        "returns": "09 March",
         "price": "$1600",
         "tripType": "Round Trip",
-        "image": "image2"
+        "image": "image2",
+        "person": 1,
+        "cabinClass": "Economy"
     },
     {
         "id": 3,
         "from": "London",
         "to": "Makati",
-        "duration": "02 March - 09 March",
+        "departure": "10 March",
+        "returns": "09 March",
         "price": "$1200",
         "tripType": "Round Trip",
-        "image": "image3"
+        "image": "image3",
+        "person": 1,
+        "cabinClass": "Economy"
     },
     {
         "id": 4,
         "from": "London",
         "to": "Taguig",
-        "duration": "02 March - 09 March",
+        "departure": "02 March",
+        "returns": "09 March",
         "price": "$1300",
         "tripType": "Round Trip",
-        "image": "image4"
+        "image": "image4",
+        "person": 1,
+        "cabinClass": "Economy"
     },
     {
         "id": 5,
         "from": "London",
         "to": "kg",
-        "duration": "02 March - 09 March",
+        "departure": "09 March",
+        "returns": "09 March",
         "price": "$1200",
         "tripType": "Round Trip",
-        "image": "image5"
+        "image": "image5",
+        "person": 1,
+        "cabinClass": "Economy"
     },
     {
         "id": 6,
         "from": "London",
         "to": "Laoag",
-        "duration": "02 March - 09 March",
+        "departure": "09 March",
+        "returns": "09 March",
         "price": "$1000",
         "tripType": "Round Trip",
-        "image": "image6"
+        "image": "image6",
+        "person": 1,
+        "cabinClass": "Economy"
     }
 ]
