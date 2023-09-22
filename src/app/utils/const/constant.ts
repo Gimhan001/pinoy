@@ -1,0 +1,1 @@
+const imgUrl = "@/app/assets/images/"
