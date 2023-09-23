@@ -1,11 +1,16 @@
 "use client";
 
-import { faFacebook, faInstagram, faTiktok, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faInstagram,
+  faTiktok,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React from "react";
 
-import payment from '@/app/assets/images/payment.png'
+import payment from "@/app/assets/images/payment.png";
 import Image from "next/image";
 
 export default function Footer() {
@@ -15,43 +20,86 @@ export default function Footer() {
         <div className="p-2">
           <h2 className="text-lg font-bold mb-4 uppercase">Pinoy Travels</h2>
           <p className="text-sm">
-            Is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry is standard dummy text ever since the
-            1500s when an unknown printer took a galley of type and scrambled
-            it to make a type specimen book.
+            Pinoy Travel is your trusted Philippines travel agent dedicated to
+            bringing you the most affordable flights and holidays to the
+            Philippines.<br></br>A fully owned subsidiary of Aero Travels!
           </p>
         </div>
         <div className="p-2">
           <h2 className="text-lg font-bold uppercase mb-4">Contact</h2>
-          <Link className="link" href="/about">About</Link>
+          <Link className="link" href="/about">
+            About
+          </Link>
           <br />
-          <Link className="link"  href="/contact">Contact</Link>
+          <Link className="link" href="/contact">
+            Contact
+          </Link>
         </div>
         <div className="p-2">
           <h2 className="text-lg font-bold uppercase mb-4">Usefull Links</h2>
-          <Link className="link"  href="/privacy-policy">Privacy Policy</Link>
+          <Link className="link" href="/privacy-policy">
+            Privacy Policy
+          </Link>
           <br />
-          <Link className="link"  href="/terms-and-conditions">Terms And Condition</Link>
+          <Link className="link" href="/terms-and-conditions">
+            Terms And Condition
+          </Link>
           <br />
-          <Link className="link"  href="/faq">FAQ</Link>
+          <Link className="link" href="/faq">
+            FAQ
+          </Link>
         </div>
         <div className="p-2">
           <h2 className="text-lg font-bold uppercase mb-4">Connect With Us</h2>
           <div className="mb-3">
-          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-3 link" size="lg" icon={faFacebook} /></Link>
-          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-3 link" size="lg" icon={faInstagram} /></Link>
-          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-3 link" size="lg" icon={faYoutube} /></Link>
-          <Link href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="pr-3 link" size="lg" icon={faTiktok} /></Link>
+            <Link href="https://www.facebook.com" target="_blank">
+              <FontAwesomeIcon
+                className="pr-3 link"
+                size="lg"
+                icon={faFacebook}
+              />
+            </Link>
+            <Link href="https://www.facebook.com" target="_blank">
+              <FontAwesomeIcon
+                className="pr-3 link"
+                size="lg"
+                icon={faInstagram}
+              />
+            </Link>
+            <Link href="https://www.facebook.com" target="_blank">
+              <FontAwesomeIcon
+                className="pr-3 link"
+                size="lg"
+                icon={faYoutube}
+              />
+            </Link>
+            <Link href="https://www.facebook.com" target="_blank">
+              <FontAwesomeIcon
+                className="pr-3 link"
+                size="lg"
+                icon={faTiktok}
+              />
+            </Link>
           </div>
           <div>
             <h4 className="text-base text-white font-bold">We Accept</h4>
-            <Image className="" src={payment} alt="payment" width={180} height={150} />
+            <Image
+              className=""
+              src={payment}
+              alt="payment"
+              width={180}
+              height={150}
+            />
           </div>
         </div>
       </div>
       <div className="text-center">
-        <p className="text-xs">&copy; Copyright <strong>Pinoy Travels</strong>. All Rights Reserved.</p>
-        <p className="text-xs">Powered by <strong>Aero Travels</strong>.</p>
+        <p className="text-xs">
+          &copy; Copyright <strong>Pinoy Travels</strong>. All Rights Reserved.
+        </p>
+        <p className="text-xs">
+          Powered by <strong>Aero Travels</strong>.
+        </p>
       </div>
     </div>
   );

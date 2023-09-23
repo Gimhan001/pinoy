@@ -3,16 +3,16 @@
 import React from "react";
 import Image from "next/image";
 import PopularDestination from "@/app/utils/json/PopularDestination.json";
-// import imgUrl from "@/app/assets/images/1.png";
+import imgUrl from "@/app/assets/images/1.png";
 
 export default function PopularDestinations() {
   return PopularDestination.map((data) => {
-    const imgUrl = `/${data.image}`;
+    // const imgUrl = `/${data.image}`;
     return (
       <div className="group bg-transparent rounded-lg p-6" key={data.id}>
         <Image
           className="mx-auto rounded-3xl mb-3 hover:shadow-2xl"
-          src= {`${imgUrl}`}
+          src= {imgUrl}
           alt="Popular Destitinations"
           width={0}
           height={0}

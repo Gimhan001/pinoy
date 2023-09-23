@@ -9,8 +9,8 @@ import SocialMedia from "./components/buttons/float-button/SocialMedia";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pinoy | Home Away From Home",
-  description: "Travel anywahere It is All About Travel ",
+  title: "Pinoy Travels | Filipino travel agency in uk",
+  description: "Pinoy Travels - Filipino travel agency in uk",
 };
 
 export default function RootLayout({
