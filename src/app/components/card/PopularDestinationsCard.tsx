@@ -17,7 +17,7 @@ export default function PopularDestinations() {
           width={0}
           height={0}
         />
-        <h1 className="text-2xl font-extrabold text-center -mt-52 mb-36  text-white">{data.place}</h1>
+        <h1 className="text-2xl font-extrabold text-center -mt-52 mb-36  text-white">{data.destination}</h1>
         <div className="grid justify-items-center mb-2">
           <button className="text-xs p-3 px-4 rounded-lg bg-blue-500 text-white">Read Now</button>
         </div>
