@@ -9,17 +9,6 @@ import destinationList from "@/app/utils/json/PopularDestination.json";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
-export const getStaticProps = async (context: any) => {
-  const destinationData = destinationList.find((data) => data.id == context.params.id);
-
-  return {
-    props: {
-      destinationData,
-    },
-  };
-};
-
 export async function getStaticPaths() {
   const ids = destinationList.map((data) => data.id);
   
