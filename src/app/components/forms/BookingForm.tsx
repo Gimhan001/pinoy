@@ -190,7 +190,7 @@ export default function BookingForm() {
             <Radio value={"Only Direct"} style={{ fontFamily: "Inter" }}>Only Direct</Radio>
           </Radio.Group>
 
-          <div className="container mx-auto grid lg:grid-cols-2 gap-3 mt-3">
+          <div className="container mx-auto grid lg:grid-cols-3 gap-3 mt-3">
             <div className="group p-1 flex rounded-xl border-2 border-slate-700">
               {/* <Space.Compact className="w-full"> */}
               <AutoComplete
@@ -214,9 +214,7 @@ export default function BookingForm() {
               {/* </Space.Compact> */}
             </div>
 
-            <div className="group mx-auto flex">
-              <div className="grid lg:grid-cols-2 gap-3">
-                <div className="flex group p-1 border-2 rounded-xl border-gray-700 w-full">
+                <div className="group p-1 border-2 rounded-xl border-gray-700 w-full">
                   <DatePicker
                     bordered={false}
                     placeholder="Departure Date"
@@ -257,8 +255,6 @@ export default function BookingForm() {
                     </Space>
                   </Dropdown>
                 </div>
-              </div>
-            </div>
           </div>
 
           <div className="grid justify-center mt-8">

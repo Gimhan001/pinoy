@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="scroll-smooth mx-auto px-4 mt-8">
+      <div className="scroll-smooth mx-auto mt-8">
         <div className="scroll-smooth bg-slate-100 p-10 rounded-3xl">
           <div className="container mx-auto">
             <h4 className="text-2xl text-zinc-900 font-bold capitalize mb-4">
@@ -208,7 +208,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="scroll-smooth agent-carousel mt-16 bg-slate-100 p-10 rounded-3xl">
+        <div className="agent-carousel mt-16 bg-slate-100 p-10 rounded-3xl">
           <div className="container mx-auto">
             <h4 className="text-2xl font-bold capitalize mb-4 text-zinc-900 ">
               our agents
@@ -217,7 +217,7 @@ export default function Home() {
               <AgentsCarousel />
             </div>
 
-            <h4 className="text-center text-pink-600 font-bold text-2xl pb-4 pl-4">
+            <h4 className="text-center text-pink-600 font-bold text-2xl pb-4">
               Call us {" "}
               <a href="tel:18958840175">
                 <span className="underline">1-895-884-0175</span>
@@ -226,16 +226,16 @@ export default function Home() {
             </h4>
           </div>
 
-          <div className="bg-slate-100 p-10 rounded-3xl">
+          <div className="bg-slate-100 mt-4 rounded-3xl">
             <div className="container mx-auto">
-              <div className="">
+              {/* <div className=""> */}
                 <h4 className="text-base font-bold">
                   Why to Book with Call Center
                 </h4>
                 <p className="text-xs font-normal capitalize text-blue-700">
                   Discover the beauty of pilipines
                 </p>
-              </div>
+              {/* </div> */}
               <div className="grid lg:grid-cols-4 mt-8 gap-3">
                 <div className="group border p-4 rounded-lg bg-gradient-to-r from-blue-200 from-10% via-violet-200 via-30% to-blue-200 to-90% shadow-md">
                   <div className="flex gap-3">
