@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import { Inter } from "next/font/google";
@@ -9,37 +9,32 @@ import destinationList from "@/app/utils/json/PopularDestination.json";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export async function getStaticPaths() {
-  const ids = destinationList.map((data) => data.id);
-  
-  const paths = ids.map((id) => ({
-    params: { id: id.toString() },
-  }));
-  return {
-    paths,
-    fallback: false,
-  };
-};
-
-type ClassProps = {
-  destinationData: {
-    id: number;
-    destination: string;
-    description: string;
-     };
-}
-
-  export default function Destination ({ destinationData }: ClassProps) {
-
+export default function Destination() {
+  const imgUrl = "@/app/assets/images/";
   return (
     <main className={inter.className}>
-      <Image className="-mt-6" src={Banner} width={0} height={0} alt="About" priority />
+      <Image
+        className="-mt-6"
+        src={Banner}
+        width={0}
+        height={0}
+        alt="About"
+        priority
+      />
       <div className="container mx-auto w-full text-center mt-4">
         <h1 className="text-3xl font-bold">Cebu</h1>
         <p className="text-start mt-4 px-4">
           {/* {destinationData.description} */}
         </p>
       </div>
+
+      {/* <img
+        className="mx-auto"
+        src={imgUrl}
+        alt="Pinoy"
+        width={50}
+        height={50}
+      /> */}
 
       {/* <div className="container mx-auto px-4 mt-8 bg-slate-100 p-10 rounded-3xl">
         <h4 className="text-2xl text-zinc-900 font-bold capitalize">
@@ -121,4 +116,4 @@ type ClassProps = {
       </div> */}
     </main>
   );
-};
+}

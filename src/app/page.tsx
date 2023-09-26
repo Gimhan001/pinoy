@@ -24,20 +24,20 @@ export default function Home() {
         priority
       />
 
-      <div className="scroll-smooth bg-slate-100 lg:mb-24 sm:p-4 rounded-br-3xl rounded-bl-3xl">
+      <div className="scroll-smooth bg-slate-100 lg:mb-16 sm:p-4 rounded-br-3xl rounded-bl-3xl">
         <div className="container z-40 lg:p-10 mx-auto">
           <BookingForm />
         </div>
       </div>
 
       <div className="scroll-smooth mx-auto mt-8">
-        <div className="scroll-smooth bg-slate-100 p-10 rounded-3xl">
+        <div className="scroll-smooth bg-slate-100 p-10 rounded-3xl h-full">
           <div className="container mx-auto">
             <h4 className="text-2xl text-zinc-900 font-bold capitalize mb-4">
               Book with confidence
             </h4>
             <div className="grid lg:grid-cols-3 gap-6">
-              <div className="group border p-4 rounded-lg bg-white shadow-md h-24 w-full">
+              <div className="group border p-4 rounded-lg bg-rose-100 shadow-md h-24 w-full">
                 <div className="flex gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -51,14 +51,14 @@ export default function Home() {
                     Expert Agents
                   </h5>
                 </div>
-                <div>
+                <div className="ms-8">
                   <p className="text-xs text-blue-700">
                     Get personalized assistance from our experts with 11+ years
                     of experience.
                   </p>
                 </div>
               </div>
-              <div className="group border p-4 rounded-lg bg-white shadow-md h-24 w-full">
+              <div className="group border p-4 rounded-lg bg-blue-100 shadow-md h-24 w-full">
                 <div className="flex gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -75,39 +75,14 @@ export default function Home() {
                     No Hidden Charges
                   </h5>
                 </div>
-                <div>
+                <div className="ms-8">
                   <p className="text-xs text-blue-700">
                     Cost-effective, affordable and completely transparent with
                     costs.
                   </p>
                 </div>
               </div>
-              <div className="group border p-4 rounded-lg bg-white shadow-md h-24 w-full">
-                <div className="flex gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="w-6 h-6 fill-blue-900"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M16.5 4.478v.227a48.816 48.816 0 013.878.512.75.75 0 11-.256 1.478l-.209-.035-1.005 13.07a3 3 0 01-2.991 2.77H8.084a3 3 0 01-2.991-2.77L4.087 6.66l-.209.035a.75.75 0 01-.256-1.478A48.567 48.567 0 017.5 4.705v-.227c0-1.564 1.213-2.9 2.816-2.951a52.662 52.662 0 013.369 0c1.603.051 2.815 1.387 2.815 2.951zm-6.136-1.452a51.196 51.196 0 013.273 0C14.39 3.05 15 3.684 15 4.478v.113a49.488 49.488 0 00-6 0v-.113c0-.794.609-1.428 1.364-1.452zm-.355 5.945a.75.75 0 10-1.5.058l.347 9a.75.75 0 101.499-.058l-.346-9zm5.48.058a.75.75 0 10-1.498-.058l-.347 9a.75.75 0 001.5.058l.345-9z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-
-                  <h5 className="text-sm font-bold capitalize mb-2">
-                    Flexible bookings
-                  </h5>
-                </div>
-                <div>
-                  <p className="text-xs text-blue-700">
-                    Book with ease and change plans with a peace of mind.
-                  </p>
-                </div>
-              </div>
-              <div className="group border p-4 rounded-lg bg-white shadow-md h-24 w-full">
+              <div className="group border p-4 rounded-lg bg-amber-100 shadow-md h-24 w-full">
                 <div className="flex gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -126,14 +101,14 @@ export default function Home() {
                     Installments
                   </h5>
                 </div>
-                <div>
+                <div className="ms-8">
                   <p className="text-xs text-blue-700">
                     Book now, pay later-secure your trip with low deposits and
                     easy installments
                   </p>
                 </div>
               </div>
-              <div className="group border p-4 rounded-lg bg-white shadow-md h-24 w-full">
+              <div className="group border p-4 rounded-lg  bg-green-100 shadow-md h-24 w-full">
                 <div className="flex gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -152,14 +127,14 @@ export default function Home() {
                     Money back guaranteed
                   </h5>
                 </div>
-                <div>
+                <div className="ms-8">
                   <p className="text-xs text-blue-700">
                     We ensure full refunds in case of cancellations and other
                     issues
                   </p>
                 </div>
               </div>
-              <div className="group border p-4 rounded-lg bg-white shadow-md h-24 w-full">
+              <div className="group border p-4 rounded-lg bg-fuchsia-100 shadow-md h-24 w-full">
                 <div className="flex gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +153,7 @@ export default function Home() {
                     ATOL Protected
                   </h5>
                 </div>
-                <div>
+                <div className="ms-8">
                   <p className="text-xs text-blue-700">
                     Financial protection for all your bookings
                     with ATOL.
@@ -189,7 +164,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="scroll-smooth round-trip mt-8 bg-slate-100 p-10 rounded-3xl">
+        <div className="scroll-smooth round-trip mt-16 bg-slate-100 p-10 rounded-3xl h-full">
           <div className="container mx-auto">
             <h4 className="text-2xl text-zinc-900  font-bold capitalize mb-8 ">
               Do not Miss These Round Trip Fares
@@ -208,7 +183,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="agent-carousel mt-16 bg-slate-100 p-10 rounded-3xl">
+        <div className="agent-carousel mt-16 bg-slate-100 p-10 rounded-3xl h-full">
           <div className="container mx-auto">
             <h4 className="text-2xl font-bold capitalize mb-4 text-zinc-900 ">
               our agents
@@ -216,26 +191,16 @@ export default function Home() {
             <div className="mx-auto mt-4 px-4">
               <AgentsCarousel />
             </div>
-
-            <h4 className="text-center text-pink-600 font-bold text-2xl pb-4">
-              Call us {" "}
-              <a href="tel:18958840175">
-                <span className="underline">1-895-884-0175</span>
-              </a>{" "}<br className="lg:hidden"></br>
-              or<br className="lg:hidden"></br> Get in touch with Homies
-            </h4>
           </div>
 
-          <div className="bg-slate-100 mt-4 rounded-3xl">
+          {/* <div className="bg-slate-100 mt-4 rounded-3xl">
             <div className="container mx-auto">
-              {/* <div className=""> */}
                 <h4 className="text-base font-bold">
                   Why to Book with Call Center
                 </h4>
                 <p className="text-xs font-normal capitalize text-blue-700">
                   Discover the beauty of pilipines
                 </p>
-              {/* </div> */}
               <div className="grid lg:grid-cols-4 mt-8 gap-3">
                 <div className="group border p-4 rounded-lg bg-gradient-to-r from-blue-200 from-10% via-violet-200 via-30% to-blue-200 to-90% shadow-md">
                   <div className="flex gap-3">
@@ -307,7 +272,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="scroll-smooth mt-16 bg-slate-100 p-10 rounded-3xl">
@@ -320,6 +285,14 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <h4 className="container mx-auto text-center text-pink-600 font-bold text-2xl mt-16">
+              Call us {" "}
+              <a href="tel:18958840175">
+                <span className="underline">1-895-884-0175</span>
+              </a>{" "}<br className="lg:hidden"></br>
+              or<br className="lg:hidden"></br> Get in touch with Homies
+            </h4>
       </div>
 
     </main>

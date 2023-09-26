@@ -2,55 +2,50 @@ import React from "react";
 
 import { Button, Card } from "antd";
 import Image from "next/image";
-import Profile from "@/app/assets/images/profile.jpeg";
+import rhea from "@/app/assets/images/rhea.jpg";
+import melissa from "@/app/assets/images/melissa.jpg";
+import april from "@/app/assets/images/april.jpg";
+import jovey from "@/app/assets/images/jovey.jpg";
 
 export default function AgentCard(props: {
-  contact:
-    | string
-    | number
-    | boolean
-    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
-    | Iterable<React.ReactNode>
-    | React.ReactPortal
-    | React.PromiseLikeOfReactNode
-    | null
-    | undefined;
-  name:
-    | string
-    | number
-    | boolean
-    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
-    | Iterable<React.ReactNode>
-    | React.ReactPortal
-    | React.PromiseLikeOfReactNode
-    | null
-    | undefined;
-}) {
+  contact: string;
+  name: string;
+    image: string;
+    email: string;
+    language: string;
+})
+
+{
+
   return (
     <div className="grid p-6">
-      <div className="group border bg-white rounded-lg">
+      <div className="group border bg-white rounded-2xl p-4">
         <Image
-          className="round-card-img rounded-full p-4"
+          className="round-card-img rounded-2xl"
           alt="Agents"
-          src={Profile}
+          src={rhea}
           width={0}
           height={0}
-          priority
         />
-        <div className="p-3 -mt-4">
-          <h4 className="text-base text-center text-pink-700 font-extrabold">
+        <div className="p-3">
+          <h4 className="text-base text-center text-pink-700 font-extrabold mb-4">
             {props.name}
           </h4>
-          <div className="flex mt-2 justify-end">
+          <h6 className="text-xs text-center text-slate-400 font-medium mb-2">
+              {props.language}
+          </h6>
+          <h6 className="text-xs text-center text-slate-400 font-medium mb-4">
+              {props.email}
+          </h6>
+          <div className="flex mt-2 justify-center">
             <a href={`tel:${props.contact}`}>
-              <button className="bg-blue-950 p-1 px-2 rounded-lg text-xs text-white hover:bg-blue-800">
+              <button className="bg-blue-950 p-1 px-4 py-2 rounded-lg text-xs text-white hover:bg-blue-800">
                 Call Now
               </button>
             </a>
           </div>
         </div>
       </div>
-      {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
     </div>
   );
 }

@@ -10,7 +10,7 @@ export default function RoundTripCard() {
     <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-20">
       {RoundTrip.map((data, id) => {
         return (
-          <div className="group border bg-white rounded-3xl" key={id}>
+          <div className="group sm:grid hidden border bg-white rounded-3xl" key={id}>
             <Image
               className="round-card-img rounded-3xl"
               alt="example"
