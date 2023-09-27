@@ -286,8 +286,8 @@ export default function Home() {
               {PopularDestination.map((id) => {
                 if((id.id) < 4) {
                   return(
-                    <div className="group">
-                      <PopularDestinationsCard key={id.id} id={id.id} destination= {id.destination} image= {id.cardImage} />
+                    <div className="group" key={id.id}>
+                      <PopularDestinationsCard id={id.id} destination= {id.destination} image= {id.cardImage} />
                     </div>
                   )
                 }
