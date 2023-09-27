@@ -44,7 +44,7 @@ const items: MenuProps["items"] = [
     key: "4",
     label: (
       <Link className="flex flex-center uppercase link" href="/contact">
-        Conatct
+        Contact
       </Link>
     ),
   },
@@ -77,7 +77,7 @@ export default function Page() {
           <p className={pathname == "/about" ? "active" : ""}>About</p>
         </Link>
         <Link className="group flex flex-center uppercase link" href="/contact">
-          <p className={pathname == "/contact" ? "active" : ""}>Conatct</p>
+          <p className={pathname == "/contact" ? "active" : ""}>Contact</p>
         </Link>
       </div>
       <div className="sm:flex hidden">

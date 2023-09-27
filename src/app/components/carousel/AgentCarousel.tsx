@@ -7,14 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 import AgentData from "@/app/utils/json/AgentData.json";
 import AgentCard from "../card/AgentCard";
 
-function SampleNextArrow() {
-  return (
-    <div
-      style={{ display: "block", background: "red" }}
-    />
-  );
-}
-
 
 export default function SimpleSlider() {
   var settings = {
@@ -49,7 +41,8 @@ export default function SimpleSlider() {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          initialSlide: 1
         }
       }
     ],
@@ -60,7 +53,7 @@ export default function SimpleSlider() {
         {AgentData.map((data, id) => {
           return (
             <div key={id}>
-              <AgentCard name={data.name} contact={data.contact} />
+              <AgentCard ids={data.id} name={data.name} contact={data.contact} image={data.imageUrl} email={data.email} language={data.language} />
             </div>
           );
         })}

@@ -24,10 +24,18 @@ import { BookingModal } from "../modals/BookingModal";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import rightArrow from "@/app/assets/images/right-arrow.png";
+import airportList from "@/app/utils/json/AirportList.json";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const classType = [
+  { title: 'Common', id: 1 },
+  { title: 'Group', id: 2 },
+  { title: 'Individual', id: 3 }
+];
+
 const mockVal = (str: string, repeat = 1) => ({
+  option: classType,
   value: str.repeat(repeat),
 });
 
@@ -161,8 +169,8 @@ export default function BookingForm() {
 
   return (
     <div className={inter.className}>
-      <div className="container mx-auto lg:-mt-32 z-40">
-        <Card style={{ fontFamily: "Inter", borderRadius: "30px" }}>
+      <div className="container mx-auto p-4 lg:-mt-32 z-40">
+        <Card className="container shadow-xl" style={{ fontFamily: "Inter", borderRadius: "30px" }}>
           <h5 className="flex flex-row text-xl font-bold text-start capitalize mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -183,15 +191,22 @@ export default function BookingForm() {
             value={value}
             style={{ fontFamily: "Inter" }}
           >
-            <Radio value={"Return"} style={{ fontFamily: "Inter" }}>Return</Radio>
-            <Radio value={"One Way"} style={{ fontFamily: "Inter" }}>One way</Radio>
-            <Radio value={"Multi City"} style={{ fontFamily: "Inter" }}>Multi City</Radio>
-            <Radio value={"Only Direct"} style={{ fontFamily: "Inter" }}>Only Direct</Radio>
+            <Radio value={"Return"} style={{ fontFamily: "Inter" }}>
+              Return
+            </Radio>
+            <Radio value={"One Way"} style={{ fontFamily: "Inter" }}>
+              One way
+            </Radio>
+            <Radio value={"Multi City"} style={{ fontFamily: "Inter" }}>
+              Multi City
+            </Radio>
+            <Radio value={"Only Direct"} style={{ fontFamily: "Inter" }}>
+              Only Direct
+            </Radio>
           </Radio.Group>
 
-          <div className="container mx-auto grid lg:grid-cols-2 gap-3 mt-3">
-            <div className="group p-1 flex rounded-xl border-2 border-slate-700">
-              {/* <Space.Compact className="w-full"> */}
+          <div className="container mx-auto grid gap-3 lg:grid-cols-4 mt-4">
+            <div className="group flex rounded-xl border-2 lg:col-span-2 border-slate-700">
               <AutoComplete
                 id="from"
                 bordered={false}
@@ -210,60 +225,56 @@ export default function BookingForm() {
                 onSearch={(text) => setOptions(getPanelValue(text))}
                 placeholder="Where to"
               />
-              {/* </Space.Compact> */}
             </div>
-
-            <div className="group mx-auto flex">
-              <div className="grid lg:grid-cols-2 gap-3">
-                <div className="flex group p-1 border-2 rounded-xl border-gray-700 w-full">
-                  <DatePicker
-                    bordered={false}
-                    placeholder="Departure Date"
-                    // style={{ width: "100%" }}
-                    onChange={onChangeDeparture}
-                  />
-                  <DatePicker
-                    bordered={false}
-                    placeholder="Return Date"
-                    // style={{ width: "100%" }}
-                    onChange={onChangeReturn}
-                  />
-                </div>
-                <div className="group p-1 border-2 rounded-xl border-gray-700 w-full">
-                  <Dropdown
-                    className="p-1 w-full"
-                    menu={{
-                      items,
-                    }}
-                    onOpenChange={handleOpenChange}
-                    open={open}
+            <div className="group flex rounded-xl border-2 border-slate-700">
+              <DatePicker
+                bordered={false}
+                placeholder="Departure Date"
+                // style={{ width: "100%" }}
+                onChange={onChangeDeparture}
+              />
+              <DatePicker
+                bordered={false}
+                placeholder="Return Date"
+                // style={{ width: "100%" }}
+                onChange={onChangeReturn}
+              />
+            
+            </div>
+            <div className="group rounded-xl border-2 border-slate-700">
+              <Dropdown
+                className="p-1 w-full"
+                menu={{
+                  items,
+                }}
+                onOpenChange={handleOpenChange}
+                open={open}
+              >
+                <Space>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-6 h-6"
                   >
-                    <Space>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      Travellers
-                      <DownOutlined className="ms-auto" />
-                    </Space>
-                  </Dropdown>
-                </div>
-              </div>
+                    <path
+                      fillRule="evenodd"
+                      d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Travellers
+                  <DownOutlined className="ms-auto" />
+                </Space>
+              </Dropdown>
+              
             </div>
           </div>
 
           <div className="grid justify-center mt-8">
             <button
               onClick={showModal}
-              className="bg-blue-900 p-1 px-8 rounded-lg text-white "
+              className="bg-blue-900 p-1 px-8 py-2 rounded-lg text-white"
             >
               Search Flight
             </button>
