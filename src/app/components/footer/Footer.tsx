@@ -52,7 +52,7 @@ export default function Footer() {
         <div className="p-2">
           <h2 className="text-lg font-bold uppercase mb-4">Connect With Us</h2>
           <div className="mb-3">
-            <Link href="https://www.facebook.com" target="_blank">
+            <Link href="https://www.facebook.com/pinoytravels.uk/" target="_blank">
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"

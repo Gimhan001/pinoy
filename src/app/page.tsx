@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Banner from "@/app/assets/images/banner.png";
+import Banner from "@/app/assets/images/banner.jpg";
 import AgentsCarousel from "@/app/components/carousel/AgentCarousel";
 import Fram1 from "@/app/assets/images/Frame1.png";
 import Fram2 from "@/app/assets/images/Frame2.png";
@@ -306,11 +306,11 @@ export default function Home() {
         </div>
 
         <h4 className="container mx-auto text-center text-pink-600 font-bold text-2xl mt-16">
-              Call us {" "}
+              Call now on {" "}
+              <br className="lg:hidden"></br>
               <a href="tel:18958840175">
                 <span className="underline">1-895-884-0175</span>
-              </a>{" "}<br className="lg:hidden"></br>
-              or<br className="lg:hidden"></br> Get in touch with Homies
+              </a>{" "}<br className="lg:hidden"></br> to get in touch with us
             </h4>
       </div>
 
