@@ -287,7 +287,7 @@ export default function Home() {
                 if((id.id) < 4) {
                   return(
                     <div className="group">
-                      <PopularDestinationsCard id={id.id} destination= {id.destination} image= {id.cardImage} />
+                      <PopularDestinationsCard key={id.id} id={id.id} destination= {id.destination} image= {id.cardImage} />
                     </div>
                   )
                 }

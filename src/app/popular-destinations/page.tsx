@@ -43,7 +43,7 @@ const page = () => {
                 className="group bg-transparent rounded-lg"
                 key={id.id}
               >
-                <PopularDestinations id={id.id} destination= {id.destination} image= {id.cardImage}/>
+                <PopularDestinations key={id.id} id={id.id} destination= {id.destination} image= {id.cardImage}/>
               </div>
             );
           })}
