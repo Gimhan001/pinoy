@@ -53,7 +53,7 @@ export default function SimpleSlider() {
         {AgentData.map((data, id) => {
           return (
             <div key={id}>
-              <AgentCard name={data.name} contact={data.contact} image={data.imageUrl} email={data.email} language={data.language} />
+              <AgentCard ids={data.id} name={data.name} contact={data.contact} image={data.imageUrl} email={data.email} language={data.language} />
             </div>
           );
         })}

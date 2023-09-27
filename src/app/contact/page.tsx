@@ -26,7 +26,7 @@ export default function Contact() {
       />
       <div className="container mx-auto w-full text-center mt-4 ">
         <h1 className="text-3xl font-bold">Contact Us</h1>
-        <p className="text-start mt-4 px-4">
+        <p className="text-center mt-4 px-4">
           For inquiries or assistance, don&apos;t hesitate to get in touch with
           our Tagalog and Bisaya-speaking travel experts. We&apos;re here to
           enhance your experience and provide convenience.

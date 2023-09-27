@@ -24,15 +24,15 @@ export default function About() {
       />
       <div className="container mx-auto w-full text-center mt-4">
         <h1 className="text-3xl font-bold">About Us</h1>
-        <p className="text-start mt-4 px-4">
+        <p className="text-center mt-4 px-4">
           Established in 2019 and situated in West Horndon, Brentwood, Pinoy
           Travels, a proud member of the Aero Travels Group. We specialize in
           flights, hotels, car rentals, travel insurance, holiday packages, and
           last-minute deals. Aero Travels offers unbeatable airfares for flights
           to Philippines, ensuring a seamless travel experience for our valued
-          customers.<br></br>At Pinoy Travels, we understand that returning to
+          customers. At Pinoy Travels, we understand that returning to
           your homeland is not just a trip. let Pinoy Travels be your guide as
-          you return to the place where your heart truly belongs!
+          you return to the place where your heart truly belongs
         </p>
 
         <h4 className="text-xl font-bold text-start mt-10 px-4 text-black">

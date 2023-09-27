@@ -36,30 +36,14 @@ const page = () => {
       </div>
 
       <div className="container mx-auto mt-4">
-        <div className="grid lg:grid-cols-3">
-          {destinationList.map((data) => {
+        <div className="grid lg:grid-cols-4">
+          {destinationList.map((id) => {
             return (
               <div
-                className="group bg-transparent rounded-lg p-6"
-                key={data.id}
+                className="group bg-transparent rounded-lg"
+                key={id.id}
               >
-                <Image
-                  className="mx-auto rounded-3xl mb-3 hover:shadow-2xl"
-                  src={imgUrl}
-                  alt="Popular Destitinations"
-                  width={0}
-                  height={0}
-                />
-                <h1 className="text-2xl font-extrabold text-center -mt-52 mb-36  text-white">
-                  {data.destination}
-                </h1>
-                <div className="grid justify-items-center mb-2">
-                  <Link key={data.id} href={`/popular-destinations/${data.id}`}>
-                    <button className="text-xs p-3 px-4 rounded-lg bg-blue-500 text-white">
-                      Read Now
-                    </button>
-                  </Link>
-                </div>
+                <PopularDestinations id={id.id} destination= {id.destination} image= {id.cardImage}/>
               </div>
             );
           })}

@@ -26,7 +26,7 @@ export default function Offers() {
       />
       <div className="container mx-auto w-full text-center mt-4">
         <h1 className="text-3xl font-bold">Our Offers</h1>
-        <p className="text-start mt-4 px-4">
+        <p className="text-center mt-4 px-4">
           Our exclusive offers that cater to your every need. From Philippines
           cheapest flights to special promotions, our offers are designed to
           enhance your experience and save you money. Explore the possibilities

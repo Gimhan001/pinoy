@@ -28,7 +28,14 @@ import airportList from "@/app/utils/json/AirportList.json";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const classType = [
+  { title: 'Common', id: 1 },
+  { title: 'Group', id: 2 },
+  { title: 'Individual', id: 3 }
+];
+
 const mockVal = (str: string, repeat = 1) => ({
+  option: classType,
   value: str.repeat(repeat),
 });
 

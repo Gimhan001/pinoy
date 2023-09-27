@@ -6,9 +6,11 @@ import Fram2 from "@/app/assets/images/Frame2.png";
 import Fram3 from "@/app/assets/images/Frame3.png";
 import Fram4 from "@/app/assets/images/Frame4.png";
 import RoundTripCard from "@/app/components/card/RoundTripCard";
-import PopularDestinations from "@/app/components/card/PopularDestinationsCard";
+import PopularDestinationsCard from "@/app/components/card/PopularDestinationsCard";
 import BookingForm from "@/app/components/forms/BookingForm";
 import { Inter } from "next/font/google";
+import PopularDestination from "@/app/utils/json/PopularDestination.json";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -281,8 +283,25 @@ export default function Home() {
               Popular destinations
             </h4>
             <div className="grid lg:grid-cols-3 gap-12">
-              <PopularDestinations />
+              {PopularDestination.map((id) => {
+                if((id.id) < 4) {
+                  return(
+                    <div className="group">
+                      <PopularDestinationsCard id={id.id} destination= {id.destination} image= {id.cardImage} />
+                    </div>
+                  )
+                }
+              })}
             </div>
+            <div className="grid justify-items-center lg:justify-items-end">
+              <Link href="/popular-destinations/">
+              <button className="text-sm py-2 px-4 rounded-lg bg-blue-950 hover:bg-blue-800 text-white">Show More</button>
+              </Link>
+              
+            </div>
+            {/* <div className="grid lg:grid-cols-3 gap-12">
+              <PopularDestinations />
+            </div> */}
           </div>
         </div>
 
