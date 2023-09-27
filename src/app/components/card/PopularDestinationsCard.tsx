@@ -9,12 +9,10 @@ import Link from "next/link";
 export default function PopularDestinations(props: {id: number; destination: string; image: string;}) {
     return (
       <div className="group bg-transparent rounded-lg p-6" key={props.id}>
-        <Image
+        <img
           className="mx-auto rounded-3xl mb-3 hover:shadow-2xl"
-          src= {imgUrl}
+          src= {props.image}
           alt="Popular Destitinations"
-          width={0}
-          height={0}
         />
         <h1 className="text-2xl font-extrabold text-center -mt-52 mb-36  text-white">{props.destination}</h1>
         <div className="grid justify-items-center mb-2">

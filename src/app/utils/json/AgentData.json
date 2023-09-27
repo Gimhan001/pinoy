@@ -4,39 +4,39 @@
         "name": "Rhea",
         "email": "rhea@aerotravels.co.uk",
         "language": "Tagalog and Bisayan",
-        "contact": "51234568",
+        "contact": "02039837452",
         "imageUrl": "/rhea.jpg"
     },
     {
         "id": 2,
-        "name": "Melissa",
-        "email": "melissa@aerotravels.co.uk",
+        "name": "Heidie",
+        "email": "haidie@aerotravels.co.uk",
         "language": "Ilocano and Tagalog",
-        "contact": "51234568",
-        "imageUrl": "/melissa.jpg"
+        "contact": "02038409015",
+        "imageUrl": "/haidie.jpg"
     },
     {
         "id": 3,
         "name": "April",
         "email": "april@aerotravels.co.uk",
         "language": "Chavacano and Tagalog",
-        "contact": "71234568",
+        "contact": "02038317121",
         "imageUrl": "/april.jpg"
     },
     {
         "id": 4,
-        "name": "Jovey",
+        "name": "Jovelyn",
         "email": "jovey@aerotravels.co.uk",
         "language": "Bisayan and Tagalog",
-        "contact": "81234568",
+        "contact": "02039530702",
         "imageUrl": "/jovey.jpg"
     },
     {
         "id": 5,
-        "name": "Amy",
-        "email": "amy@aerotravels.co.uk",
+        "name": "Tess",
+        "email": "tess@aerotravels.co.uk",
         "language": "Ilocano and Tagalog",
-        "contact": "81234568",
-        "imageUrl": "/jovey.jpg"
+        "contact": "02039839657",
+        "imageUrl": "/tess.jpg"
     }
 ]

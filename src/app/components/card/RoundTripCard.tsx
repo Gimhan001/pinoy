@@ -20,17 +20,17 @@ export default function RoundTripCard() {
               priority
             />
             <div className="p-3">
-              <h4 className="text-lg text-end font-extrabold Poppins">
+              <h4 className="text-lg text-amber-500 text-end font-extrabold">
                 {data.price}
               </h4>
-              <h4 className="text-base Poppins font-bold">
+              <h4 className="text-base font-bold">
                 {data.from} to {data.to}
               </h4>
-              <p className="text-xs Poppins text-zinc-500 mt-2">
+              <p className="text-xs text-zinc-500 mt-2">
                 {data.tripType}
               </p>
-              <p className="text-xs Poppins text-zinc-500">{data.departure} - {data.returns}</p>
-              <div className="flex Poppins mt-4 justify-end">
+              <p className="text-xs  text-zinc-500">{data.departure} - {data.returns}</p>
+              <div className="flex mt-4 justify-end">
               <RoundTripModal 
                     id={data.id}
                     tripType={data.tripType}
