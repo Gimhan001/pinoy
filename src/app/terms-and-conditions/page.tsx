@@ -240,7 +240,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className="container mx-auto mt-8">
+        {/* <div className="container mx-auto mt-8">
           <h5 className="text-sm font-bold text-black mt-4 capitalize px-4">
             Your financial protection
           </h5>
@@ -257,7 +257,7 @@ export default function PrivacyPolicy() {
             Contribution (APC) we pay to the CAA. This charge is included in our
             advertised prices.
           </p>
-        </div>
+        </div> */}
 
         <div className="container mx-auto mt-8">
           <h5 className="text-sm font-bold text-black mt-4 capitalize px-4">
@@ -537,22 +537,6 @@ export default function PrivacyPolicy() {
 
         <div className="container mx-auto mt-8">
           <h5 className="text-sm font-bold text-black mt-4 capitalize px-4">
-            Indemnification:
-          </h5>
-          <p className="text-sm text-start mt-2 px-4">
-            You agree to indemnify and hold PinoyTravels and its affiliates,
-            directors, officers, employees, agents, suppliers and licensors
-            harmless from and against any liabilities, losses, damages or costs,
-            including reasonable attorneys&apos; fees, incurred in connection
-            with or arising from any third-party allegations, claims, actions,
-            disputes, or demands asserted against any of them as a result of or
-            relating to your Content, your use of the Website and Services or
-            any willful misconduct on your part.
-          </p>
-        </div>
-
-        <div className="container mx-auto mt-8">
-          <h5 className="text-sm font-bold text-black mt-4 capitalize px-4">
             Dispute resolution
           </h5>
           <p className="text-sm text-start mt-2 px-4">
@@ -608,16 +592,6 @@ export default function PrivacyPolicy() {
             <a className="text-blue-500" href="mailto:cs@pinoytravels.uk">
               cs@pinoytravels.uk
             </a>
-          </p>
-
-          <p className="text-sm text-start mt-2 px-4">
-            All bookings made before the 10th of September 2023 is not protected
-            by Protected Trust Services & any bookings made after the 10th of
-            September 2023 is protected by Protected Trust Services.
-          </p>
-
-          <p className="text-sm text-start mt-2 px-4">
-          This document was last updated on September 10, 2023
           </p>
         </div>
       </div>
