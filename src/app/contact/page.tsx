@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Banner from "@/app/assets/images/about.jpg";
+import Banner from "@/app/assets/images/template-cover.jpg";
 import ContactForm from "@/app/components/forms/ContactForm";
 import { Card } from "antd";
 import type { Metadata } from "next";

@@ -113,8 +113,8 @@ export default function Page() {
           <p>
             <small>
               Call Now
-              <a className="ml-2 link" href="tel:+12345678">
-                1-895-884-0175
+              <a className="ml-2 link" href="tel:+442039839659">
+              0203 983 9659
               </a>
             </small>
           </p>
