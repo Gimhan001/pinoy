@@ -3,7 +3,7 @@
 import React from "react";
 import { Inter } from "next/font/google";
 import Image from "next/image";
-import Banner from "@/app/assets/images/about.jpg";
+import Banner from "@/app/assets/images/template-cover.jpg";
 import Fram1 from "@/app/assets/images/Frame1.png";
 import PopularDestinations from "../components/card/PopularDestinationsCard";
 import destinationList from "@/app/utils/json/PopularDestination.json";

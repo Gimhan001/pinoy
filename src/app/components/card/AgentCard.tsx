@@ -34,9 +34,6 @@ export default function AgentCard(props: {
             <h6 className="text-xs text-center text-blue-800 font-medium mb-2">
               {props.language}
             </h6>
-            <h6 className="text-xs text-center text-blue-800 font-medium mb-4">
-              {props.email}
-            </h6>
           <div className="flex mt-2 justify-center">
             <a href={`tel:${props.contact}`}>
               <button className="bg-blue-950 p-1 px-4 py-2 rounded-lg text-xs text-white hover:bg-blue-800">

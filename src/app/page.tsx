@@ -7,6 +7,7 @@ import BookingForm from "@/app/components/forms/BookingForm";
 import { Inter } from "next/font/google";
 import PopularDestination from "@/app/utils/json/PopularDestination.json";
 import Link from "next/link";
+import chm from "@/app/assets/images/chm.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -153,8 +154,7 @@ export default function Home() {
                 </div>
                 <div className="ms-8">
                   <p className="text-xs text-blue-700">
-                    Financial protection for all your bookings
-                    with ATOL.
+                    Financial protection for all your bookings with ATOL.
                   </p>
                 </div>
               </div>
@@ -278,35 +278,53 @@ export default function Home() {
             <h4 className="text-2xl font-bold capitalize mb-8 text-zinc-900 ">
               Popular destinations
             </h4>
-            <div className="grid lg:grid-cols-3 gap-12">
+            <div className="grid lg:grid-cols-3 gap-3 lg:gap-12">
               {PopularDestination.map((id) => {
-                if((id.id) < 4) {
-                  return(
+                if (id.id < 4) {
+                  return (
                     <div className="group rounded-3xl" key={id.id}>
-                      <PopularDestinationsCard id={id.id} destination= {id.destination} image= {id.cardImage} />
+                      <PopularDestinationsCard
+                        id={id.id}
+                        destination={id.destination}
+                        image={id.cardImage}
+                      />
                     </div>
-                  )
+                  );
                 }
               })}
             </div>
             <div className="grid justify-items-center lg:justify-items-end">
               <Link href="/popular-destinations/">
-              <button className="text-sm py-2 px-4 rounded-lg bg-blue-950 hover:bg-blue-800 text-white">Show More</button>
+                <button className="text-sm py-2 px-4 rounded-lg bg-blue-950 hover:bg-blue-800 text-white">
+                  Show More
+                </button>
               </Link>
-              
+            </div>
+          </div>
+        </div>
+
+        <div className="scroll-smooth mt-6 bg-slate-100 p-10 rounded-3xl">
+          <div className="grid justify-items-center">
+            <div className="group ">
+            <a
+              href="https://find-and-update.company-information.service.gov.uk/company/14920973"
+              target="_blank"
+            >
+              <Image src={chm} alt="company house" width={100} height={100} />
+            </a>
+            <p className="text-xs uppercase">reg no: 14920973</p>
             </div>
           </div>
         </div>
 
         <h4 className="container mx-auto uppercase text-center text-pink-600 font-bold text-2xl mt-6">
-              Call now on {" "}
-              <br className="lg:hidden"></br>
-              <a href="tel:18958840175">
-                <span className="underline">1-895-884-0175</span>
-              </a>{" "}<br className="lg:hidden"></br> to get in touch with us
-            </h4>
+          Call now on <br className="lg:hidden"></br>
+          <a href="tel:+442039839659">
+            <span className="underline">0203 983 9659</span>
+          </a>{" "}
+          <br className="lg:hidden"></br> to get in touch with us
+        </h4>
       </div>
-
     </main>
   );
 }
