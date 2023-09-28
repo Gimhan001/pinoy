@@ -62,7 +62,7 @@ export const RoundTripModal: React.FC<ModalProps> = ({
         className="bg-blue-950 p-2 rounded-lg text-sm text-white hover:bg-blue-800"
         onClick={showModal}
       >
-        Book Now
+        Enquire Now
       </button>
       <Modal
         key={id}
