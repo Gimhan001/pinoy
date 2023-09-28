@@ -1,10 +1,6 @@
 import Image from "next/image";
 import Banner from "@/app/assets/images/banner.jpg";
 import AgentsCarousel from "@/app/components/carousel/AgentCarousel";
-import Fram1 from "@/app/assets/images/Frame1.png";
-import Fram2 from "@/app/assets/images/Frame2.png";
-import Fram3 from "@/app/assets/images/Frame3.png";
-import Fram4 from "@/app/assets/images/Frame4.png";
 import RoundTripCard from "@/app/components/card/RoundTripCard";
 import PopularDestinationsCard from "@/app/components/card/PopularDestinationsCard";
 import BookingForm from "@/app/components/forms/BookingForm";
@@ -26,13 +22,13 @@ export default function Home() {
         priority
       />
 
-      <div className="scroll-smooth bg-slate-100 lg:mb-16 sm:p-4 rounded-br-3xl rounded-bl-3xl">
+      <div className="scroll-smooth bg-slate-100 lg:mb-10 sm:p-4 rounded-br-3xl rounded-bl-3xl">
         <div className="container z-40 lg:p-10 mx-auto">
           <BookingForm />
         </div>
       </div>
 
-      <div className="scroll-smooth mx-auto mt-8">
+      <div className="scroll-smooth mx-auto">
         <div className="scroll-smooth bg-slate-100 p-10 rounded-3xl h-full">
           <div className="container mx-auto">
             <h4 className="text-2xl text-zinc-900 font-bold capitalize mb-4">
@@ -166,7 +162,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="scroll-smooth round-trip mt-16 bg-slate-100 p-10 rounded-3xl h-full">
+        <div className="scroll-smooth round-trip mt-6 bg-slate-100 p-10 rounded-3xl h-full">
           <div className="container mx-auto">
             <h4 className="text-2xl text-zinc-900  font-bold capitalize mb-8 ">
               Do not Miss These Round Trip Fares
@@ -185,7 +181,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="agent-carousel mt-16 bg-slate-100 p-10 rounded-3xl h-full">
+        <div className="agent-carousel mt-6 bg-slate-100 p-10 rounded-3xl h-full">
           <div className="container mx-auto">
             <h4 className="text-2xl font-bold capitalize mb-4 text-zinc-900 ">
               our agents
@@ -277,7 +273,7 @@ export default function Home() {
           </div> */}
         </div>
 
-        <div className="scroll-smooth mt-16 bg-slate-100 p-10 rounded-3xl">
+        <div className="scroll-smooth mt-6 bg-slate-100 p-10 rounded-3xl">
           <div className="container mx-auto">
             <h4 className="text-2xl font-bold capitalize mb-8 text-zinc-900 ">
               Popular destinations
@@ -286,7 +282,7 @@ export default function Home() {
               {PopularDestination.map((id) => {
                 if((id.id) < 4) {
                   return(
-                    <div className="group" key={id.id}>
+                    <div className="group rounded-3xl" key={id.id}>
                       <PopularDestinationsCard id={id.id} destination= {id.destination} image= {id.cardImage} />
                     </div>
                   )
@@ -299,13 +295,10 @@ export default function Home() {
               </Link>
               
             </div>
-            {/* <div className="grid lg:grid-cols-3 gap-12">
-              <PopularDestinations />
-            </div> */}
           </div>
         </div>
 
-        <h4 className="container mx-auto text-center text-pink-600 font-bold text-2xl mt-16">
+        <h4 className="container mx-auto uppercase text-center text-pink-600 font-bold text-2xl mt-6">
               Call now on {" "}
               <br className="lg:hidden"></br>
               <a href="tel:18958840175">

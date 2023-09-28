@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function PopularDestinations(props: {id: number; destination: string; image: string;}) {
     return (
-      <div className="group bg-transparent rounded-lg p-6" key={props.id}>
+      <div className="group bg-transparent p-6 rounded-3xl" key={props.id}>
         <img
           className="mx-auto rounded-3xl mb-3 hover:shadow-2xl"
           src= {props.image}
