@@ -287,6 +287,7 @@ export default function Home() {
                         id={id.id}
                         destination={id.destination}
                         image={id.cardImage}
+                        url={id.url}
                       />
                     </div>
                   );

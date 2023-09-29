@@ -37,13 +37,13 @@ const Contact = () => {
           name="fname"
           rules={[{ required: true, message: "Please input your first name!" }]}
         >
-          <Input className="Poppins" placeholder="First Name" />
+          <Input className="inter" style={{fontFamily: "inter"}} placeholder="First Name" />
         </Form.Item>
         <Form.Item<FieldType>
           name="lname"
           rules={[{ required: false, message: "Please input your last name!" }]}
         >
-          <Input placeholder="Last Name" />
+          <Input placeholder="Last Name" style={{fontFamily: "inter"}} />
         </Form.Item>
       </div>
       <div className="container grid lg:grid-cols-2 gap-x-4">
@@ -51,13 +51,13 @@ const Contact = () => {
           name="email"
           rules={[{ required: true, message: "Please input your email!" }]}
         >
-          <Input placeholder="Email Address" type="email" />
+          <Input placeholder="Email Address" style={{fontFamily: "inter"}} type="email" />
         </Form.Item>
         <Form.Item<FieldType>
           name="mobile"
           rules={[{ required: false, message: "Please input your mobile!" }]}
         >
-          <Input placeholder="Mobile Number" type="number" />
+          <Input placeholder="Mobile Number" style={{fontFamily: "inter"}} type="number" />
         </Form.Item>
       </div>
       <div className="container grid lg:grid-cols-1">
@@ -65,7 +65,7 @@ const Contact = () => {
           name="subject"
           rules={[{ required: true, message: "Please input enter subject!" }]}
         >
-          <Input placeholder="Subject" type="text" />
+          <Input placeholder="Subject" style={{fontFamily: "inter"}} type="text" />
         </Form.Item>
       </div>
       <div className="container grid lg:grid-cols-1">
@@ -73,7 +73,7 @@ const Contact = () => {
           name="message"
           rules={[{ required: true, message: "Please enter Message!" }]}
         >
-          <TextArea rows={4} placeholder="Message" maxLength={6} />
+          <TextArea rows={4} placeholder="Message" style={{fontFamily: "inter"}} maxLength={6} />
         </Form.Item>
       </div>
 

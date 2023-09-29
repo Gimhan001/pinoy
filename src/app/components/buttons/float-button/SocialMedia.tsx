@@ -20,7 +20,7 @@ export default function SocialMedia() {
         />
       </FloatButton.Group>
       <FloatButton.Group
-        trigger="hover"
+        trigger="click"
         type="primary"
         style={{ left: 24 }}
         icon={<PlusOutlined />}
