@@ -320,5 +320,9 @@
   {
     "code": "(WIC)",
     "airport": "Wick - United Kingdom"
+  },
+  {
+    "code": "(EDI)",
+    "airport": "Edinburgh - United Kingdom"
   }
 ]

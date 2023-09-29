@@ -3,36 +3,33 @@
     "id": 1,
     "destination": "Cebu",
     "banner": "",
-    "description": "Cebu, a gem in the heart of the Philippines, awaits your discovery. Nestled amidst pristine beaches and vibrant city life, this enchanting island offers an array of experiences. With Pinoy Travels, your journey from London to Cebu is made easy with our affordable flights.",
     "cardImage": "/cebu.jpg",
-    "class": "Economy",
-    "price": "$111",
-    "person": "Per Person",
-    "airLine": "Emirates",
-    "airLineImage": ""
+    "title": "Flights to cebu from london",
+    "description": "Cebu, a gem in the heart of the Philippines, awaits your discovery. Nestled amidst pristine beaches and vibrant city life, this enchanting island offers an array of experiences. With Pinoy Travels, your journey from London to Cebu is made easy with our affordable flights.",
+    "subTitle": "Travel Made Easy with Pinoy Travels ",
+    "subDescription": "Don't miss the chance to explore the pearl of the Philippines. Book your London to Cebu flights with Pinoy Travels today, and let us be part of your unforgettable journey. Contact us, and we'll make sure your adventure to Cebu is filled with beauty, culture, and cherished memories.",
+    "url": "flights-to-cebu-from-london"
   },
   {
     "id": 2,
     "destination": "Manila",
     "banner": "",
-    "description": "Stay connected to your roots and homeland. Manila, the heart of the Philippines, holds a special place in their hearts, and the need to return is deeply established. Pinoy Travels understands this unique connection and provides a lifeline for Filipinos in the UK seeking affordable and cheap London to Manila flights.",
     "cardImage": "/manila.jpg",
-    "class": "Economy",
-    "price": "$111",
-    "person": "Per Person",
-    "airLine": "Emirates",
-    "airLineImage": ""
+    "title": "London to Manila Flights",
+    "description": "Stay connected to your roots and homeland. Manila, the heart of the Philippines, holds a special place in their hearts, and the need to return is deeply established. Pinoy Travels understands this unique connection and provides a lifeline for Filipinos in the UK seeking affordable and cheap London to Manila flights.",
+    "subTitle": "Your Trusted Partner for London to Manila Flights",
+    "subDescription": "When you choose Pinoy Travels, you're choosing a connection between two worlds. Our flights are your key to enjoying the best of the UK and the Philippines. We understand that every Filipino expat's journey is unique. That's why we offer flexible options tailored to your needs.",
+    "url": "london-to-manila-flights"
   },
   {
     "id": 3,
     "destination": "Davao",
     "banner": "",
-    "description": "Davao, situated on Mindanao Island, serves as a welcoming embrace for expats returning to their homeland. Renowned for its stunning landscapes set against the backdrop of the majestic Mount Apo, this large port town holds a special place in the hearts of those coming back. Davao offers an array of experiences, from wildlife reserves and captivating museums to bustling shopping centers and vibrant cultural celebrations.",
     "cardImage": "/davao.jpg",
-    "class": "Economy",
-    "price": "$111",
-    "person": "Per Person",
-    "airLine": "Emirates",
-    "airLineImage": ""
+    "title": "London to Davao Flights",
+    "description": "Davao, situated on Mindanao Island, serves as a welcoming embrace for expats returning to their homeland. Renowned for its stunning landscapes set against the backdrop of the majestic Mount Apo, this large port town holds a special place in the hearts of those coming back. Davao offers an array of experiences, from wildlife reserves and captivating museums to bustling shopping centers and vibrant cultural celebrations.",    
+    "subTitle": "Your Journey Made Easy with Pinoy Travels ",
+    "subDescription": "At Pinoy Travels, we understand the significance of your return, and we're here to make it a seamless and budget-friendly experience. Our extensive range of affordable flights from London to Davao ensures that you can explore this exceptional city without any hassle.",
+    "url": "london-to-davao-flights"
   }
 ]

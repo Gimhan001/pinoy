@@ -113,7 +113,7 @@ export const RoundTripModal: React.FC<ModalProps> = ({
         </div>
         <div className="mt-4">
           <Form
-            name="offersForm"
+            name="roundTripForm"
             initialValues={{ remember: true }}
             onFinish={onFinish}
             onFinishFailed={onFinishFailed}

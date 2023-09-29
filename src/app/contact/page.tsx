@@ -1,3 +1,4 @@
+
 import React from "react";
 import Image from "next/image";
 import Banner from "@/app/assets/images/template-cover.jpg";
@@ -33,16 +34,9 @@ export default function Contact() {
         </p>
       </div>
 
-      <div className="container grid lg:grid-cols-2 mx-auto mt-10">
-        <div className="group">
-        <div className="rounded-lg border px-10 py-10 md:py-5 xs:py-5  shadow-2xl m-2">
-          <h4 className="text-2xl mb-4 text-start font-bold">Get In Touch</h4>
-          <ContactForm />
-        </div>
-        </div>
-
-        <div className="group px-4">
-          <div className="rounded-lg border lg:px-20 py-4 shadow-lg mt-2">
+      <div className="container gap-3 grid lg:grid-cols-3 mx-auto mt-10">
+      <div className="group px-4">
+          <div className="rounded-lg border bg-gradient-to-r from-violet-200 via-sky-200 to-emerald-200  lg:px-20 py-4 shadow-lg mt-2">
             <h2 className="mb-3 text-2xl text-center mx-auto items-center justify-center font-semibold">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -64,11 +58,11 @@ export default function Contact() {
                 />
               </svg>{" "}
             </h2>
-            <a href="tel:+1234567890" className="" rel="noopener noreferrer">
-              <h4 className="font-bold text-center">+123 4567 890</h4>
+            <a href="tel:+442039839659" className="" rel="noopener noreferrer">
+           <h4 className="font-bold text-center">0203 983 9659</h4>
             </a>
           </div>
-          <div className="rounded-lg border lg:px-20 py-4 shadow-lg mt-6">
+          <div className="rounded-lg border bg-gradient-to-r from-violet-200 via-sky-200 to-emerald-200  lg:px-20 py-4 shadow-lg mt-6">
             <h2 className="mb-3 text-2xl text-center mx-auto items-center justify-center font-semibold">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +92,7 @@ export default function Contact() {
               <h4 className="font-bold text-center">info@pinoy.co.uk</h4>
             </a>
           </div>
-          <div className="rounded-lg border lg:px-16 py-4 shadow-lg mt-6">
+          <div className="rounded-lg border bg-gradient-to-r from-violet-200 via-sky-200 to-emerald-200  lg:px-16 py-4 shadow-lg mt-6">
             <h2 className="mb-3 text-2xl text-center mx-auto items-center justify-center font-semibold">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -117,6 +111,14 @@ export default function Contact() {
             </h2>
             <h4 className="font-bold text-center">+123/ 21, Manila, Philippines</h4>
           </div>
+        </div>
+
+
+        <div className="group lg:col-span-2">
+        <div className="rounded-lg border bg-slate-200 px-10 py-10 md:py-5 xs:py-5  shadow-2xl m-2">
+          <h4 className="text-2xl mb-4 text-start font-bold text-black">Get In Touch</h4>
+          <ContactForm />
+        </div>
         </div>
       </div>
     </main>

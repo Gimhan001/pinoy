@@ -2,20 +2,19 @@
 
 import React, { useState } from "react";
 import { Modal, Input, Checkbox, Form } from "antd";
+import manila from "@/app/assets/images/loading-icon.gif";
+import Image from "next/image";
 
 interface ModalProps {
-  modalOpen: any;
-  handleOkk: any;
-  handleClose: any;
-  // tripType: string,
-  // from: string;
-  // to: string;
-  // departure: Date;
-  // returns: Date;
-  // adults: number;
-  // children: number;
-  // infants: number;
-  // cabinClass: string;
+  id: number;
+  departure: string;
+  returns: string;
+  cabinClass: string;
+  person: string;
+  price: string;
+  airLine: string,
+  departureAirPortCode: string;
+  destinationAirportCode: string;
 }
 
 const onFinish = (values: any) => {
@@ -32,81 +31,99 @@ type FieldType = {
   mobile?: string;
 };
 
-export const BookingModal: React.FC<ModalProps> = ({
-  modalOpen,
-  handleOkk,
-  handleClose,
-  // tripType,
-  // from,
-  // to,
-  // departure,
-  // returns,
-  // adults,
-  // children,
-  // infants,
-  // cabinClass,
+const PopularDestinationModal: React.FC<ModalProps> = ({
+  id,
+  departure,
+  returns,
+  person,
+  cabinClass,
+  price,
+  airLine,
+  departureAirPortCode,
+  destinationAirportCode
 }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div>
+      <button
+        className="text-xs py-2 px-4 rounded-lg bg-blue-950 hover:bg-blue-800 text-white"
+        onClick={showModal}
+      >
+        Enquire Now
+      </button>
       <Modal
+        key={id}
         okButtonProps={{ style: { display: "none" } }}
         cancelButtonProps={{ style: { display: "none" } }}
         style={{ fontFamily: "Inter" }}
         className=""
-        title="Booking Details"
+        title="Offer Details"
         maskClosable={false}
-        open={modalOpen}
-        onOk={handleOkk}
-        onCancel={handleClose}
+        open={isModalOpen}
+        onCancel={handleCancel}
         footer={null}
       >
-        <div className="grid lg:grid-cols-3 sm:grid-cols-2">
+        <Image className="mx-auto mb-4 rounded-3xl" width={0} height={150} priority src={manila} alt="offerImg" />
+        <div className="grid grid-cols-2 mx-auto gap-3">
+        <div className="group">
+            <h6 className="text-sm font-bold capitalize">Departure AirPort</h6>
+            <h6>{departureAirPortCode}</h6>
+          </div>
           <div className="group">
+            <h6 className="text-sm font-bold capitalize">Destination AirPort</h6>
+            <h6>{destinationAirportCode}</h6>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 lg:grid-cols-3 mx-auto mt-4 gap-3">
+          {/* <div className="group">
             <h6 className="text-sm font-bold capitalize">Where From</h6>
-            <h6>Colombo</h6>
+            <h6>{from}</h6>
           </div>
           <div className="group">
             <h6 className="text-sm font-bold capitalize">Where To</h6>
-            <h6>Manila</h6>
+            <h6>{to}</h6>
+          </div> */}
+          <div className="group">
+            <h6 className="text-sm font-bold capitalize">Amount</h6>
+            <h6>{price}</h6>
           </div>
           <div className="group">
-            <h6 className="text-sm font-bold capitalize">Where From</h6>
-            <h6>1</h6>
+            <h6 className="text-sm font-bold capitalize">Person</h6>
+            <h6>{person}</h6>
           </div>
           <div className="group">
-            <h6 className="text-sm font-bold capitalize">Adults</h6>
-            <h6>0</h6>
+            <h6 className="text-sm font-bold capitalize">Air Line</h6>
+            <h6>{airLine}</h6>
           </div>
           <div className="group">
-            <h6 className="text-sm font-bold capitalize">Childrens</h6>
-            <h6>0</h6>
-          </div>
-          <div className="group">
-            <h6 className="text-sm font-bold capitalize">Infants</h6>
-            <h6>0</h6>
+            <h6 className="text-sm font-bold capitalize">Class</h6>
+            <h6>{cabinClass}</h6>
           </div>
           <div className="group">
             <h6 className="text-sm font-bold capitalize">Departure Date</h6>
-            <h6>01-10-2023</h6>
+            <h6>{departure}</h6>
           </div>
           <div className="group">
             <h6 className="text-sm font-bold capitalize">retrun date</h6>
-            <h6>05-10-2023</h6>
+            <h6>{returns}</h6>
           </div>
         </div>
-        {/* <div className="grid lg:grid-cols-2">
-          <div className="group">
-            <h6 className="text-sm font-bold capitalize">Departure Date</h6>
-            <h6>01-10-2023</h6>
-          </div>
-          <div className="group">
-            <h6 className="text-sm font-bold capitalize">retrun date</h6>
-            <h6>05-10-2023</h6>
-          </div>
-        </div> */}
         <div className="mt-4">
           <Form
-            name="bookingForm"
+            name="popularForm"
             initialValues={{ remember: true }}
             onFinish={onFinish}
             onFinishFailed={onFinishFailed}
@@ -143,7 +160,7 @@ export const BookingModal: React.FC<ModalProps> = ({
         <div className="text-end mt-4">
           <button
             className="border p-1 px-4 rounded-lg mr-2"
-            onClick={handleClose}
+            onClick={handleCancel}
           >
             Cancel
           </button>
@@ -155,3 +172,5 @@ export const BookingModal: React.FC<ModalProps> = ({
     </div>
   );
 };
+
+export default PopularDestinationModal;
