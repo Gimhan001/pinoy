@@ -59,21 +59,21 @@ export default function Footer() {
                 icon={faFacebook}
               />
             </Link>
-            <Link href="https://www.facebook.com" target="_blank">
+            <Link href="#" target="_blank">
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"
                 icon={faInstagram}
               />
             </Link>
-            <Link href="https://www.facebook.com" target="_blank">
+            <Link href="#" target="_blank">
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"
                 icon={faYoutube}
               />
             </Link>
-            <Link href="https://www.facebook.com" target="_blank">
+            <Link href="#" target="_blank">
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"
@@ -89,6 +89,7 @@ export default function Footer() {
               alt="payment"
               width={180}
               height={150}
+              style={{width: "170px", height: "40px"}}
             />
           </div>
         </div>

@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
   return (
     <main className="">
       <Image
-        className="-mt-6"
+        className="lg:-mt-6"
         src={Banner}
         width={0}
         height={0}

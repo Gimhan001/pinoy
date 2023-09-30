@@ -274,7 +274,7 @@ export default function BookingForm() {
           <div className="grid justify-center mt-8">
             <button
               onClick={showModal}
-              className="bg-blue-900 p-1 px-8 py-2 rounded-lg text-white"
+              className="bg-blue-900 hover:bg-blue-700  p-1 px-8 py-2 rounded-lg text-white"
             >
               Search Flight
             </button>

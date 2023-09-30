@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Banner from "@/app/assets/images/banner.jpg";
+import Banner from "@/app/assets/images/home.jpg";
 import AgentsCarousel from "@/app/components/carousel/AgentCarousel";
 import RoundTripCard from "@/app/components/card/RoundTripCard";
 import PopularDestinationsCard from "@/app/components/card/PopularDestinationsCard";
@@ -296,7 +296,7 @@ export default function Home() {
             </div>
             <div className="grid justify-items-center lg:justify-items-end">
               <Link href="/popular-destinations/">
-                <button className="text-sm py-2 px-4 rounded-lg bg-blue-950 hover:bg-blue-800 text-white">
+                <button className="text-sm py-2 px-4 rounded-lg  bg-blue-950 hover:bg-blue-700 text-white">
                   Show More
                 </button>
               </Link>
@@ -318,10 +318,10 @@ export default function Home() {
           </div>
         </div>
 
-        <h4 className="container mx-auto uppercase text-center text-pink-600 font-bold text-2xl mt-6">
+        <h4 className="container mx-auto uppercase text-center text-blue-600 font-bold text-2xl mt-6">
           Call now on <br className="lg:hidden"></br>
-          <a href="tel:+442039839659">
-            <span className="underline">0203 983 9659</span>
+          <a className="text-red-500 hover:text-amber-600" href="tel:+442038382020">
+            <span className="underline">0203 838 2020</span>
           </a>{" "}
           <br className="lg:hidden"></br> to get in touch with us
         </h4>

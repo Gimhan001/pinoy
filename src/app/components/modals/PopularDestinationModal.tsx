@@ -8,7 +8,9 @@ import Image from "next/image";
 interface ModalProps {
   id: number;
   departure: string;
-  returns: string;
+  destination: string;
+  departureDate: string;
+  returnsDate: string;
   cabinClass: string;
   person: string;
   price: string;
@@ -34,7 +36,9 @@ type FieldType = {
 const PopularDestinationModal: React.FC<ModalProps> = ({
   id,
   departure,
-  returns,
+  destination,
+  departureDate,
+  returnsDate,
   person,
   cabinClass,
   price,
@@ -67,16 +71,23 @@ const PopularDestinationModal: React.FC<ModalProps> = ({
       <Modal
         key={id}
         okButtonProps={{ style: { display: "none" } }}
-        cancelButtonProps={{ style: { display: "none" } }}
+        // cancelButtonProps={{ style: { display: "none" } }}
         style={{ fontFamily: "Inter" }}
-        className=""
-        title="Offer Details"
+        className="mx-auto"
+        // title="Enquiry"
         maskClosable={false}
+        closable={false}
         open={isModalOpen}
-        onCancel={handleCancel}
+        // onCancel={handleCancel}
         footer={null}
       >
-        <Image className="mx-auto mb-4 rounded-3xl" width={0} height={150} priority src={manila} alt="offerImg" />
+
+        <div className="grid mb-4">
+          <div className="group navBar  p-2">
+          <h4 className="text-lg text-center font-bold text-white">Enquiry</h4>
+          </div>
+        </div>
+        {/* <Image className="mx-auto mb-4 rounded-3xl" width={0} height={150} priority src={manila} alt="offerImg" /> */}
         <div className="grid grid-cols-2 mx-auto gap-3">
         <div className="group">
             <h6 className="text-sm font-bold capitalize">Departure AirPort</h6>
@@ -114,11 +125,11 @@ const PopularDestinationModal: React.FC<ModalProps> = ({
           </div>
           <div className="group">
             <h6 className="text-sm font-bold capitalize">Departure Date</h6>
-            <h6>{departure}</h6>
+            <h6>{departureDate}</h6>
           </div>
           <div className="group">
             <h6 className="text-sm font-bold capitalize">retrun date</h6>
-            <h6>{returns}</h6>
+            <h6>{returnsDate}</h6>
           </div>
         </div>
         <div className="mt-4">
@@ -164,7 +175,7 @@ const PopularDestinationModal: React.FC<ModalProps> = ({
           >
             Cancel
           </button>
-          <button className="bg-blue-900 p-1 px-4 rounded-lg text-white ">
+          <button className="bg-blue-950 hover:bg-blue-700  p-1 px-4 rounded-lg text-white ">
             Submit
           </button>
         </div>

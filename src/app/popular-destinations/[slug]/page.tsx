@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Banner from "@/app/assets/images/about.jpg";
+import Banner from "@/app/assets/images/template-cover.jpg";
 import destinatinData from "@/app/utils/json/PopularDestination.json";
 import airLines from "@/app/utils/json/Popular1.json";
 import PopularDestinationModal from "@/app/components/modals/PopularDestinationModal";
@@ -26,7 +26,7 @@ export default function Page({
           return (
             <main className={inter.className} key={data.id}>
               <Image
-                className="-mt-6"
+                className="lg:-mt-6"
                 src={Banner}
                 width={0}
                 height={0}
@@ -49,15 +49,15 @@ export default function Page({
                 <p className="text-start mt-3 px-4">{data.subDescription}</p>
               </div>
 
-              <div className="container px-4 mx-auto mt-6 sm:grid hidden">
+              <div className="container px-4 mx-auto mt-8 sm:grid hidden">
                 <h3 className="text-xl font-bold text-start text-black capitalize">
-                  Philippines flight deals{" "}
+                {data.destination} flight deals{" "}
                 </h3>
-                <div className="grid gap-3 grid-cols-1 lg:grid-cols-2 mt-8">
+                <div className="grid gap-3 lg:gap-6 grid-cols-1 lg:grid-cols-2 mt-8">
                   {airLines.map((id) => {
                     if (id.destinationId == data.id && id.isAirLine == true) {
                       return (
-                        <div key={id.id} className="group flex gap-3 lg:gap-10 p-3 border rounded-lg bg-white shadow-lg hover:shadow-xl">
+                        <div key={id.id} className="group lg:mx-8 flex gap-3 lg:gap-10 p-3 border rounded-lg bg-white shadow-lg hover:shadow-xl">
                           <div className="group mx-auto">
                             <img
                               className="mx-auto mb-2"
@@ -85,8 +85,10 @@ export default function Page({
                             </h4>
                             <PopularDestinationModal
                               id={id.id}
-                              departure={id.departureDate}
-                              returns={id.returnDate}
+                              departure={id.departure}
+                              destination={id.destination}
+                              departureDate={id.departureDate}
+                              returnsDate={id.returnDate}
                               person={id.person}
                               cabinClass={id.class}
                               price={id.price}
@@ -102,9 +104,9 @@ export default function Page({
                 </div>
               </div>
 
-              <div className="container px-4 mx-auto mt-6">
+              <div className="container px-4 mx-auto mt-8">
                 <h3 className="text-xl font-bold text-start text-black capitalize">
-                  London to Philippines flight deals{" "}
+                  London to {data.destination} flight deals{" "}
                 </h3>
                 <div className="grid gap-3 grid-cols-1 lg:grid-cols-3 mt-8">
                   {airLines.map((id) => {
@@ -124,9 +126,19 @@ export default function Page({
                             <h4 className="text-base font-bold mb-2 text-amber-500">
                               {id.price}
                             </h4>
-                            <button className="text-xs py-2 px-4 rounded-lg bg-blue-950 hover:bg-blue-800 text-white">
-                              Enquire Now
-                            </button>
+                            <PopularDestinationModal
+                              id={id.id}
+                              departure={id.departure}
+                              destination={id.destination}
+                              departureDate={id.departureDate}
+                              returnsDate={id.returnDate}
+                              person={id.person}
+                              cabinClass={id.class}
+                              price={id.price}
+                              airLine={id.airLine}
+                              departureAirPortCode={id.departureAirPortCode}
+                              destinationAirportCode={id.destinationAirportCode}
+                            />
                           </div>
                         </div>
                       );

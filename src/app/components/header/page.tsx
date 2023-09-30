@@ -61,6 +61,7 @@ export default function Page() {
           alt="Pinoy"
           width={70}
           height={70}
+          style={{width: "80px", height: "50px"}}
           className="nav-brand"
           priority
         />
@@ -113,8 +114,8 @@ export default function Page() {
           <p>
             <small>
               Call Now
-              <a className="ml-2 link" href="tel:+442039839659">
-              0203 983 9659
+              <a className="ml-2 link" href="tel:+442038382020">
+              0203 838 2020
               </a>
             </small>
           </p>
