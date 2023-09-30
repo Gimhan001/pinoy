@@ -154,7 +154,7 @@ export const RoundTripModal: React.FC<ModalProps> = ({
           >
             Cancel
           </button>
-          <button className="bg-blue-900 p-1 px-4 rounded-lg text-white ">
+          <button className="bg-blue-900 hover:bg-blue-700 p-1 px-4 rounded-lg text-white ">
             Submit
           </button>
         </div>

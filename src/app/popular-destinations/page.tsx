@@ -3,12 +3,10 @@
 import React from "react";
 import { Inter } from "next/font/google";
 import Image from "next/image";
+
 import Banner from "@/app/assets/images/template-cover.jpg";
-import Fram1 from "@/app/assets/images/Frame1.png";
 import PopularDestinations from "../components/card/PopularDestinationsCard";
 import destinationList from "@/app/utils/json/PopularDestination.json";
-import Link from "next/link";
-import imgUrl from "@/app/assets/images/1.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,11 +14,11 @@ const page = () => {
   return (
     <main className={inter.className}>
       <Image
-        className="-mt-6"
+        className="lg:-mt-6"
         src={Banner}
         width={0}
         height={0}
-        alt="About"
+        alt="Popular Destination"
         priority
       />
       <div className="container mx-auto text-center mt-4">

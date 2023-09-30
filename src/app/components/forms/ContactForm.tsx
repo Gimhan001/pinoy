@@ -80,7 +80,7 @@ const Contact = () => {
       <div className="grid lg:grid-cols-6">
         <Form.Item>
           <button
-            className="bg-blue-950 p-2 px-4 rounded-lg text-sm text-white hover:bg-blue-800"
+            className="bg-blue-950 p-2 px-4 rounded-lg text-sm text-white hover:bg-blue-700"
             type="submit"
           >
             Send

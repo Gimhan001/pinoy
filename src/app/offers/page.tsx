@@ -17,7 +17,7 @@ export default function Offers() {
   return (
     <main className={inter.className}>
       <Image
-        className="-mt-6"
+        className="lg:-mt-6"
         src={Banner}
         width={0}
         height={0}

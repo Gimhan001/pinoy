@@ -15,7 +15,7 @@ export default function About() {
   return (
     <main className={inter.className}>
       <Image
-        className="-mt-6"
+        className="lg:-mt-6"
         src={Banner}
         width={0}
         height={0}
@@ -66,7 +66,8 @@ export default function About() {
           that redefine affordability.
         </p>
       </div>
-      <div className="container grid lg:grid-cols-3 mx-auto mt-4">
+
+      {/* <div className="container grid lg:grid-cols-3 mx-auto mt-4">
         <div className="mx-auto flex items-center justify-center p-4">
           <div className="h-36 w-full hover:shadow-xl transition duration-0  hover:duration-150 rounded-md bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-800  p-1">
             <div className="h-full w-full rounded-md  items-center justify-center   bg-gray-950 back p-4">
@@ -145,7 +146,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }

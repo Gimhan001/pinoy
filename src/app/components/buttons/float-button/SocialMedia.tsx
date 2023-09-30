@@ -7,6 +7,13 @@ import {
   PlusOutlined,
   ArrowUpOutlined,
 } from "@ant-design/icons";
+import {
+  faFacebook,
+  faInstagram,
+  faTiktok,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { FloatButton } from "antd";
 export default function SocialMedia() {
@@ -25,9 +32,9 @@ export default function SocialMedia() {
         style={{ left: 24 }}
         icon={<PlusOutlined />}
       >
-        <FloatButton icon={<TwitterOutlined />} />
+        {/* <FloatButton icon={<TwitterOutlined />} /> */}
         <FloatButton
-          href="https://www.facebook.com"
+          href="https://www.facebook.com/pinoytravels.uk/"
           icon={<FacebookFilled className="" />}
         />
         <FloatButton icon={<InstagramFilled />} />
