@@ -5,6 +5,7 @@ import Image from "next/image";
 import PopularDestination from "@/app/utils/json/PopularDestination.json";
 import imgUrl from "@/app/assets/images/1.png";
 import Link from "next/link";
+import { Button } from "antd";
 
 export default function PopularDestinations(props: {id: number; destination: string; image: string; url: string;}) {
     return (
@@ -17,7 +18,9 @@ export default function PopularDestinations(props: {id: number; destination: str
         <h1 className="text-3xl font-extrabold text-center -mt-52 mb-36  text-white">{props.destination}</h1>
         <div className="grid justify-items-center mb-2">
           <Link key={props.id} href={`/popular-destinations/${props.url}`}>
-            <button className="text-xs p-3 px-4 rounded-lg  bg-blue-950 hover:bg-blue-800 text-white">Read Now</button>
+          <Button type="primary" style={{ fontFamily: "inter" }}>
+                Read Now
+              </Button>
           </Link>
         </div>
       </div>

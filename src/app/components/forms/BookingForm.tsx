@@ -15,15 +15,20 @@ import {
   Space,
   Form,
   Modal,
+  Button,
 } from "antd";
 import dayjs from "dayjs";
 import customParseFormat from "dayjs/plugin/customParseFormat";
 import type { DatePickerProps } from "antd";
-import { DownOutlined, SmileOutlined } from "@ant-design/icons";
+import { DownOutlined, SearchOutlined } from "@ant-design/icons";
+// import { PoweroffOutlined } from '@ant-design/icons';
 import { BookingModal } from "../modals/BookingModal";
 import { Inter } from "next/font/google";
 import Image from "next/image";
-import rightArrow from "@/app/assets/images/right-arrow.png";
+import {
+  faPlane,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import airportList from "@/app/utils/json/AirportList.json";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -49,9 +54,10 @@ const items: MenuProps["items"] = [
     key: "1",
     label: (
       <div>
-        <p className="font-bold">Adults</p>
+        <p className="font-bold" style={{fontFamily: "inter"}}>Adults</p>
         <InputNumber
           type="number"
+          style={{fontFamily: "inter"}}
           placeholder="Adults"
           min={1}
           max={10}
@@ -64,9 +70,10 @@ const items: MenuProps["items"] = [
     key: "2",
     label: (
       <div>
-        <p className="font-bold">Children</p>
+        <p className="font-bold" style={{fontFamily: "inter"}}>Children</p>
         <InputNumber
           type="number"
+          style={{fontFamily: "inter"}}
           placeholder="Children"
           defaultValue={0}
           min={0}
@@ -79,9 +86,10 @@ const items: MenuProps["items"] = [
     key: "3",
     label: (
       <div>
-        <p className="font-bold">Infants</p>
+        <p className="font-bold" style={{fontFamily: "inter"}}>Infants</p>
         <InputNumber
           type="number"
+          style={{fontFamily: "inter"}}
           placeholder="Infants"
           defaultValue={0}
           min={0}
@@ -96,7 +104,7 @@ const items: MenuProps["items"] = [
       <Select
         className="mb-4"
         defaultValue="Select Class"
-        style={{ width: "100%", fontFamily: "Poppins" }}
+        style={{ width: "100%", fontFamily: "inter" }}
         onChange={handleChange}
         options={[
           { value: "economy", label: "Economy" },
@@ -125,9 +133,24 @@ export default function BookingForm() {
   const [value, setValue] = useState("Return");
   const [open, setOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [loadings, setLoadings] = useState<boolean[]>([]);
 
-  const showModal = () => {
-    setIsModalOpen(true);
+  const showModal = (index: number) => {
+    setLoadings((prevLoadings) => {
+      const newLoadings = [...prevLoadings];
+      newLoadings[index] = true;
+      return newLoadings;
+    });
+
+    setTimeout(() => {
+      setLoadings((prevLoadings) => {
+        const newLoadings = [...prevLoadings];
+        newLoadings[index] = false;
+        setIsModalOpen(true);
+        return newLoadings;
+      });
+    }, 2000);
+    
   };
 
   const handleOk = () => {
@@ -172,14 +195,11 @@ export default function BookingForm() {
       <div className="container mx-auto p-4 lg:-mt-32 z-40">
         <Card className="container shadow-xl" style={{ fontFamily: "Inter", borderRadius: "30px" }}>
           <h5 className="flex flex-row text-xl font-bold text-start capitalize mb-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              className="w-6 h-6 mr-2 mt-0.5"
-            >
-              <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
-            </svg>
+          <FontAwesomeIcon
+                className="pr-3"
+                size="lg"
+                icon={faPlane}
+              />
             Away to your home
           </h5>
 
@@ -272,12 +292,16 @@ export default function BookingForm() {
           </div>
 
           <div className="grid justify-center mt-8">
-            <button
-              onClick={showModal}
-              className="bg-blue-900 hover:bg-blue-700  p-1 px-8 py-2 rounded-lg text-white"
+            <Button
+            type="primary"
+            icon={<SearchOutlined />}
+            style={{fontFamily: "inter"}}
+              onClick={() =>  showModal(2)}
+              loading={loadings[2]}
+              className=""
             >
               Search Flight
-            </button>
+            </Button>
             <BookingModal
               modalOpen={isModalOpen}
               handleOkk={handleOk}

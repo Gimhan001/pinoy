@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { cookies } from 'next/headers'
 import Banner from "@/app/assets/images/home.jpg";
 import AgentsCarousel from "@/app/components/carousel/AgentCarousel";
 import RoundTripCard from "@/app/components/card/RoundTripCard";
@@ -8,10 +9,14 @@ import { Inter } from "next/font/google";
 import PopularDestination from "@/app/utils/json/PopularDestination.json";
 import Link from "next/link";
 import chm from "@/app/assets/images/chm.png";
+import { Button } from "antd";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const cookieStore = cookies()
+  const theme = cookieStore.get('theme')
+  
   return (
     <main className={inter.className}>
       <Image
@@ -288,9 +293,9 @@ export default function Home() {
             </div>
             <div className="grid justify-items-center lg:justify-items-end">
               <Link href="/popular-destinations/">
-                <button className="text-sm py-2 px-4 rounded-lg  bg-blue-950 hover:bg-blue-700 text-white">
-                  Show More
-                </button>
+              <Button type="primary" style={{ fontFamily: "inter" }}>
+                Show More
+              </Button>
               </Link>
             </div>
           </div>
@@ -311,11 +316,11 @@ export default function Home() {
         </div>
 
         <h4 className="container mx-auto uppercase text-center text-blue-600 font-bold text-2xl mt-6">
-          Call now on <br className="lg:hidden"></br>
+          Call now on <br className="lg:hidden" />
           <a className="text-red-500 hover:text-amber-600" href="tel:+442038382020">
             <span className="underline">0203 838 2020</span>
           </a>{" "}
-          <br className="lg:hidden"></br> to get in touch with us
+          <br className="lg:hidden" /> to get in touch with us
         </h4>
       </div>
     </main>
