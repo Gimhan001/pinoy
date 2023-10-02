@@ -70,6 +70,7 @@ export const RoundTripModal: React.FC<ModalProps> = ({
         cancelButtonProps={{ style: { display: "none" } }}
         style={{ fontFamily: "Inter" }}
         className=""
+        centered
         title="Offer Details"
         maskClosable={false}
         open={isModalOpen}
@@ -113,7 +114,7 @@ export const RoundTripModal: React.FC<ModalProps> = ({
         </div>
         <div className="mt-4">
           <Form
-            name="roundTripForm"
+            name={`${from}To${to}Form`}
             initialValues={{ remember: true }}
             onFinish={onFinish}
             onFinishFailed={onFinishFailed}
