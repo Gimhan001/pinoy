@@ -11,13 +11,10 @@ export default function RoundTripCard() {
       {RoundTrip.map((data, id) => {
         return (
           <div className="group border bg-white rounded-3xl" key={id}>
-            <Image
+            <img
               className="round-card-img rounded-3xl sm:grid hidden"
-              alt="example"
-              src={Manila}
-              width={0}
-              height={0}
-              priority
+              alt="Round Trip Img"
+              src={data.image}
             />
             <div className="px-4 py-3">
               <div className="grid grid-cols-2">

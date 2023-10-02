@@ -16,12 +16,10 @@ export default function OffersCard() {
             key={data.id}
           >
             <div className="group">
-              <Image
+              <img
                 className="offer-card-img rounded-2xl z-40"
                 alt="offers"
-                src={Manila}
-                width={0}
-                height={0}
+                src={data.image}
               />
               <div className="p-3">
                 <div className="grid gap-6 grid-cols-2 lg:grid-cols-3">

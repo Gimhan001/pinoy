@@ -6,12 +6,12 @@ import { Button, Card } from "antd";
 import Offers from "@/app/utils/json/Offers.json";
 import { OffersModal } from "../modals/OffersModal";
 
-export default function OffersCard(props: {id: number; from: string; to:string; tripType: string; departure: string; price: string; person: number; cabinClass: string; returns: string; }) {
+export default function OffersCard(props: {id: number; from: string; to:string; tripType: string; departure: string; price: string; person: number; cabinClass: string; returns: string; cardImage: string;}) {
   return (
     <div className="grid p-3">
           <div className="grid rounded-3xl bg-white" key={props.id}>
             <div className="group">
-              <Image className="offer-card-img rounded-3xl" alt="offers" src={Manila} width={0} height={0} />
+              <img className="offer-card-img rounded-3xl" alt="offers" src={props.cardImage} />
               <div className="p-3">
               <h4 className="text-base font-bold text-gray-500">
                 {props.from} to {props.to}

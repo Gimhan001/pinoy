@@ -77,7 +77,7 @@ export const OffersModal: React.FC<ModalProps> = ({
         onCancel={handleCancel}
         footer={null}
       >
-        <Image className="mx-auto mb-4 rounded-3xl" width={0} height={150} priority src={manila} alt="offerImg" />
+        {/* <Image className="mx-auto mb-4 rounded-3xl" width={0} height={150} priority src={manila} alt="offerImg" /> */}
         <div className="grid grid-cols-2 lg:grid-cols-3 mx-auto gap-3">
           <div className="group">
             <h6 className="text-sm font-bold capitalize">Where From</h6>

@@ -52,7 +52,7 @@ export default function SimpleSlider() {
         {OffersData.map((data, id) => {
           return (
             <div key={id}>
-              <OffersCard id= {data.id} from={data.from} to={data.to} tripType={data.tripType} person={data.person} departure={data.departure} cabinClass={data.cabinClass} returns={data.returns} price={data.price}/>
+              <OffersCard id= {data.id} from={data.from} to={data.to} tripType={data.tripType} person={data.person} departure={data.departure} cabinClass={data.cabinClass} returns={data.returns} price={data.price} cardImage={data.image}/>
             </div>
           );
         })}
