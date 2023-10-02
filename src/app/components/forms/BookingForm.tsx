@@ -30,6 +30,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import airportList from "@/app/utils/json/AirportList.json";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -129,6 +130,8 @@ type initialData = {
   cabinClass: string;
 };
 
+
+
 export default function BookingForm() {
   const [value, setValue] = useState("Return");
   const [open, setOpen] = useState(false);
@@ -146,11 +149,14 @@ export default function BookingForm() {
       setLoadings((prevLoadings) => {
         const newLoadings = [...prevLoadings];
         newLoadings[index] = false;
-        setIsModalOpen(true);
-        return newLoadings;
+        // setIsModalOpen(true);
+        return (
+          newLoadings
+          );
       });
     }, 2000);
-    
+
+    <Link href="/searching-flights"></Link>
   };
 
   const handleOk = () => {
@@ -292,6 +298,7 @@ export default function BookingForm() {
           </div>
 
           <div className="grid justify-center mt-8">
+          {/* <Link href="/searching-flights"> */}
             <Button
             type="primary"
             icon={<SearchOutlined />}
@@ -300,8 +307,9 @@ export default function BookingForm() {
               loading={loadings[2]}
               className=""
             >
-              Search Flight
+             Search Flight
             </Button>
+            {/* </Link>  */}
             <BookingModal
               modalOpen={isModalOpen}
               handleOkk={handleOk}
