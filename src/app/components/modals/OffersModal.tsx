@@ -70,6 +70,7 @@ export const OffersModal: React.FC<ModalProps> = ({
         cancelButtonProps={{ style: { display: "none" } }}
         style={{ fontFamily: "Inter" }}
         className=""
+        centered
         title="Offer Details"
         maskClosable={false}
         open={isModalOpen}

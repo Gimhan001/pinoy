@@ -51,6 +51,7 @@ export const BookingModal: React.FC<ModalProps> = ({
       <Modal
         okButtonProps={{ style: { display: "none" } }}
         cancelButtonProps={{ style: { display: "none" } }}
+        centered
         style={{ fontFamily: "Inter" }}
         className=""
         title="Booking Details"

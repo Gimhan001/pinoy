@@ -170,14 +170,6 @@ export default function Home() {
             <div>
               <RoundTripCard />
             </div>
-            <p className="mt-4 text-xs italic px-4">
-              * All fares above were last found on: Apr 30, 2023 at 2:25 PM.
-              Fares are one way or round trip as indicated above. Fares incl.
-              all fuel surcharges, taxes and fees and our service fees.
-              Displayed fares are based on historical data, are subject to
-              change and cannot be guaranteed at the time of booking. See all
-              booking terms and conditions.
-            </p>
           </div>
         </div>
 

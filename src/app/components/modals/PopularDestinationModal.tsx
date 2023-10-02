@@ -74,6 +74,7 @@ const PopularDestinationModal: React.FC<ModalProps> = ({
         // cancelButtonProps={{ style: { display: "none" } }}
         style={{ fontFamily: "Inter" }}
         className="mx-auto"
+        centered
         // title="Enquiry"
         maskClosable={false}
         closable={false}
