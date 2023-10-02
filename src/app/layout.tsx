@@ -3,6 +3,8 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
+import Script from 'next/script'
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import StyledComponentsRegistry from "@/app/lib/AntdRegistry";
@@ -38,7 +40,7 @@ export default function RootLayout({
           sizes="<generated>"
         />
 
-        <script
+        <Script
           dangerouslySetInnerHTML={{
             __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

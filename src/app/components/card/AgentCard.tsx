@@ -22,11 +22,13 @@ export default function AgentCard(props: {
   return (
     <div className="grid p-6">
       <div className="group border bg-white rounded-2xl p-4" key={props.ids}>
-        <img
-          className="round-card-img rounded-2xl"
-          alt="Agents"
-          src={props.image}
-        />
+        <picture>
+          <img
+            className="round-card-img rounded-2xl"
+            alt="Agents"
+            src={props.image}
+          />
+        </picture>
         <div className="p-3">
           <h4 className="text-base text-center text-pink-700 font-extrabold mb-4">
             {props.name}
@@ -36,7 +38,11 @@ export default function AgentCard(props: {
           </h6>
           <div className="flex mt-2 justify-center">
             <a href={`tel:${props.contact}`}>
-              <Button type="primary" size="small" style={{ fontFamily: "inter" }}>
+              <Button
+                type="primary"
+                size="small"
+                style={{ fontFamily: "inter" }}
+              >
                 Call Now
               </Button>
             </a>

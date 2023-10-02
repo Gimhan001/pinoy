@@ -11,40 +11,43 @@ export default function RoundTripCard() {
       {RoundTrip.map((data, id) => {
         return (
           <div className="group border bg-white rounded-3xl" key={id}>
-            <img
-              className="round-card-img rounded-3xl sm:grid hidden"
-              alt="Round Trip Img"
-              src={data.image}
-            />
+            <picture>
+              <img
+                className="round-card-img rounded-3xl sm:grid hidden"
+                alt="Round Trip Img"
+                src={data.image}
+              />
+            </picture>
+
             <div className="px-4 py-3">
               <div className="grid grid-cols-2">
                 <div className="group">
-                <h4 className="text-base font-bold">
-                {data.from} to {data.to}
-              </h4>
-              <p className="text-xs text-zinc-500 mt-2">
-                {data.tripType}
-              </p>
+                  <h4 className="text-base font-bold">
+                    {data.from} to {data.to}
+                  </h4>
+                  <p className="text-xs text-zinc-500 mt-2">{data.tripType}</p>
                 </div>
                 <div className="group">
-                <h4 className="text-xl text-amber-500 text-end font-extrabold">
-                {data.price}
-              </h4>
+                  <h4 className="text-xl text-amber-500 text-end font-extrabold">
+                    {data.price}
+                  </h4>
                 </div>
               </div>
-              <p className="text-xs text-zinc-500">{data.departure} | {data.returns}</p>
+              <p className="text-xs text-zinc-500">
+                {data.departure} | {data.returns}
+              </p>
               <div className="flex mt-4 justify-end">
-              <RoundTripModal 
-                    id={data.id}
-                    tripType={data.tripType}
-                    from={data.from}
-                    to={data.to}
-                    departure={data.departure}
-                    returns={data.returns}
-                    person={data.person}
-                    cabinClass={data.cabinClass}
-                    price={data.price}
-                  />
+                <RoundTripModal
+                  id={data.id}
+                  tripType={data.tripType}
+                  from={data.from}
+                  to={data.to}
+                  departure={data.departure}
+                  returns={data.returns}
+                  person={data.person}
+                  cabinClass={data.cabinClass}
+                  price={data.price}
+                />
               </div>
             </div>
           </div>

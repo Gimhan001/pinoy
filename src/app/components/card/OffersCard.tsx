@@ -16,14 +16,17 @@ export default function OffersCard() {
             key={data.id}
           >
             <div className="group">
-              <img
-                className="offer-card-img rounded-2xl z-40"
-                alt="offers"
-                src={data.image}
-              />
+              <picture>
+                <img
+                  className="offer-card-img rounded-2xl z-40"
+                  alt="offers"
+                  src={data.image}
+                />
+              </picture>
+
               <div className="p-3">
                 <div className="grid gap-6 grid-cols-2 lg:grid-cols-3">
-                <div className="group bg-blue-800 p-4 rounded-lg">
+                  <div className="group bg-blue-800 p-4 rounded-lg">
                     <h2 className="text-2xl text-center font-bold text-white uppercase">
                       {data.offer} Off
                     </h2>
@@ -35,7 +38,9 @@ export default function OffersCard() {
                     <p className="text-xs text-zinc-500 text-start">
                       {data.tripType}
                     </p>
-                    <p className="text-xs text-zinc-500 text-start">{data.departure} | {data.returns}</p>
+                    <p className="text-xs text-zinc-500 text-start">
+                      {data.departure} | {data.returns}
+                    </p>
                     <h4 className="text-lg font-extrabold text-start text-amber-500">
                       {data.price}
                     </h4>
