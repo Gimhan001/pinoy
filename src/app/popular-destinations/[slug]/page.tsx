@@ -51,21 +51,27 @@ export default function Page({
 
               <div className="container px-4 mx-auto mt-8 sm:grid hidden">
                 <h3 className="text-xl font-bold text-start text-black capitalize">
-                {data.destination} flight deals{" "}
+                  {data.destination} flight deals{" "}
                 </h3>
                 <div className="grid gap-3 lg:gap-6 grid-cols-1 lg:grid-cols-2 mt-8">
                   {airLines.map((id) => {
                     if (id.destinationId == data.id && id.isAirLine == true) {
                       return (
-                        <div key={id.id} className="group lg:mx-8 flex gap-3 lg:gap-10 p-3 border rounded-lg bg-white shadow-lg hover:shadow-xl">
+                        <div
+                          key={id.id}
+                          className="group lg:mx-8 flex gap-3 lg:gap-10 p-3 border rounded-lg bg-white shadow-lg hover:shadow-xl"
+                        >
                           <div className="group mx-auto">
-                            <img
-                              className="mx-auto mb-2"
-                              alt="air line"
-                              src={id.airLineImage}
-                              width={50}
-                              height={50}
-                            />
+                            <picture>
+                              <img
+                                className="mx-auto mb-2"
+                                alt="air line"
+                                src={id.airLineImage}
+                                width={50}
+                                height={50}
+                              />
+                            </picture>
+
                             <h4 className="text-xs text-center mb-1">
                               {id.airLine}
                             </h4>
@@ -112,7 +118,10 @@ export default function Page({
                   {airLines.map((id) => {
                     if (id.destinationId == data.id && id.isAirLine == false) {
                       return (
-                        <div key={id.id} className="group flex gap-3 lg:gap-10 p-3 border rounded-lg bg-white shadow-lg hover:shadow-xl">
+                        <div
+                          key={id.id}
+                          className="group flex gap-3 lg:gap-10 p-3 border rounded-lg bg-white shadow-lg hover:shadow-xl"
+                        >
                           <div className="group mx-auto">
                             <h4 className="text-sm text-black font-bold">
                               {id.departure} to {id.destination}

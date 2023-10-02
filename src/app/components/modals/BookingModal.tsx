@@ -60,6 +60,7 @@ export const BookingModal: React.FC<ModalProps> = ({
         onOk={handleOkk}
         onCancel={handleClose}
         footer={null}
+        width={1000}
       >
         <div className="grid lg:grid-cols-3 sm:grid-cols-2">
           <div className="group">
@@ -118,9 +119,9 @@ export const BookingModal: React.FC<ModalProps> = ({
               label="Name"
               name="name"
               rules={[{ required: true, message: "Please input your name!" }]}
-              style={{ fontFamily: "Inter" }}
+              style={{ fontFamily: "inter" }}
             >
-              <Input type="text" placeholder="Enter Your Name" />
+              <Input type="text" placeholder="Enter Your Name" style={{fontFamily: "inter"}}/>
             </Form.Item>
 
             <Form.Item<FieldType>
@@ -128,7 +129,7 @@ export const BookingModal: React.FC<ModalProps> = ({
               name="email"
               rules={[{ required: true, message: "Please input your email!" }]}
             >
-              <Input type="email" placeholder="Enter Email Address" />
+              <Input type="email" placeholder="Enter Email Address" style={{fontFamily: "inter"}} />
             </Form.Item>
             <Form.Item<FieldType>
               label="Mobile"
@@ -137,7 +138,7 @@ export const BookingModal: React.FC<ModalProps> = ({
                 { required: true, message: "Please input your mobile number!" },
               ]}
             >
-              <Input type="number" placeholder="Enter Mobile Number" />
+              <Input type="number" placeholder="Enter Mobile Number" style={{fontFamily: "inter"}} />
             </Form.Item>
           </Form>
         </div>

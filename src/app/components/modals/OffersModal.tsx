@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Modal, Input, Checkbox, Form } from "antd";
+import { Modal, Input, Checkbox, Form, Button } from "antd";
 import manila from "@/app/assets/images/loading-icon.gif";
 import Image from "next/image";
 
@@ -58,12 +58,13 @@ export const OffersModal: React.FC<ModalProps> = ({
 
   return (
     <div>
-      <button
-        className="bg-blue-950 p-2 rounded-lg text-sm text-white hover:bg-blue-800"
+      <Button
+        type="primary"
+        style={{fontFamily: "inter"}}
         onClick={showModal}
       >
         Enquire Now
-      </button>
+      </Button>
       <Modal
         key={id}
         okButtonProps={{ style: { display: "none" } }}
