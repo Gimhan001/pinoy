@@ -40,7 +40,7 @@ export default function RootLayout({
           sizes="<generated>"
         />
 
-        <Script
+        <Script id="google-analytics"
           dangerouslySetInnerHTML={{
             __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
