@@ -15,7 +15,7 @@ import Loading from "./loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default async function page({
+export default function page({
   searchParams,
 }: {
   searchParams: {
@@ -30,8 +30,6 @@ export default async function page({
     cabinClass: string;
   };
 }) {
-
-  await wait(4000);
 
   return (
     <Suspense fallback={<Loading />}>
@@ -124,8 +122,4 @@ export default async function page({
       </main>
     </Suspense>
   );
-}
-
-export async function wait(ms: any) {
-  return new Promise(resolve => setTimeout(resolve, ms))
 }
