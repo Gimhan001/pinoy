@@ -30,17 +30,7 @@ type FieldType = {
   cabinClass?: string;
 };
 
-const BookingForm = (props: {
-  from: string;
-  to: string;
-  departureDate: string;
-  returnDate: string;
-  tripType: string;
-  adults: number;
-  children: number;
-  infants: number;
-  cabinClass: string;
-}) => {
+const BookingForm = () => {
   return (
     <Form
       name="bookingForm"
