@@ -1,5 +1,5 @@
 import { Resend } from 'resend';
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend('re_Zeu8otDi_GdjjgX8apQ2dWW9ntMpmBZCC');
 
 export async function GET(request: Request) {
   return new Response('Test Email')
