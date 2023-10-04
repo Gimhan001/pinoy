@@ -35,10 +35,11 @@ export default function SocialMedia() {
         {/* <FloatButton icon={<TwitterOutlined />} /> */}
         <FloatButton
           href="https://www.facebook.com/pinoytravels.uk/"
+          target="_blank"
           icon={<FacebookFilled className="" />}
         />
-        <FloatButton icon={<InstagramFilled />} />
-        <FloatButton icon={<YoutubeFilled />} />
+        <FloatButton href="https://www.instagram.com/pinoy.travels.uk/" target="_blank" icon={<InstagramFilled />} />
+        <FloatButton href="https://www.youtube.com/channel/UCEVVAsK2H6g4q_WqMjphf4w" target="_blank" icon={<YoutubeFilled />} />
       </FloatButton.Group>
     </>
   );

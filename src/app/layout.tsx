@@ -11,6 +11,7 @@ import StyledComponentsRegistry from "@/app/lib/AntdRegistry";
 import Header from "@/app/components/header/page";
 import Footer from "./components/footer/Footer";
 import SocialMedia from "./components/buttons/float-button/SocialMedia";
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -69,6 +70,7 @@ export default function RootLayout({
         />
         <StyledComponentsRegistry>
           <Header />
+          <Toaster position="bottom-right" toastOptions={{ duration: 3000}}/>
           {children}
           <SocialMedia />
           <Footer />

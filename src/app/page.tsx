@@ -1,10 +1,9 @@
 import Image from "next/image";
-import { cookies } from 'next/headers'
 import Banner from "@/app/assets/images/home.jpg";
 import AgentsCarousel from "@/app/components/carousel/AgentCarousel";
 import RoundTripCard from "@/app/components/card/RoundTripCard";
 import PopularDestinationsCard from "@/app/components/card/PopularDestinationsCard";
-import BookingForm from "@/app/components/forms/BookingForm";
+import SearchForm from "@/app/components/forms/SearchForm";
 import { Inter } from "next/font/google";
 import PopularDestination from "@/app/utils/json/PopularDestination.json";
 import Link from "next/link";
@@ -14,10 +13,9 @@ import { Button } from "antd";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const cookieStore = cookies()
-  const theme = cookieStore.get('theme')
   
   return (
+    
     <main className={inter.className}>
       <Image
         className="lg:-mt-6"
@@ -30,7 +28,7 @@ export default function Home() {
 
       <div className="scroll-smooth bg-slate-100 lg:mb-10 sm:p-4 rounded-br-3xl rounded-bl-3xl">
         <div className="container z-40 lg:p-10 mx-auto">
-          <BookingForm />
+          <SearchForm />
         </div>
       </div>
 

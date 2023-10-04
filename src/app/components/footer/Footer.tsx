@@ -59,14 +59,14 @@ export default function Footer() {
                 icon={faFacebook}
               />
             </Link>
-            <Link href="#" target="_blank">
+            <Link href="https://www.instagram.com/pinoy.travels.uk/" target="_blank">
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"
                 icon={faInstagram}
               />
             </Link>
-            <Link href="#" target="_blank">
+            <Link href="https://www.youtube.com/channel/UCEVVAsK2H6g4q_WqMjphf4w" target="_blank">
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"

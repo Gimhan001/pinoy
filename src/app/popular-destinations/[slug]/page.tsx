@@ -5,7 +5,7 @@ import Banner from "@/app/assets/images/template-cover.jpg";
 import destinatinData from "@/app/utils/json/PopularDestination.json";
 import airLines from "@/app/utils/json/Popular1.json";
 import PopularDestinationModal from "@/app/components/modals/PopularDestinationModal";
-import BookingForm from "@/app/components/forms/BookingForm";
+import BookingForm from "@/app/components/forms/SearchForm";
 
 const inter = Inter({ subsets: ["latin"] });
 

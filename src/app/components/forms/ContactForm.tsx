@@ -3,6 +3,7 @@
 import React from "react";
 import { Col, Row } from "antd";
 import { Button, Form, Input } from "antd";
+import toast from "react-hot-toast";
 
 const onFinish = (values: any) => {
   console.log("Success:", values);
@@ -23,12 +24,39 @@ type FieldType = {
   message?: string;
 };
 
+const email = async (data: FieldType) => {
+  console.log(data)
+  const response = await fetch('/api/email', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      from: (data.email? data.email : ''),
+      fname: (data.fname? data.fname : '') ,
+      lname: (data.lname? data.lname : '') ,
+      subject: (data.subject? data.subject : ''),
+      message: (data.message? data.message : ''),
+      mobile: (data.mobile? data.mobile : ''),
+    }),
+  });
+
+  if(response.status === 200) {
+    toast.success(`Hey ${data.fname} your message send successfully..!`)
+  } 
+
+  const details = await response.json();
+  console.log(details);
+
+  
+};
+
 const Contact = () => {
   return (
     <Form
       name="contact"
       initialValues={{ remember: true }}
-      onFinish={onFinish}
+      onFinish={email}
       onFinishFailed={onFinishFailed}
       autoComplete="off"
     >
@@ -55,9 +83,9 @@ const Contact = () => {
         </Form.Item>
         <Form.Item<FieldType>
           name="mobile"
-          rules={[{ required: false, message: "Please input your mobile!" }]}
+          rules={[{ required: true, message: "Please input your mobile!" }]}
         >
-          <Input placeholder="Mobile Number" style={{fontFamily: "inter"}} type="number" />
+          <Input placeholder="Mobile Number" style={{fontFamily: "inter"}} type="number" minLength={10} maxLength={11} />
         </Form.Item>
       </div>
       <div className="container grid lg:grid-cols-1">
@@ -73,18 +101,19 @@ const Contact = () => {
           name="message"
           rules={[{ required: true, message: "Please enter Message!" }]}
         >
-          <TextArea rows={4} placeholder="Message" style={{fontFamily: "inter"}} maxLength={6} />
+          <TextArea rows={4} placeholder="Message" style={{fontFamily: "inter"}}  />
         </Form.Item>
       </div>
 
       <div className="grid lg:grid-cols-6">
         <Form.Item>
-          <button
+          <Button
             className="bg-blue-950 p-2 px-4 rounded-lg text-sm text-white hover:bg-blue-700"
-            type="submit"
+            type="primary"
+            htmlType="submit"
           >
             Send
-          </button>
+          </Button>
         </Form.Item>
       </div>
     </Form>
