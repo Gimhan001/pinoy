@@ -19,9 +19,28 @@ type FieldType = {
   lname?: string;
   email?: string;
   mobile?: string;
+  from?: string;
+  to?: string;
+  departureDate?: string;
+  returnDate?: string;
+  tripType?: string;
+  adults?: number;
+  children?: number;
+  infants?: number;
+  cabinClass?: string;
 };
 
-const BookingForm = () => {
+const BookingForm = (props: {
+  from: string;
+  to: string;
+  departureDate: string;
+  returnDate: string;
+  tripType: string;
+  adults: number;
+  children: number;
+  infants: number;
+  cabinClass: string;
+}) => {
   return (
     <Form
       name="bookingForm"
@@ -31,17 +50,24 @@ const BookingForm = () => {
       autoComplete="off"
     >
       <div className="group grid lg:grid-cols-2 gap-x-4">
+        
+      
         <Form.Item<FieldType>
           name="fname"
           rules={[{ required: true, message: "Please input your first name!" }]}
         >
-          <Input className="inter" style={{fontFamily: "inter"}} placeholder="First Name" />
+          <Input
+            className="inter"
+            style={{ fontFamily: "inter" }}
+            placeholder="First Name"
+          />
         </Form.Item>
+
         <Form.Item<FieldType>
           name="lname"
           rules={[{ required: false, message: "Please input your last name!" }]}
         >
-          <Input placeholder="Last Name" style={{fontFamily: "inter"}} />
+          <Input placeholder="Last Name" style={{ fontFamily: "inter" }} />
         </Form.Item>
       </div>
       <div className="container grid lg:grid-cols-2 gap-x-4">
@@ -49,13 +75,21 @@ const BookingForm = () => {
           name="email"
           rules={[{ required: true, message: "Please input your email!" }]}
         >
-          <Input placeholder="Email Address" style={{fontFamily: "inter"}} type="email" />
+          <Input
+            placeholder="Email Address"
+            style={{ fontFamily: "inter" }}
+            type="email"
+          />
         </Form.Item>
         <Form.Item<FieldType>
           name="mobile"
           rules={[{ required: true, message: "Please input your mobile!" }]}
         >
-          <Input placeholder="Mobile Number" style={{fontFamily: "inter"}} type="number" />
+          <Input
+            placeholder="Mobile Number"
+            style={{ fontFamily: "inter" }}
+            type="number"
+          />
         </Form.Item>
       </div>
 
@@ -63,7 +97,7 @@ const BookingForm = () => {
         <Form.Item>
           <button
             className="bg-blue-950 p-2 px-4 rounded-lg text-sm text-white hover:bg-blue-700"
-            style={{fontFamily: "inter"}}
+            style={{ fontFamily: "inter" }}
             type="submit"
           >
             Submit Now

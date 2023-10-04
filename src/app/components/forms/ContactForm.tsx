@@ -23,12 +23,33 @@ type FieldType = {
   message?: string;
 };
 
+const email = async (data: FieldType) => {
+  console.log(data)
+  const response = await fetch('/api/email', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      from: data.email,
+      fname: data.fname ,
+      lname: data.lname ,
+      subject: data.subject,
+      message: data.message,
+      mobile: data.mobile,
+    }),
+  });
+
+  const details = await response.json();
+  console.log(details);
+};
+
 const Contact = () => {
   return (
     <Form
       name="contact"
       initialValues={{ remember: true }}
-      onFinish={onFinish}
+      onFinish={email}
       onFinishFailed={onFinishFailed}
       autoComplete="off"
     >

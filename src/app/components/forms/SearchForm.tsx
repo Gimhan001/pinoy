@@ -30,13 +30,30 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import airportList from "@/app/utils/json/AirportList.json";
 import Link from "next/link";
 
+
+
+
+const { RangePicker } = DatePicker;
+
 const inter = Inter({ subsets: ["latin"] });
 
 const classType = [
-  { title: "Common", id: 1 },
-  { title: "Group", id: 2 },
-  { title: "Individual", id: 3 },
+  { option: "Common", id: 1 },
+  { option: "Group", id: 2 },
+  { option: "Individual", id: 3 },
 ];
+
+type initialData = {
+  tripType: string;
+  from: string;
+  to: string;
+  departure: Date;
+  returns: Date;
+  Adults: number;
+  childrens: number;
+  infants: number;
+  cabinClass: string;
+};
 
 const mockVal = (str: string, repeat = 1) => ({
   option: classType,
@@ -97,6 +114,7 @@ const items: MenuProps["items"] = [
           style={{ fontFamily: "inter" }}
           placeholder="Infants"
           defaultValue={0}
+          onChange={(value: number | null) => value}
           min={0}
           max={10}
         />
@@ -122,62 +140,35 @@ const items: MenuProps["items"] = [
   },
 ];
 
-type initialData = {
-  tripType: string;
-  from: string;
-  to: string;
-  departure: Date;
-  returns: Date;
-  Adults: number;
-  childrens: number;
-  infants: number;
-  cabinClass: string;
-};
+
 
 export default function SearchForm() {
-  const [value, setValue] = useState("Return");
+  const [tripTypeValue, settripTypeValue] = useState("Return");
   const [open, setOpen] = useState(false);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [loadings, setLoadings] = useState<boolean[]>([]);
-
-  const showModal = (index: number) => {
-    setLoadings((prevLoadings) => {
-      const newLoadings = [...prevLoadings];
-      newLoadings[index] = true;
-      return newLoadings;
-    });
-
-    setTimeout(() => {
-      setLoadings((prevLoadings) => {
-        const newLoadings = [...prevLoadings];
-        newLoadings[index] = false;
-        return newLoadings;
-      });
-    }, 2000);
-  };
-
-  const handleOk = () => {
-    setIsModalOpen(false);
-  };
-
-  const handleCancel = () => {
-    setIsModalOpen(false);
-  };
 
   const onChange = (e: RadioChangeEvent) => {
-    console.log("radio checked", e.target.value);
-    setValue(e.target.value);
+    settripTypeValue(e.target.value);
   };
 
-  const [options, setOptions] = useState<{ value: string }[]>([]);
+  const [departureOptions, setDepartureOptions] = useState<{ value: string }[]>([]);
+  const [returnOptions, setReturnOptions] = useState<{ value: string }[]>([]);
 
-  const getPanelValue = (searchText: string) =>
+  const getDeparturePanelValue = (searchText: string) =>
     !searchText
       ? []
       : [mockVal(searchText), mockVal(searchText, 2), mockVal(searchText, 3)];
 
-  const onSelect = (data: string) => {
-    console.log("onSelect", data);
+      const getReturnPanelValue = (searchText: string) =>
+      !searchText
+        ? []
+        : [mockVal(searchText), mockVal(searchText, 2), mockVal(searchText, 3)];
+
+  const onSelectDeparture = (data: string) => {
+    return data;
+  };
+
+  const onSelectReturn = (data: string) => {
+    return data;
   };
 
   //Dropdown
@@ -185,12 +176,13 @@ export default function SearchForm() {
     setOpen(flag);
   };
 
-  const onChangeDeparture: DatePickerProps["onChange"] = (date, dateString) => {
-    console.log(date, dateString);
+  const onChangeDeparture: DatePickerProps["onChange"] = (dateString) => {
+    const departureDate= dateString;
+    return departureDate;
   };
 
-  const onChangeReturn: DatePickerProps["onChange"] = (date, dateString) => {
-    console.log(date, dateString);
+  const onChangeReturn: DatePickerProps["onChange"] = (dateString) => {
+    return dateString?.toString;
   };
 
   return (
@@ -206,11 +198,9 @@ export default function SearchForm() {
           </h5>
 
           <Radio.Group
-            name="triptype"
-            id="triptype"
             className=""
             onChange={onChange}
-            value={value}
+            value={tripTypeValue}
             style={{ fontFamily: "Inter" }}
           >
             <Radio value={"Return"} style={{ fontFamily: "Inter" }}>
@@ -230,21 +220,19 @@ export default function SearchForm() {
           <div className="container mx-auto grid gap-3 lg:grid-cols-4 mt-4">
             <div className="group flex rounded-xl border-2 lg:col-span-2 border-slate-700">
               <AutoComplete
-                id="from"
                 bordered={false}
-                options={options}
+                options={departureOptions}
                 style={{ width: "100%", fontFamily: "Inter" }}
-                onSelect={onSelect}
-                onSearch={(text) => setOptions(getPanelValue(text))}
+                onSelect={onSelectDeparture}
+                onSearch={(text) => setDepartureOptions(getDeparturePanelValue(text))}
                 placeholder="Where From"
               />
               <AutoComplete
-                id="to"
                 bordered={false}
-                options={options}
+                options={returnOptions}
                 style={{ width: "100%" }}
-                onSelect={onSelect}
-                onSearch={(text) => setOptions(getPanelValue(text))}
+                onSelect={onSelectReturn}
+                onSearch={(text) => setReturnOptions(getReturnPanelValue(text))}
                 placeholder="Where to"
               />
             </div>
@@ -295,14 +283,14 @@ export default function SearchForm() {
             <Link href={{
               pathname: "/searching-flights/",
               query: {
-                from: "Cebu City - Philippines(CEB)",
+                from: "Cambrigde - United Kingdom(CBG)",
                 to: "Cambrigde - United Kingdom(CBG)",
-                departureDate: "01-10-2023",
+                departureDate: "10-10-2023",
                 returnDate: "10-10-2023",
-                tripType: "Round Trip",
+                tripType: tripTypeValue,
                 adults: 1,
                 children: 0,
-                infants: 0,
+                infants: 1,
                 cabinClass: "Economy"
               },
             }}>
@@ -310,21 +298,15 @@ export default function SearchForm() {
               type="primary"
               icon={<SearchOutlined />}
               style={{ fontFamily: "inter" }}
-              onClick={() => showModal(2)}
-              loading={loadings[2]}
               className=""
             >
               Search Flight
             </Button>
             </Link> 
-            <BookingModal
-              modalOpen={isModalOpen}
-              handleOkk={handleOk}
-              handleClose={handleCancel}
-            />
           </div>
         </Card>
       </div>
     </div>
   );
 }
+

@@ -30,7 +30,6 @@ export default function page({
     cabinClass: string;
   };
 }) {
-
   return (
     <Suspense fallback={<Loading />}>
       <main className={inter.className}>
@@ -49,7 +48,6 @@ export default function page({
         <div className="container mx-auto px-4">
           <div className="container mx-auto mt-8">
             <div className="grid lg:grid-cols-2 lg:gap-x-8 gap-3 mx-auto">
-
               <div className="group bg-slate-100 place-self-auto rounded-lg p-4">
                 <h5 className="text-sm font-sm text-black uppercase">
                   <FontAwesomeIcon className="pr-3" icon={faPlaneDeparture} />
@@ -116,7 +114,17 @@ export default function page({
           </div>
 
           <div className="container mx-auto p-4 bg-slate-100 mt-4 rounded-2xl">
-            <BookingForm />
+            <BookingForm
+              from={searchParams.from}
+              to={searchParams.to}
+              departureDate={searchParams.departureDate}
+              returnDate={searchParams.returnDate}
+              tripType={searchParams.tripType}
+              adults={searchParams.adults}
+              children={searchParams.children}
+              infants={searchParams.infants}
+              cabinClass={searchParams.cabinClass}
+            />
           </div>
         </div>
       </main>
