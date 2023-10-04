@@ -19,7 +19,7 @@ const items: MenuProps["items"] = [
   {
     key: "1",
     label: (
-      <Link className="flex flex-center uppercase link" href="/" as="link">
+      <Link className="flex flex-center uppercase link" href="/" as="/">
         Home
       </Link>
     ),
@@ -27,7 +27,7 @@ const items: MenuProps["items"] = [
   {
     key: "2",
     label: (
-      <Link className="flex flex-center uppercase link" href="/offers" as="link">
+      <Link className="flex flex-center uppercase link" href="/offers" as="/offers">
         Offers
       </Link>
     ),
@@ -35,7 +35,7 @@ const items: MenuProps["items"] = [
   {
     key: "3",
     label: (
-      <Link className="flex flex-center uppercase link" href="/about" as="link">
+      <Link className="flex flex-center uppercase link" href="/about" as="/about">
         About
       </Link>
     ),
@@ -43,7 +43,7 @@ const items: MenuProps["items"] = [
   {
     key: "4",
     label: (
-      <Link className="flex flex-center uppercase link" href="/contact" as="link">
+      <Link className="flex flex-center uppercase link" href="/contact" as="/contact">
         Contact
       </Link>
     ),
@@ -68,16 +68,16 @@ export default function Page() {
       </Link>
 
       <div className="sm:flex hidden text-end mx-auto gap-3 lg:mt-3 md:mt-3 md:gap-5 justify-center">
-        <Link className="group flex flex-center uppercase link" href="/" as="link">
+        <Link className="group flex flex-center uppercase link" href="/" as="/">
           <p className={pathname == "/" ? "active" : ""}>Home</p>
         </Link>
-        <Link className="group flex flex-center uppercase link" href="/offers" as="link">
+        <Link className="group flex flex-center uppercase link" href="/offers" as="/offers">
           <p className={pathname == "/offers" ? "active" : ""}>Offers</p>
         </Link>
-        <Link className="group flex flex-center uppercase link" href="/about" as="link">
+        <Link className="group flex flex-center uppercase link" href="/about" as="/about">
           <p className={pathname == "/about" ? "active" : ""}>About</p>
         </Link>
-        <Link className="group flex flex-center uppercase link" href="/contact" as="link">
+        <Link className="group flex flex-center uppercase link" href="/contact" as="/contact">
           <p className={pathname == "/contact" ? "active" : ""}>Contact</p>
         </Link>
       </div>
