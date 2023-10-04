@@ -27,25 +27,25 @@ export default function Footer() {
         </div>
         <div className="p-2">
           <h2 className="text-lg font-bold uppercase mb-4">Contact</h2>
-          <Link className="link" href="/about">
+          <Link className="link" href="/about" as="link">
             About
           </Link>
           <br />
-          <Link className="link" href="/contact">
+          <Link className="link" href="/contact" as="link">
             Contact
           </Link>
         </div>
         <div className="p-2">
-          <h2 className="text-lg font-bold uppercase mb-4">Usefull Links</h2>
-          <Link className="link" href="/privacy-policy">
+          <h2 className="text-lg font-bold uppercase mb-4">Quick Links</h2>
+          <Link className="link" href="/privacy-policy" as="link">
             Privacy Policy
           </Link>
           <br />
-          <Link className="link" href="/terms-and-conditions">
+          <Link className="link" href="/terms-and-conditions" as="link">
             Terms And Condition
           </Link>
           <br />
-          <Link className="link" href="/faq">
+          <Link className="link" href="/faq" as="link">
             FAQ
           </Link>
         </div>
