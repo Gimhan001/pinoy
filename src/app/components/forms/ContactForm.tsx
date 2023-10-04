@@ -3,6 +3,7 @@
 import React from "react";
 import { Col, Row } from "antd";
 import { Button, Form, Input } from "antd";
+import toast from "react-hot-toast";
 
 const onFinish = (values: any) => {
   console.log("Success:", values);
@@ -39,6 +40,10 @@ const email = async (data: FieldType) => {
       mobile: data.mobile,
     }),
   });
+
+  if(response.status === 200) {
+    toast.success(`Hey ${data.fname} your message send Successfully..!`)
+  }
 
   const details = await response.json();
   console.log(details);
@@ -78,7 +83,7 @@ const Contact = () => {
           name="mobile"
           rules={[{ required: false, message: "Please input your mobile!" }]}
         >
-          <Input placeholder="Mobile Number" style={{fontFamily: "inter"}} type="number" />
+          <Input placeholder="Mobile Number" style={{fontFamily: "inter"}} type="number" maxLength={20} />
         </Form.Item>
       </div>
       <div className="container grid lg:grid-cols-1">
@@ -94,7 +99,7 @@ const Contact = () => {
           name="message"
           rules={[{ required: true, message: "Please enter Message!" }]}
         >
-          <TextArea rows={4} placeholder="Message" style={{fontFamily: "inter"}} maxLength={6} />
+          <TextArea rows={4} placeholder="Message" style={{fontFamily: "inter"}}  />
         </Form.Item>
       </div>
 
