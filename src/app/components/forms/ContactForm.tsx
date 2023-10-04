@@ -41,12 +41,14 @@ const email = async (data: FieldType) => {
     }),
   });
 
+  if(response.status === 200) {
+    toast.success(`Hey ${data.fname} your message send successfully..!`)
+  } 
+
   const details = await response.json();
   console.log(details);
 
-  // if(response.status === 200) {
-  //   toast.success(`Your message send successfully..!`)
-  // }
+  
 };
 
 const Contact = () => {

@@ -12,7 +12,7 @@ export async function POST(req: Request, res: Response) {
 
     resend.emails.send({
       from: "info@pinoytravels.uk",
-      to: "gimhandissanayake001@gmail.com",
+      to: "info@pinoytravels.uk",
       subject: body.subject,
       html: `<h3>CONTACT US</h3>
              <p>Name: ${body.fname}${" "}${body.lname}</p>
