@@ -83,9 +83,9 @@ const Contact = () => {
         </Form.Item>
         <Form.Item<FieldType>
           name="mobile"
-          rules={[{ required: false, message: "Please input your mobile!" }]}
+          rules={[{ required: true, message: "Please input your mobile!" }]}
         >
-          <Input placeholder="Mobile Number" style={{fontFamily: "inter"}} type="number" maxLength={20} />
+          <Input placeholder="Mobile Number" style={{fontFamily: "inter"}} type="number" minLength={10} maxLength={11} />
         </Form.Item>
       </div>
       <div className="container grid lg:grid-cols-1">
@@ -107,12 +107,13 @@ const Contact = () => {
 
       <div className="grid lg:grid-cols-6">
         <Form.Item>
-          <button
+          <Button
             className="bg-blue-950 p-2 px-4 rounded-lg text-sm text-white hover:bg-blue-700"
-            type="submit"
+            type="primary"
+            htmlType="submit"
           >
             Send
-          </button>
+          </Button>
         </Form.Item>
       </div>
     </Form>
