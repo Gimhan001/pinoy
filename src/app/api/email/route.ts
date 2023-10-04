@@ -1,4 +1,5 @@
 import { Resend } from "resend";
+import { NextResponse } from 'next/server';
 const resend = new Resend("re_Zeu8otDi_GdjjgX8apQ2dWW9ntMpmBZCC");
 
 export async function GET(request: Request) {
@@ -11,7 +12,7 @@ export async function POST(req: Request, res: Response) {
 
     resend.emails.send({
       from: "info@pinoytravels.uk",
-      to: "info@pinoytravels.uk",
+      to: "gimhandissanayake001@gmail.com",
       subject: body.subject,
       html: `<h3>CONTACT US</h3>
              <p>Name: ${body.fname}${" "}${body.lname}</p>
@@ -20,9 +21,8 @@ export async function POST(req: Request, res: Response) {
              <p>Message: ${body.message}</p>`,
     });
 
-    return new Response("Successfully Sent the email");
-  } catch (error) {
-    console.log("Error: ", error);
-    return new Response("Email not sent");
-  }
+    return NextResponse.json(body);
+} catch (error) {
+  return NextResponse.json({ error });
+}
 }

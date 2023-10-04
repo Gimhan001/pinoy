@@ -32,21 +32,21 @@ const email = async (data: FieldType) => {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      from: data.email,
-      fname: data.fname ,
-      lname: data.lname ,
-      subject: data.subject,
-      message: data.message,
-      mobile: data.mobile,
+      from: (data.email? data.email : ''),
+      fname: (data.fname? data.fname : '') ,
+      lname: (data.lname? data.lname : '') ,
+      subject: (data.subject? data.subject : ''),
+      message: (data.message? data.message : ''),
+      mobile: (data.mobile? data.mobile : ''),
     }),
   });
 
-  if(response.status === 200) {
-    toast.success(`Hey ${data.fname} your message send Successfully..!`)
-  }
-
   const details = await response.json();
   console.log(details);
+
+  // if(response.status === 200) {
+  //   toast.success(`Your message send successfully..!`)
+  // }
 };
 
 const Contact = () => {
