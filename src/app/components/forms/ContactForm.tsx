@@ -26,7 +26,7 @@ type FieldType = {
 
 const email = async (data: FieldType) => {
   console.log(data)
-  const response = await fetch('/api/email', {
+  const response = await fetch('/api/send', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
