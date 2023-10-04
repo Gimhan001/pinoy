@@ -11,7 +11,7 @@ export async function POST(req: Request, res: Response) {
     const body = await req.json();
 
     resend.emails.send({
-      from: body.email,
+      from: 'info@pinoytravels.uk',
       to: 'info@pinoytravels.uk',
       subject: body.subject,
       html: body.message
