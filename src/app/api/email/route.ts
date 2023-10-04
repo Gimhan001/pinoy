@@ -14,7 +14,7 @@ export async function POST(req: Request, res: Response) {
       from: 'info@pinoytravels.uk',
       to: 'info@pinoytravels.uk',
       subject: body.subject,
-      html: body.message
+      html: '<p>Congrats on sending your <strong>first email</strong>!</p>'
     });
 
     return new Response('Successfully Sent the email')
