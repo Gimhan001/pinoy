@@ -5,8 +5,32 @@ import { Col, Row } from "antd";
 import { Button, Form, Input } from "antd";
 import toast from "react-hot-toast";
 
-const onFinish = (values: any) => {
-  console.log("Success:", values);
+const onFinish = async (data: FieldType) => {
+  console.log(data)
+  const response = await fetch('/api/send', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      from: (data.email? data.email : ''),
+      fname: (data.fname? data.fname : '') ,
+      lname: (data.lname? data.lname : '') ,
+      subject: (data.subject? data.subject : ''),
+      message: (data.message? data.message : ''),
+      mobile: (data.mobile? data.mobile : ''),
+    }),
+  });
+
+  if(response.status === 200) {
+    toast.success(`Hey ${data.fname} your message send successfully..!`)
+  } else {
+    toast.error("Something went wrong.!")
+  }
+
+  const details = await response.json();
+  console.log(details);
+
 };
 
 const onFinishFailed = (errorInfo: any) => {
@@ -43,7 +67,9 @@ const email = async (data: FieldType) => {
 
   if(response.status === 200) {
     toast.success(`Hey ${data.fname} your message send successfully..!`)
-  } 
+  } else {
+    toast.error("Something went wrong.!")
+  }
 
   const details = await response.json();
   console.log(details);
@@ -54,9 +80,9 @@ const email = async (data: FieldType) => {
 const Contact = () => {
   return (
     <Form
-      name="contact"
-      initialValues={{ remember: true }}
-      onFinish={email}
+      name="contactForm"
+      initialValues={{ remember: false }}
+      onFinish={onFinish}
       onFinishFailed={onFinishFailed}
       autoComplete="off"
     >
