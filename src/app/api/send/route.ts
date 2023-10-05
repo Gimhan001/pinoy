@@ -1,6 +1,6 @@
 import { Resend } from "resend";
 import { NextResponse } from 'next/server';
-const resend = new Resend("re_Zeu8otDi_GdjjgX8apQ2dWW9ntMpmBZCC");
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function GET(request: Request) {
   return new Response("Test Email");
