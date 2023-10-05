@@ -7,7 +7,7 @@
         "returns": "15-03-2024",
         "price": "£504",
         "tripType": "Round Trip",
-        "image": "manilaOffers.jpg",
+        "image": "/manilaOffers.jpg",
         "person": 1,
         "cabinClass": "Economy"
     },
@@ -19,7 +19,7 @@
         "returns": "15-03-2024",
         "price": "£679",
         "tripType": "Round Trip",
-        "image": "davaoOffers.jpg",
+        "image": "/davaoOffers.jpg",
         "person": 1,
         "cabinClass": "Economy"
     },
