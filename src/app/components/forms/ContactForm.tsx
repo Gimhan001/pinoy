@@ -30,6 +30,7 @@ const onFinish = async (data: FieldType) => {
 
   const details = await response.json();
   console.log(details);
+
 };
 
 const onFinishFailed = (errorInfo: any) => {
@@ -79,8 +80,8 @@ const email = async (data: FieldType) => {
 const Contact = () => {
   return (
     <Form
-      name="contact"
-      initialValues={{ remember: true }}
+      name="contactForm"
+      initialValues={{ remember: false }}
       onFinish={onFinish}
       onFinishFailed={onFinishFailed}
       autoComplete="off"
