@@ -3,6 +3,7 @@
 import React from "react";
 import { Col, Row } from "antd";
 import { Button, Form, Input } from "antd";
+import Link from "next/link";
 
 const onFinish = (values: any) => {
   console.log("Success:", values);
@@ -85,13 +86,16 @@ const BookingForm = () => {
 
       <div className="grid lg:grid-cols-6">
         <Form.Item>
-          <button
-            className="bg-blue-950 p-2 px-4 rounded-lg text-sm text-white hover:bg-blue-700"
+          <Link href="/feed-back" as="/feed-back">
+          <Button
             style={{ fontFamily: "inter" }}
-            type="submit"
+            type="primary"
+            htmlType="submit"
           >
             Submit Now
-          </button>
+          </Button>
+          </Link>
+          
         </Form.Item>
       </div>
     </Form>
