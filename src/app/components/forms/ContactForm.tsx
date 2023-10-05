@@ -1,41 +1,11 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { Col, Row } from "antd";
 import { Button, Form, Input } from "antd";
 import toast from "react-hot-toast";
 
-const onFinish = async (data: FieldType) => {
-  console.log(data)
-  const response = await fetch('/api/send', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      from: (data.email? data.email : ''),
-      fname: (data.fname? data.fname : '') ,
-      lname: (data.lname? data.lname : '') ,
-      subject: (data.subject? data.subject : ''),
-      message: (data.message? data.message : ''),
-      mobile: (data.mobile? data.mobile : ''),
-    }),
-  });
 
-  if(response.status === 200) {
-    toast.success(`Hey ${data.fname} your message send successfully..!`)
-  } else {
-    toast.error("Something went wrong.!")
-  }
-
-  const details = await response.json();
-  console.log(details);
-
-};
-
-const onFinishFailed = (errorInfo: any) => {
-  console.log("Failed:", errorInfo);
-};
 
 const { TextArea } = Input;
 
@@ -43,41 +13,51 @@ type FieldType = {
   fname?: string;
   lname?: string;
   email?: string;
-  mobile?: string;
+  mobile?: number;
   subject?: string;
   message?: string;
 };
 
-const email = async (data: FieldType) => {
-  console.log(data)
-  const response = await fetch('/api/send', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      from: (data.email? data.email : ''),
-      fname: (data.fname? data.fname : '') ,
-      lname: (data.lname? data.lname : '') ,
-      subject: (data.subject? data.subject : ''),
-      message: (data.message? data.message : ''),
-      mobile: (data.mobile? data.mobile : ''),
-    }),
-  });
-
-  if(response.status === 200) {
-    toast.success(`Hey ${data.fname} your message send successfully..!`)
-  } else {
-    toast.error("Something went wrong.!")
-  }
-
-  const details = await response.json();
-  console.log(details);
-
-  
-};
 
 const Contact = () => {
+  const [isLoading, setIsLoading] = useState<boolean>(false)
+  const onFinish = async (data: FieldType) => {
+    setIsLoading(true);
+    console.log(data)
+    const response = await fetch('/api/send', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: (data.email? data.email : ''),
+        fname: (data.fname? data.fname : '') ,
+        lname: (data.lname? data.lname : '') ,
+        subject: (data.subject? data.subject : ''),
+        message: (data.message? data.message : ''),
+        mobile: (data.mobile? data.mobile : ''),
+      }),
+    });
+  
+    if(response.status === 200) {
+      toast.success(`Hey ${data.fname} your message send successfully..!`)
+      setIsLoading(false);
+    } else {
+      toast.error("Something went wrong.!")
+      setIsLoading(false);
+    }
+  
+    const details = await response.json();
+    console.log(details);
+    
+  
+  };
+  
+  const onFinishFailed = (errorInfo: any) => {
+    console.log("Failed:", errorInfo);
+  };
+
+  
   return (
     <Form
       name="contactForm"
@@ -134,11 +114,13 @@ const Contact = () => {
       <div className="grid lg:grid-cols-6">
         <Form.Item>
           <Button
-            className="bg-blue-950 p-2 px-4 rounded-lg text-sm text-white hover:bg-blue-700"
+            className=""
+            style={{fontFamily: "inter"}}
             type="primary"
             htmlType="submit"
+            disabled={isLoading}
           >
-            Send
+            {isLoading ? 'Sending...' : 'Send'}
           </Button>
         </Form.Item>
       </div>

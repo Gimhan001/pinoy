@@ -3,13 +3,7 @@ import React from "react";
 import { Button, Card } from "antd";
 import Image from "next/image";
 import dynamic from "next/dynamic";
-import rhea from "@/app/assets/images/rhea.jpg";
-import melissa from "@/app/assets/images/melissa.jpg";
-import april from "@/app/assets/images/april.jpg";
-import jovey from "@/app/assets/images/jovey.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faHeadset } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function AgentCard(props: {
   ids: number;

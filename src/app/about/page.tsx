@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Banner from "@/app/assets/images/about.jpg";
+import AboutBanner from "@/app/assets/images/about.jpg";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -16,7 +16,7 @@ export default function About() {
     <main className={inter.className}>
       <Image
         className="lg:-mt-6"
-        src={Banner}
+        src={AboutBanner}
         width={0}
         height={0}
         alt="About"
