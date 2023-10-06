@@ -4,12 +4,16 @@ import React, { useState } from "react";
 import { Modal, Input, Checkbox, Form, Button } from "antd";
 import manila from "@/app/assets/images/loading-icon.gif";
 import Image from "next/image";
+import EnquiryForm from "../forms/EnquiryForm";
 
 interface ModalProps {
   id: number;
+  title: string;
   tripType: string;
   from: string;
   to: string;
+  dAirport: string;
+  deAirport: string;
   departure: string;
   returns: string;
   cabinClass: string;
@@ -33,9 +37,12 @@ type FieldType = {
 
 export const OffersModal: React.FC<ModalProps> = ({
   id,
+  title,
   tripType,
   from,
   to,
+  dAirport,
+  deAirport,
   departure,
   returns,
   person,
@@ -60,7 +67,7 @@ export const OffersModal: React.FC<ModalProps> = ({
     <div>
       <Button
         type="primary"
-        style={{fontFamily: "inter"}}
+        style={{ fontFamily: "inter" }}
         onClick={showModal}
       >
         Enquire Now
@@ -72,22 +79,31 @@ export const OffersModal: React.FC<ModalProps> = ({
         style={{ fontFamily: "Inter" }}
         className=""
         centered
-        title="Offer Details"
         maskClosable={false}
         open={isModalOpen}
         onCancel={handleCancel}
+        closable={false}
         footer={null}
       >
-        {/* <Image className="mx-auto mb-4 rounded-3xl" width={0} height={150} priority src={manila} alt="offerImg" /> */}
+        <div className="grid mb-4">
+          <div className="group navBar p-2">
+          <h4 className="text-lg text-center font-bold text-white">Offers Enquiry</h4>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 mx-auto gap-3 mb-4">
+          <div className="group">
+            <h6 className="text-sm font-bold capitalize">Departure Airport</h6>
+            <h6>{dAirport}</h6>
+          </div>
+          <div className="group">
+            <h6 className="text-sm font-bold capitalize">
+              Destination Airport
+            </h6>
+            <h6>{deAirport}</h6>
+          </div>
+        </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 mx-auto gap-3">
-          <div className="group">
-            <h6 className="text-sm font-bold capitalize">Where From</h6>
-            <h6>{from}</h6>
-          </div>
-          <div className="group">
-            <h6 className="text-sm font-bold capitalize">Where To</h6>
-            <h6>{to}</h6>
-          </div>
           <div className="group">
             <h6 className="text-sm font-bold capitalize">Amount</h6>
             <h6>{price}</h6>
@@ -114,42 +130,25 @@ export const OffersModal: React.FC<ModalProps> = ({
           </div>
         </div>
         <div className="mt-4">
-          <Form
-            name="offersForm"
-            initialValues={{ remember: true }}
-            onFinish={onFinish}
-            onFinishFailed={onFinishFailed}
-            autoComplete="off"
-            style={{ fontFamily: "Inter" }}
-          >
-            <Form.Item<FieldType>
-              label="Name"
-              name="name"
-              rules={[{ required: true, message: "Please input your name!" }]}
-              style={{ fontFamily: "Inter" }}
-            >
-              <Input type="text" placeholder="Enter Your Name" />
-            </Form.Item>
-
-            <Form.Item<FieldType>
-              label="Email"
-              name="email"
-              rules={[{ required: true, message: "Please input your email!" }]}
-            >
-              <Input type="email" placeholder="Enter Email Address" />
-            </Form.Item>
-            <Form.Item<FieldType>
-              label="Mobile"
-              name="mobile"
-              rules={[
-                { required: true, message: "Please input your mobile number!" },
-              ]}
-            >
-              <Input type="number" placeholder="Enter Mobile Number" />
-            </Form.Item>
-          </Form>
+          <div className="mb-4">
+            <h5 className="text-start test-base font-bold text-black">Passenger Details</h5>
+          </div>
+          <EnquiryForm
+            title={title}
+            from={from}
+            to={to}
+            formName={id}
+            modelClose={handleCancel}
+            departureAirPort={dAirport}
+            destinationAirPort={deAirport}
+            departureDate={departure}
+            returnsDate={returns}
+            price={price}
+            tripType={tripType}
+            cabinClass={cabinClass}
+          />
         </div>
-        <div className="text-end mt-4">
+        {/* <div className="text-end mt-4">
           <button
             className="border p-1 px-4 rounded-lg mr-2"
             onClick={handleCancel}
@@ -159,7 +158,7 @@ export const OffersModal: React.FC<ModalProps> = ({
           <button className="bg-blue-900 hover:bg-blue-700 p-1 px-4 rounded-lg text-white ">
             Submit
           </button>
-        </div>
+        </div> */}
       </Modal>
     </div>
   );

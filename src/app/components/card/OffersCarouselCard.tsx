@@ -37,7 +37,6 @@ export default function OffersCard(props: {
             <p className="text-xs text-zinc-500 mt-2">
               {props.tripType} | {props.departure} - {props.returns}
             </p>
-            {/* <p className="text-xs text-zinc-500">{data.duration}</p> */}
             <h4 className="text-lg font-extrabold">{props.price}</h4>
             <div className="flex justify-end">
               <OffersModal

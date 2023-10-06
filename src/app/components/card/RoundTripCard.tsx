@@ -34,7 +34,7 @@ export default function RoundTripCard() {
                 </div>
               </div>
               <p className="text-xs text-zinc-500">
-                {data.departure} | {data.returns}
+                {data.departureDate} | {data.returnsDate}
               </p>
               <div className="flex mt-4 justify-end">
                 <RoundTripModal
@@ -42,12 +42,15 @@ export default function RoundTripCard() {
                   tripType={data.tripType}
                   from={data.from}
                   to={data.to}
-                  departure={data.departure}
-                  returns={data.returns}
+                  departureDate={data.departureDate}
+                  returnsDate={data.returnsDate}
                   person={data.person}
                   cabinClass={data.cabinClass}
-                  price={data.price}
-                />
+                  price={data.price} 
+                  title={data.title} 
+                  dAirport={data.departureAirPort} 
+                  deAirport={data.destinationAirPort}                
+                  />
               </div>
             </div>
           </div>
