@@ -8,14 +8,17 @@ import { OffersModal } from "../modals/OffersModal";
 
 export default function OffersCard(props: {
   id: number;
+  title: string;
+  departureAirPort: string;
+  destinationAirPort: string;
   from: string;
   to: string;
   tripType: string;
-  departure: string;
+  departureDate: string;
   price: string;
   person: number;
   cabinClass: string;
-  returns: string;
+  returnsDate: string;
   cardImage: string;
 }) {
   return (
@@ -35,17 +38,20 @@ export default function OffersCard(props: {
               {props.from} to {props.to}
             </h4>
             <p className="text-xs text-zinc-500 mt-2">
-              {props.tripType} | {props.departure} - {props.returns}
+              {props.tripType} | {props.departureDate} - {props.returnsDate}
             </p>
             <h4 className="text-lg font-extrabold">{props.price}</h4>
             <div className="flex justify-end">
               <OffersModal
                 id={props.id}
+                title={props.title}
                 tripType={props.tripType}
                 from={props.from}
                 to={props.to}
-                departure={props.departure}
-                returns={props.returns}
+                dAirport={props.departureAirPort}
+                deAirport={props.destinationAirPort}
+                departure={props.departureDate}
+                returns={props.returnsDate}
                 person={props.person}
                 cabinClass={props.cabinClass}
                 price={props.price}
