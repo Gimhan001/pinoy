@@ -54,7 +54,7 @@ export default function RootLayout({
           }}
         />
 
-        <Script type="application/ld+json">{`
+        <script type="application/ld+json">{`
                 "@context": "https://schema.org",
                 "@type": "TravelAgency",
                 "name":  "Pinoy Travels",
@@ -90,9 +90,9 @@ export default function RootLayout({
                   "https://www.youtube.com/channel/UCEVVAsK2H6g4q_WqMjphf4w",
 		              "https://www.pinterest.com/pinoytravelsdata/",
 		              "http://www.tiktok.com/@pinoy.travels",
-                ]`}</Script>
+                ]`}</script>
 
-        <Script type="application/ld+json">
+        <script type="application/ld+json">
           {`
             "@context": "http://schema.org",
             "@type": "WebSite",
@@ -104,7 +104,7 @@ export default function RootLayout({
               "query-input": "required name=search_term"
             }
           `}
-        </Script>
+        </script>
 
         {/* <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
