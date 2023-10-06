@@ -12,7 +12,7 @@ export default function OffersCard() {
       {Offers.map((data, id) => {
         return (
           <div
-            className="grid gap-5 p-4 border border-gray-500 rounded-lg bg-white"
+            className="grid gap-5 p-4 border border-gray-500 rounded-lg bg-white hover:shadow-xl"
             key={data.id}
           >
             <div className="group">
@@ -25,10 +25,10 @@ export default function OffersCard() {
               </picture>
 
               <div className="p-3">
-                <div className="grid gap-6 grid-cols-2 lg:grid-cols-3">
-                  <div className="group bg-blue-800 p-4 rounded-lg">
+                <div className="grid gap-3 grid-cols-2 lg:grid-cols-3">
+                  <div className="group bg-blue-800 p-2 rounded-lg">
                     <h2 className="text-2xl text-center font-bold text-white uppercase">
-                      {data.offer} Off
+                      {data.offer}
                     </h2>
                   </div>
                   <div className="group lg:col-span-2">
@@ -39,7 +39,7 @@ export default function OffersCard() {
                       {data.tripType}
                     </p>
                     <p className="text-xs text-zinc-500 text-start">
-                      {data.departure} | {data.returns}
+                      {data.departureDate} | {data.returnsDate}
                     </p>
                     <h4 className="text-lg font-extrabold text-start text-amber-500">
                       {data.price}
@@ -50,11 +50,14 @@ export default function OffersCard() {
                 <div className="flex justify-end lg:-mt-3 lg:-mb-3">
                   <OffersModal
                     id={data.id}
+                    title={data.title}
                     tripType={data.tripType}
                     from={data.from}
                     to={data.to}
-                    departure={data.departure}
-                    returns={data.returns}
+                    dAirport={data.departureAirPort}
+                    deAirport={data.destinationAirPort}
+                    departure={data.departureDate}
+                    returns={data.returnsDate}
                     person={data.person}
                     cabinClass={data.cabinClass}
                     price={data.price}

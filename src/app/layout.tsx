@@ -3,7 +3,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
-import Script from 'next/script'
+import Script from "next/script";
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -41,7 +41,8 @@ export default function RootLayout({
           sizes="<generated>"
         />
 
-        <Script id="google-analytics"
+        <Script
+          id="google-analytics"
           dangerouslySetInnerHTML={{
             __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -52,6 +53,58 @@ export default function RootLayout({
             `,
           }}
         />
+
+        {/* <script type="application/ld+json">{`
+                "@context": "https://schema.org",
+                "@type": "TravelAgency",
+                "name":  "Pinoy Travels",
+                "image": "https://pinoytravels.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FnavBrand.75e2b4b0.png&w=96&q=75",
+                "@id": "https://pinoytravels.uk/",
+                "url": "https://pinoytravels.uk/",
+                "telephone": "0203 838 2020",
+                "priceRange": "££",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "4 Byfield Court Station Road,West Horndon",
+                  "addressLocality": "Brentwood,England",
+                  "postalCode": "CM13 3TZ",
+                  "addressCountry": "GB"
+                },
+                "openingHoursSpecification": {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ],
+                  "opens": "08:30",
+                  "closes":"10:00"
+                },
+                "sameAs": [
+                  "https://www.facebook.com/pinoytravels.uk",
+                  "https://www.instagram.com/pinoy.travels.uk/",
+                  "https://www.youtube.com/channel/UCEVVAsK2H6g4q_WqMjphf4w",
+		              "https://www.pinterest.com/pinoytravelsdata/",
+		              "http://www.tiktok.com/@pinoy.travels",
+                ]`}</script>
+
+        <script type="application/ld+json">
+          {`
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name":"Pinoy Travels",
+            "url": "https://pinoytravels.uk/",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://pinoytravels.uk/search?q={search_term}",
+              "query-input": "required name=search_term"
+            }
+          `}
+        </script> */}
 
         {/* <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -70,7 +123,7 @@ export default function RootLayout({
         />
         <StyledComponentsRegistry>
           <Header />
-          <Toaster position="bottom-right" toastOptions={{ duration: 3000}}/>
+          <Toaster position="bottom-right" toastOptions={{ duration: 3000 }} />
           {children}
           <SocialMedia />
           <Footer />

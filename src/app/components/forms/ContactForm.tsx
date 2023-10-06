@@ -1,10 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { Col, Row } from "antd";
 import { Button, Form, Input } from "antd";
 import toast from "react-hot-toast";
-
 
 
 const { TextArea } = Input;
@@ -20,7 +18,8 @@ type FieldType = {
 
 
 const Contact = () => {
-  const [isLoading, setIsLoading] = useState<boolean>(false)
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  
   const onFinish = async (data: FieldType) => {
     setIsLoading(true);
     console.log(data)
