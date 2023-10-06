@@ -54,7 +54,7 @@ export default function RootLayout({
           }}
         />
 
-        <script type="application/ld+json">{`
+        {/* <script type="application/ld+json">{`
                 "@context": "https://schema.org",
                 "@type": "TravelAgency",
                 "name":  "Pinoy Travels",
@@ -104,7 +104,7 @@ export default function RootLayout({
               "query-input": "required name=search_term"
             }
           `}
-        </script>
+        </script> */}
 
         {/* <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

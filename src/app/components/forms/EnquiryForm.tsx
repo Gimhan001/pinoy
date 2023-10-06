@@ -118,7 +118,6 @@ const EnquiryForm = (props: {
             placeholder="Enter Mobile Number"
             style={{ fontFamily: "inter" }}
             type="number"
-            max={10}
             minLength={10}
             maxLength={11}
           />
