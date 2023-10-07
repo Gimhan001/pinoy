@@ -13,9 +13,7 @@ import { Button } from "antd";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  
   return (
-    
     <main className={inter.className}>
       <Image
         className="lg:-mt-6"
@@ -29,6 +27,33 @@ export default function Home() {
       <div className="scroll-smooth bg-slate-100 lg:mb-10 sm:p-4 rounded-br-3xl rounded-bl-3xl">
         <div className="container z-40 lg:p-10 mx-auto">
           <SearchForm />
+        </div>
+      </div>
+
+      <div className="scroll-smooth mx-auto my-6">
+        <div className="container mx-auto">
+          <div className="grid justify-items-center">
+            <div
+              className="trustpilot-widget"
+              data-locale="en-GB"
+              data-template-id="5419b6a8b0d04a076446a9ad"
+              data-businessunit-id="651bc60f16fd9163196492a9"
+              data-style-height="40px"
+              data-style-width="100%"
+              data-theme="light"
+              data-min-review-count="10"
+              data-without-reviews-preferred-string-id="1"
+              data-style-alignment="center"
+            >
+              <a
+                href="https://uk.trustpilot.com/review/pinoytravels.uk"
+                target="_blank"
+                rel="noopener"
+              >
+                Trustpilot
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -291,9 +316,9 @@ export default function Home() {
             </div>
             <div className="grid justify-items-center lg:justify-items-end">
               <Link href="/popular-destinations/">
-              <Button type="primary" style={{ fontFamily: "inter" }}>
-                Show More
-              </Button>
+                <Button type="primary" style={{ fontFamily: "inter" }}>
+                  Show More
+                </Button>
               </Link>
             </div>
           </div>
@@ -302,20 +327,23 @@ export default function Home() {
         <div className="scroll-smooth mt-6 bg-slate-100 p-10 rounded-3xl">
           <div className="grid justify-items-center">
             <div className="group ">
-            <a
-              href="https://find-and-update.company-information.service.gov.uk/company/14920973"
-              target="_blank"
-            >
-              <Image src={chm} alt="company house" width={100} height={100} />
-            </a>
-            <p className="text-xs uppercase">reg no: 14920973</p>
+              <a
+                href="https://find-and-update.company-information.service.gov.uk/company/14920973"
+                target="_blank"
+              >
+                <Image src={chm} alt="company house" width={100} height={100} />
+              </a>
+              <p className="text-xs uppercase">reg no: 14920973</p>
             </div>
           </div>
         </div>
 
         <h4 className="container mx-auto uppercase text-center text-blue-600 font-bold text-2xl mt-6">
           Call now on <br className="lg:hidden" />
-          <a className="text-red-500 hover:text-amber-600" href="tel:+442038382020">
+          <a
+            className="text-red-500 hover:text-amber-600"
+            href="tel:+442038382020"
+          >
             <span className="underline">0203 838 2020</span>
           </a>{" "}
           <br className="lg:hidden" /> to get in touch with us

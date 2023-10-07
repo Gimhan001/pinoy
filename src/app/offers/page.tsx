@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Banner from "@/app/assets/images/template-cover.jpg";
+import Banner from "@/app/assets/images/offers.jpg";
 import type { Metadata } from "next";
 import OffersCard from "../components/card/OffersCard";
 import { Inter } from "next/font/google";

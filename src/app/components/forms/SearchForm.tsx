@@ -37,12 +37,6 @@ const { RangePicker } = DatePicker;
 
 const inter = Inter({ subsets: ["latin"] });
 
-const classType = [
-  { option: "Common", id: 1 },
-  { option: "Group", id: 2 },
-  { option: "Individual", id: 3 },
-];
-
 type initialData = {
   tripType: string;
   from: string;
@@ -54,14 +48,9 @@ type initialData = {
   infants: number;
   cabinClass: string;
 };
-
-const mockVal = (str: string, repeat = 1) => ({
-  option: classType,
-  value: str.repeat(repeat),
-});
-
 const handleChange = (value: string) => {
   console.log(`selected ${value}`);
+  return value;
 };
 
 //Dropdown
@@ -153,15 +142,21 @@ export default function SearchForm() {
   const [departureOptions, setDepartureOptions] = useState<{ value: string }[]>([]);
   const [returnOptions, setReturnOptions] = useState<{ value: string }[]>([]);
 
+  const mockVal = (str: string) =>({
+   value: str,
+  });
+
   const getDeparturePanelValue = (searchText: string) =>
     !searchText
       ? []
-      : [mockVal(searchText), mockVal(searchText, 2), mockVal(searchText, 3)];
+      : [(
+           mockVal(searchText)
+          )];
 
-      const getReturnPanelValue = (searchText: string) =>
-      !searchText
-        ? []
-        : [mockVal(searchText), mockVal(searchText, 2), mockVal(searchText, 3)];
+  const getReturnPanelValue = (searchText: string) =>
+    !searchText
+      ? []
+      : [(mockVal(searchText))];
 
   const onSelectDeparture = (data: string) => {
     return data;
@@ -291,7 +286,7 @@ export default function SearchForm() {
                 adults: 1,
                 children: 0,
                 infants: 1,
-                cabinClass: "Economy"
+                cabinClass: "Economy",
               },
             }}>
             <Button
@@ -302,7 +297,7 @@ export default function SearchForm() {
             >
               Search Flight
             </Button>
-            </Link> 
+            </Link>
           </div>
         </Card>
       </div>

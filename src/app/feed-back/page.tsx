@@ -1,6 +1,8 @@
 import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Image from "next/image";
+import thankYou from "@/app/assets/images/thankYou.webp"
 
 export const metadata: Metadata = {
   title: "Feed Back | Pinoy",
@@ -12,10 +14,11 @@ const inter = Inter({ subsets: ["latin"] });
 export default function FeedBack() {
   return (
     <main className={inter.className}>
-      <div className="container mx-auto p-4 grid justify-items-center ">
-        <div className="group border p-8 rounded-xl px-8">
-          <h4 className="text-center text-2xl font-bold">Thank You...</h4>
-          <p className="text-center text-base">We will contact you soon..</p>
+      <Image src={thankYou} alt="Thank you"/>
+      <div className="container mx-auto p-4 grid justify-items-center border rounded-xl shadow-2xl ">
+        <div className="group p-8  px-8">
+          <h2 className="text-center text-3xl font-bold uppercase">Thank You...!!!</h2>
+          <p className="text-center text-base mt-8">We will contact you soon..</p>
         </div>
       </div>
     </main>

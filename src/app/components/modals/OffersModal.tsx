@@ -146,6 +146,7 @@ export const OffersModal: React.FC<ModalProps> = ({
             price={price}
             tripType={tripType}
             cabinClass={cabinClass}
+            airLine={""}
           />
         </div>
         {/* <div className="text-end mt-4">

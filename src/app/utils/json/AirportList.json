@@ -2,326 +2,406 @@
   {
     "id": 1,
     "code": "(BCD)",
-    "airport": "Bacolod - Philippines"
+    "airport": "(BCD) Bacolod - Philippines"
   },
   {
     "id": 2,
     "code": "(BXU)",
-    "airport": "Butuan - Philippines"
+    "airport": "(BXU) Butuan - Philippines"
   },
   {
     "id": 3,
     "code": "(CBO)",
-    "airport": "Cotabato - Philippines"
+    "airport": "(CBO) Cotabato - Philippines"
   },
   {
     "id": 4,
     "code": "(CEB)",
-    "airport": "Cebu City - Philippines"
+    "airport": "(CEB) Cebu City - Philippines"
   },
   {
     "id": 5,
     "code": "(CGY)",
-    "airport": "Cagayan de Oro - Philippines"
+    "airport": "(CGY) Cagayan de Oro - Philippines"
   },
   {
+    "id": 6,
+    "code": "(CRK)",
+    "airport": "(CRK) Clark - Philippines"
+  },
+  {
+    "id": 7,
     "code": "(DGT)",
-    "airport": "Dumaguete - Philippines"
+    "airport": "(DGT) Dumaguete - Philippines"
   },
   {
+    "id": 8,
     "code": "(DPL)",
-    "airport": "Dipolog - Philippines"
+    "airport": "(DPL) Dipolog - Philippines"
   },
   {
+    "id": 9,
     "code": "(DVO)",
-    "airport": "Davao - Philippines"
+    "airport": "(DVO) Davao - Philippines"
   },
   {
+    "id": 10,
     "code": "(GES)",
-    "": "General Santos - Philippines"
+    "airport": "(GES) General Santos - Philippines"
   },
   {
+    "id": 11,
     "code": "(ILO)",
-    "airport": "Iloilo - Philippines"
+    "airport": "(ILO) Iloilo - Philippines"
   },
   {
+    "id": 12,
     "code": "(KLO)",
-    "airport": "Kalibo - Philippines"
+    "airport": "(KLO) Kalibo - Philippines"
   },
   {
+    "id": 13,
     "code": "(LAO)",
-    "airport": "Laoag - Philippines"
+    "airport": "(LAO) Laoag - Philippines"
   },
   {
+    "id": 14,
     "code": "(LGP)",
-    "airport": "Legaspi - Philippines"
+    "airport": "(LGP) Legaspi - Philippines"
   },
   {
+    "id": 15,
     "code": "(MNL)",
-    "airport": "Manila - Philippines"
+    "airport": "(MNL) Manila - Philippines"
   },
   {
-    "code": "{(MPH)",
-    "airport": "Caticlan - Philippines"
+    "id": 16,
+    "code": "(MPH)",
+    "airport": "(MPH) Caticlan - Philippines"
   },
   {
-    "code": "(OZC) ",
-    "airport": "Ozamis - Philippines"
+    "id": 17,
+    "code": "(OZC)",
+    "airport": "(OZC) Ozamis - Philippines"
   },
   {
-    "code": "(PPS) ",
-    "airport": "Puerto Princesa - Philippines"
+    "id": 18,
+    "code": "(PPS)",
+    "airport": "(PPS) Puerto Princesa - Philippines"
   },
   {
+    "id": 19,
     "code": "(RXS)",
-    "airport": "Roxas City - Philippines"
+    "airport": "(RXS) Roxas City - Philippines"
   },
   {
+    "id": 20,
     "code": "(TAC)",
-    "airport": "Tacloban - Philippines"
+    "airport": "(TAC) Tacloban - Philippines"
   },
   {
+    "id": 21,
     "code": "(TAG)",
-    "airport": "Tagbilaran - Philippines"
+    "airport": "(TAG) Tagbilaran - Philippines"
   },
   {
+    "id": 22,
     "code": "(TUG)",
-    "airport": "Tuguegarao - Philippines"
+    "airport": "(TUG) Tuguegarao - Philippines"
   },
   {
+    "id": 23,
     "code": "(USU)",
-    "airport": "Busuanga - Philippines"
+    "airport": "(USU) Busuanga - Philippines"
   },
   {
+    "id": 24,
     "code": "(WNP)",
-    "airport": "Naga - Philippines"
+    "airport": "(WNP) Naga - Philippines"
   },
   {
+    "id": 25,
     "code": "(ZAM)",
-    "airport": "Zamboanga - Philippines"
+    "airport": "(ZAM) Zamboanga - Philippines"
   },
   {
+    "id": 26,
     "code": "(BEB)",
-    "airport": "Benbecula - United Kingdom"
+    "airport": "(BEB) Benbecula - United Kingdom"
   },
   {
+    "id": 27,
     "code": "(BFS)",
-    "airport": "Belfast - Belfast International Airport - United Kingdom"
+    "airport": "(BFS) Belfast - Belfast International Airport - United Kingdom"
   },
   {
+    "id": 28,
     "code": "(BHD)",
-    "airport": "Belfast - George Best Belfast City Airport - United Kingdom"
+    "airport": "(BHD) Belfast - George Best Belfast City Airport - United Kingdom"
   },
   {
+    "id": 29,
     "code": "(BHX)",
-    "airport": "Birmingham - Birmingham International Airport - United Kingdom"
+    "airport": "(BHX) Birmingham - Birmingham International Airport - United Kingdom"
   },
   {
+    "id": 30,
     "code": "(BLK)",
-    "airport": "Blackpool - United Kingdom"
+    "airport": "(BLK) Blackpool - United Kingdom"
   },
   {
+    "id": 31,
     "code": "(BOH)",
-    "airport": "Bournemouth - United Kingdom"
+    "airport": "(BOH) Bournemouth - United Kingdom"
   },
   {
+    "id": 32,
     "code": "(BRR)",
-    "airport": "Barra (the famous tidal beach landing) - United Kingdom"
+    "airport": "(BRR) Barra (the famous tidal beach landing) - United Kingdom"
   },
   {
+    "id": 33,
     "code": "(BRS)",
-    "airport": "Bristol - United Kingdom"
+    "airport": "(BRS) Bristol - United Kingdom"
   },
   {
+    "id": 34,
     "code": "(CAL)",
-    "airport": "Campbeltown - United Kingdom"
+    "airport": "(CAL) Campbeltown - United Kingdom"
   },
   {
+    "id": 35,
     "code": "(CBG)",
-    "airport": "Cambrigde - United Kingdom"
+    "airport": "(CBG) Cambrigde - United Kingdom"
   },
   {
+    "id": 36,
     "code": "(CVT)",
-    "airport": "Coventry - Baginton - United Kingdom"
+    "airport": "(CVT) Coventry - Baginton - United Kingdom"
   },
   {
+    "id": 37,
     "code": "(CWL)",
-    "airport": "Cardiff - Cardiff Airport - United Kingdom"
+    "airport": "(CWL) Cardiff - Cardiff Airport - United Kingdom"
   },
   {
+    "id": 38,
     "code": "(DND)",
-    "airport": "Dundee - United Kingdom"
+    "airport": "(DND) Dundee - United Kingdom"
   },
   {
+    "id": 39,
     "code": "(DSA)",
-    "airport": "Doncaster/Sheffield, Robin Hood International Airport - United Kingdom"
+    "airport": "(DSA) Doncaster/Sheffield, Robin Hood International Airport - United Kingdom"
   },
   {
+    "id": 40,
     "code": "(DSA)",
-    "airport": "Sheffield, Doncaster, Robin Hood International Airport - United Kingdom"
+    "airport": "(DSA) Sheffield, Doncaster, Robin Hood International Airport - United Kingdom"
   },
   {
+    "id": 41,
     "code": "(EMA)",
-    "airport": "Nottingham - East Midlands - United Kingdom"
+    "airport": "(EMA) Nottingham - East Midlands - United Kingdom"
   },
   {
+    "id": 42,
     "code": "(EXT)",
-    "airport": "Exeter - United Kingdom"
+    "airport": "(EXT) Exeter - United Kingdom"
   },
   {
+    "id": 43,
     "code": "(FIE)",
-    "airport": "Fair Isle (Shetland) - United Kingdom"
+    "airport": "(FIE) Fair Isle (Shetland) - United Kingdom"
   },
   {
+    "id": 44,
     "code": "(FOU)",
-    "airport": "Foula (Shetland) - United Kingdom"
+    "airport": "(FOU) Foula (Shetland) - United Kingdom"
   },
   {
+    "id": 45,
     "code": "(GLA)",
-    "airport": "Glasgow - United Kingdom"
+    "airport": "(GLA) Glasgow - United Kingdom"
   },
   {
+    "id": 46,
     "code": "(HUY)",
-    "airport": "Humberside - United Kingdom"
+    "airport": "(HUY) Humberside - United Kingdom"
   },
   {
+    "id": 47,
     "code": "(ILY)",
-    "airport": "Islay - United Kingdom"
+    "airport": "(ILY) Islay - United Kingdom"
   },
   {
+    "id": 48,
     "code": "(INV)",
-    "airport": "Inverness - United Kingdom"
+    "airport": "(INV) Inverness - United Kingdom"
   },
   {
+    "id": 49,
     "code": "(IOM)",
-    "airport": "Isle of Man - United Kingdom"
+    "airport": "(IOM) Isle of Man - United Kingdom"
   },
   {
+    "id": 50,
     "code": "(KOI)",
-    "airport": "Kirkwall (Orkney) - United Kingdom"
+    "airport": "(KOI) Kirkwall (Orkney) - United Kingdom"
   },
   {
+    "id": 51,
     "code": "(KOI)",
-    "airport": "Orkney - Kirkwall - United Kingdom"
+    "airport": "(KOI) Orkney - Kirkwall - United Kingdom"
   },
   {
+    "id": 52,
     "code": "(LBA)",
-    "airport": "Leeds/Bradford - United Kingdom"
+    "airport": "(LBA) Leeds/Bradford - United Kingdom"
   },
   {
+    "id": 53,
     "code": "(LCY)",
-    "airport": "London - City Airport - United Kingdom"
+    "airport": "(LCY) London - City Airport - United Kingdom"
   },
   {
+    "id": 54,
     "code": "(LDY)",
-    "airport": "Derry (Londonderry) - United Kingdom"
+    "airport": "(LDY) Derry (Londonderry) - United Kingdom"
   },
   {
+    "id": 55,
     "code": "(LDY)",
-    "airport": "Londonderry - Eglinton - United Kingdom"
+    "airport": "(LDY) Londonderry - Eglinton - United Kingdom"
   },
   {
+    "id": 56,
     "code": "(LEQ)",
-    "airport": "Land's End - United Kingdom"
+    "airport": "(LEQ) Land's End - United Kingdom"
   },
   {
+    "id": 57,
     "code": "(LGW)",
-    "airport": "London - Gatwick - United Kingdom"
+    "airport": "(LGW) London - Gatwick - United Kingdom"
   },
   {
+    "id": 58,
     "code": "(LHR)",
-    "airport": "London - Heathrow - United Kingdom"
+    "airport": "(LHR) London - Heathrow - United Kingdom"
   },
   {
+    "id": 59,
     "code": "(LON)",
-    "airport": "London - United Kingdom"
+    "airport": "(LON) London - United Kingdom"
   },
   {
+    "id": 60,
     "code": "(LPL)",
-    "airport": "Liverpool - United Kingdom"
+    "airport": "(LPL) Liverpool - United Kingdom"
   },
   {
+    "id": 61,
     "code": "(LSI)",
-    "airport": "Sumburgh (Shetland) - United Kingdom"
+    "airport": "(LSI) Sumburgh (Shetland) - United Kingdom"
   },
   {
+    "id": 62,
     "code": "(LTN)",
-    "airport": "London - Luton - United Kingdom"
+    "airport": "(LTN) London - Luton - United Kingdom"
   },
   {
+    "id": 63,
     "code": "(LWK)",
-    "airport": "Lerwick/Tingwall (Shetland Islands) - United Kingdom"
+    "airport": "(LWK) Lerwick/Tingwall (Shetland Islands) - United Kingdom"
   },
   {
+    "id": 64,
     "code": "(LYX)",
-    "airport": "Lydd - Lydd International Airport - United Kingdom"
+    "airport": "(LYX) Lydd - Lydd International Airport - United Kingdom"
   },
   {
+    "id": 65,
     "code": "(MAN)",
-    "airport": "Manchester - United Kingdom"
+    "airport": "(MAN) Manchester - United Kingdom"
   },
   {
+    "id": 66,
     "code": "(MME)",
-    "airport": "Teesside, Durham Tees Valley - United Kingdom"
+    "airport": "(MME) Teesside, Durham Tees Valley - United Kingdom"
   },
   {
+    "id": 67,
     "code": "(MSE)",
-    "airport": "Kent (Manston) Kent International - United Kingdom"
+    "airport": "(MSE) Kent (Manston) Kent International - United Kingdom"
   },
   {
+    "id": 68,
     "code": "(NCL)",
-    "airport": "Newcastle - United Kingdom"
+    "airport": "(NCL) Newcastle - United Kingdom"
   },
   {
+    "id": 69,
     "code": "(NQY)",
-    "airport": "Newquay - United Kingdom"
+    "airport": "(NQY) Newquay - United Kingdom"
   },
   {
+    "id": 70,
     "code": "(NWI)",
-    "airport": "Norwich - United Kingdom"
+    "airport": "(NWI) Norwich - United Kingdom"
   },
   {
+    "id": 71,
     "code": "(OUK)",
-    "airport": "Out Skerries (Shetland) - United Kingdom"
+    "airport": "(OUK) Out Skerries (Shetland) - United Kingdom"
   },
   {
+    "id": 72,
     "code": "(PIK)",
-    "airport": "Glasgow, Prestwick - United Kingdom"
+    "airport": "(PIK) Glasgow, Prestwick - United Kingdom"
   },
   {
+    "id": 73,
     "code": "(SEN)",
-    "airport": "Southend (London) - United Kingdom"
+    "airport": "(SEN) Southend (London) - United Kingdom"
   },
   {
+    "id": 74,
     "code": "(SOU)",
-    "airport": "Southampton - Eastleigh - United Kingdom"
+    "airport": "(SOU) Southampton - Eastleigh - United Kingdom"
   },
   {
+    "id": 75,
     "code": "(STN)",
-    "airport": "London - Stansted - United Kingdom"
+    "airport": "(STN) London - Stansted - United Kingdom"
   },
   {
+    "id": 76,
     "code": "(STN)",
-    "airport": "Stansted (London) - United Kingdom"
+    "airport": "(STN) Stansted (London) - United Kingdom"
   },
   {
+    "id": 77,
     "code": "(SYY)",
-    "airport": "Stornway - United Kingdom"
+    "airport": "(SYY) Stornway - United Kingdom"
   },
   {
+    "id": 78,
     "code": "(SZD)",
-    "airport": "Sheffield, City Airport - United Kingdom"
+    "airport": "(SZD) Sheffield, City Airport - United Kingdom"
   },
   {
+    "id": 79,
     "code": "(UNT)",
-    "airport": "Unst (Shetland Island) - Baltasound Airport - United Kingdom"
+    "airport": "(UNT) Unst (Shetland Island) - Baltasound Airport - United Kingdom"
   },
   {
+    "id": 80,
     "code": "(WIC)",
-    "airport": "Wick - United Kingdom"
+    "airport": "(WIC) Wick - United Kingdom"
   },
   {
+    "id": 81,
     "code": "(EDI)",
-    "airport": "Edinburgh - United Kingdom"
+    "airport": "(EDI) Edinburgh - United Kingdom"
   }
 ]
