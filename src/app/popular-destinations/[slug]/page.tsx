@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import Banner from "@/app/assets/images/template-cover.jpg";
 import destinatinData from "@/app/utils/json/PopularDestination.json";
 import airLines from "@/app/utils/json/Popular1.json";
-import PopularDestinationModal from "@/app/components/modals/PopularDestinationModal";
+import { PopularDestinationModal } from "@/app/components/modals/PopularDestinationModal";
 import BookingForm from "@/app/components/forms/SearchForm";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -91,8 +91,8 @@ export default function Page({
                             </h4>
                             <PopularDestinationModal
                               id={id.id}
-                              departure={id.departure}
-                              destination={id.destination}
+                              from={id.departure}
+                              to={id.destination}
                               departureDate={id.departureDate}
                               returnsDate={id.returnDate}
                               person={id.person}
@@ -101,6 +101,8 @@ export default function Page({
                               airLine={id.airLine}
                               departureAirPortCode={id.departureAirPortCode}
                               destinationAirportCode={id.destinationAirportCode}
+                              title={"Popular Destinations Enquiry"}
+                              tripType={"Round Trip"}
                             />
                           </div>
                         </div>
@@ -137,8 +139,8 @@ export default function Page({
                             </h4>
                             <PopularDestinationModal
                               id={id.id}
-                              departure={id.departure}
-                              destination={id.destination}
+                              from={id.departure}
+                              to={id.destination}
                               departureDate={id.departureDate}
                               returnsDate={id.returnDate}
                               person={id.person}
@@ -147,6 +149,8 @@ export default function Page({
                               airLine={id.airLine}
                               departureAirPortCode={id.departureAirPortCode}
                               destinationAirportCode={id.destinationAirportCode}
+                              title={"Popular Destinations Enquiry"}
+                              tripType={"Round Trip"}
                             />
                           </div>
                         </div>

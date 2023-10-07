@@ -27,6 +27,7 @@ const EnquiryForm = (props: {
   price: string;
   tripType: string;
   cabinClass: string;
+  airLine: string;
 }) => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const router = useRouter();
@@ -59,6 +60,7 @@ const EnquiryForm = (props: {
         adults: data.adults,
         childrens: data.childrens ? data.childrens : 0,
         infants: data.infants ? data.infants : 0,
+        airLine: props.airLine ? props.airLine : ""
       }),
     });
 

@@ -37,12 +37,6 @@ const { RangePicker } = DatePicker;
 
 const inter = Inter({ subsets: ["latin"] });
 
-const classType = [
-  { option: "Common" },
-  { option: "Group" },
-  { option: "Individual"},
-];
-
 type initialData = {
   tripType: string;
   from: string;
@@ -148,15 +142,16 @@ export default function SearchForm() {
   const [departureOptions, setDepartureOptions] = useState<{ value: string }[]>([]);
   const [returnOptions, setReturnOptions] = useState<{ value: string }[]>([]);
 
-  const mockVal = (str: string) => ({
-    option: classType,
-    value: str,
+  const mockVal = (str: string) =>({
+   value: str,
   });
 
   const getDeparturePanelValue = (searchText: string) =>
     !searchText
       ? []
-      : [mockVal(searchText)];
+      : [(
+           mockVal(searchText)
+          )];
 
   const getReturnPanelValue = (searchText: string) =>
     !searchText

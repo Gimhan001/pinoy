@@ -22,6 +22,7 @@ export async function POST(req: Request, res: Response) {
              <p>Departure Date: ${body.departureDate}</p>
              <p>Return Date: ${body.returnsDate}</p>
              <p>Price Per Person : ${body.price}</p>
+             <p>Air Line: ${body.airLine}</p>
              <p>Cabin Class: ${body.cabinClass}</p>
              <p>Adults : ${body.adults}</p>
              <p>Childrens : ${body.childrens}</p>

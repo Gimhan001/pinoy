@@ -142,6 +142,7 @@ export const RoundTripModal: React.FC<ModalProps> = ({
             price={price}
             tripType={tripType}
             cabinClass={cabinClass}
+            airLine={""}
           />
         </div>
       </Modal>
