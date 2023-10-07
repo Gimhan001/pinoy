@@ -55,10 +55,6 @@ export const RoundTripModal: React.FC<ModalProps> = ({
     setIsModalOpen(true);
   };
 
-  const handleOk = () => {
-    setIsModalOpen(false);
-  };
-
   const handleCancel = () => {
     setIsModalOpen(false);
   };
@@ -148,17 +144,6 @@ export const RoundTripModal: React.FC<ModalProps> = ({
             cabinClass={cabinClass}
           />
         </div>
-        {/* <div className="text-end mt-4">
-          <button
-            className="border p-1 px-4 rounded-lg mr-2"
-            onClick={handleCancel}
-          >
-            Cancel
-          </button>
-          <button className="bg-blue-900 hover:bg-blue-700 p-1 px-4 rounded-lg text-white ">
-            Submit
-          </button>
-        </div> */}
       </Modal>
     </div>
   );

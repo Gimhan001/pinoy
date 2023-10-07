@@ -114,10 +114,10 @@ const EnquiryForm = (props: {
           name="mobile"
           rules={[{ required: true, message: "Please input your mobile!" }]}
         >
-          <Input
+          <InputNumber
             placeholder="Enter Mobile Number"
-            style={{ fontFamily: "inter" }}
-            type="number"
+            style={{ fontFamily: "inter", width: "100%" }}
+            
             minLength={10}
             maxLength={11}
           />
@@ -129,12 +129,12 @@ const EnquiryForm = (props: {
           label="Adults"
           rules={[{ required: true, message: "Please input Adults Count!" }]}
         >
-          <Input
+          <InputNumber
             placeholder="Adults"
             style={{ fontFamily: "inter" }}
             type="number"
             max={9}
-            min={0}
+            min={1}
           />
         </Form.Item>
         <Form.Item<FieldType>
@@ -142,7 +142,7 @@ const EnquiryForm = (props: {
           label="Childrens"
           rules={[{ required: false, message: "Please input Children!" }]}
         >
-          <Input
+          <InputNumber
             placeholder="Children"
             style={{ fontFamily: "inter" }}
             type="number"
@@ -155,7 +155,7 @@ const EnquiryForm = (props: {
           label="Infants"
           rules={[{ required: false, message: "Please input Infants Count!" }]}
         >
-          <Input
+          <InputNumber
             placeholder="Infants"
             style={{ fontFamily: "inter" }}
             type="number"

@@ -17,7 +17,6 @@ const { TextArea } = Input;
 
 type FieldType = {
   fname?: string;
-  lname?: string;
   email?: string;
   mobile?: string;
   from?: string;
@@ -26,7 +25,7 @@ type FieldType = {
   returnDate?: string;
   tripType?: string;
   adults?: number;
-  children?: number;
+  childrens?: number;
   infants?: number;
   cabinClass?: string;
 };
@@ -52,13 +51,6 @@ const BookingForm = () => {
             style={{ fontFamily: "inter" }}
             placeholder="First Name"
           />
-        </Form.Item>
-
-        <Form.Item<FieldType>
-          name="lname"
-          rules={[{ required: false, message: "Please input your last name!" }]}
-        >
-          <Input placeholder="Last Name" style={{ fontFamily: "inter" }} />
         </Form.Item>
       </div>
       <div className="container grid lg:grid-cols-2 gap-x-4">
