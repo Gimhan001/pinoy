@@ -29,17 +29,81 @@ import { faPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import airportList from "@/app/utils/json/AirportList.json";
 import Link from "next/link";
+import type { RangePickerProps } from 'antd/es/date-picker';
 
 const { RangePicker } = DatePicker;
 
 const inter = Inter({ subsets: ["latin"] });
 
-const handleChange = (value: string) => {
-  console.log(`selected ${value}`);
-  return value;
-};
+export default function SearchForm() {
+  const [tripTypeValue, settripTypeValue] = useState("Return");
+  const [open, setOpen] = useState(false);
+  const [options, setOptions] = useState<{ airport: string }[]>([]);
+  const [searchDeparture, setSearchDeparture] = useState("");
+  const [searchDestination, setSearchDestination] = useState("");
+  const [cabinClass, setCabinClass] = useState("economy");
+  const [departureDate, setDeparturedate] = useState("");
+  const [returnDate, setReturndate] = useState("");
+  const [adults, setAdults] = useState(1);
+  const [childrens, setChildrens] = useState(0);
+  const [infants, setInfants] = useState(0);
+  const [dropLable, setDropLable] = useState("Travellers")
 
-//Dropdown
+  const onChange = (e: RadioChangeEvent) => {
+    settripTypeValue(e.target.value);
+  };
+
+  //Dropdown
+  const handleOpenChange = (flag: boolean) => {
+    setOpen(flag);
+  };
+
+  const onChangeDepartureDate: DatePickerProps["onChange"] = (date, dateString) => {
+    setDeparturedate(dateString);
+  };
+
+  const disabledDateDeparture: RangePickerProps['disabledDate'] = (current) => {
+    return current < dayjs();
+  };
+
+  // const disabledDateReturn: RangePickerProps['disabledDate'] = () => {
+  //   return  departureDate;
+  // };
+
+  const onChangeReturn: DatePickerProps["onChange"] = (date, dateString) => {
+    setReturndate(dateString);
+  };
+
+  const onChangeDeparture = (data: string) => {
+    setSearchDeparture(data);
+    console.log("search Airport :" + data);
+  };
+
+  const onChangeDestination = (data: string) => {
+    setSearchDestination(data);
+    console.log("search Airport :" + data);
+  };
+
+  const handleChange = (value: string) => {
+    console.log(`selected ${value}`);
+    setCabinClass(value);
+  };
+
+  const onChangeAdults = (value: number | any) =>{
+    console.log(value)
+    setAdults(value);
+    setDropLable(`Adults : ${value}`)
+  }
+  const onChangeChildrens = (value: number | any) =>{
+    console.log(value)
+    setChildrens(value);
+  }
+  const onChangeInfants = (value: number | any) =>{
+    console.log(value)
+    setInfants(value);
+  }
+
+  //Dropdown
 const items: MenuProps["items"] = [
   {
     key: "1",
@@ -52,8 +116,10 @@ const items: MenuProps["items"] = [
           type="number"
           style={{ fontFamily: "inter" }}
           placeholder="Adults"
+          value={adults}
+          onChange={onChangeAdults}
           min={1}
-          max={10}
+          max={9}
           defaultValue={1}
         />
       </div>
@@ -70,9 +136,11 @@ const items: MenuProps["items"] = [
           type="number"
           style={{ fontFamily: "inter" }}
           placeholder="Children"
+          value={childrens}
+          onChange={onChangeChildrens}
           defaultValue={0}
           min={0}
-          max={10}
+          max={9}
         />
       </div>
     ),
@@ -88,10 +156,11 @@ const items: MenuProps["items"] = [
           type="number"
           style={{ fontFamily: "inter" }}
           placeholder="Infants"
+          value={infants}
           defaultValue={0}
-          onChange={(value: number | null) => value}
+          onChange={onChangeInfants}
           min={0}
-          max={10}
+          max={2}
         />
       </div>
     ),
@@ -105,50 +174,15 @@ const items: MenuProps["items"] = [
         style={{ width: "100%", fontFamily: "inter" }}
         onChange={handleChange}
         options={[
-          { value: "economy", label: "Economy" },
-          { value: "premiumEconomy", label: "Premium Economy" },
+          { value: "Economy", label: "Economy" },
+          { value: "Premium Economy", label: "Premium Economy" },
           { value: "business", label: "Business" },
-          { value: "firstClass", label: "First Class" },
+          { value: "First Class", label: "First Class" },
         ]}
       />
     ),
   },
 ];
-
-export default function SearchForm() {
-  const [tripTypeValue, settripTypeValue] = useState("Return");
-  const [open, setOpen] = useState(false);
-  const [options, setOptions] = useState<{ airport: string }[]>([]);
-  const [searchDeparture, setSearchDeparture] = useState("");
-  const [searchDestination, setSearchDestination] = useState("");
-
-  const onChange = (e: RadioChangeEvent) => {
-    settripTypeValue(e.target.value);
-  };
-
-  //Dropdown
-  const handleOpenChange = (flag: boolean) => {
-    setOpen(flag);
-  };
-
-  const onChangeDepartureDate: DatePickerProps["onChange"] = (dateString) => {
-    const departureDate = dateString;
-    return departureDate;
-  };
-
-  const onChangeReturn: DatePickerProps["onChange"] = (dateString) => {
-    return dateString?.toString;
-  };
-
-  const onChangeDeparture = (data: string) => {
-    setSearchDeparture(data);
-    console.log("search Airport :" + data);
-  };
-
-  const onChangeDestination = (data: string) => {
-    setSearchDestination(data);
-    console.log("search Airport :" + data);
-  };
 
   return (
     <div className={inter.className}>
@@ -174,9 +208,9 @@ export default function SearchForm() {
             <Radio value={"One Way"} style={{ fontFamily: "Inter" }}>
               One way
             </Radio>
-            <Radio value={"Multi City"} style={{ fontFamily: "Inter" }}>
+            {/* <Radio value={"Multi City"} style={{ fontFamily: "Inter" }}>
               Multi City
-            </Radio>
+            </Radio> */}
             <Radio value={"Only Direct"} style={{ fontFamily: "Inter" }}>
               Only Direct
             </Radio>
@@ -226,10 +260,21 @@ export default function SearchForm() {
             </div>
 
             <div className="group flex rounded-xl border-2 border-slate-700">
-            <RangePicker
-            bordered={false}
-            style={{ width: "100%" }}
-             />
+              <DatePicker
+                bordered={false}
+                format="DD-MM-YYYY"
+                placeholder="Departure Date"
+                disabledDate={disabledDateDeparture}
+                // style={{ width: "100%" }}
+                onChange={onChangeDepartureDate}
+              />
+              <DatePicker
+                bordered={false}
+                placeholder="Return Date"
+                // style={{ width: "100%" }}
+                onChange={onChangeReturn}
+                // disabledDate={disabledDateReturn}
+              />
             </div>
             <div className="group rounded-xl border-2 border-slate-700">
               <Dropdown
@@ -240,7 +285,7 @@ export default function SearchForm() {
                 onOpenChange={handleOpenChange}
                 open={open}
               >
-                <Space>
+                <Space style={{fontFamily: "inter"}}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -253,7 +298,7 @@ export default function SearchForm() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Travellers
+                  {dropLable}
                   <DownOutlined className="ms-auto" />
                 </Space>
               </Dropdown>
@@ -265,15 +310,15 @@ export default function SearchForm() {
               href={{
                 pathname: "/searching-flights/",
                 query: {
-                  from: "Cambrigde - United Kingdom(CBG)",
-                  to: "Cambrigde - United Kingdom(CBG)",
-                  departureDate: "10-10-2023",
-                  returnDate: "10-10-2023",
+                  from: searchDeparture,
+                  to: searchDestination,
+                  departureDate: departureDate,
+                  returnDate: returnDate,
                   tripType: tripTypeValue,
-                  adults: 1,
-                  children: 0,
-                  infants: 1,
-                  cabinClass: "Economy",
+                  adults: adults,
+                  children: childrens,
+                  infants: infants,
+                  cabinClass: cabinClass,
                 },
               }}
             >

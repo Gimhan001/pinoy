@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import React from "react";
 import { Col, Row } from "antd";
@@ -30,7 +30,23 @@ type FieldType = {
   cabinClass?: string;
 };
 
-const BookingForm = () => {
+const BookingForm = ({
+  searchParams,
+}: {
+  searchParams: {
+    from: string;
+    to: string;
+    departureDate: string;
+    returnDate: string;
+    tripType: string;
+    adults: number;
+    children: number;
+    infants: number;
+    cabinClass: string;
+  };
+}) => {
+
+  console.log(searchParams);
   return (
     <Form
       name="bookingForm"
@@ -78,7 +94,6 @@ const BookingForm = () => {
 
       <div className="grid lg:grid-cols-6">
         <Form.Item>
-          <Link href="/feed-back" as="/feed-back">
           <Button
             style={{ fontFamily: "inter" }}
             type="primary"
@@ -86,7 +101,6 @@ const BookingForm = () => {
           >
             Submit Now
           </Button>
-          </Link>
           
         </Form.Item>
       </div>
