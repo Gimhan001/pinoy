@@ -12,6 +12,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Rate } from "antd";
 import Loading from "./loading";
+import { useRouter } from "next/router";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -114,8 +115,17 @@ export default function page({
           </div>
 
           <div className="container mx-auto p-4 bg-slate-100 mt-4 rounded-2xl">
-            <BookingForm
-            />
+            <BookingForm searchParams={{
+              from: searchParams.from,
+              to: searchParams.to,
+              departureDate: searchParams.departureDate,
+              returnDate: searchParams.returnDate,
+              tripType: searchParams.tripType,
+              adults: searchParams.adults,
+              children: searchParams.children,
+              infants: searchParams.infants,
+              cabinClass: searchParams.cabinClass
+            }}   />
           </div>
         </div>
       </main>

@@ -1,36 +1,86 @@
-"use client";
+"use client"
 
-import React from "react";
-import { Col, Row } from "antd";
+import React, { useState } from "react";
+import { Col, InputNumber, Row } from "antd";
 import { Button, Form, Input } from "antd";
 import Link from "next/link";
-
-const onFinish = (values: any) => {
-  console.log("Success:", values);
-};
-
-const onFinishFailed = (errorInfo: any) => {
-  console.log("Failed:", errorInfo);
-};
-
-const { TextArea } = Input;
+import { useRouter } from "next/navigation";
+import toast from "react-hot-toast";
 
 type FieldType = {
   fname?: string;
   email?: string;
   mobile?: string;
-  from?: string;
-  to?: string;
-  departureDate?: string;
-  returnDate?: string;
-  tripType?: string;
-  adults?: number;
-  childrens?: number;
-  infants?: number;
-  cabinClass?: string;
 };
 
-const BookingForm = () => {
+const BookingForm = ({
+  searchParams,
+}: {
+  searchParams: {
+    from: string;
+    to: string;
+    departureDate: string;
+    returnDate: string;
+    tripType: string;
+    adults: number;
+    children: number;
+    infants: number;
+    cabinClass: string;
+  };
+}) => {
+
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const router = useRouter();
+
+  const onFinish = async (data: FieldType) => {
+    setIsLoading(true);
+    console.log(data);
+    const response = await fetch("/api/enquiry", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        id: "EnquryForm",
+        from: searchParams.from ? searchParams.from : "",
+        to: searchParams.to ? searchParams.to : "",
+        content: "Search Enquiry",
+        email: data.email ? data.email : "",
+        fname: data.fname ? data.fname : "",
+        mobile: data.mobile ? data.mobile : "",
+        departureAirport: searchParams.from ? searchParams.from : "",
+        destinationAirPort: searchParams.to
+          ? searchParams.to
+          : "",
+        departureDate: searchParams.departureDate ? searchParams.departureDate : "",
+        returnsDate: searchParams.returnDate ? searchParams.returnDate : "",
+        price: "",
+        tripType: searchParams.tripType ? searchParams.tripType : "",
+        cabinClass: searchParams.cabinClass ? searchParams.cabinClass : "",
+        adults: searchParams.adults,
+        childrens: searchParams.children ? searchParams.children : 0,
+        infants: searchParams.infants ? searchParams.infants : 0,
+        airLine: ""
+      }),
+    });
+
+    if (response.status === 200) {
+      toast.success(`Hey ${data.fname} your enquiry send successfully..!`);
+      setIsLoading(false);
+      router.replace("/feed-back");
+    } else {
+      toast.error("Something went wrong.!");
+      setIsLoading(false);
+    }
+
+    const details = await response.json();
+    console.log(details);
+  };
+
+  const onFinishFailed = (errorInfo: any) => {
+    console.log("Failed:", errorInfo);
+  };
+
   return (
     <Form
       name="bookingForm"
@@ -68,25 +118,25 @@ const BookingForm = () => {
           name="mobile"
           rules={[{ required: true, message: "Please input your mobile!" }]}
         >
-          <Input
+          <InputNumber
             placeholder="Mobile Number"
-            style={{ fontFamily: "inter" }}
-            type="number"
+            minLength={10}
+            maxLength={11}
+            style={{ fontFamily: "inter", width: "100%" }}
           />
         </Form.Item>
       </div>
 
       <div className="grid lg:grid-cols-6">
         <Form.Item>
-          <Link href="/feed-back" as="/feed-back">
           <Button
             style={{ fontFamily: "inter" }}
             type="primary"
             htmlType="submit"
+            disabled={isLoading}
           >
-            Submit Now
+            {isLoading ? "Sending..." : "Submit"}
           </Button>
-          </Link>
           
         </Form.Item>
       </div>
