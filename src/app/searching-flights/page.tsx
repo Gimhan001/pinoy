@@ -1,7 +1,7 @@
 import React from "react";
 import { Suspense } from "react";
 import Image from "next/image";
-import Banner from "@/app/assets/images/home.jpg";
+import Banner from "@/app/assets/images/home.webp";
 import { Inter } from "next/font/google";
 import BookingForm from "../components/forms/BookingForm";
 import {

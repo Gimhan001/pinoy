@@ -30,6 +30,8 @@ export default function OffersCard(props: {
               className="offer-card-img rounded-3xl"
               alt="offers"
               src={props.cardImage}
+              width={0}
+              height={0}
             />
           </picture>
 

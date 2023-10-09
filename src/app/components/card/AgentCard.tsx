@@ -21,6 +21,8 @@ export default function AgentCard(props: {
             className="round-card-img rounded-2xl"
             alt="Agents"
             src={props.image}
+            width={0}
+            height={0}
           />
         </picture>
         <div className="p-3">

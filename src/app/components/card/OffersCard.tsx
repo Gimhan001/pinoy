@@ -21,6 +21,8 @@ export default function OffersCard() {
                   className="offer-card-img rounded-2xl z-40"
                   alt="offers"
                   src={data.image}
+                  width={0}
+                  height={0}
                 />
               </picture>
 
