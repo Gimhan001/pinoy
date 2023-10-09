@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import AboutBanner from "@/app/assets/images/about.jpg";
+import AboutBanner from "@/app/assets/images/about.webp";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 

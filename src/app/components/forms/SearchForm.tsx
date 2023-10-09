@@ -47,10 +47,16 @@ export default function SearchForm() {
   const [adults, setAdults] = useState(1);
   const [childrens, setChildrens] = useState(0);
   const [infants, setInfants] = useState(0);
-  const [dropLable, setDropLable] = useState("Travellers")
+  const [dropLable, setDropLable] = useState("Travellers");
+  const [disableReturn, setDisableReturn] = useState(false);
 
   const onChange = (e: RadioChangeEvent) => {
     settripTypeValue(e.target.value);
+    if (e.target.value == "One Way") {
+      setDisableReturn(true)
+    } else {
+      setDisableReturn(false)
+    }
   };
 
   //Dropdown
@@ -270,9 +276,11 @@ const items: MenuProps["items"] = [
               />
               <DatePicker
                 bordered={false}
+                format="DD-MM-YYYY"
                 placeholder="Return Date"
                 // style={{ width: "100%" }}
                 onChange={onChangeReturn}
+                disabled={disableReturn}
                 // disabledDate={disabledDateReturn}
               />
             </div>

@@ -10,7 +10,7 @@
         "returnsDate": "15-03-2024",
         "price": "£504",
         "tripType": "Round Trip",
-        "image": "/manilaOffers.jpg",
+        "image": "/manilaOffers.webp",
         "person": 1,
         "cabinClass": "Economy"
     },
@@ -25,7 +25,7 @@
         "returnsDate": "15-03-2024",
         "price": "£679",
         "tripType": "Round Trip",
-        "image": "/davaoOffers.jpg",
+        "image": "/davaoOffers.webp",
         "person": 1,
         "cabinClass": "Economy"
     },
@@ -40,7 +40,7 @@
         "returnsDate": "15-03-2024",
         "price": "£649",
         "tripType": "Round Trip",
-        "image": "/cebuOffers.jpg",
+        "image": "/cebuOffers.webp",
         "person": 1,
         "cabinClass": "Economy"
     }

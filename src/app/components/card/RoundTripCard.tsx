@@ -16,6 +16,8 @@ export default function RoundTripCard() {
                 className="round-card-img rounded-3xl sm:grid hidden"
                 alt="Round Trip Img"
                 src={data.image}
+                width={0}
+                height={0}
               />
             </picture>
 
@@ -46,11 +48,11 @@ export default function RoundTripCard() {
                   returnsDate={data.returnsDate}
                   person={data.person}
                   cabinClass={data.cabinClass}
-                  price={data.price} 
-                  title={data.title} 
-                  dAirport={data.departureAirPort} 
-                  deAirport={data.destinationAirPort}                
-                  />
+                  price={data.price}
+                  title={data.title}
+                  dAirport={data.departureAirPort}
+                  deAirport={data.destinationAirPort}
+                />
               </div>
             </div>
           </div>

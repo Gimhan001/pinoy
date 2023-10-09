@@ -11,7 +11,7 @@
         "price": "£619",
         "offer": "7% Off",
         "tripType": "Round Trip",
-        "image": "/manilaOffers.jpg",
+        "image": "/manilaOffers.webp",
         "person": 1,
         "cabinClass": "Economy"
     },
@@ -27,7 +27,7 @@
         "price": "£819",
         "offer": "£273 3Mo",
         "tripType": "Round Trip",
-        "image": "/davaoOffers.jpg",
+        "image": "/davaoOffers.webp",
         "person": 1,
         "cabinClass": "Economy"
     },
@@ -43,7 +43,7 @@
         "price": "£819",
         "offer": "£50 Off",
         "tripType": "Round Trip",
-        "image": "/cebuOffers.jpg",
+        "image": "/cebuOffers.webp",
         "person": 1,
         "cabinClass": "Economy"
     },
@@ -59,7 +59,7 @@
         "price": "£799",
         "offer": "£80 Off",
         "tripType": "Round Trip",
-        "image": "/clarkOffers.jpg",
+        "image": "/clarkOffers.webp",
         "person": 1,
         "cabinClass": "Economy"
     },
@@ -75,7 +75,7 @@
         "price": "£929",
         "offer": "13% Off",
         "tripType": "Round Trip",
-        "image": "/bacolodOffers.jpg",
+        "image": "/bacolodOffers.webp",
         "person": 1,
         "cabinClass": "Economy"
     },
@@ -91,7 +91,7 @@
         "price": "£929",
         "offer": "£186 5Mo",
         "tripType": "Round Trip",
-        "image": "/iloiloOffers.jpg",
+        "image": "/iloiloOffers.webp",
         "person": 1,
         "cabinClass": "Economy"
     }
