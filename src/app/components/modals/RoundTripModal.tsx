@@ -2,8 +2,7 @@
 
 import React, { useState } from "react";
 import { Modal, Input, Checkbox, Form, Button } from "antd";
-import manila from "@/app/assets/images/loading-icon.gif";
-import Image from "next/image";
+
 import EnquiryForm from "../forms/EnquiryForm";
 
 interface ModalProps {
@@ -20,20 +19,6 @@ interface ModalProps {
   person: number;
   price: string;
 }
-
-const onFinish = (values: any) => {
-  console.log("Success:", values);
-};
-
-const onFinishFailed = (errorInfo: any) => {
-  console.log("Failed:", errorInfo);
-};
-
-type FieldType = {
-  name?: string;
-  email?: string;
-  mobile?: string;
-};
 
 export const RoundTripModal: React.FC<ModalProps> = ({
   id,

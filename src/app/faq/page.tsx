@@ -16,7 +16,7 @@ export default function FAQ() {
 
   return (
     <main>
-    <Image className="lg:-mt-6" src={Banner} width={0} height={0} alt="About" priority />
+    <Image className="lg:-mt-6" src={Banner} width={0} height={0} placeholder="blur" alt="About" priority />
     <div className="container mx-auto w-full mt-4">
         <h1 className="text-3xl font-bold text-center ">Common Travel FAQ</h1>
         <p className="text-start mt-4 px-4 mb-8">

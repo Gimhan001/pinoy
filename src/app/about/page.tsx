@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import AboutBanner from "@/app/assets/images/about.webp";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+
+import AboutBanner from "@/app/assets/images/about.webp";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +22,7 @@ export default function About() {
         width={0}
         height={0}
         alt="About"
+        placeholder="blur"
         priority
       />
       <div className="container mx-auto w-full text-center mt-4">

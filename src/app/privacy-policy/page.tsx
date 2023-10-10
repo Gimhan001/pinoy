@@ -17,6 +17,7 @@ export default function PrivacyPolicy() {
         width={0}
         height={0}
         alt="privacy-policy"
+        placeholder="blur"
         priority
       />
       <div className="container mx-auto">

@@ -1,18 +1,18 @@
 import React from "react";
 import { Suspense } from "react";
 import Image from "next/image";
-import Banner from "@/app/assets/images/home.webp";
 import { Inter } from "next/font/google";
-import BookingForm from "../components/forms/BookingForm";
 import {
   faPlaneDeparture,
   faPlaneArrival,
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Rate } from "antd";
 import Loading from "./loading";
-import { useRouter } from "next/router";
+
+import Banner from "@/app/assets/images/home.webp";
+import BookingForm from "../components/forms/BookingForm";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -108,7 +108,6 @@ export default function page({
                   <p className="text-red-500">* Matt I need Contents</p>
                 </div>
                 <div>
-                  {/* <Rate className="" disabled defaultValue={5} /> */}
                 </div>
               </div>
             </div>

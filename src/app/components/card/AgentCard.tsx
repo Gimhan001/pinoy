@@ -1,9 +1,6 @@
 import React from "react";
 
-import { Button, Card } from "antd";
-import Image from "next/image";
-import dynamic from "next/dynamic";
-
+import { Button } from "antd";
 
 export default function AgentCard(props: {
   ids: number;

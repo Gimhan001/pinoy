@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { Inter } from "next/font/google";
+
 import Banner from "@/app/assets/images/template-cover.jpg";
 import destinatinData from "@/app/utils/json/PopularDestination.json";
 import airLines from "@/app/utils/json/Popular1.json";
@@ -31,6 +32,7 @@ export default function Page({
                 width={0}
                 height={0}
                 alt="About"
+                placeholder="blur"
                 priority
               />
               <div className="scroll-smooth bg-slate-100 lg:mb-6 sm:p-4 rounded-br-3xl rounded-bl-3xl">

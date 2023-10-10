@@ -1,7 +1,6 @@
 "use client";
-import Image from "next/image";
 import React from "react";
-import Manila from "@/app/assets/images/manila.jpg";
+
 import RoundTrip from "@/app/utils/json/RoundTrip.json";
 import { RoundTripModal } from "../modals/RoundTripModal";
 
@@ -13,7 +12,7 @@ export default function RoundTripCard() {
           <div className="group border bg-white rounded-3xl" key={id}>
             <picture>
               <img
-                className="round-card-img rounded-3xl sm:grid hidden"
+                className="lazyloaded round-card-img rounded-3xl sm:grid hidden"
                 alt="Round Trip Img"
                 src={data.image}
                 width={0}

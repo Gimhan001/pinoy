@@ -22,6 +22,7 @@ export default function Offers() {
         width={0}
         height={0}
         alt="Offers"
+        placeholder="blur"
         priority
       />
       <div className="container mx-auto w-full text-center mt-4">

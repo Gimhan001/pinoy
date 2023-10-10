@@ -17,6 +17,7 @@ export default function PrivacyPolicy() {
         width={0}
         height={0}
         alt="terms&conditions"
+        placeholder="blur"
         priority
       />
       <div className="container mx-auto">
@@ -239,25 +240,6 @@ export default function PrivacyPolicy() {
             at the time the order was made.
           </p>
         </div>
-
-        {/* <div className="container mx-auto mt-8">
-          <h5 className="text-sm font-bold text-black mt-4 capitalize px-4">
-            Your financial protection
-          </h5>
-          <p className="text-sm text-start mt-2 px-4">
-            When you buy an ATOL protected air holiday package/or flights from
-            PinoyTravels you will receive a Confirmation Invoice from us
-            confirming your arrangements and your protection under our Air
-            Travel Organiser&apos;s License. In the unlikely event of our
-            insolvency, the CAA will ensure that you are not stranded abroad and
-            will arrange to refund any money you have paid to us for an advance
-            booking. For further information, visit the ATOL website
-            atwww.atol.org.uk The price of our air holiday packages includes the
-            amount of £2.50 per person as part of the ATOL Protection
-            Contribution (APC) we pay to the CAA. This charge is included in our
-            advertised prices.
-          </p>
-        </div> */}
 
         <div className="container mx-auto mt-8">
           <h5 className="text-sm font-bold text-black mt-4 capitalize px-4">
@@ -527,7 +509,7 @@ export default function PrivacyPolicy() {
             You agree to indemnify and hold PinoyTravels and its affiliates,
             directors, officers, employees, agents, suppliers and licensors
             harmless from and against any liabilities, losses, damages or costs,
-            including reasonable attorneys’ fees, incurred in connection with or
+            including reasonable attorneys&apos; fees, incurred in connection with or
             arising from any third-party allegations, claims, actions, disputes,
             or demands asserted against any of them as a result of or relating
             to your Content, your use of the Website and Services or any willful
