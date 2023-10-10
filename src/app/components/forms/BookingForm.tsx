@@ -1,9 +1,8 @@
 "use client"
 
 import React, { useState } from "react";
-import { Col, InputNumber, Row } from "antd";
+import { InputNumber } from "antd";
 import { Button, Form, Input } from "antd";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 
@@ -64,7 +63,43 @@ const BookingForm = ({
       }),
     });
 
-    if (response.status === 200) {
+    const res = await fetch("https://api.leadsquared.com/v2/LeadManagement.svc/Lead.Create?accessKey=u$rbfac260a7fd0838f55b4a3cac28d49a7&secretKey=5ef2ff8221566362f83d13d19359516d695edfe4", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify([
+        {Attribute: "FirstName",
+        Value: data.fname ? data.fname : ""},
+        {Attribute: "mx_Departure",
+        Value: searchParams.from ? searchParams.from  : ""},
+        {Attribute: "mx_Destinations",
+          Value: searchParams.to ? searchParams.to : ""},
+        {Attribute: "mx_Departure_Date",
+          Value: searchParams.departureDate ? searchParams.departureDate : ""},
+        {Attribute: "mx_Return_Date",
+          Value: searchParams.returnDate ? searchParams.returnDate : ""},
+        {Attribute: "Mobile",
+          Value: data.mobile ? data.mobile : ""},
+        {Attribute: "EmailAddress",
+          Value: data.email ? data.email : ""},
+        {Attribute: "mx_Promo_price",
+          Value: ""},
+        {Attribute: "mx_Class",
+          Value: searchParams.cabinClass ? searchParams.cabinClass : ""},
+        {Attribute: "mx_Trip_Type",
+          Value: searchParams.tripType ? searchParams.tripType : ""},
+        {Attribute: "mx_Number_of_Adults",
+          Value: searchParams.adults},
+        {Attribute: "mx_Number_of_Child",
+          Value: searchParams.children ? searchParams.children : 0},
+        {Attribute: "mx_Number_of_Infant",
+          Value: searchParams.infants ? searchParams.infants : 0},
+
+      ]),
+    });
+
+    if (response.status === 200 && res.status === 200) {
       toast.success(`Hey ${data.fname} your enquiry send successfully..!`);
       setIsLoading(false);
       router.replace("/feed-back");
@@ -75,6 +110,9 @@ const BookingForm = ({
 
     const details = await response.json();
     console.log(details);
+
+    const leadDetails = await res.json();
+    console.log("Lead Details"+ leadDetails);
   };
 
   const onFinishFailed = (errorInfo: any) => {

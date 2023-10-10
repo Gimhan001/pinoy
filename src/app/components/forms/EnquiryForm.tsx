@@ -64,7 +64,43 @@ const EnquiryForm = (props: {
       }),
     });
 
-    if (response.status === 200) {
+    const res = await fetch("https://api.leadsquared.com/v2/LeadManagement.svc/Lead.Create?accessKey=u$rbfac260a7fd0838f55b4a3cac28d49a7&secretKey=5ef2ff8221566362f83d13d19359516d695edfe4", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify([
+        {Attribute: "FirstName",
+        Value: data.fname ? data.fname : ""},
+        {Attribute: "mx_Departure",
+        Value: props.departureAirPort ? props.departureAirPort : ""},
+        {Attribute: "mx_Destinations",
+          Value: props.destinationAirPort ? props.destinationAirPort : ""},
+        {Attribute: "mx_Departure_Date",
+          Value: props.departureDate ? props.departureDate : ""},
+        {Attribute: "mx_Return_Date",
+          Value: props.returnsDate ? props.returnsDate : ""},
+        {Attribute: "Mobile",
+          Value: data.mobile ? data.mobile : ""},
+        {Attribute: "EmailAddress",
+          Value: data.email ? data.email : ""},
+        {Attribute: "mx_Promo_price",
+          Value: props.price ? props.price : ""},
+        {Attribute: "mx_Class",
+          Value: props.cabinClass ? props.cabinClass : ""},
+        {Attribute: "mx_Trip_Type",
+          Value: props.tripType ? props.tripType : ""},
+        {Attribute: "mx_Number_of_Adults",
+          Value: data.adults},
+        {Attribute: "mx_Number_of_Child",
+          Value: data.childrens ? data.childrens : 0},
+        {Attribute: "mx_Number_of_Infant",
+          Value: data.infants ? data.infants : 0},
+
+      ]),
+    });
+
+    if (response.status === 200 && res.status === 200) {
       toast.success(`Hey ${data.fname} your enquiry send successfully..!`);
       setIsLoading(false);
       router.replace("/feed-back");
@@ -75,6 +111,9 @@ const EnquiryForm = (props: {
 
     const details = await response.json();
     console.log(details);
+
+    const leadDetails = await res.json();
+    console.log("Lead Details"+ leadDetails);
   };
 
   const onFinishFailed = (errorInfo: any) => {
@@ -165,14 +204,6 @@ const EnquiryForm = (props: {
           />
         </Form.Item>
       </div>
-      {/* <div className="container grid lg:grid-cols-1">
-        <Form.Item<FieldType>
-          name="message"
-          rules={[{ required: true, message: "Please enter Message!" }]}
-        >
-          <TextArea rows={4} placeholder="Message" style={{fontFamily: "inter"}}  />
-        </Form.Item>
-      </div> */}
 
       <div className="flex gap-3 mt-4 justify-end">
         <Button onClick={props.modelClose}>Cancel</Button>

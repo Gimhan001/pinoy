@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Banner from "@/app/assets/images/template-cover.jpg";
-import ContactForm from "@/app/components/forms/ContactForm";
 import {
   faPhoneVolume,
   faEnvelope,
@@ -9,9 +7,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { Card } from "antd";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+
+import Banner from "@/app/assets/images/template-cover.jpg";
+import ContactForm from "@/app/components/forms/ContactForm";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +29,7 @@ export default function Contact() {
         width={0}
         height={0}
         alt="Contact"
+        placeholder="blur"
         priority
       />
       <div className="container mx-auto w-full text-center mt-4 ">

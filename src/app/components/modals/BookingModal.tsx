@@ -1,21 +1,12 @@
 "use client";
 
-import React, { useState } from "react";
-import { Modal, Input, Checkbox, Form } from "antd";
+import React from "react";
+import { Modal, Input, Form } from "antd";
 
 interface ModalProps {
   modalOpen: any;
   handleOkk: any;
   handleClose: any;
-  // tripType: string,
-  // from: string;
-  // to: string;
-  // departure: Date;
-  // returns: Date;
-  // adults: number;
-  // children: number;
-  // infants: number;
-  // cabinClass: string;
 }
 
 const onFinish = (values: any) => {
@@ -36,15 +27,6 @@ export const BookingModal: React.FC<ModalProps> = ({
   modalOpen,
   handleOkk,
   handleClose,
-  // tripType,
-  // from,
-  // to,
-  // departure,
-  // returns,
-  // adults,
-  // children,
-  // infants,
-  // cabinClass,
 }) => {
   return (
     <div>
@@ -96,16 +78,6 @@ export const BookingModal: React.FC<ModalProps> = ({
             <h6>05-10-2023</h6>
           </div>
         </div>
-        {/* <div className="grid lg:grid-cols-2">
-          <div className="group">
-            <h6 className="text-sm font-bold capitalize">Departure Date</h6>
-            <h6>01-10-2023</h6>
-          </div>
-          <div className="group">
-            <h6 className="text-sm font-bold capitalize">retrun date</h6>
-            <h6>05-10-2023</h6>
-          </div>
-        </div> */}
         <div className="mt-4">
           <Form
             name="bookingForm"

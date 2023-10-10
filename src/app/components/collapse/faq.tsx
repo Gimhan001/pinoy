@@ -3,7 +3,7 @@ import { CaretRightOutlined } from '@ant-design/icons';
 import type { CSSProperties } from 'react';
 import React from 'react';
 import type { CollapseProps } from 'antd';
-import { Collapse, theme } from 'antd';
+import { Collapse } from 'antd';
 import Faqs from '@/app/utils/json/Faqs.json'
 
     

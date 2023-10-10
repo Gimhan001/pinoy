@@ -17,6 +17,7 @@ const page = () => {
         width={0}
         height={0}
         alt="Popular Destination"
+        placeholder="blur"
         priority
       />
       <div className="container mx-auto text-center mt-4">

@@ -52,28 +52,28 @@ export default function Footer() {
         <div className="p-2">
           <h2 className="text-lg font-bold uppercase mb-4">Connect With Us</h2>
           <div className="mb-3">
-            <Link href="https://www.facebook.com/pinoytravels.uk/" target="_blank">
+            <Link aria-hidden href="https://www.facebook.com/pinoytravels.uk/" target="_blank">
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"
                 icon={faFacebook}
               />
             </Link>
-            <Link href="https://www.instagram.com/pinoy.travels.uk/" target="_blank">
+            <Link aria-hidden href="https://www.instagram.com/pinoy.travels.uk/" target="_blank">
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"
                 icon={faInstagram}
               />
             </Link>
-            <Link href="https://www.youtube.com/channel/UCEVVAsK2H6g4q_WqMjphf4w" target="_blank">
+            <Link aria-hidden href="https://www.youtube.com/channel/UCEVVAsK2H6g4q_WqMjphf4w" target="_blank">
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"
                 icon={faYoutube}
               />
             </Link>
-            <Link href="#" target="_blank">
+            <Link aria-hidden href="https://www.tiktok.com/@pinoy.travels" target="_blank">
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"
@@ -82,7 +82,7 @@ export default function Footer() {
             </Link>
           </div>
           <div>
-            <h4 className="text-base text-white font-bold">We Accept</h4>
+            <p className="text-base text-white font-bold">We Accept</p>
             <Image
               className=""
               src={payment}

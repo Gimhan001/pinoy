@@ -1,21 +1,14 @@
 "use client";
+import React from "react";
+import { FloatButton } from "antd";
 import {
   FacebookFilled,
   InstagramFilled,
   YoutubeFilled,
-  TwitterOutlined,
   PlusOutlined,
   ArrowUpOutlined,
 } from "@ant-design/icons";
-import {
-  faFacebook,
-  faInstagram,
-  faTiktok,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
-import { FloatButton } from "antd";
+
 export default function SocialMedia() {
   return (
     <>

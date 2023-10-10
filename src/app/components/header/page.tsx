@@ -2,18 +2,14 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import navBrand from "@/app/assets/images/navBrand.png";
 import { useState } from "react";
 import type { MenuProps } from "antd";
 import { Dropdown } from "antd";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faTiktok,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
 import { usePathname } from "next/navigation";
+
+import navBrand from "@/app/assets/images/navBrand.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faTiktok, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const items: MenuProps["items"] = [
   {
@@ -83,38 +79,42 @@ export default function Page() {
       </div>
       <div className="sm:flex hidden">
         <div className="text-end">
-          {/* <Link
+          <Link
             className="link"
-            href="https://www.facebook.com"
+            aria-hidden
+            href="https://www.facebook.com/pinoytravels.uk/"
             target="_blank"
           >
             <FontAwesomeIcon className="pr-2" size="sm" icon={faFacebook} />
           </Link>
           <Link
             className="link"
-            href="https://www.facebook.com"
+            aria-hidden
+            href="https://www.instagram.com/pinoy.travels.uk/"
             target="_blank"
           >
             <FontAwesomeIcon className="pr-2" size="sm" icon={faInstagram} />
           </Link>
           <Link
             className="link"
-            href="https://www.facebook.com"
+            aria-hidden
+            href="https://www.tiktok.com/@pinoy.travels"
             target="_blank"
           >
             <FontAwesomeIcon className="pr-2" size="sm" icon={faTiktok} />
           </Link>
           <Link
             className="link"
-            href="https://www.facebook.com"
+            aria-hidden
+            href="https://www.youtube.com/channel/UCEVVAsK2H6g4q_WqMjphf4w"
             target="_blank"
           >
             <FontAwesomeIcon className="" size="sm" icon={faYoutube} />
-          </Link> */}
+          </Link>
           <p>
             <small>
               Call Now
-              <a className="ml-2 link" href="tel:+442038382020">
+              <a aria-hidden className="ml-2 link" href="tel:+442038382020">
               0203 838 2020
               </a>
             </small>

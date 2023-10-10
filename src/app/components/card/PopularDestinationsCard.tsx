@@ -1,9 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
-import PopularDestination from "@/app/utils/json/PopularDestination.json";
-import imgUrl from "@/app/assets/images/1.png";
 import Link from "next/link";
 import { Button } from "antd";
 
@@ -17,9 +14,11 @@ export default function PopularDestinations(props: {
     <div className="group bg-transparent p-3 lg:p-6 rounded-3xl" key={props.id}>
       <picture>
         <img
-          className="mx-auto rounded-3xl mb-3 hover:shadow-2xl"
+          className="lazyloaded mx-auto rounded-3xl mb-3 hover:shadow-2xl"
           src={props.image}
           alt="Popular Destitinations"
+          width="100%"
+          height="100%"
         />
       </picture>
 

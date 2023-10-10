@@ -3,10 +3,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Button } from "antd";
 
 import AgentData from "@/app/utils/json/AgentData.json";
-import AgentCard from "../card/AgentCard";
-import { Button } from "antd";
 
 export default function SimpleSlider() {
   var settings = {
@@ -52,13 +51,13 @@ export default function SimpleSlider() {
       <Slider {...settings}>
         {AgentData.map((data, id) => {
           return (
-            <div className="grid p-6" key={data.id}>
+            <div className="grid p-6" aria-hidden key={data.id}>
               <div
                 className="group border bg-white rounded-2xl p-4"
               >
                 <picture>
                   <img
-                    className="round-card-img rounded-2xl"
+                    className="lazyloaded round-card-img rounded-2xl"
                     alt="Agents"
                     src={data.imageUrl}
                     width={0}
@@ -66,17 +65,18 @@ export default function SimpleSlider() {
                   />
                 </picture>
                 <div className="p-3">
-                  <h4 className="text-base text-center text-pink-700 font-extrabold mb-4">
+                  <h4 className="text-base text-center text-pink-700 font-extrabold mb-2">
                     {data.name}
                   </h4>
-                  <h6 className="text-xs text-center text-blue-800 font-medium mb-2">
+                  <p className="text-xs text-center text-blue-800 font-bold mb-2">
                     {data.language}
-                  </h6>
+                  </p>
                   <div className="flex mt-2 justify-center">
-                    <a href={`tel:${data.contact}`}>
+                    <a area-hidden href={`tel:${data.contact}`}>
                       <Button
                         type="primary"
                         size="small"
+                        area-hidden
                         style={{ fontFamily: "inter" }}
                       >
                         Call Now

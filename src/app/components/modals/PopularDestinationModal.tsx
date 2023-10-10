@@ -1,9 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Modal, Input, Checkbox, Form, Button } from "antd";
-import manila from "@/app/assets/images/loading-icon.gif";
-import Image from "next/image";
+import { Modal, Button } from "antd";
 import EnquiryForm from "../forms/EnquiryForm";
 
 interface ModalProps {
@@ -22,19 +20,6 @@ interface ModalProps {
   airLine: string;
 }
 
-const onFinish = (values: any) => {
-  console.log("Success:", values);
-};
-
-const onFinishFailed = (errorInfo: any) => {
-  console.log("Failed:", errorInfo);
-};
-
-type FieldType = {
-  name?: string;
-  email?: string;
-  mobile?: string;
-};
 
 export const PopularDestinationModal: React.FC<ModalProps> = ({
   id,
@@ -55,10 +40,6 @@ export const PopularDestinationModal: React.FC<ModalProps> = ({
 
   const showModal = () => {
     setIsModalOpen(true);
-  };
-
-  const handleOk = () => {
-    setIsModalOpen(false);
   };
 
   const handleCancel = () => {
@@ -151,17 +132,6 @@ export const PopularDestinationModal: React.FC<ModalProps> = ({
             airLine={airLine}
           />
         </div>
-        {/* <div className="text-end mt-4">
-          <button
-            className="border p-1 px-4 rounded-lg mr-2"
-            onClick={handleCancel}
-          >
-            Cancel
-          </button>
-          <button className="bg-blue-900 hover:bg-blue-700 p-1 px-4 rounded-lg text-white ">
-            Submit
-          </button>
-        </div> */}
       </Modal>
     </div>
   );

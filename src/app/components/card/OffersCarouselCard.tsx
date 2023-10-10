@@ -1,9 +1,6 @@
 "use client";
-import Image from "next/image";
 import React from "react";
-import Manila from "@/app/assets/images/manila.jpg";
-import { Button, Card } from "antd";
-import Offers from "@/app/utils/json/Offers.json";
+
 import { OffersModal } from "../modals/OffersModal";
 
 export default function OffersCard(props: {
@@ -27,7 +24,7 @@ export default function OffersCard(props: {
         <div className="group">
           <picture>
             <img
-              className="offer-card-img rounded-3xl"
+              className="lazyloaded offer-card-img rounded-3xl"
               alt="offers"
               src={props.cardImage}
               width={0}

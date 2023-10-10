@@ -4,9 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import AgentData from "@/app/utils/json/AgentData.json";
-import AgentCard from "../card/AgentCard";
-import OffersCard from "../card/OffersCarouselCard";
 import OffersData from "@/app/utils/json/Offers.json";
 import { OffersModal } from "../modals/OffersModal";
 

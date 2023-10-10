@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
+import { Inter } from "next/font/google";
 import type { RadioChangeEvent } from "antd";
 import {
   Radio,
@@ -8,30 +10,21 @@ import {
   Select,
   Card,
   AutoComplete,
-  Input,
   InputNumber,
   Dropdown,
   MenuProps,
   Space,
-  Form,
-  Modal,
   Button,
 } from "antd";
 import dayjs from "dayjs";
-import customParseFormat from "dayjs/plugin/customParseFormat";
 import type { DatePickerProps } from "antd";
+import type { RangePickerProps } from 'antd/es/date-picker';
 import { DownOutlined, SearchOutlined } from "@ant-design/icons";
-// import { PoweroffOutlined } from '@ant-design/icons';
-import { BookingModal } from "../modals/BookingModal";
-import { Inter } from "next/font/google";
-import Image from "next/image";
 import { faPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import airportList from "@/app/utils/json/AirportList.json";
-import Link from "next/link";
-import type { RangePickerProps } from 'antd/es/date-picker';
 
-const { RangePicker } = DatePicker;
+
+import airportList from "@/app/utils/json/AirportList.json";
 
 const inter = Inter({ subsets: ["latin"] });
 

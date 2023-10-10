@@ -21,6 +21,7 @@ export default function Home() {
         alt="Pinoy"
         width={0}
         height={0}
+        placeholder="blur"
         priority
       />
 
