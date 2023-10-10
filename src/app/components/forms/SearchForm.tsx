@@ -261,7 +261,7 @@ const items: MenuProps["items"] = [
             <div className="group flex rounded-xl border-2 border-slate-700">
               <DatePicker
                 bordered={false}
-                format="DD-MM-YYYY"
+                format="YYYY-MM-DD"
                 placeholder="Departure Date"
                 disabledDate={disabledDateDeparture}
                 // style={{ width: "100%" }}
@@ -269,7 +269,7 @@ const items: MenuProps["items"] = [
               />
               <DatePicker
                 bordered={false}
-                format="DD-MM-YYYY"
+                format="YYYY-MM-DD"
                 placeholder="Return Date"
                 // style={{ width: "100%" }}
                 onChange={onChangeReturn}
