@@ -32,6 +32,10 @@ const BookingForm = ({
   const router = useRouter();
 
   const onFinish = async (data: FieldType) => {
+    if(searchParams.from == "" || searchParams.to == "" || searchParams.departureDate == "" || searchParams.returnDate == "" ) {
+      setIsLoading(false);
+      toast.error("Please Enter the invalid details");
+    } else {
     setIsLoading(true);
     console.log(data);
     const response = await fetch("/api/enquiry", {
@@ -113,6 +117,7 @@ const BookingForm = ({
 
     const leadDetails = await res.json();
     console.log("Lead Details"+ leadDetails);
+  }
   };
 
   const onFinishFailed = (errorInfo: any) => {

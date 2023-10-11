@@ -27,6 +27,7 @@ export default function OffersCard(props: {
               className="lazyloaded offer-card-img rounded-3xl"
               alt="offers"
               src={props.cardImage}
+              loading="lazy"
               width={0}
               height={0}
             />

@@ -72,10 +72,6 @@ body {
 /* background: linear-gradient(61deg, rgba(59,113,246,1) 0%, rgba(59,130,246,1) 18%, rgba(215,122,249,1) 81%, rgba(232,121,249,1) 100%); */
 }
 
-.Poppins {
-  font-family: Inter;
-}
-
 .round-card-img {
   object-fit:cover;
   width: 100%;

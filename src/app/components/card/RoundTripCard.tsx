@@ -3,6 +3,7 @@ import React from "react";
 
 import RoundTrip from "@/app/utils/json/RoundTrip.json";
 import { RoundTripModal } from "../modals/RoundTripModal";
+import Image from "next/image";
 
 export default function RoundTripCard() {
   return (
@@ -15,6 +16,7 @@ export default function RoundTripCard() {
                 className="lazyloaded round-card-img rounded-3xl sm:grid hidden"
                 alt="Round Trip Img"
                 src={data.image}
+                loading="lazy"
                 width={0}
                 height={0}
               />

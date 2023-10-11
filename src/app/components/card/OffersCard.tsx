@@ -19,6 +19,7 @@ export default function OffersCard() {
                   className="lazyloaded offer-card-img rounded-2xl z-40"
                   alt="offers"
                   src={data.image}
+                  loading="lazy"
                   width={0}
                   height={0}
                 />

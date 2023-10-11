@@ -17,6 +17,7 @@ export default function PopularDestinations(props: {
           className="lazyloaded mx-auto rounded-3xl mb-3 hover:shadow-2xl"
           src={props.image}
           alt="Popular Destitinations"
+          loading="lazy"
           width="100%"
           height="100%"
         />

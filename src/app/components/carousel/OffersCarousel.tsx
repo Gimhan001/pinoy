@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import OffersData from "@/app/utils/json/Offers.json";
 import { OffersModal } from "../modals/OffersModal";
 
-export default function SimpleSlider() {
+export default function OffersCarousel() {
   var settings = {
     className: "center",
     centerMode: true,
