@@ -81,7 +81,6 @@ export default function Page() {
         <div className="text-end">
           <Link
             className="link"
-            aria-hidden
             href="https://www.facebook.com/pinoytravels.uk/"
             target="_blank"
           >
@@ -89,7 +88,6 @@ export default function Page() {
           </Link>
           <Link
             className="link"
-            aria-hidden
             href="https://www.instagram.com/pinoy.travels.uk/"
             target="_blank"
           >
@@ -97,7 +95,6 @@ export default function Page() {
           </Link>
           <Link
             className="link"
-            aria-hidden
             href="https://www.tiktok.com/@pinoy.travels"
             target="_blank"
           >
@@ -105,7 +102,6 @@ export default function Page() {
           </Link>
           <Link
             className="link"
-            aria-hidden
             href="https://www.youtube.com/channel/UCEVVAsK2H6g4q_WqMjphf4w"
             target="_blank"
           >
@@ -114,7 +110,7 @@ export default function Page() {
           <p>
             <small>
               Call Now
-              <a aria-hidden className="ml-2 link" href="tel:+442038382020">
+              <a className="ml-2 link" href="tel:+442038382020">
               0203 838 2020
               </a>
             </small>

@@ -7,7 +7,7 @@ import { Button } from "antd";
 
 import AgentData from "@/app/utils/json/AgentData.json";
 
-export default function SimpleSlider() {
+export default function AgentCarousel() {
   var settings = {
     className: "center",
     centerMode: true,
@@ -51,7 +51,7 @@ export default function SimpleSlider() {
       <Slider {...settings}>
         {AgentData.map((data, id) => {
           return (
-            <div className="grid p-6" aria-hidden key={data.id}>
+            <div className="grid p-6" key={data.id}>
               <div
                 className="group border bg-white rounded-2xl p-4"
               >
@@ -72,11 +72,10 @@ export default function SimpleSlider() {
                     {data.language}
                   </p>
                   <div className="flex mt-2 justify-center">
-                    <a area-hidden href={`tel:${data.contact}`}>
+                    <a href={`tel:${data.contact}`}>
                       <Button
                         type="primary"
                         size="small"
-                        area-hidden
                         style={{ fontFamily: "inter" }}
                       >
                         Call Now
