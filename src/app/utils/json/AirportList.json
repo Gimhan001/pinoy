@@ -1,134 +1,39 @@
 [
-  {
-    "id": 1,
-    "code": "(BCD)",
-    "airport": "(BCD) Bacolod - Philippines"
-  },
-  {
-    "id": 2,
-    "code": "(BXU)",
-    "airport": "(BXU) Butuan - Philippines"
-  },
-  {
-    "id": 3,
-    "code": "(CBO)",
-    "airport": "(CBO) Cotabato - Philippines"
-  },
-  {
-    "id": 4,
-    "code": "(CEB)",
-    "airport": "(CEB) Cebu City - Philippines"
-  },
-  {
-    "id": 5,
-    "code": "(CGY)",
-    "airport": "(CGY) Cagayan de Oro - Philippines"
-  },
-  {
-    "id": 6,
-    "code": "(CRK)",
-    "airport": "(CRK) Clark - Philippines"
-  },
-  {
-    "id": 7,
-    "code": "(DGT)",
-    "airport": "(DGT) Dumaguete - Philippines"
-  },
-  {
-    "id": 8,
-    "code": "(DPL)",
-    "airport": "(DPL) Dipolog - Philippines"
-  },
-  {
-    "id": 9,
-    "code": "(DVO)",
-    "airport": "(DVO) Davao - Philippines"
-  },
+  [
+  { "id": 1, "code": "(BCD)", "airport": "(BCD) Bacolod - Philippines" },
+  { "id": 2, "code": "(BXU)", "airport": "(BXU) Butuan - Philippines" },
+  { "id": 3, "code": "(CBO)", "airport": "(CBO) Cotabato - Philippines" },
+  { "id": 4, "code": "(CEB)", "airport": "(CEB) Cebu City - Philippines" },
+  { "id": 5, "code": "(CGY)", "airport": "(CGY) Cagayan de Oro - Philippines" },
+  { "id": 6, "code": "(CRK)", "airport": "(CRK) Clark - Philippines" },
+  { "id": 7, "code": "(DGT)", "airport": "(DGT) Dumaguete - Philippines" },
+  { "id": 8, "code": "(DPL)", "airport": "(DPL) Dipolog - Philippines" },
+  { "id": 9, "code": "(DVO)", "airport": "(DVO) Davao - Philippines" },
   {
     "id": 10,
     "code": "(GES)",
     "airport": "(GES) General Santos - Philippines"
   },
-  {
-    "id": 11,
-    "code": "(ILO)",
-    "airport": "(ILO) Iloilo - Philippines"
-  },
-  {
-    "id": 12,
-    "code": "(KLO)",
-    "airport": "(KLO) Kalibo - Philippines"
-  },
-  {
-    "id": 13,
-    "code": "(LAO)",
-    "airport": "(LAO) Laoag - Philippines"
-  },
-  {
-    "id": 14,
-    "code": "(LGP)",
-    "airport": "(LGP) Legaspi - Philippines"
-  },
-  {
-    "id": 15,
-    "code": "(MNL)",
-    "airport": "(MNL) Manila - Philippines"
-  },
-  {
-    "id": 16,
-    "code": "(MPH)",
-    "airport": "(MPH) Caticlan - Philippines"
-  },
-  {
-    "id": 17,
-    "code": "(OZC)",
-    "airport": "(OZC) Ozamis - Philippines"
-  },
+  { "id": 11, "code": "(ILO)", "airport": "(ILO) Iloilo - Philippines" },
+  { "id": 12, "code": "(KLO)", "airport": "(KLO) Kalibo - Philippines" },
+  { "id": 13, "code": "(LAO)", "airport": "(LAO) Laoag - Philippines" },
+  { "id": 14, "code": "(LGP)", "airport": "(LGP) Legaspi - Philippines" },
+  { "id": 15, "code": "(MNL)", "airport": "(MNL) Manila - Philippines" },
+  { "id": 16, "code": "(MPH)", "airport": "(MPH) Caticlan - Philippines" },
+  { "id": 17, "code": "(OZC)", "airport": "(OZC) Ozamis - Philippines" },
   {
     "id": 18,
     "code": "(PPS)",
     "airport": "(PPS) Puerto Princesa - Philippines"
   },
-  {
-    "id": 19,
-    "code": "(RXS)",
-    "airport": "(RXS) Roxas City - Philippines"
-  },
-  {
-    "id": 20,
-    "code": "(TAC)",
-    "airport": "(TAC) Tacloban - Philippines"
-  },
-  {
-    "id": 21,
-    "code": "(TAG)",
-    "airport": "(TAG) Tagbilaran - Philippines"
-  },
-  {
-    "id": 22,
-    "code": "(TUG)",
-    "airport": "(TUG) Tuguegarao - Philippines"
-  },
-  {
-    "id": 23,
-    "code": "(USU)",
-    "airport": "(USU) Busuanga - Philippines"
-  },
-  {
-    "id": 24,
-    "code": "(WNP)",
-    "airport": "(WNP) Naga - Philippines"
-  },
-  {
-    "id": 25,
-    "code": "(ZAM)",
-    "airport": "(ZAM) Zamboanga - Philippines"
-  },
-  {
-    "id": 26,
-    "code": "(BEB)",
-    "airport": "(BEB) Benbecula - United Kingdom"
-  },
+  { "id": 19, "code": "(RXS)", "airport": "(RXS) Roxas City - Philippines" },
+  { "id": 20, "code": "(TAC)", "airport": "(TAC) Tacloban - Philippines" },
+  { "id": 21, "code": "(TAG)", "airport": "(TAG) Tagbilaran - Philippines" },
+  { "id": 22, "code": "(TUG)", "airport": "(TUG) Tuguegarao - Philippines" },
+  { "id": 23, "code": "(USU)", "airport": "(USU) Busuanga - Philippines" },
+  { "id": 24, "code": "(WNP)", "airport": "(WNP) Naga - Philippines" },
+  { "id": 25, "code": "(ZAM)", "airport": "(ZAM) Zamboanga - Philippines" },
+  { "id": 26, "code": "(BEB)", "airport": "(BEB) Benbecula - United Kingdom" },
   {
     "id": 27,
     "code": "(BFS)",
@@ -144,11 +49,7 @@
     "code": "(BHX)",
     "airport": "(BHX) Birmingham - Birmingham International Airport - United Kingdom"
   },
-  {
-    "id": 30,
-    "code": "(BLK)",
-    "airport": "(BLK) Blackpool - United Kingdom"
-  },
+  { "id": 30, "code": "(BLK)", "airport": "(BLK) Blackpool - United Kingdom" },
   {
     "id": 31,
     "code": "(BOH)",
@@ -159,21 +60,13 @@
     "code": "(BRR)",
     "airport": "(BRR) Barra (the famous tidal beach landing) - United Kingdom"
   },
-  {
-    "id": 33,
-    "code": "(BRS)",
-    "airport": "(BRS) Bristol - United Kingdom"
-  },
+  { "id": 33, "code": "(BRS)", "airport": "(BRS) Bristol - United Kingdom" },
   {
     "id": 34,
     "code": "(CAL)",
     "airport": "(CAL) Campbeltown - United Kingdom"
   },
-  {
-    "id": 35,
-    "code": "(CBG)",
-    "airport": "(CBG) Cambrigde - United Kingdom"
-  },
+  { "id": 35, "code": "(CBG)", "airport": "(CBG) Cambrigde - United Kingdom" },
   {
     "id": 36,
     "code": "(CVT)",
@@ -184,31 +77,19 @@
     "code": "(CWL)",
     "airport": "(CWL) Cardiff - Cardiff Airport - United Kingdom"
   },
-  {
-    "id": 38,
-    "code": "(DND)",
-    "airport": "(DND) Dundee - United Kingdom"
-  },
+  { "id": 38, "code": "(DND)", "airport": "(DND) Dundee - United Kingdom" },
   {
     "id": 39,
     "code": "(DSA)",
-    "airport": "(DSA) Doncaster/Sheffield, Robin Hood International Airport - United Kingdom"
-  },
-  {
-    "id": 40,
-    "code": "(DSA)",
     "airport": "(DSA) Sheffield, Doncaster, Robin Hood International Airport - United Kingdom"
   },
+  { "id": 40, "code": "(EDI)", "airport": "(EDI) Edinburgh - United Kingdom" },
   {
     "id": 41,
     "code": "(EMA)",
     "airport": "(EMA) Nottingham - East Midlands - United Kingdom"
   },
-  {
-    "id": 42,
-    "code": "(EXT)",
-    "airport": "(EXT) Exeter - United Kingdom"
-  },
+  { "id": 42, "code": "(EXT)", "airport": "(EXT) Exeter - United Kingdom" },
   {
     "id": 43,
     "code": "(FIE)",
@@ -219,26 +100,10 @@
     "code": "(FOU)",
     "airport": "(FOU) Foula (Shetland) - United Kingdom"
   },
-  {
-    "id": 45,
-    "code": "(GLA)",
-    "airport": "(GLA) Glasgow - United Kingdom"
-  },
-  {
-    "id": 46,
-    "code": "(HUY)",
-    "airport": "(HUY) Humberside - United Kingdom"
-  },
-  {
-    "id": 47,
-    "code": "(ILY)",
-    "airport": "(ILY) Islay - United Kingdom"
-  },
-  {
-    "id": 48,
-    "code": "(INV)",
-    "airport": "(INV) Inverness - United Kingdom"
-  },
+  { "id": 45, "code": "(GLA)", "airport": "(GLA) Glasgow - United Kingdom" },
+  { "id": 46, "code": "(HUY)", "airport": "(HUY) Humberside - United Kingdom" },
+  { "id": 47, "code": "(ILY)", "airport": "(ILY) Islay - United Kingdom" },
+  { "id": 48, "code": "(INV)", "airport": "(INV) Inverness - United Kingdom" },
   {
     "id": 49,
     "code": "(IOM)",
@@ -247,161 +112,4612 @@
   {
     "id": 50,
     "code": "(KOI)",
-    "airport": "(KOI) Kirkwall (Orkney) - United Kingdom"
-  },
-  {
-    "id": 51,
-    "code": "(KOI)",
     "airport": "(KOI) Orkney - Kirkwall - United Kingdom"
   },
   {
-    "id": 52,
+    "id": 51,
     "code": "(LBA)",
     "airport": "(LBA) Leeds/Bradford - United Kingdom"
   },
   {
-    "id": 53,
+    "id": 52,
     "code": "(LCY)",
     "airport": "(LCY) London - City Airport - United Kingdom"
   },
   {
-    "id": 54,
-    "code": "(LDY)",
-    "airport": "(LDY) Derry (Londonderry) - United Kingdom"
-  },
-  {
-    "id": 55,
+    "id": 53,
     "code": "(LDY)",
     "airport": "(LDY) Londonderry - Eglinton - United Kingdom"
   },
+  { "id": 54, "code": "(LEQ)", "airport": "(LEQ) Land's End - United Kingdom" },
   {
-    "id": 56,
-    "code": "(LEQ)",
-    "airport": "(LEQ) Land's End - United Kingdom"
-  },
-  {
-    "id": 57,
+    "id": 55,
     "code": "(LGW)",
     "airport": "(LGW) London - Gatwick - United Kingdom"
   },
   {
-    "id": 58,
+    "id": 56,
     "code": "(LHR)",
     "airport": "(LHR) London - Heathrow - United Kingdom"
   },
+  { "id": 57, "code": "(LON)", "airport": "(LON) London - United Kingdom" },
+  { "id": 58, "code": "(LPL)", "airport": "(LPL) Liverpool - United Kingdom" },
   {
     "id": 59,
-    "code": "(LON)",
-    "airport": "(LON) London - United Kingdom"
-  },
-  {
-    "id": 60,
-    "code": "(LPL)",
-    "airport": "(LPL) Liverpool - United Kingdom"
-  },
-  {
-    "id": 61,
     "code": "(LSI)",
     "airport": "(LSI) Sumburgh (Shetland) - United Kingdom"
   },
   {
-    "id": 62,
+    "id": 60,
     "code": "(LTN)",
     "airport": "(LTN) London - Luton - United Kingdom"
   },
   {
-    "id": 63,
+    "id": 61,
     "code": "(LWK)",
     "airport": "(LWK) Lerwick/Tingwall (Shetland Islands) - United Kingdom"
   },
   {
-    "id": 64,
+    "id": 62,
     "code": "(LYX)",
     "airport": "(LYX) Lydd - Lydd International Airport - United Kingdom"
   },
+  { "id": 63, "code": "(MAN)", "airport": "(MAN) Manchester - United Kingdom" },
   {
-    "id": 65,
-    "code": "(MAN)",
-    "airport": "(MAN) Manchester - United Kingdom"
-  },
-  {
-    "id": 66,
+    "id": 64,
     "code": "(MME)",
     "airport": "(MME) Teesside, Durham Tees Valley - United Kingdom"
   },
   {
-    "id": 67,
+    "id": 65,
     "code": "(MSE)",
     "airport": "(MSE) Kent (Manston) Kent International - United Kingdom"
   },
-  {
-    "id": 68,
-    "code": "(NCL)",
-    "airport": "(NCL) Newcastle - United Kingdom"
-  },
+  { "id": 66, "code": "(NCL)", "airport": "(NCL) Newcastle - United Kingdom" },
+  { "id": 67, "code": "(NQY)", "airport": "(NQY) Newquay - United Kingdom" },
+  { "id": 68, "code": "(NWI)", "airport": "(NWI) Norwich - United Kingdom" },
   {
     "id": 69,
-    "code": "(NQY)",
-    "airport": "(NQY) Newquay - United Kingdom"
-  },
-  {
-    "id": 70,
-    "code": "(NWI)",
-    "airport": "(NWI) Norwich - United Kingdom"
-  },
-  {
-    "id": 71,
     "code": "(OUK)",
     "airport": "(OUK) Out Skerries (Shetland) - United Kingdom"
   },
   {
-    "id": 72,
+    "id": 70,
     "code": "(PIK)",
     "airport": "(PIK) Glasgow, Prestwick - United Kingdom"
   },
   {
-    "id": 73,
+    "id": 71,
     "code": "(SEN)",
     "airport": "(SEN) Southend (London) - United Kingdom"
   },
   {
-    "id": 74,
+    "id": 72,
     "code": "(SOU)",
     "airport": "(SOU) Southampton - Eastleigh - United Kingdom"
   },
   {
-    "id": 75,
+    "id": 73,
     "code": "(STN)",
     "airport": "(STN) London - Stansted - United Kingdom"
   },
+  { "id": 74, "code": "(SYY)", "airport": "(SYY) Stornway - United Kingdom" },
   {
-    "id": 76,
-    "code": "(STN)",
-    "airport": "(STN) Stansted (London) - United Kingdom"
-  },
-  {
-    "id": 77,
-    "code": "(SYY)",
-    "airport": "(SYY) Stornway - United Kingdom"
-  },
-  {
-    "id": 78,
+    "id": 75,
     "code": "(SZD)",
     "airport": "(SZD) Sheffield, City Airport - United Kingdom"
   },
   {
-    "id": 79,
+    "id": 76,
     "code": "(UNT)",
     "airport": "(UNT) Unst (Shetland Island) - Baltasound Airport - United Kingdom"
   },
-  {
-    "id": 80,
-    "code": "(WIC)",
-    "airport": "(WIC) Wick - United Kingdom"
-  },
+  { "id": 77, "code": "(WIC)", "airport": "(WIC) Wick - United Kingdom" },
+  { "id": 78, "code": "(AAC)", "airport": "(AAC) Al Arish - Egypt" },
+  { "id": 79, "code": "(AAE)", "airport": "(AAE) Annaba - Algeria" },
+  { "id": 80, "code": "(AAL)", "airport": "(AAL) Alborg - Denmark" },
   {
     "id": 81,
+    "code": "(AAN)",
+    "airport": "(AAN) Al Ain - United Arab Emirates"
+  },
+  { "id": 82, "code": "(AAT)", "airport": "(AAT) Altay - PR China" },
+  { "id": 83, "code": "(ABE)", "airport": "(ABE) Allentown (PA) - USA" },
+  { "id": 84, "code": "(ABQ)", "airport": "(ABQ) Albuquerque (NM) - USA" },
+  { "id": 85, "code": "(ABX)", "airport": "(ABX) Albury - Australia" },
+  { "id": 86, "code": "(ABY)", "airport": "(ABY) Albany (GA) - USA" },
+  { "id": 87, "code": "(ACE)", "airport": "(ACE) Arrecife/Lanzarote - Spain" },
+  { "id": 88, "code": "(ACH)", "airport": "(ACH) Altenrhein - Switzerland" },
+  { "id": 89, "code": "(ACI)", "airport": "(ACI) Alderney - Channel Islands" },
+  { "id": 90, "code": "(ACK)", "airport": "(ACK) Nantucket (MA) - USA" },
+  { "id": 91, "code": "(ACT)", "airport": "(ACT) Waco (TX) - USA" },
+  { "id": 92, "code": "(ACV)", "airport": "(ACV) Eureka (CA) - USA" },
+  {
+    "id": 93,
+    "code": "(ACY)",
+    "airport": "(ACY) Atlantic City (NJ) - Atlantic City International - USA"
+  },
+  {
+    "id": 94,
+    "code": "(ADB)",
+    "airport": "(ADB) Izmir - Adnan Menderes Airport - Turkey"
+  },
+  {
+    "id": 95,
+    "code": "(ADJ)",
+    "airport": "(ADJ) Amman - Amman-Marka International Airport - Jordan"
+  },
+  {
+    "id": 96,
+    "code": "(ADL)",
+    "airport": "(ADL) Adelaide International Airport - Australia"
+  },
+  { "id": 97, "code": "(ADQ)", "airport": "(ADQ) Kodiak (AK) - USA" },
+  { "id": 98, "code": "(ADY)", "airport": "(ADY) Alldays - South Africa" },
+  { "id": 99, "code": "(ADZ)", "airport": "(ADZ) San Andres - Colombia" },
+  {
+    "id": 100,
+    "code": "(AEP)",
+    "airport": "(AEP) Buenos Aires, Jorge Newbery - Argentina"
+  },
+  { "id": 101, "code": "(AES)", "airport": "(AES) Alesund - Norway" },
+  { "id": 102, "code": "(AGA)", "airport": "(AGA) Agadir - Morocco" },
+  {
+    "id": 103,
+    "code": "(AGB)",
+    "airport": "(AGB) Augsburg - Augsbur gAirport - Germany"
+  },
+  { "id": 104, "code": "(AGP)", "airport": "(AGP) Malaga - Spain" },
+  { "id": 105, "code": "(AGS)", "airport": "(AGS) Augusta (GA) - USA" },
+  { "id": 106, "code": "(AGU)", "airport": "(AGU) Aguascaliente - Mexico" },
+  { "id": 107, "code": "(AGZ)", "airport": "(AGZ) Aggeneys - South Africa" },
+  {
+    "id": 108,
+    "code": "(AHB)",
+    "airport": "(AHB) Khamis Mushayat - Saudi Arabia"
+  },
+  { "id": 109, "code": "(AHN)", "airport": "(AHN) Athens (GA) - USA" },
+  { "id": 110, "code": "(AHO)", "airport": "(AHO) Alghero Sassari - Italy" },
+  { "id": 111, "code": "(AHU)", "airport": "(AHU) Al Hoceima - Morocco" },
+  { "id": 112, "code": "(AJA)", "airport": "(AJA) Ajaccio - France" },
+  { "id": 113, "code": "(AJF)", "airport": "(AJF) Jouf - Saudi Arabia" },
+  {
+    "id": 114,
+    "code": "(AJN)",
+    "airport": "(AJN) Anjouan - Anjouan Airport - Comoros (Comores)"
+  },
+  { "id": 115, "code": "(AJU)", "airport": "(AJU) Aracaju - Brazil" },
+  {
+    "id": 116,
+    "code": "(AKL)",
+    "airport": "(AKL) Auckland - Auckland International Airport - New Zealand"
+  },
+  { "id": 117, "code": "(AKN)", "airport": "(AKN) King Salomon (AK) - USA" },
+  { "id": 118, "code": "(AKT)", "airport": "(AKT) Akrotiri - RAF - Cyprus" },
+  {
+    "id": 119,
+    "code": "(ALA)",
+    "airport": "(ALA) Almaty (Alma Ata) - Almaty International Airport - Kazakhstan"
+  },
+  {
+    "id": 120,
+    "code": "(ALB)",
+    "airport": "(ALB) Albany (NY) - Albany International Airport - USA"
+  },
+  { "id": 121, "code": "(ALC)", "airport": "(ALC) Alicante - Spain" },
+  { "id": 122, "code": "(ALF)", "airport": "(ALF) Alta - Norway" },
+  {
+    "id": 123,
+    "code": "(ALG)",
+    "airport": "(ALG) Algiers, Houari Boumediene Airport - Algeria"
+  },
+  { "id": 124, "code": "(ALH)", "airport": "(ALH) Albany - Australia" },
+  {
+    "id": 125,
+    "code": "(ALJ)",
+    "airport": "(ALJ) Alexander Bay - Kortdoorn - South Africa"
+  },
+  { "id": 126, "code": "(ALO)", "airport": "(ALO) Waterloo IA - USA" },
+  { "id": 127, "code": "(ALP)", "airport": "(ALP) Aleppo - Syria" },
+  {
+    "id": 128,
+    "code": "(ALV)",
+    "airport": "(ALV) Andorra La Vella - Heliport - Andorra"
+  },
+  { "id": 129, "code": "(ALW)", "airport": "(ALW) Walla Walla (WA) - USA" },
+  {
+    "id": 130,
+    "code": "(ALY)",
+    "airport": "(ALY) Alexandria - El Nhouza Airport - Egypt"
+  },
+  { "id": 131, "code": "(AMA)", "airport": "(AMA) Amarillo (TX) - USA" },
+  { "id": 132, "code": "(AMD)", "airport": "(AMD) Ahmedabad - India" },
+  {
+    "id": 133,
+    "code": "(AMM)",
+    "airport": "(AMM) Amman - Queen Alia International Airport - Jordan"
+  },
+  {
+    "id": 134,
+    "code": "(AMS)",
+    "airport": "(AMS) Amsterdam - Amsterdam Airport Schiphol - Netherlands"
+  },
+  { "id": 135, "code": "(ANB)", "airport": "(ANB) Anniston (AL) - USA" },
+  {
+    "id": 136,
+    "code": "(ANC)",
+    "airport": "(ANC) Anchorage (AK) - Ted Stevens Anchorage International - USA"
+  },
+  { "id": 137, "code": "(ANK)", "airport": "(ANK) Ankara - Turkey" },
+  { "id": 138, "code": "(ANR)", "airport": "(ANR) Antwerp - Belgium" },
+  {
+    "id": 139,
+    "code": "(ANU)",
+    "airport": "(ANU) Antigua, V.C. Bird International - Antigua and Barbuda"
+  },
+  {
+    "id": 140,
+    "code": "(AOI)",
+    "airport": "(AOI) Ancona - Ancona Falconara Airport - Italy"
+  },
+  { "id": 141, "code": "(AOJ)", "airport": "(AOJ) Aomori - Japan" },
+  { "id": 142, "code": "(AOK)", "airport": "(AOK) Karpathos - Greece" },
+  { "id": 143, "code": "(AOO)", "airport": "(AOO) Altoona (PA) - USA" },
+  { "id": 144, "code": "(APF)", "airport": "(APF) Naples (FL) - USA" },
+  {
+    "id": 145,
+    "code": "(APW)",
+    "airport": "(APW) Apia - Faleolo International Airport - Samoa"
+  },
+  { "id": 146, "code": "(AQJ)", "airport": "(AQJ) Aqaba - Jordan" },
+  { "id": 147, "code": "(ARB)", "airport": "(ARB) Ann Arbor (MI) - USA" },
+  { "id": 148, "code": "(ARH)", "airport": "(ARH) Arkhangelsk - Russia" },
+  { "id": 149, "code": "(ARK)", "airport": "(ARK) Arusha - Tanzania" },
+  {
+    "id": 150,
+    "code": "(ARN)",
+    "airport": "(ARN) Stockholm - Arlanda - Sweden"
+  },
+  {
+    "id": 151,
+    "code": "(ASB)",
+    "airport": "(ASB) Ashgabat - Saparmurat Turkmenbashy Int. Airport - Turkmenistan"
+  },
+  {
+    "id": 152,
+    "code": "(ASE)",
+    "airport": "(ASE) Aspen, (CO) - Aspen-Pitkin County Airport - USA"
+  },
+  { "id": 153, "code": "(ASJ)", "airport": "(ASJ) Amami - Japan" },
+  {
+    "id": 154,
+    "code": "(ASK)",
+    "airport": "(ASK) Yamoussoukro - Côte d'Ivoire"
+  },
+  {
+    "id": 155,
+    "code": "(ASM)",
+    "airport": "(ASM) Asmara - Asmara International - Eritrea"
+  },
+  { "id": 156, "code": "(ASP)", "airport": "(ASP) Alice Springs - Australia" },
+  { "id": 157, "code": "(ASR)", "airport": "(ASR) Kayseri - Turkey" },
+  {
+    "id": 158,
+    "code": "(ASU)",
+    "airport": "(ASU) Asuncion - Asunción International Airport - Paraguay"
+  },
+  {
+    "id": 159,
+    "code": "(ASW)",
+    "airport": "(ASW) Aswan - Daraw Airport - Egypt"
+  },
+  {
+    "id": 160,
+    "code": "(ATH)",
+    "airport": "(ATH) Athens - Elefthérios Venizélos International Airport - Greece"
+  },
+  {
+    "id": 161,
+    "code": "(ATL)",
+    "airport": "(ATL) Atlanta (GA) - Hartsfield Atlanta International Airport - USA"
+  },
+  { "id": 162, "code": "(ATO)", "airport": "(ATO) Athens (OH) - USA" },
+  { "id": 163, "code": "(ATQ)", "airport": "(ATQ) Amritsar - India" },
+  {
+    "id": 164,
+    "code": "(ATW)",
+    "airport": "(ATW) Appelton/Neenah/Menasha (WI) - USA"
+  },
+  { "id": 165, "code": "(ATY)", "airport": "(ATY) Watertown (SD) - USA" },
+  { "id": 166, "code": "(ATZ)", "airport": "(ATZ) Assiut - Egypt" },
+  {
+    "id": 167,
+    "code": "(AUA)",
+    "airport": "(AUA) Aruba - Reina Beatrix International, Oranjestad - Aruba"
+  },
+  {
+    "id": 168,
+    "code": "(AUG)",
+    "airport": "(AUG) Augusta (ME) - Augusta State Airport - USA"
+  },
+  { "id": 169, "code": "(AUR)", "airport": "(AUR) Aurillac - France" },
+  {
+    "id": 170,
+    "code": "(AUS)",
+    "airport": "(AUS) Austin (TX) - Austin-Bergstrom Airport - USA"
+  },
+  { "id": 171, "code": "(AVL)", "airport": "(AVL) Asheville (NC) - USA" },
+  {
+    "id": 172,
+    "code": "(AVP)",
+    "airport": "(AVP) Wilkes Barre/Scranton (PA) - USA"
+  },
+  { "id": 173, "code": "(AXA)", "airport": "(AXA) Anguilla - Anguilla" },
+  { "id": 174, "code": "(AXS)", "airport": "(AXS) Altus - USA" },
+  { "id": 175, "code": "(AXT)", "airport": "(AXT) Akita - Japan" },
+  { "id": 176, "code": "(AYT)", "airport": "(AYT) Antalya - Turkey" },
+  { "id": 177, "code": "(AYU)", "airport": "(AYU) Aiyura - Papua New Guinea" },
+  { "id": 178, "code": "(AYW)", "airport": "(AYW) Ayawasi - Indonesia" },
+  {
+    "id": 179,
+    "code": "(AZB)",
+    "airport": "(AZB) Amazon Bay - Papua New Guinea"
+  },
+  {
+    "id": 180,
+    "code": "(AZO)",
+    "airport": "(AZO) Kalamazoo/Battle Creek (MI) - USA"
+  },
+  {
+    "id": 181,
+    "code": "(AZP)",
+    "airport": "(AZP) Mexico City - Atizapan - Mexico"
+  },
+  {
+    "id": 182,
+    "code": "(AZS)",
+    "airport": "(AZS) Samana - Samaná El Catey International Airport - Dominican Republic"
+  },
+  {
+    "id": 183,
+    "code": "(BAH)",
+    "airport": "(BAH) Bahrain - Bahrain International Airport - Bahrain"
+  },
+  {
+    "id": 184,
+    "code": "(BAK)",
+    "airport": "(BAK) Baku - Heydar Aliyev International Airport - Azerbaijan"
+  },
+  { "id": 185, "code": "(BAQ)", "airport": "(BAQ) Barranquilla - Colombia" },
+  { "id": 186, "code": "(BBI)", "airport": "(BBI) Bhubaneswar - India" },
+  {
+    "id": 187,
+    "code": "(BBT)",
+    "airport": "(BBT) Berberati - Central African Republic"
+  },
+  {
+    "id": 188,
+    "code": "(BBY)",
+    "airport": "(BBY) Bambari - Central African Republic"
+  },
+  { "id": 189, "code": "(BCN)", "airport": "(BCN) Barcelona - Spain" },
+  {
+    "id": 190,
+    "code": "(BCO)",
+    "airport": "(BCO) Jinka - Baco/Jinka Airport - Ethiopia"
+  },
+  {
+    "id": 191,
+    "code": "(BDA)",
+    "airport": "(BDA) Bermuda - L.F. Wade International Airport - Bermuda"
+  },
+  {
+    "id": 192,
+    "code": "(BDL)",
+    "airport": "(BDL) Hartford (CT) /Springfield (MA) - USA"
+  },
+  {
+    "id": 193,
+    "code": "(BDO)",
+    "airport": "(BDO) Bandung - Husein Sastranegara International Airport - Indonesia"
+  },
+  { "id": 194, "code": "(BDQ)", "airport": "(BDQ) Baroda - India" },
+  { "id": 195, "code": "(BDR)", "airport": "(BDR) Bridgeport (CT) - USA" },
+  { "id": 196, "code": "(BDS)", "airport": "(BDS) Brindisi - Italy" },
+  { "id": 197, "code": "(BDU)", "airport": "(BDU) Bardufoss - Norway" },
+  {
+    "id": 198,
+    "code": "(BEG)",
+    "airport": "(BEG) Belgrad (Beograd) - Belgrade Nikola Tesla International - Serbia"
+  },
+  { "id": 199, "code": "(BEH)", "airport": "(BEH) Benton Harbour (MI) - USA" },
+  {
+    "id": 200,
+    "code": "(BEL)",
+    "airport": "(BEL) Belem - Val de Cans International Airport - Brazil"
+  },
+  { "id": 201, "code": "(BEN)", "airport": "(BEN) Benghazi (Bengasi) - Libya" },
+  {
+    "id": 202,
+    "code": "(BEO)",
+    "airport": "(BEO) Newcastle - Belmont - Australia"
+  },
+  { "id": 203, "code": "(BER)", "airport": "(BER) Berlin - Germany" },
+  { "id": 204, "code": "(BES)", "airport": "(BES) Brest - France" },
+  { "id": 205, "code": "(BET)", "airport": "(BET) Bethel (AK) - USA" },
+  { "id": 206, "code": "(BEW)", "airport": "(BEW) Beira - Mozambique" },
+  {
+    "id": 207,
+    "code": "(BEY)",
+    "airport": "(BEY) Beirut - Beirut Rafic Hariri International Airport - Lebanon"
+  },
+  {
+    "id": 208,
+    "code": "(BFD)",
+    "airport": "(BFD) Bradford/Warren (PA) /Olean (NY) - USA"
+  },
+  { "id": 209, "code": "(BFL)", "airport": "(BFL) Bakersfield (CA) - USA" },
+  {
+    "id": 210,
+    "code": "(BFN)",
+    "airport": "(BFN) Bloemfontein - Bloemfontein Airport - South Africa"
+  },
+  { "id": 211, "code": "(BFO)", "airport": "(BFO) Buffalo Range - Zimbabwe" },
+  { "id": 212, "code": "(BGA)", "airport": "(BGA) Bucaramanga - Colombia" },
+  {
+    "id": 213,
+    "code": "(BGF)",
+    "airport": "(BGF) Bangui - M'Poko International Airport - Central African Republic"
+  },
+  {
+    "id": 214,
+    "code": "(BGI)",
+    "airport": "(BGI) Bridgetown - Grantley Adams International - Barbados"
+  },
+  {
+    "id": 215,
+    "code": "(BGM)",
+    "airport": "(BGM) Johnson City (NY) - Binghamton/Endicott/Johnson - USA"
+  },
+  { "id": 216, "code": "(BGO)", "airport": "(BGO) Bergen - Norway" },
+  { "id": 217, "code": "(BGR)", "airport": "(BGR) Bangor (ME) - USA" },
+  {
+    "id": 218,
+    "code": "(BGU)",
+    "airport": "(BGU) Bangassou - Central African Republic"
+  },
+  {
+    "id": 219,
+    "code": "(BGW)",
+    "airport": "(BGW) Bagdad - Baghdad International Airport - Iraq"
+  },
+  {
+    "id": 220,
+    "code": "(BGY)",
+    "airport": "(BGY) Bergamo/Milan - Orio Al Serio - Italy"
+  },
+  { "id": 221, "code": "(BHC)", "airport": "(BHC) Bullhead City (NV) - USA" },
+  { "id": 222, "code": "(BHE)", "airport": "(BHE) Blenheim - New Zealand" },
+  { "id": 223, "code": "(BHM)", "airport": "(BHM) Birmingham (AL) - USA" },
+  { "id": 224, "code": "(BHO)", "airport": "(BHO) Bhopal - India" },
+  { "id": 225, "code": "(BHV)", "airport": "(BHV) Bahawalpur - Pakistan" },
+  { "id": 226, "code": "(BIA)", "airport": "(BIA) Bastia - France" },
+  { "id": 227, "code": "(BIL)", "airport": "(BIL) Billings (MT) - USA" },
+  { "id": 228, "code": "(BIO)", "airport": "(BIO) Bilbao - Spain" },
+  { "id": 229, "code": "(BIQ)", "airport": "(BIQ) Biarritz - France" },
+  {
+    "id": 230,
+    "code": "(BIS)",
+    "airport": "(BIS) Bismarck (ND) - Bismarck Municipal Airport - USA"
+  },
+  {
+    "id": 231,
+    "code": "(BIV)",
+    "airport": "(BIV) Bria - Central African Republic"
+  },
+  { "id": 232, "code": "(BJI)", "airport": "(BJI) Bemidji (MN) - USA" },
+  {
+    "id": 233,
+    "code": "(BJL)",
+    "airport": "(BJL) Banjul - Banjul International Airport (Yundum International) - Gambia"
+  },
+  {
+    "id": 234,
+    "code": "(BJM)",
+    "airport": "(BJM) Bujumbura - Bujumbura International Airport - Burundi"
+  },
+  {
+    "id": 235,
+    "code": "(BJV)",
+    "airport": "(BJV) Bodrum - Milas Airport - Turkey"
+  },
+  { "id": 236, "code": "(BJX)", "airport": "(BJX) Leon - Mexico" },
+  { "id": 237, "code": "(BJZ)", "airport": "(BJZ) Badajoz - Spain" },
+  { "id": 238, "code": "(BKI)", "airport": "(BKI) Kota Kinabalu - Malaysia" },
+  {
+    "id": 239,
+    "code": "(BKK)",
+    "airport": "(BKK) Bangkok, Suvarnabhumi International - Thailand"
+  },
+  {
+    "id": 240,
+    "code": "(BKL)",
+    "airport": "(BKL) Cleveland (OH) , Burke Lakefront - USA"
+  },
+  {
+    "id": 241,
+    "code": "(BKO)",
+    "airport": "(BKO) Bamako - Bamako-Sénou International Airport - Mali"
+  },
+  { "id": 242, "code": "(BKW)", "airport": "(BKW) Beckley (WV) - USA" },
+  { "id": 243, "code": "(BKX)", "airport": "(BKX) Brookings (SD) - USA" },
+  { "id": 244, "code": "(BLA)", "airport": "(BLA) Barcelona - Venezuela" },
+  { "id": 245, "code": "(BLF)", "airport": "(BLF) Bluefield (WV) - USA" },
+  { "id": 246, "code": "(BLI)", "airport": "(BLI) Bellingham (WA) - USA" },
+  { "id": 247, "code": "(BLL)", "airport": "(BLL) Billund - Denmark" },
+  { "id": 248, "code": "(BLQ)", "airport": "(BLQ) Bologna - Italy" },
+  { "id": 249, "code": "(BLR)", "airport": "(BLR) Bangalore - India" },
+  {
+    "id": 250,
+    "code": "(BLZ)",
+    "airport": "(BLZ) Blantyre (Mandala) - Chileka International Airport - Malawi"
+  },
+  {
+    "id": 251,
+    "code": "(BMA)",
+    "airport": "(BMA) Stockholm - Bromma - Sweden"
+  },
+  { "id": 252, "code": "(BMG)", "airport": "(BMG) Bloomington (IN) - USA" },
+  { "id": 253, "code": "(BMI)", "airport": "(BMI) Bloomington (IL) - USA" },
+  { "id": 254, "code": "(BNA)", "airport": "(BNA) Nashville (TN) - USA" },
+  { "id": 255, "code": "(BNE)", "airport": "(BNE) Brisbane - Australia" },
+  { "id": 256, "code": "(BNN)", "airport": "(BNN) Broennoeysund - Norway" },
+  { "id": 257, "code": "(BNP)", "airport": "(BNP) Bannu - Pakistan" },
+  {
+    "id": 258,
+    "code": "(BOB)",
+    "airport": "(BOB) Bora Bora - French Polynesia"
+  },
+  {
+    "id": 259,
+    "code": "(BOD)",
+    "airport": "(BOD) Bordeaux - Bordeaux Airport - France"
+  },
+  {
+    "id": 260,
+    "code": "(BOG)",
+    "airport": "(BOG) Bogota - El Nuevo Dorado International Airport - Colombia"
+  },
+  {
+    "id": 261,
+    "code": "(BOI)",
+    "airport": "(BOI) Boise (ID) - Boise Air Terminal - USA"
+  },
+  { "id": 262, "code": "(BOJ)", "airport": "(BOJ) Bourgas/Burgas - Bulgaria" },
+  {
+    "id": 263,
+    "code": "(BOM)",
+    "airport": "(BOM) Bombay (Mumbai) - Chhatrapati Shivaji International - India"
+  },
+  {
+    "id": 264,
+    "code": "(BON)",
+    "airport": "(BON) Bonaire - Netherlands Antilles"
+  },
+  { "id": 265, "code": "(BOO)", "airport": "(BOO) Bodo - Norway" },
+  {
+    "id": 266,
+    "code": "(BOS)",
+    "airport": "(BOS) Boston (MA) - General Edward Lawrence Logan - USA"
+  },
+  {
+    "id": 267,
+    "code": "(BOY)",
+    "airport": "(BOY) Bobo/Dioulasso - Burkina Faso"
+  },
+  {
+    "id": 268,
+    "code": "(BPT)",
+    "airport": "(BPT) Beaumont/Pt. Arthur (TX) - USA"
+  },
+  { "id": 269, "code": "(BQK)", "airport": "(BQK) Brunswick (GA) - USA" },
+  { "id": 270, "code": "(BQN)", "airport": "(BQN) Aguadilla - Puerto Rico" },
+  {
+    "id": 271,
+    "code": "(BRC)",
+    "airport": "(BRC) San Carlos de Bariloche - Argentina"
+  },
+  { "id": 272, "code": "(BRD)", "airport": "(BRD) Brainerd (MN) - USA" },
+  {
+    "id": 273,
+    "code": "(BRE)",
+    "airport": "(BRE) Bremen - Bremen Airport (Flughafen Bremen) - Germany"
+  },
+  { "id": 274, "code": "(BRI)", "airport": "(BRI) Bari - Italy" },
+  { "id": 275, "code": "(BRL)", "airport": "(BRL) Burlington IA - USA" },
+  {
+    "id": 276,
+    "code": "(BRN)",
+    "airport": "(BRN) Berne, Bern-Belp - Switzerland"
+  },
+  {
+    "id": 277,
+    "code": "(BRU)",
+    "airport": "(BRU) Brussels - Brussels Airport - Belgium"
+  },
+  {
+    "id": 278,
+    "code": "(BSB)",
+    "airport": "(BSB) Brasilia - President Juscelino Kubitschek International - Brazil"
+  },
+  { "id": 279, "code": "(BSL)", "airport": "(BSL) Basel - Switzerland" },
+  { "id": 280, "code": "(BSR)", "airport": "(BSR) Basra, Basrah - Iraq" },
+  { "id": 281, "code": "(BTM)", "airport": "(BTM) Butte (MT) - USA" },
+  {
+    "id": 282,
+    "code": "(BTR)",
+    "airport": "(BTR) Baton Rouge (LA) - Baton Rouge Metropolitan Airport - USA"
+  },
+  {
+    "id": 283,
+    "code": "(BTS)",
+    "airport": "(BTS) Bratislava - M. R. Štefánik Airport - Slovakia"
+  },
+  { "id": 284, "code": "(BTU)", "airport": "(BTU) Bintulu - Malaysia" },
+  { "id": 285, "code": "(BTV)", "airport": "(BTV) Burlington (VT) - USA" },
+  {
+    "id": 286,
+    "code": "(BUD)",
+    "airport": "(BUD) Budapest - Budapest Ferihegy International Airport - Hungary"
+  },
+  { "id": 287, "code": "(BUE)", "airport": "(BUE) Buenos Aires - Argentina" },
+  {
+    "id": 288,
+    "code": "(BUF)",
+    "airport": "(BUF) Buffalo/Niagara Falls (NY) - USA"
+  },
+  { "id": 289, "code": "(BUG)", "airport": "(BUG) Benguela - Angola" },
+  { "id": 290, "code": "(BUH)", "airport": "(BUH) Bucharest - Romania" },
+  { "id": 291, "code": "(BUQ)", "airport": "(BUQ) Bulawayo - Zimbabwe" },
+  { "id": 292, "code": "(BUR)", "airport": "(BUR) Burbank (CA) - USA" },
+  { "id": 293, "code": "(BVB)", "airport": "(BVB) Boa Vista - Brazil" },
+  {
+    "id": 294,
+    "code": "(BWI)",
+    "airport": "(BWI) Baltimore (MD) - Washington International Airport - USA"
+  },
+  {
+    "id": 295,
+    "code": "(BWN)",
+    "airport": "(BWN) Bandar Seri Begawan - Brunei International Airport - Brunei"
+  },
+  {
+    "id": 296,
+    "code": "(BXO)",
+    "airport": "(BXO) Bissau - Osvaldo Vieiro International Airport - Guinea-Bissau"
+  },
+  { "id": 297, "code": "(BXS)", "airport": "(BXS) Borrego Springs (CA) - USA" },
+  { "id": 298, "code": "(BYK)", "airport": "(BYK) Bouake - Cote d'Ivoire" },
+  {
+    "id": 299,
+    "code": "(BYU)",
+    "airport": "(BYU) Bayreuth - Bindlacher-Berg - Germany"
+  },
+  {
+    "id": 300,
+    "code": "(BZE)",
+    "airport": "(BZE) Belize City - Philip S.W.Goldson International - Belize"
+  },
+  { "id": 301, "code": "(BZL)", "airport": "(BZL) Barisal - Bangladesh" },
+  { "id": 302, "code": "(BZN)", "airport": "(BZN) Bozeman (MT) - USA" },
+  {
+    "id": 303,
+    "code": "(BZV)",
+    "airport": "(BZV) Brazzaville - Maya-Maya Airport - Congo (ROC)"
+  },
+  { "id": 304, "code": "(CAB)", "airport": "(CAB) Cabinda - Angola" },
+  {
+    "id": 305,
+    "code": "(CAE)",
+    "airport": "(CAE) Columbia (SC) - Columbia Metropolitan Airport - USA"
+  },
+  { "id": 306, "code": "(CAG)", "airport": "(CAG) Cagliari - Italy" },
+  {
+    "id": 307,
+    "code": "(CAI)",
+    "airport": "(CAI) Cairo - Cairo International Airport - Egypt"
+  },
+  { "id": 308, "code": "(CAK)", "airport": "(CAK) Akron (OH) - USA" },
+  {
+    "id": 309,
+    "code": "(CAN)",
+    "airport": "(CAN) Guangzhou (Canton) - Baiyun International Airport - Guangdong, PR China"
+  },
+  { "id": 310, "code": "(CAS)", "airport": "(CAS) Casablanca - Morocco" },
+  {
+    "id": 311,
+    "code": "(CAY)",
+    "airport": "(CAY) Cayenne - Cayenne-Rochambeau Airport - French Guiana"
+  },
+  { "id": 312, "code": "(CBB)", "airport": "(CBB) Cochabamba - Bolivia" },
+  {
+    "id": 313,
+    "code": "(CBR)",
+    "airport": "(CBR) Canberra - Canberra Airport - Australia"
+  },
+  {
+    "id": 314,
+    "code": "(CBU)",
+    "airport": "(CBU) Cottbus - Cottbus-Drewitz Airport - Germany"
+  },
+  { "id": 315, "code": "(CCJ)", "airport": "(CCJ) Calicut - India" },
+  {
+    "id": 316,
+    "code": "(CCR)",
+    "airport": "(CCR) Concord (CA) - Buchanan Field - USA"
+  },
+  {
+    "id": 317,
+    "code": "(CCS)",
+    "airport": "(CCS) Caracas - Simón Bolívar International Airport - Venezuela"
+  },
+  {
+    "id": 318,
+    "code": "(CCU)",
+    "airport": "(CCU) Calcutta (Kolkata) - Netaji Subhas Chandra - India"
+  },
+  { "id": 319, "code": "(CCZ)", "airport": "(CCZ) Chub Cay - Bahamas" },
+  { "id": 320, "code": "(CDC)", "airport": "(CDC) Cedar City (UT) - USA" },
+  {
+    "id": 321,
+    "code": "(CDG)",
+    "airport": "(CDG) Paris - Charles de Gaulle - France"
+  },
+  { "id": 322, "code": "(CDV)", "airport": "(CDV) Cordova (AK) - USA" },
+  { "id": 323, "code": "(CEC)", "airport": "(CEC) Crescent City (CA) - USA" },
+  { "id": 324, "code": "(CEN)", "airport": "(CEN) Ciudad Obregon - Mexico" },
+  {
+    "id": 325,
+    "code": "(CEQ)",
+    "airport": "(CEQ) Cannes - Mandelieu Airport - France"
+  },
+  { "id": 326, "code": "(CFE)", "airport": "(CFE) Clermont Ferrand - France" },
+  {
+    "id": 327,
+    "code": "(CFG)",
+    "airport": "(CFG) Cienfuegos - Jaime González Airport - Cuba"
+  },
+  {
+    "id": 328,
+    "code": "(CFN)",
+    "airport": "(CFN) Donegal (Carrickfin) - Ireland"
+  },
+  { "id": 329, "code": "(CFU)", "airport": "(CFU) Corfu - Greece" },
+  { "id": 330, "code": "(CGA)", "airport": "(CGA) Craig (AK) - USA" },
+  {
+    "id": 331,
+    "code": "(CGB)",
+    "airport": "(CGB) Cuiaba - Marechal Rondon International Airport - Brazil"
+  },
+  {
+    "id": 332,
+    "code": "(CGH)",
+    "airport": "(CGH) Sao Paulo - Congonhas - Brazil"
+  },
+  {
+    "id": 333,
+    "code": "(CGK)",
+    "airport": "(CGK) Jakarta - Soekarno-Hatta International - Indonesia"
+  },
+  {
+    "id": 334,
+    "code": "(CGN)",
+    "airport": "(CGN) Cologne - Cologne Airport (Flughafen Köln/Bonn) - Germany"
+  },
+  { "id": 335, "code": "(CGP)", "airport": "(CGP) Chittagong - Bangladesh" },
+  {
+    "id": 336,
+    "code": "(CGQ)",
+    "airport": "(CGQ) Changchun - Jilin, PR China"
+  },
+  { "id": 337, "code": "(CGR)", "airport": "(CGR) Campo Grande - Brazil" },
+  { "id": 338, "code": "(CGU)", "airport": "(CGU) Ciudad Guayana - Venezuela" },
+  { "id": 339, "code": "(CHA)", "airport": "(CHA) Chattanooga (TN) - USA" },
+  { "id": 340, "code": "(CHC)", "airport": "(CHC) Christchurch - New Zealand" },
+  {
+    "id": 341,
+    "code": "(CHG)",
+    "airport": "(CHG) Chaoyang, Beijing - Chaoyang Airport - PR China"
+  },
+  { "id": 342, "code": "(CHI)", "airport": "(CHI) Chicago (IL) - USA" },
+  { "id": 343, "code": "(CHO)", "airport": "(CHO) Charlottesville (VA) - USA" },
+  { "id": 344, "code": "(CHQ)", "airport": "(CHQ) Chania - Greece" },
+  { "id": 345, "code": "(CHS)", "airport": "(CHS) Charleston (SC) - USA" },
+  { "id": 346, "code": "(CIA)", "airport": "(CIA) Rome - Ciampino - Italy" },
+  { "id": 347, "code": "(CIC)", "airport": "(CIC) Chico (CA) - USA" },
+  { "id": 348, "code": "(CID)", "airport": "(CID) Cedar Rapids IA - USA" },
+  { "id": 349, "code": "(CIP)", "airport": "(CIP) Chipata - Zambia" },
+  {
+    "id": 350,
+    "code": "(CIW)",
+    "airport": "(CIW) Canouan (island) - Canouan Airport - Saint Vincent & the Grenadines"
+  },
+  { "id": 351, "code": "(CJB)", "airport": "(CJB) Coimbatore - India" },
+  { "id": 352, "code": "(CJC)", "airport": "(CJC) Calama - El Loa - Chile" },
+  { "id": 353, "code": "(CJL)", "airport": "(CJL) Chitral - Pakistan" },
+  { "id": 354, "code": "(CJS)", "airport": "(CJS) Ciudad Juarez - Mexico" },
+  { "id": 355, "code": "(CKB)", "airport": "(CKB) Clarksburg (WV) - USA" },
+  {
+    "id": 356,
+    "code": "(CKG)",
+    "airport": "(CKG) Chongqing - Jiangbei International Airport - Sichuan, PR China"
+  },
+  {
+    "id": 357,
+    "code": "(CKY)",
+    "airport": "(CKY) Conakry - Conakry International Airport - Guinea"
+  },
+  { "id": 358, "code": "(CLD)", "airport": "(CLD) Carlsbad (CA) - USA" },
+  {
+    "id": 359,
+    "code": "(CLE)",
+    "airport": "(CLE) Cleveland (OH) - Cleveland Hopkins International - USA"
+  },
+  {
+    "id": 360,
+    "code": "(CLL)",
+    "airport": "(CLL) College Station/Bryan (TX) - USA"
+  },
+  { "id": 361, "code": "(CLM)", "airport": "(CLM) Port Angeles (WA) - USA" },
+  { "id": 362, "code": "(CLO)", "airport": "(CLO) Cali - Colombia" },
+  { "id": 363, "code": "(CLQ)", "airport": "(CLQ) Colima - Mexico" },
+  { "id": 364, "code": "(CLT)", "airport": "(CLT) Charlotte (NC) - USA" },
+  { "id": 365, "code": "(CLY)", "airport": "(CLY) Calvi - France" },
+  {
+    "id": 366,
+    "code": "(CMB)",
+    "airport": "(CMB) Colombo - Bandaranaike International Airport - Sri Lanka"
+  },
+  { "id": 367, "code": "(CME)", "airport": "(CME) Ciudad Del Carmen - Mexico" },
+  { "id": 368, "code": "(CMF)", "airport": "(CMF) Chambery - France" },
+  {
+    "id": 369,
+    "code": "(CMH)",
+    "airport": "(CMH) Columbus (OH) - Port Columbus International - USA"
+  },
+  { "id": 370, "code": "(CMI)", "airport": "(CMI) Champaign (IL) - USA" },
+  {
+    "id": 371,
+    "code": "(CMN)",
+    "airport": "(CMN) Casablanca, Mohamed V - Morocco"
+  },
+  { "id": 372, "code": "(CMX)", "airport": "(CMX) Hancock (MI) - USA" },
+  {
+    "id": 373,
+    "code": "(CND)",
+    "airport": "(CND) Constanta (Constanța) - Constanta Int'l Airport - Romania"
+  },
+  {
+    "id": 374,
+    "code": "(CNF)",
+    "airport": "(CNF) Belo Horizonte - Tancredo Neves International Airport - Brazil"
+  },
+  { "id": 375, "code": "(CNS)", "airport": "(CNS) Cairns - Australia" },
+  {
+    "id": 376,
+    "code": "(CNX)",
+    "airport": "(CNX) Chiang Mai - Chiang Mai International Airport - Thailand"
+  },
+  {
+    "id": 377,
+    "code": "(COD)",
+    "airport": "(COD) Cody/Powell/Yellowstone (WY) - USA"
+  },
+  { "id": 378, "code": "(COK)", "airport": "(COK) Cochin - India" },
+  {
+    "id": 379,
+    "code": "(CON)",
+    "airport": "(CON) Concord (NH) - Concord Municipal Airport - USA"
+  },
+  {
+    "id": 380,
+    "code": "(COO)",
+    "airport": "(COO) Cotonou - Cotonou Cadjehoun Airport - Benin"
+  },
+  { "id": 381, "code": "(COR)", "airport": "(COR) Cordoba - Argentina" },
+  {
+    "id": 382,
+    "code": "(COS)",
+    "airport": "(COS) Colorado Springs (CO) - USA"
+  },
+  {
+    "id": 383,
+    "code": "(CPH)",
+    "airport": "(CPH) Copenhagen - Copenhagen Airport - Denmark"
+  },
+  { "id": 384, "code": "(CPR)", "airport": "(CPR) Casper (WY) - USA" },
+  {
+    "id": 385,
+    "code": "(CPT)",
+    "airport": "(CPT) Cape Town - Cape Town International Airport - South Africa"
+  },
+  {
+    "id": 386,
+    "code": "(CRE)",
+    "airport": "(CRE) Myrtle Beach (SC) - Grand Strand Airport - USA"
+  },
+  {
+    "id": 387,
+    "code": "(CRF)",
+    "airport": "(CRF) Carnot - Central African Republic"
+  },
+  {
+    "id": 388,
+    "code": "(CRG)",
+    "airport": "(CRG) Jacksonville (FL) - Craig Municipal - USA"
+  },
+  { "id": 389, "code": "(CRP)", "airport": "(CRP) Corpus Christi (TX) - USA" },
+  {
+    "id": 390,
+    "code": "(CRW)",
+    "airport": "(CRW) Charleston (WV) - Yeager Airport - USA"
+  },
+  { "id": 391, "code": "(CSG)", "airport": "(CSG) Columbus (GA) - USA" },
+  { "id": 392, "code": "(CSN)", "airport": "(CSN) Carson City (NV) - USA" },
+  { "id": 393, "code": "(CST)", "airport": "(CST) Castaway - Fiji" },
+  { "id": 394, "code": "(CTA)", "airport": "(CTA) Catania - Italy" },
+  {
+    "id": 395,
+    "code": "(CTG)",
+    "airport": "(CTG) Cartagena - Rafael Núñez International Airport - Colombia"
+  },
+  {
+    "id": 396,
+    "code": "(CTS)",
+    "airport": "(CTS) Sapporo - New Chitose Airport - Japan"
+  },
+  {
+    "id": 397,
+    "code": "(CTU)",
+    "airport": "(CTU) Chengdu - Shuangliu - Sichuan, PR China"
+  },
+  { "id": 398, "code": "(CUL)", "airport": "(CUL) Culiacan - Mexico" },
+  { "id": 399, "code": "(CUN)", "airport": "(CUN) Cancun - Mexico" },
+  {
+    "id": 400,
+    "code": "(CUR)",
+    "airport": "(CUR) Curacao - Curaçao International Airport - Netherlands Antilles"
+  },
+  {
+    "id": 401,
+    "code": "(CUU)",
+    "airport": "(CUU) Chihuahua - Gen Fierro Villalobos - Mexico"
+  },
+  {
+    "id": 402,
+    "code": "(CVG)",
+    "airport": "(CVG) Cincinnati (OH) - Cincinnati/Northern Kentucky Int'l - USA"
+  },
+  { "id": 403, "code": "(CVM)", "airport": "(CVM) Ciudad Victoria - Mexico" },
+  {
+    "id": 404,
+    "code": "(CWA)",
+    "airport": "(CWA) Wausau/Stevens Point (WI) - USA"
+  },
+  {
+    "id": 405,
+    "code": "(CWB)",
+    "airport": "(CWB) Curitiba - Afonso Pena International Airport - Brazil"
+  },
+  {
+    "id": 406,
+    "code": "(CXI)",
+    "airport": "(CXI) Kiritimati (island) - Cassidy International Airport - Kiribati"
+  },
+  {
+    "id": 407,
+    "code": "(CYS)",
+    "airport": "(CYS) Cheyenne (WY) - Cheyenne Regional Airport - USA"
+  },
+  { "id": 408, "code": "(CZA)", "airport": "(CZA) Chichen Itza - Mexico" },
+  { "id": 409, "code": "(CZL)", "airport": "(CZL) Constantine - Algeria" },
+  { "id": 410, "code": "(CZM)", "airport": "(CZM) Cozmel - Mexico" },
+  { "id": 411, "code": "(DAB)", "airport": "(DAB) Daytona Beach (FL) - USA" },
+  {
+    "id": 412,
+    "code": "(DAC)",
+    "airport": "(DAC) Dhaka - Zia International Airport - Bangladesh"
+  },
+  {
+    "id": 413,
+    "code": "(DAL)",
+    "airport": "(DAL) Dallas (TX) , Love Field - USA"
+  },
+  {
+    "id": 414,
+    "code": "(DAM)",
+    "airport": "(DAM) Damascus, International - Syria"
+  },
+  { "id": 415, "code": "(DAN)", "airport": "(DAN) Danville (VA) - USA" },
+  {
+    "id": 416,
+    "code": "(DAR)",
+    "airport": "(DAR) Dar es Salam (Daressalam) - Julius Nyerere Int'l - Tanzania"
+  },
+  { "id": 417, "code": "(DAY)", "airport": "(DAY) Dayton (OH) - USA" },
+  { "id": 418, "code": "(DBO)", "airport": "(DBO) Dubbo - Australia" },
+  { "id": 419, "code": "(DBQ)", "airport": "(DBQ) Dubuque IA - USA" },
+  {
+    "id": 420,
+    "code": "(DBV)",
+    "airport": "(DBV) Dubrovnik - Croatia (Hrvatska)"
+  },
+  {
+    "id": 421,
+    "code": "(DCA)",
+    "airport": "(DCA) Washington DC - Ronald Reagan National - USA"
+  },
+  {
+    "id": 422,
+    "code": "(DDI)",
+    "airport": "(DDI) Daydream Island - Australia"
+  },
+  { "id": 423, "code": "(DEC)", "airport": "(DEC) Decatur (IL) - USA" },
+  {
+    "id": 424,
+    "code": "(DEL)",
+    "airport": "(DEL) Delhi - Indira Gandhi International Airport - India"
+  },
+  {
+    "id": 425,
+    "code": "(DEN)",
+    "airport": "(DEN) Denver (CO) - Denver International Airport - USA"
+  },
+  {
+    "id": 426,
+    "code": "(DET)",
+    "airport": "(DET) Detroit (MI) , Coleman A. Young Municipal - USA"
+  },
+  {
+    "id": 427,
+    "code": "(DFW)",
+    "airport": "(DFW) Dallas/Ft. Worth (TX) - Dallas/Fort Worth International - USA"
+  },
+  { "id": 428, "code": "(DHA)", "airport": "(DHA) Dhahran - Saudi Arabia" },
+  { "id": 429, "code": "(DHN)", "airport": "(DHN) Dothan (AL) - USA" },
+  {
+    "id": 430,
+    "code": "(DIL)",
+    "airport": "(DIL) Dili - Nicolau Lobato International Airport - Timor Leste (East Timor)"
+  },
+  {
+    "id": 431,
+    "code": "(DJB)",
+    "airport": "(DJB) Jambi - Sultan Taha Syarifudn - Indonesia"
+  },
+  { "id": 432, "code": "(DJE)", "airport": "(DJE) Djerba - Tunisia" },
+  {
+    "id": 433,
+    "code": "(DJJ)",
+    "airport": "(DJJ) Jayapura - Sentani - Indonesia"
+  },
+  { "id": 434, "code": "(DJO)", "airport": "(DJO) Daloa - Cote d'Ivoire" },
+  { "id": 435, "code": "(DKI)", "airport": "(DKI) Dunk Island - Australia" },
+  {
+    "id": 436,
+    "code": "(DKR)",
+    "airport": "(DKR) Dakar - Léopold Sédar Senghor International Airport - Senegal"
+  },
+  { "id": 437, "code": "(DLA)", "airport": "(DLA) Douala - Cameroon" },
+  {
+    "id": 438,
+    "code": "(DLC)",
+    "airport": "(DLC) Dalian - Zhoushuizi International Airport - Liaoning, PR China"
+  },
+  { "id": 439, "code": "(DLG)", "airport": "(DLG) Dillingham (AK) - USA" },
+  {
+    "id": 440,
+    "code": "(DLH)",
+    "airport": "(DLH) Duluth (MN) /Superior (WI) - USA"
+  },
+  { "id": 441, "code": "(DLM)", "airport": "(DLM) Dalaman - Turkey" },
+  { "id": 442, "code": "(DLP)", "airport": "(DLP) Disneyland Paris - France" },
+  {
+    "id": 443,
+    "code": "(DME)",
+    "airport": "(DME) Moscow - Domodedovo - Russia"
+  },
+  {
+    "id": 444,
+    "code": "(DMK)",
+    "airport": "(DMK) Bangkok, Don Muang - Thailand"
+  },
+  {
+    "id": 445,
+    "code": "(DMM)",
+    "airport": "(DMM) Dammam, King Fahad International - Saudi Arabien"
+  },
+  { "id": 446, "code": "(DNR)", "airport": "(DNR) Dinard - France" },
+  { "id": 447, "code": "(DNZ)", "airport": "(DNZ) Denizli - Turkey" },
+  {
+    "id": 448,
+    "code": "(DOD)",
+    "airport": "(DOD) Dodoma - Dodoma Airport - Tanzania"
+  },
+  {
+    "id": 449,
+    "code": "(DOH)",
+    "airport": "(DOH) Doha - Doha International Airport - Qatar"
+  },
+  { "id": 450, "code": "(DOM)", "airport": "(DOM) Melville Hall - Dominica" },
+  { "id": 451, "code": "(DPO)", "airport": "(DPO) Devonport - Australia" },
+  { "id": 452, "code": "(DPS)", "airport": "(DPS) Denpasar/Bali - Indonesia" },
+  { "id": 453, "code": "(DRB)", "airport": "(DRB) Derby - Australia" },
+  { "id": 454, "code": "(DRO)", "airport": "(DRO) Durango (CO) - USA" },
+  {
+    "id": 455,
+    "code": "(DRS)",
+    "airport": "(DRS) Dresden - Dresden Airport - Germany"
+  },
+  { "id": 456, "code": "(DRW)", "airport": "(DRW) Darwin - Australia" },
+  {
+    "id": 457,
+    "code": "(DSK)",
+    "airport": "(DSK) Dera Ismail Khan - Dera Ismail Khan Airport - Pakistan"
+  },
+  {
+    "id": 458,
+    "code": "(DSM)",
+    "airport": "(DSM) Des Moines (IA) - Des Moines International Airport - USA"
+  },
+  { "id": 459, "code": "(DTM)", "airport": "(DTM) Dortmund - Germany" },
+  {
+    "id": 460,
+    "code": "(DTT)",
+    "airport": "(DTT) Detroit (MI) , Metropolitan Area - USA"
+  },
+  {
+    "id": 461,
+    "code": "(DTW)",
+    "airport": "(DTW) Detroit (MI) , Wayne County Airport - USA"
+  },
+  {
+    "id": 462,
+    "code": "(DUB)",
+    "airport": "(DUB) Dublin - Dublin International Airport - Ireland"
+  },
+  { "id": 463, "code": "(DUD)", "airport": "(DUD) Dunedin - New Zealand" },
+  { "id": 464, "code": "(DUJ)", "airport": "(DUJ) Dubois (PA) - USA" },
+  { "id": 465, "code": "(DUR)", "airport": "(DUR) Durban - South Africa" },
+  {
+    "id": 466,
+    "code": "(DUS)",
+    "airport": "(DUS) Duesseldorf - Düsseldorf International Airport - Germany"
+  },
+  { "id": 467, "code": "(DUT)", "airport": "(DUT) Dutch Harbor (AK) - USA" },
+  { "id": 468, "code": "(DVL)", "airport": "(DVL) Devils Lake (ND) - USA" },
+  {
+    "id": 469,
+    "code": "(DXB)",
+    "airport": "(DXB) Dubai - Dubai International Airport - United Arab Emirates"
+  },
+  { "id": 470, "code": "(DYA)", "airport": "(DYA) Dysart - Australia" },
+  {
+    "id": 471,
+    "code": "(DYU)",
+    "airport": "(DYU) Dushanbe (Duschanbe) - Dushanbe Airport - Tajikistan"
+  },
+  { "id": 472, "code": "(DZA)", "airport": "(DZA) Dzaoudzi - Mayotte" },
+  {
+    "id": 473,
+    "code": "(EAP)",
+    "airport": "(EAP) Basel/Mulhouse - Switzerland/France"
+  },
+  { "id": 474, "code": "(EAS)", "airport": "(EAS) San Sebastian - Spain" },
+  { "id": 475, "code": "(EAT)", "airport": "(EAT) Wenatchee (WA) - USA" },
+  { "id": 476, "code": "(EAU)", "airport": "(EAU) Eau Clarie (WI) - USA" },
+  {
+    "id": 477,
+    "code": "(EBA)",
+    "airport": "(EBA) Elba Island, Marina Di Campo - Italy"
+  },
+  {
+    "id": 478,
+    "code": "(EBB)",
+    "airport": "(EBB) Entebbe - Entebbe International Airport - Uganda"
+  },
+  { "id": 479, "code": "(EBJ)", "airport": "(EBJ) Esbjerg - Denmark" },
+  { "id": 480, "code": "(EBU)", "airport": "(EBU) St. Etienne - France" },
+  {
+    "id": 481,
     "code": "(EDI)",
-    "airport": "(EDI) Edinburgh - United Kingdom"
-  }
+    "airport": "(EDI) Edinburgh - Edinburgh Airport - Scotland, UK"
+  },
+  { "id": 482, "code": "(EDR)", "airport": "(EDR) Emerald - Australia" },
+  {
+    "id": 483,
+    "code": "(EGC)",
+    "airport": "(EGC) Bergerac - Roumanieres - France"
+  },
+  { "id": 484, "code": "(EGE)", "airport": "(EGE) Vail (CO) - USA" },
+  { "id": 485, "code": "(EGS)", "airport": "(EGS) Egilsstadir - Iceland" },
+  { "id": 486, "code": "(EIN)", "airport": "(EIN) Eindhoven - Netherlands" },
+  {
+    "id": 487,
+    "code": "(EIS)",
+    "airport": "(EIS) Beef Island - Terrance B. Lettsome - Virgin Islands (British)"
+  },
+  { "id": 488, "code": "(EKI)", "airport": "(EKI) Elkhart (IN) - USA" },
+  { "id": 489, "code": "(EKO)", "airport": "(EKO) Elko (NV) - USA" },
+  { "id": 490, "code": "(ELH)", "airport": "(ELH) North Eleuthera - Bahamas" },
+  { "id": 491, "code": "(ELL)", "airport": "(ELL) Ellisras - South Africa" },
+  { "id": 492, "code": "(ELM)", "airport": "(ELM) Elmira (NY) - USA" },
+  {
+    "id": 493,
+    "code": "(ELP)",
+    "airport": "(ELP) El Paso (TX) - El Paso International Airport - USA"
+  },
+  { "id": 494, "code": "(ELS)", "airport": "(ELS) East London - South Africa" },
+  { "id": 495, "code": "(ELY)", "airport": "(ELY) Ely (NV) - USA" },
+  { "id": 496, "code": "(EMD)", "airport": "(EMD) Emerald - Australia" },
+  { "id": 497, "code": "(EMY)", "airport": "(EMY) El Minya - Egypt" },
+  { "id": 498, "code": "(ENA)", "airport": "(ENA) Kenai (AK) - USA" },
+  { "id": 499, "code": "(ENC)", "airport": "(ENC) Nancy - France" },
+  { "id": 500, "code": "(ENF)", "airport": "(ENF) Enontekioe - Finland" },
+  { "id": 501, "code": "(EPR)", "airport": "(EPR) Esperance - Australia" },
+  { "id": 502, "code": "(ERC)", "airport": "(ERC) Erzincan - Turkey" },
+  {
+    "id": 503,
+    "code": "(ERF)",
+    "airport": "(ERF) Erfurt - Erfurt Airport (Flughafen Erfurt) - Germany"
+  },
+  { "id": 504, "code": "(ERI)", "airport": "(ERI) Erie (PA) - USA" },
+  { "id": 505, "code": "(ERS)", "airport": "(ERS) Windhoek - Eros - Namibia" },
+  { "id": 506, "code": "(ERZ)", "airport": "(ERZ) Erzurum - Turkey" },
+  {
+    "id": 507,
+    "code": "(ESB)",
+    "airport": "(ESB) Ankara - Esenboğa International Airport - Turkey"
+  },
+  { "id": 508, "code": "(ESC)", "airport": "(ESC) Escanaba (MI) - USA" },
+  {
+    "id": 509,
+    "code": "(ESF)",
+    "airport": "(ESF) Alexandria - Esler Field - USA (LA)"
+  },
+  { "id": 510, "code": "(ETH)", "airport": "(ETH) Elat - Israel" },
+  {
+    "id": 511,
+    "code": "(ETZ)",
+    "airport": "(ETZ) Metz/Nancy Metz-Nancy-Lorraine - France"
+  },
+  { "id": 512, "code": "(EUG)", "airport": "(EUG) Eugene (OR) - USA" },
+  { "id": 513, "code": "(EVE)", "airport": "(EVE) Evenes - Norway" },
+  {
+    "id": 514,
+    "code": "(EVN)",
+    "airport": "(EVN) Eriwan (Yerevan, Jerevan) - Armenia"
+  },
+  { "id": 515, "code": "(EVV)", "airport": "(EVV) Evansville (IN) - USA" },
+  { "id": 516, "code": "(EWN)", "airport": "(EWN) New Bern (NC) - USA" },
+  {
+    "id": 517,
+    "code": "(EWR)",
+    "airport": "(EWR) New York - Newark (NJ) - USA"
+  },
+  { "id": 518, "code": "(EYW)", "airport": "(EYW) Key West (FL) - USA" },
+  {
+    "id": 519,
+    "code": "(EZE)",
+    "airport": "(EZE) Buenos Aires, Ezeiza International Airport - Argentina"
+  },
+  {
+    "id": 520,
+    "code": "(FAE)",
+    "airport": "(FAE) Faroer - Vágar Airport - Denmark"
+  },
+  { "id": 521, "code": "(FAI)", "airport": "(FAI) Fairbanks (AK) - USA" },
+  { "id": 522, "code": "(FAO)", "airport": "(FAO) Faro - Portugal" },
+  { "id": 523, "code": "(FAR)", "airport": "(FAR) Fargo (ND) (MN) - USA" },
+  { "id": 524, "code": "(FAT)", "airport": "(FAT) Fresno (CA) - USA" },
+  {
+    "id": 525,
+    "code": "(FAY)",
+    "airport": "(FAY) Fayetteville/Ft. Bragg (NC) - USA"
+  },
+  { "id": 526, "code": "(FBM)", "airport": "(FBM) Lumbumbashi - Congo (DRC)" },
+  { "id": 527, "code": "(FBU)", "airport": "(FBU) Oslo - Fornebu - Norway" },
+  { "id": 528, "code": "(FCA)", "airport": "(FCA) Kalispell (MT) - USA" },
+  { "id": 529, "code": "(FCO)", "airport": "(FCO) Rome - Fuimicino - Italy" },
+  {
+    "id": 530,
+    "code": "(FDF)",
+    "airport": "(FDF) Fort de France - Martinique Aimé Césaire International - Martinique"
+  },
+  {
+    "id": 531,
+    "code": "(FDH)",
+    "airport": "(FDH) Friedrichshafen - Bodensee-Airport Friedrichshafen - Germany"
+  },
+  { "id": 532, "code": "(FEZ)", "airport": "(FEZ) Fes - Morocco" },
+  {
+    "id": 533,
+    "code": "(FHU)",
+    "airport": "(FHU) Fort Huachuca/Sierra Vista (AZ) - USA"
+  },
+  {
+    "id": 534,
+    "code": "(FIH)",
+    "airport": "(FIH) Kinshasa - N'Djili - Congo (DRC)"
+  },
+  {
+    "id": 535,
+    "code": "(FJR)",
+    "airport": "(FJR) Alfujairah (Fujairah) - United Arab Emirates"
+  },
+  {
+    "id": 536,
+    "code": "(FKB)",
+    "airport": "(FKB) Karlsruhe-Baden - Soellingen - Germany"
+  },
+  { "id": 537, "code": "(FKI)", "airport": "(FKI) Kisangani - Congo (DRC)" },
+  {
+    "id": 538,
+    "code": "(FKL)",
+    "airport": "(FKL) Franklin/Oil City (PA) - USA"
+  },
+  {
+    "id": 539,
+    "code": "(FKS)",
+    "airport": "(FKS) Fukushima - Fukushima Airport - Japan"
+  },
+  { "id": 540, "code": "(FLG)", "airport": "(FLG) Flagstaff (AZ) - USA" },
+  {
+    "id": 541,
+    "code": "(FLL)",
+    "airport": "(FLL) Fort Lauderdale/Hollywood (FL) - USA"
+  },
+  { "id": 542, "code": "(FLN)", "airport": "(FLN) Florianopolis - Brazil" },
+  { "id": 543, "code": "(FLO)", "airport": "(FLO) Florence (SC) - USA" },
+  {
+    "id": 544,
+    "code": "(FLR)",
+    "airport": "(FLR) Florence (Firenze) - Peretola Airport - Italy"
+  },
+  { "id": 545, "code": "(FMN)", "airport": "(FMN) Farmington (NM) - USA" },
+  {
+    "id": 546,
+    "code": "(FMO)",
+    "airport": "(FMO) Muenster/Osnabrueck - Germany"
+  },
+  {
+    "id": 547,
+    "code": "(FMY)",
+    "airport": "(FMY) Fort Myers, Metropolitan Area (FL) - USA"
+  },
+  {
+    "id": 548,
+    "code": "(FNA)",
+    "airport": "(FNA) Freetown - Freetown-Lungi International Airport - Sierra Leone"
+  },
+  { "id": 549, "code": "(FNC)", "airport": "(FNC) Funchal - Portugal" },
+  { "id": 550, "code": "(FNI)", "airport": "(FNI) Nimes - France" },
+  {
+    "id": 551,
+    "code": "(FNJ)",
+    "airport": "(FNJ) Pyongyang - Sunan International Airport - North Korea"
+  },
+  { "id": 552, "code": "(FNT)", "airport": "(FNT) Flint (MI) - USA" },
+  { "id": 553, "code": "(FOD)", "airport": "(FOD) Fort Dodge IA - USA" },
+  {
+    "id": 554,
+    "code": "(FOR)",
+    "airport": "(FOR) Fortaleza - Pinto Martins Airport - Brazil"
+  },
+  {
+    "id": 555,
+    "code": "(FPO)",
+    "airport": "(FPO) Freeport - Grand Bahama International Airport - Bahamas"
+  },
+  {
+    "id": 556,
+    "code": "(FRA)",
+    "airport": "(FRA) Frankfurt/Main - Frankfurt Airport (Rhein-Main-Flughafen) - Germany"
+  },
+  {
+    "id": 557,
+    "code": "(FRI)",
+    "airport": "(FRI) Fort Riley (KS) - Marshall AAF - USA"
+  },
+  { "id": 558, "code": "(FRJ)", "airport": "(FRJ) Frejus - France" },
+  { "id": 559, "code": "(FRO)", "airport": "(FRO) Floro - Norway" },
+  {
+    "id": 560,
+    "code": "(FRU)",
+    "airport": "(FRU) Bishkek - Manas International Airport - Kyrgyzstan"
+  },
+  { "id": 561, "code": "(FRW)", "airport": "(FRW) Francistown - Botswana" },
+  { "id": 562, "code": "(FSC)", "airport": "(FSC) Figari - France" },
+  { "id": 563, "code": "(FSD)", "airport": "(FSD) Sioux Falls (SD) - USA" },
+  { "id": 564, "code": "(FSM)", "airport": "(FSM) Fort Smith (AR) - USA" },
+  { "id": 565, "code": "(FSP)", "airport": "(FSP) St. Pierre, NF - Canada" },
+  { "id": 566, "code": "(FUE)", "airport": "(FUE) Fuerteventura - Spain" },
+  { "id": 567, "code": "(FUK)", "airport": "(FUK) Fukuoka - Japan" },
+  {
+    "id": 568,
+    "code": "(FUT)",
+    "airport": "(FUT) Futuna - Wallis and Futuna Islands"
+  },
+  { "id": 569, "code": "(FWA)", "airport": "(FWA) Fort Wayne (IN) - USA" },
+  { "id": 570, "code": "(FYV)", "airport": "(FYV) Fayetteville (AR) - USA" },
+  { "id": 571, "code": "(GAD)", "airport": "(GAD) Gadsden (AL) - USA" },
+  { "id": 572, "code": "(GAJ)", "airport": "(GAJ) Yamagata, Junmachi - Japan" },
+  { "id": 573, "code": "(GAU)", "airport": "(GAU) Guwahati - India" },
+  {
+    "id": 574,
+    "code": "(GBE)",
+    "airport": "(GBE) Gaborone - Sir Seretse Khama International Airport - Botswana"
+  },
+  { "id": 575, "code": "(GCC)", "airport": "(GCC) Gilette (WY) - USA" },
+  { "id": 576, "code": "(GCI)", "airport": "(GCI) Guernsey - Channel Islands" },
+  {
+    "id": 577,
+    "code": "(GCM)",
+    "airport": "(GCM) Grand Cayman - Owen Roberts International - Cayman Islands"
+  },
+  { "id": 578, "code": "(GCN)", "airport": "(GCN) Grand Canyon (AZ) - USA" },
+  { "id": 579, "code": "(GDL)", "airport": "(GDL) Guadalajara - Mexico" },
+  { "id": 580, "code": "(GDN)", "airport": "(GDN) Gdansk - Poland" },
+  { "id": 581, "code": "(GDV)", "airport": "(GDV) Glendive (MT) - USA" },
+  { "id": 582, "code": "(GEG)", "airport": "(GEG) Spokane (WA) - USA" },
+  {
+    "id": 583,
+    "code": "(GEO)",
+    "airport": "(GEO) Georgetown - Cheddi Jagan International Airport - Guyana"
+  },
+  { "id": 584, "code": "(GET)", "airport": "(GET) Geraldton - Australia" },
+  { "id": 585, "code": "(GEX)", "airport": "(GEX) Geelong - Australia" },
+  { "id": 586, "code": "(GFF)", "airport": "(GFF) Griffith - Australia" },
+  { "id": 587, "code": "(GFK)", "airport": "(GFK) Grand Forks (ND) - USA" },
+  {
+    "id": 588,
+    "code": "(GGG)",
+    "airport": "(GGG) Longview/Kilgore (TX) - USA"
+  },
+  { "id": 589, "code": "(GGW)", "airport": "(GGW) Glasgow (MT) - USA" },
+  { "id": 590, "code": "(GHB)", "airport": "(GHB) Govenors Harbour - Bahamas" },
+  { "id": 591, "code": "(GIB)", "airport": "(GIB) Gibraltar - Gibraltar" },
+  {
+    "id": 592,
+    "code": "(GIG)",
+    "airport": "(GIG) Rio de Janeiro - Galeao - Brazil"
+  },
+  { "id": 593, "code": "(GIL)", "airport": "(GIL) Gilgit - Pakistan" },
+  { "id": 594, "code": "(GJL)", "airport": "(GJL) Jijel - Algeria" },
+  { "id": 595, "code": "(GJT)", "airport": "(GJT) Grand Junction (CO) - USA" },
+  {
+    "id": 596,
+    "code": "(GKL)",
+    "airport": "(GKL) Great Keppel Island - Australia"
+  },
+  { "id": 597, "code": "(GLH)", "airport": "(GLH) Greenville (MS) - USA" },
+  { "id": 598, "code": "(GLT)", "airport": "(GLT) Gladstone - Australia" },
+  { "id": 599, "code": "(GNB)", "airport": "(GNB) Grenoble - France" },
+  {
+    "id": 600,
+    "code": "(GND)",
+    "airport": "(GND) Grenada - Point Salines Airport also Maurice Bishop - Grenada"
+  },
+  { "id": 601, "code": "(GNE)", "airport": "(GNE) Ghent (Gent) - Belgium" },
+  { "id": 602, "code": "(GNV)", "airport": "(GNV) Gainesville (FL) - USA" },
+  { "id": 603, "code": "(GOA)", "airport": "(GOA) Genoa - Italy" },
+  { "id": 604, "code": "(GOI)", "airport": "(GOI) Goa - India" },
+  {
+    "id": 605,
+    "code": "(GOJ)",
+    "airport": "(GOJ) Nizhny Novgorod - Strigino International Airport - Russia"
+  },
+  { "id": 606, "code": "(GOO)", "airport": "(GOO) Goondiwindi - Australia" },
+  {
+    "id": 607,
+    "code": "(GOT)",
+    "airport": "(GOT) Gothenburg (Göteborg) - Landvetter - Sweden"
+  },
+  { "id": 608, "code": "(GOU)", "airport": "(GOU) Garoua - Cameroon" },
+  {
+    "id": 609,
+    "code": "(GOV)",
+    "airport": "(GOV) Gove (Nhulunbuy) - Australia"
+  },
+  { "id": 610, "code": "(GOZ)", "airport": "(GOZ) Gorna - Bulgaria" },
+  { "id": 611, "code": "(GPA)", "airport": "(GPA) Araxos - Greece" },
+  { "id": 612, "code": "(GPT)", "airport": "(GPT) Gulfport/Biloxi (MS) - USA" },
+  { "id": 613, "code": "(GPZ)", "airport": "(GPZ) Grand Rapids (MN) - USA" },
+  { "id": 614, "code": "(GRB)", "airport": "(GRB) Green Bay (WI) - USA" },
+  { "id": 615, "code": "(GRJ)", "airport": "(GRJ) George - South Africa" },
+  { "id": 616, "code": "(GRO)", "airport": "(GRO) Gerona - Spain" },
+  {
+    "id": 617,
+    "code": "(GRQ)",
+    "airport": "(GRQ) Groningen - Eelde - Netherlands"
+  },
+  { "id": 618, "code": "(GRR)", "airport": "(GRR) Grand Rapids (MI) - USA" },
+  {
+    "id": 619,
+    "code": "(GRU)",
+    "airport": "(GRU) Sao Paulo - Guarulhos - Brazil"
+  },
+  { "id": 620, "code": "(GRX)", "airport": "(GRX) Granada - Spain" },
+  { "id": 621, "code": "(GRZ)", "airport": "(GRZ) Graz - Austria" },
+  {
+    "id": 622,
+    "code": "(GSI)",
+    "airport": "(GSI) Guadalcanal - Solomon Islands"
+  },
+  {
+    "id": 623,
+    "code": "(GSO)",
+    "airport": "(GSO) Greensboro/Winston Salem (NC) - USA"
+  },
+  {
+    "id": 624,
+    "code": "(GSP)",
+    "airport": "(GSP) Greenville/Spartanburg (SC) - USA"
+  },
+  {
+    "id": 625,
+    "code": "(GTE)",
+    "airport": "(GTE) Groote Eylandt - Alyangula - Australia"
+  },
+  { "id": 626, "code": "(GTF)", "airport": "(GTF) Great Falls (MT) - USA" },
+  { "id": 627, "code": "(GTI)", "airport": "(GTI) Guettin - Germany" },
+  { "id": 628, "code": "(GTN)", "airport": "(GTN) Mount Cook - New Zealand" },
+  {
+    "id": 629,
+    "code": "(GUA)",
+    "airport": "(GUA) Guatemala City - La Aurora International Airport - Guatemala"
+  },
+  {
+    "id": 630,
+    "code": "(GUC)",
+    "airport": "(GUC) Gunnison/Crested Butte (CO) - USA"
+  },
+  { "id": 631, "code": "(GUM)", "airport": "(GUM) Guam - Guam" },
+  {
+    "id": 632,
+    "code": "(GVA)",
+    "airport": "(GVA) Geneva - Geneva-Cointrin International Airport - Switzerland"
+  },
+  { "id": 633, "code": "(GWD)", "airport": "(GWD) Gwadar - Pakistan" },
+  { "id": 634, "code": "(GWE)", "airport": "(GWE) Gweru - Zimbabwe" },
+  {
+    "id": 635,
+    "code": "(GWT)",
+    "airport": "(GWT) Westerland, Sylt Airport - Germany"
+  },
+  { "id": 636, "code": "(GWY)", "airport": "(GWY) Galway - Ireland" },
+  {
+    "id": 637,
+    "code": "(GYE)",
+    "airport": "(GYE) Guayaquil - Simon Bolivar - Ecuador"
+  },
+  {
+    "id": 638,
+    "code": "(GYN)",
+    "airport": "(GYN) Goiania, Santa Genoveva Airport - Brazil"
+  },
+  { "id": 639, "code": "(GYP)", "airport": "(GYP) Gympie - Australia" },
+  {
+    "id": 640,
+    "code": "(GZA)",
+    "airport": "(GZA) Gaza City - Gaza International Airport - Palestinian Territory"
+  },
+  { "id": 641, "code": "(GZT)", "airport": "(GZT) Gaziantep - Turkey" },
+  { "id": 642, "code": "(HAC)", "airport": "(HAC) Hachijo Jima - Japan" },
+  {
+    "id": 643,
+    "code": "(HAG)",
+    "airport": "(HAG) Den Haag (The Hague) - Netherlands"
+  },
+  {
+    "id": 644,
+    "code": "(HAH)",
+    "airport": "(HAH) Moroni - Prince Said Ibrahim - Comoros (Comores)"
+  },
+  { "id": 645, "code": "(HAJ)", "airport": "(HAJ) Hannover - Germany" },
+  {
+    "id": 646,
+    "code": "(HAM)",
+    "airport": "(HAM) Hamburg - Fuhlsbuettel - Germany"
+  },
+  {
+    "id": 647,
+    "code": "(HAN)",
+    "airport": "(HAN) Hanoi - Noi Bai International Airport - Vietnam"
+  },
+  {
+    "id": 648,
+    "code": "(HAP)",
+    "airport": "(HAP) Whitsunday Resort - Australia"
+  },
+  {
+    "id": 649,
+    "code": "(HAR)",
+    "airport": "(HAR) Harrisburg (PA) - Harrisburg Skyport - USA"
+  },
+  { "id": 650, "code": "(HAU)", "airport": "(HAU) Haugesund - Norway" },
+  {
+    "id": 651,
+    "code": "(HAV)",
+    "airport": "(HAV) Havana - José Martí International - Cuba"
+  },
+  { "id": 652, "code": "(HBA)", "airport": "(HBA) Hobart - Australia" },
+  {
+    "id": 653,
+    "code": "(HBH)",
+    "airport": "(HBH) Alexandria - Borg el Arab Airport - Egypt"
+  },
+  { "id": 654, "code": "(HDD)", "airport": "(HDD) Hyderabad - Pakistan" },
+  {
+    "id": 655,
+    "code": "(HDN)",
+    "airport": "(HDN) Steamboat Springs (CO) - USA"
+  },
+  {
+    "id": 656,
+    "code": "(HDY)",
+    "airport": "(HDY) Hatyai (Hat Yai) - Thailand"
+  },
+  {
+    "id": 657,
+    "code": "(HEL)",
+    "airport": "(HEL) Helsinki - Vantaa - Finland"
+  },
+  { "id": 658, "code": "(HER)", "airport": "(HER) Heraklion - Greece" },
+  {
+    "id": 659,
+    "code": "(HEW)",
+    "airport": "(HEW) Athens, Hellinikon Airport - Greece"
+  },
+  { "id": 660, "code": "(HFA)", "airport": "(HFA) Haifa - Israel" },
+  { "id": 661, "code": "(HFT)", "airport": "(HFT) Hammerfest - Norway" },
+  {
+    "id": 662,
+    "code": "(HGH)",
+    "airport": "(HGH) Hangchow (Hangzhou) - Zhejiang, PR China"
+  },
+  { "id": 663, "code": "(HGO)", "airport": "(HGO) Korhogo - Cote d'Ivoire" },
+  {
+    "id": 664,
+    "code": "(HHH)",
+    "airport": "(HHH) Hilton Head Island (SC) - USA"
+  },
+  { "id": 665, "code": "(HHN)", "airport": "(HHN) Frankfurt/Hahn - Germany" },
+  { "id": 666, "code": "(HIB)", "airport": "(HIB) Hibbing (MN) - USA" },
+  {
+    "id": 667,
+    "code": "(HII)",
+    "airport": "(HII) Lake Havasu City (AZ) - USA"
+  },
+  {
+    "id": 668,
+    "code": "(HIJ)",
+    "airport": "(HIJ) Hiroshima International - Japan"
+  },
+  {
+    "id": 669,
+    "code": "(HIR)",
+    "airport": "(HIR) Honiara Henderson International - Solomon Islands"
+  },
+  { "id": 670, "code": "(HIS)", "airport": "(HIS) Hayman Island - Australia" },
+  { "id": 671, "code": "(HKD)", "airport": "(HKD) Hakodate - Japan" },
+  {
+    "id": 672,
+    "code": "(HKG)",
+    "airport": "(HKG) Hong Kong - International Airport (HKIA) - Hong Kong"
+  },
+  {
+    "id": 673,
+    "code": "(HKS)",
+    "airport": "(HKS) Jackson (MS) - Hawkins Field - USA"
+  },
+  { "id": 674, "code": "(HKT)", "airport": "(HKT) Phuket - Thailand" },
+  { "id": 675, "code": "(HKY)", "airport": "(HKY) Hickory (NC) - USA" },
+  { "id": 676, "code": "(HLA)", "airport": "(HLA) Lanseria - South Africa" },
+  { "id": 677, "code": "(HLH)", "airport": "(HLH) Ulanhot - PR China" },
+  { "id": 678, "code": "(HLN)", "airport": "(HLN) Helena (MT) - USA" },
+  {
+    "id": 679,
+    "code": "(HLP)",
+    "airport": "(HLP) Jakarta - Halim Perdana Kusuma - Indonesia"
+  },
+  { "id": 680, "code": "(HLT)", "airport": "(HLT) Hamilton - Australia" },
+  { "id": 681, "code": "(HLZ)", "airport": "(HLZ) Hamilton - New Zealand" },
+  { "id": 682, "code": "(HMH)", "airport": "(HMH) Home Hill - Australia" },
+  {
+    "id": 683,
+    "code": "(HMO)",
+    "airport": "(HMO) Hermosillo - Gen. Pesqueira Garcia - Mexico"
+  },
+  { "id": 684, "code": "(HNA)", "airport": "(HNA) Morioka, Hanamaki - Japan" },
+  { "id": 685, "code": "(HND)", "airport": "(HND) Tokyo - Haneda - Japan" },
+  { "id": 686, "code": "(HNH)", "airport": "(HNH) Hoonah (AK) - USA" },
+  {
+    "id": 687,
+    "code": "(HNK)",
+    "airport": "(HNK) Hinchinbrook Island - Australia"
+  },
+  {
+    "id": 688,
+    "code": "(HNL)",
+    "airport": "(HNL) Honolulu (HI) - Honolulu International Airport - USA"
+  },
+  { "id": 689, "code": "(HNS)", "airport": "(HNS) Haines (AK) - USA" },
+  { "id": 690, "code": "(HOG)", "airport": "(HOG) Holguin - Cuba" },
+  { "id": 691, "code": "(HOM)", "airport": "(HOM) Homer (AK) - USA" },
+  { "id": 692, "code": "(HON)", "airport": "(HON) Huron (SD) - USA" },
+  { "id": 693, "code": "(HOQ)", "airport": "(HOQ) Hof - Germany" },
+  { "id": 694, "code": "(HOR)", "airport": "(HOR) Horta - Portugal" },
+  { "id": 695, "code": "(HOU)", "airport": "(HOU) Houston (TX) , Hobby - USA" },
+  { "id": 696, "code": "(HPN)", "airport": "(HPN) White Plains (NY) - USA" },
+  {
+    "id": 697,
+    "code": "(HRB)",
+    "airport": "(HRB) Harbin (Haerbin) - Heilongjiang, PR China"
+  },
+  {
+    "id": 698,
+    "code": "(HRE)",
+    "airport": "(HRE) Harare - Harare International Airport - Zimbabwe"
+  },
+  {
+    "id": 699,
+    "code": "(HRG)",
+    "airport": "(HRG) Hurghada International - Egypt"
+  },
+  { "id": 700, "code": "(HRK)", "airport": "(HRK) Kharkov - Ukraine" },
+  {
+    "id": 701,
+    "code": "(HRL)",
+    "airport": "(HRL) Harlingen/South Padre Island (TX) - USA"
+  },
+  { "id": 702, "code": "(HSV)", "airport": "(HSV) Huntsville (AL) - USA" },
+  { "id": 703, "code": "(HTA)", "airport": "(HTA) Chita (Tschita) - Russia" },
+  {
+    "id": 704,
+    "code": "(HTI)",
+    "airport": "(HTI) Hamilton Island - Australia"
+  },
+  { "id": 705, "code": "(HTS)", "airport": "(HTS) Huntington (WV) - USA" },
+  { "id": 706, "code": "(HUF)", "airport": "(HUF) Terre Haute (IN) - USA" },
+  { "id": 707, "code": "(HUH)", "airport": "(HUH) Huahine - French Polynesia" },
+  { "id": 708, "code": "(HUI)", "airport": "(HUI) Hue - Phu Bai - Viet Nam" },
+  { "id": 709, "code": "(HUX)", "airport": "(HUX) Huatulco - Mexico" },
+  { "id": 710, "code": "(HVB)", "airport": "(HVB) Hervey Bay - Australia" },
+  { "id": 711, "code": "(HVN)", "airport": "(HVN) New Haven (CT) - USA" },
+  { "id": 712, "code": "(HVR)", "airport": "(HVR) Havre (MT) - USA" },
+  {
+    "id": 713,
+    "code": "(HWN)",
+    "airport": "(HWN) Hwange National Park - Zimbabwe"
+  },
+  { "id": 714, "code": "(HYA)", "airport": "(HYA) Hyannis (MA) - USA" },
+  {
+    "id": 715,
+    "code": "(HYD)",
+    "airport": "(HYD) Hyderabad - Rajiv Gandhi International Airport - India"
+  },
+  { "id": 716, "code": "(HYG)", "airport": "(HYG) Hydaburg (AK) - USA" },
+  {
+    "id": 717,
+    "code": "(IAD)",
+    "airport": "(IAD) Washington DC - Dulles International - USA"
+  },
+  {
+    "id": 718,
+    "code": "(IAG)",
+    "airport": "(IAG) Niagara Falls International - USA"
+  },
+  {
+    "id": 719,
+    "code": "(IAH)",
+    "airport": "(IAH) Houston, TX - George Bush Intercontinental Airport - USA"
+  },
+  { "id": 720, "code": "(IBZ)", "airport": "(IBZ) Ibiza - Ibiza/Spain" },
+  {
+    "id": 721,
+    "code": "(ICN)",
+    "airport": "(ICN) Incheon, Incheon International Airport - Korea South"
+  },
+  { "id": 722, "code": "(ICT)", "airport": "(ICT) Wichita (KS) - USA" },
+  { "id": 723, "code": "(IDA)", "airport": "(IDA) Idaho Falls (ID) - USA" },
+  { "id": 724, "code": "(IEV)", "airport": "(IEV) Kiev - Zhulhany - Ukraine" },
+  { "id": 725, "code": "(IFL)", "airport": "(IFL) Innisfail - Australia" },
+  { "id": 726, "code": "(IGH)", "airport": "(IGH) Ingham - Australia" },
+  {
+    "id": 727,
+    "code": "(IGR)",
+    "airport": "(IGR) Iguazu, Cataratas - Argentina"
+  },
+  {
+    "id": 728,
+    "code": "(IJX)",
+    "airport": "(IJX) Jacksonville (IL) - Municipal Airport - USA"
+  },
+  { "id": 729, "code": "(IKT)", "airport": "(IKT) Irkutsk - Russia" },
+  { "id": 730, "code": "(ILE)", "airport": "(ILE) Killeem (TX) - USA" },
+  { "id": 731, "code": "(ILI)", "airport": "(ILI) Iliamna (AK) - USA" },
+  { "id": 732, "code": "(ILM)", "airport": "(ILM) Wilmington (NC) - USA" },
+  {
+    "id": 733,
+    "code": "(ILP)",
+    "airport": "(ILP) Ile des Pins - New Caledonia"
+  },
+  {
+    "id": 734,
+    "code": "(IND)",
+    "airport": "(IND) Indianapolis (IN) International - USA"
+  },
+  { "id": 735, "code": "(INI)", "airport": "(INI) Nis - Serbia" },
+  {
+    "id": 736,
+    "code": "(INL)",
+    "airport": "(INL) International Falls (MN) - USA"
+  },
+  {
+    "id": 737,
+    "code": "(INN)",
+    "airport": "(INN) Innsbruck - Kranebitten - Austria"
+  },
+  { "id": 738, "code": "(IOU)", "airport": "(IOU) Ile Ouen - New Caledonia" },
+  { "id": 739, "code": "(IPC)", "airport": "(IPC) Easter Island - Chile" },
+  { "id": 740, "code": "(IPL)", "airport": "(IPL) Imperial (CA) - USA" },
+  { "id": 741, "code": "(IPT)", "airport": "(IPT) Williamsport (PA) - USA" },
+  { "id": 742, "code": "(IRG)", "airport": "(IRG) Lockhart River - Australia" },
+  {
+    "id": 743,
+    "code": "(IRO)",
+    "airport": "(IRO) Biraro - Central African Republic"
+  },
+  { "id": 744, "code": "(ISA)", "airport": "(ISA) Mt. Isa - Australia" },
+  {
+    "id": 745,
+    "code": "(ISB)",
+    "airport": "(ISB) Islamabad - Benazir Bhutto International Airport - Pakistan"
+  },
+  {
+    "id": 746,
+    "code": "(ISG)",
+    "airport": "(ISG) Ishigaki - New Ishigaki Airport - Japan"
+  },
+  { "id": 747, "code": "(ISL)", "airport": "(ISL) Williston (ND) - USA" },
+  { "id": 748, "code": "(ISO)", "airport": "(ISO) Kingston (NC) - USA" },
+  {
+    "id": 749,
+    "code": "(ISP)",
+    "airport": "(ISP) Long Island, Islip (NY) - Mac Arthur - USA"
+  },
+  {
+    "id": 750,
+    "code": "(IST)",
+    "airport": "(IST) Istanbul - Istanbul Atatürk Airport - Turkey"
+  },
+  { "id": 751, "code": "(ITH)", "airport": "(ITH) Ithaca/Cortland (NY) - USA" },
+  { "id": 752, "code": "(ITM)", "airport": "(ITM) Osaka - Itami - Japan" },
+  { "id": 753, "code": "(ITO)", "airport": "(ITO) Hilo (HI) - USA" },
+  { "id": 754, "code": "(IVC)", "airport": "(IVC) Incercargill - New Zealand" },
+  { "id": 755, "code": "(IVL)", "airport": "(IVL) Ivalo - Finland" },
+  { "id": 756, "code": "(IXB)", "airport": "(IXB) Bagdogra - India" },
+  {
+    "id": 757,
+    "code": "(IXC)",
+    "airport": "(IXC) Chandigarh - Chandigarh International Airport - India"
+  },
+  { "id": 758, "code": "(IXG)", "airport": "(IXG) Belgaum - India" },
+  { "id": 759, "code": "(IXJ)", "airport": "(IXJ) Jammu - Satwari - India" },
+  { "id": 760, "code": "(IXR)", "airport": "(IXR) Ranchi - India" },
+  {
+    "id": 761,
+    "code": "(IXW)",
+    "airport": "(IXW) Jamshedpur - Sonari Airport - India"
+  },
+  { "id": 762, "code": "(IYK)", "airport": "(IYK) Inykern (CA) - USA" },
+  { "id": 763, "code": "(IZM)", "airport": "(IZM) Izmir - Turkey" },
+  { "id": 764, "code": "(JAA)", "airport": "(JAA) Jalalabad - Afghanistan" },
+  { "id": 765, "code": "(JAC)", "airport": "(JAC) Jackson Hole (WY) - USA" },
+  { "id": 766, "code": "(JAD)", "airport": "(JAD) Jandakot - Australia" },
+  {
+    "id": 767,
+    "code": "(JAF)",
+    "airport": "(JAF) Jaffna - Kankesanturai - Sri Lanka"
+  },
+  { "id": 768, "code": "(JAG)", "airport": "(JAG) Jacobabad - Pakistan" },
+  { "id": 769, "code": "(JAI)", "airport": "(JAI) Jaipur - Sanganeer - India" },
+  { "id": 770, "code": "(JAK)", "airport": "(JAK) Jacmel - Haiti" },
+  { "id": 771, "code": "(JAL)", "airport": "(JAL) Jalapa - Mexico" },
+  { "id": 772, "code": "(JAM)", "airport": "(JAM) Jambol - Bulgaria" },
+  {
+    "id": 773,
+    "code": "(JAN)",
+    "airport": "(JAN) Jackson (MS) - Jackson Internationall - USA"
+  },
+  {
+    "id": 774,
+    "code": "(JAQ)",
+    "airport": "(JAQ) Jacquinot Bay - Papua New Guinea"
+  },
+  {
+    "id": 775,
+    "code": "(JAX)",
+    "airport": "(JAX) Jacksonville (FL) - International - USA"
+  },
+  {
+    "id": 776,
+    "code": "(JBR)",
+    "airport": "(JBR) Jonesboro (AR) Jonesboro Airport - USA"
+  },
+  { "id": 777, "code": "(JCB)", "airport": "(JCB) Joacaba - Brazil" },
+  { "id": 778, "code": "(JCK)", "airport": "(JCK) Julia Creek - Australia" },
+  { "id": 779, "code": "(JCM)", "airport": "(JCM) Jacobina - Brazil" },
+  {
+    "id": 780,
+    "code": "(JDF)",
+    "airport": "(JDF) Juiz De Fora - Francisco De Assis Airport - Brazil"
+  },
+  { "id": 781, "code": "(JDH)", "airport": "(JDH) Jodhpur - India" },
+  { "id": 782, "code": "(JDZ)", "airport": "(JDZ) Jingdezhen - PR China" },
+  {
+    "id": 783,
+    "code": "(JED)",
+    "airport": "(JED) Jeddah - King Abdulaziz International - Saudi Arabia"
+  },
+  {
+    "id": 784,
+    "code": "(JEE)",
+    "airport": "(JEE) Jeremie - Jeremie Airport - Haiti"
+  },
+  {
+    "id": 785,
+    "code": "(JEF)",
+    "airport": "(JEF) Jefferson City (MO) - Jefferson Memorial - USA"
+  },
+  { "id": 786, "code": "(JER)", "airport": "(JER) Jersey - Channel Islands" },
+  {
+    "id": 787,
+    "code": "(JFK)",
+    "airport": "(JFK) New York - John F. Kennedy (NY) - USA"
+  },
+  {
+    "id": 788,
+    "code": "(JGA)",
+    "airport": "(JGA) Jamnagar - Govardhanpur - India"
+  },
+  { "id": 789, "code": "(JGB)", "airport": "(JGB) Jagdalpur - India" },
+  {
+    "id": 790,
+    "code": "(JGN)",
+    "airport": "(JGN) Jiayuguan - Jiayuguan Airport - PR China"
+  },
+  { "id": 791, "code": "(JGS)", "airport": "(JGS) Ji'an - Jiangxi, China" },
+  {
+    "id": 792,
+    "code": "(JHB)",
+    "airport": "(JHB) Johor Bahru - Sultan Ismail International - Malaysia"
+  },
+  { "id": 793, "code": "(JHE)", "airport": "(JHE) Helsingborg - Sweden" },
+  {
+    "id": 794,
+    "code": "(JHG)",
+    "airport": "(JHG) Jinghong - Gasa Airport - PR China"
+  },
+  { "id": 795, "code": "(JHM)", "airport": "(JHM) Kapalua West (HI) - USA" },
+  { "id": 796, "code": "(JHQ)", "airport": "(JHQ) Shute Harbour - Australia" },
+  { "id": 797, "code": "(JHW)", "airport": "(JHW) Jamestown (NY) - USA" },
+  {
+    "id": 798,
+    "code": "(JIB)",
+    "airport": "(JIB) Djibouti (city) - Djibouti-Ambouli International Airport - Djibouti"
+  },
+  { "id": 799, "code": "(JIJ)", "airport": "(JIJ) Jijiga - Ethiopia" },
+  { "id": 800, "code": "(JIL)", "airport": "(JIL) Jilin - PR China" },
+  { "id": 801, "code": "(JIM)", "airport": "(JIM) Jimma - Ethiopia" },
+  { "id": 802, "code": "(JIN)", "airport": "(JIN) Jinja - Uganda" },
+  { "id": 803, "code": "(JIP)", "airport": "(JIP) Jipijapa - Ecuador" },
+  { "id": 804, "code": "(JIR)", "airport": "(JIR) Jiri - Nepal" },
+  {
+    "id": 805,
+    "code": "(JIU)",
+    "airport": "(JIU) Jiujiang - Jiujiang Lushan Airport - PR China"
+  },
+  { "id": 806, "code": "(JIW)", "airport": "(JIW) Jiwani - Pakistan" },
+  { "id": 807, "code": "(JJN)", "airport": "(JJN) Jinjiang - PR China" },
+  {
+    "id": 808,
+    "code": "(JKG)",
+    "airport": "(JKG) Jönköping (Jonkoping) - Axamo Airport - Sweden"
+  },
+  { "id": 809, "code": "(JKH)", "airport": "(JKH) Chios - Greece" },
+  { "id": 810, "code": "(JKR)", "airport": "(JKR) Janakpur - Nepal" },
+  {
+    "id": 811,
+    "code": "(JKT)",
+    "airport": "(JKT) Jakarta - Metropolitan Area - Indonesia"
+  },
+  { "id": 812, "code": "(JKV)", "airport": "(JKV) Jacksonville (TX) - USA" },
+  { "id": 813, "code": "(JLN)", "airport": "(JLN) Joplin (MO) - USA" },
+  { "id": 814, "code": "(JLR)", "airport": "(JLR) Jalandhar - India" },
+  { "id": 815, "code": "(JLS)", "airport": "(JLS) Jales - Brazil" },
+  { "id": 816, "code": "(JMB)", "airport": "(JMB) Jamba - Angola" },
+  { "id": 817, "code": "(JMK)", "airport": "(JMK) Mykonos - Greece" },
+  { "id": 818, "code": "(JMO)", "airport": "(JMO) Jomsom - Nepal" },
+  { "id": 819, "code": "(JMS)", "airport": "(JMS) Jamestown (ND) - USA" },
+  {
+    "id": 820,
+    "code": "(JMU)",
+    "airport": "(JMU) Jiamusi - Jiamusi Airport - PR China"
+  },
+  { "id": 821, "code": "(JNA)", "airport": "(JNA) Januaria - Brazil" },
+  {
+    "id": 822,
+    "code": "(JNB)",
+    "airport": "(JNB) Johannesburg - OR Tambo International Airport - South Africa"
+  },
+  { "id": 823, "code": "(JNG)", "airport": "(JNG) Jining - PR China" },
+  { "id": 824, "code": "(JNI)", "airport": "(JNI) Junin - Argentina" },
+  {
+    "id": 825,
+    "code": "(JNU)",
+    "airport": "(JNU) Juneau (AK) - Juneau International Airport - USA"
+  },
+  {
+    "id": 826,
+    "code": "(JNX)",
+    "airport": "(JNX) Naxos - Naxos Airport - Greece"
+  },
+  {
+    "id": 827,
+    "code": "(JNZ)",
+    "airport": "(JNZ) Jinzhou - Jinzhou Airport - PR China"
+  },
+  { "id": 828, "code": "(JOE)", "airport": "(JOE) Joensuu - Finland" },
+  {
+    "id": 829,
+    "code": "(JOI)",
+    "airport": "(JOI) Joinville - Cubatao Airport - Brazil"
+  },
+  { "id": 830, "code": "(JON)", "airport": "(JON) Johnston Island - USA" },
+  { "id": 831, "code": "(JOS)", "airport": "(JOS) Jos - Nigeria" },
+  {
+    "id": 832,
+    "code": "(JPA)",
+    "airport": "(JPA) Joao Pessoa - Castro Pinto Airport - Brazil"
+  },
+  { "id": 833, "code": "(JQE)", "airport": "(JQE) Jaque - Panama" },
+  {
+    "id": 834,
+    "code": "(JRH)",
+    "airport": "(JRH) Jorhat - Rowriah Airport - India"
+  },
+  { "id": 835, "code": "(JRO)", "airport": "(JRO) Kilimadjaro - Tanzania" },
+  {
+    "id": 836,
+    "code": "(JRS)",
+    "airport": "(JRS) Jerusalem - Atarot Airport (closed) - Israel"
+  },
+  { "id": 837, "code": "(JSA)", "airport": "(JSA) Jaisalmer - India" },
+  { "id": 838, "code": "(JSI)", "airport": "(JSI) Skiathos - Greece" },
+  {
+    "id": 839,
+    "code": "(JSM)",
+    "airport": "(JSM) Jose De San Martin - Argentina"
+  },
+  {
+    "id": 840,
+    "code": "(JSR)",
+    "airport": "(JSR) Jessore - Jessore Airport - Bangladesh"
+  },
+  { "id": 841, "code": "(JST)", "airport": "(JST) Johnstown (PA) - USA" },
+  { "id": 842, "code": "(JTI)", "airport": "(JTI) Jatai - Brazil" },
+  { "id": 843, "code": "(JTR)", "airport": "(JTR) Thira - Greece" },
+  { "id": 844, "code": "(JUB)", "airport": "(JUB) Juba - South Sudan" },
+  { "id": 845, "code": "(JUI)", "airport": "(JUI) Juist (island) - Germany" },
+  {
+    "id": 846,
+    "code": "(JUJ)",
+    "airport": "(JUJ) Jujuy - El Cadillal Airport - Argentina"
+  },
+  { "id": 847, "code": "(JUM)", "airport": "(JUM) Jumla - Nepal" },
+  { "id": 848, "code": "(JUN)", "airport": "(JUN) Jundah - Australia" },
+  { "id": 849, "code": "(JUT)", "airport": "(JUT) Juticalpa - Honduras" },
+  {
+    "id": 850,
+    "code": "(JUV)",
+    "airport": "(JUV) Upernavik - Upernavik Heliport - Greenland"
+  },
+  {
+    "id": 851,
+    "code": "(JVL)",
+    "airport": "(JVL) Janesville (WI) - Rock County - USA"
+  },
+  { "id": 852, "code": "(JWA)", "airport": "(JWA) Jwaneng - Botswana" },
+  {
+    "id": 853,
+    "code": "(JXN)",
+    "airport": "(JXN) Jackson (MI) - Reynolds Municipal - USA"
+  },
+  {
+    "id": 854,
+    "code": "(JYV)",
+    "airport": "(JYV) Jyväskylä (Jyvaskyla) - Finland"
+  },
+  { "id": 855, "code": "(KAJ)", "airport": "(KAJ) Kajaani - Finland" },
+  { "id": 856, "code": "(KAN)", "airport": "(KAN) Kano - Nigeria" },
+  { "id": 857, "code": "(KAO)", "airport": "(KAO) Kuusamo - Finland" },
+  {
+    "id": 858,
+    "code": "(KBL)",
+    "airport": "(KBL) Kabul - Khwaja Rawash Airport - Afghanistan"
+  },
+  { "id": 859, "code": "(KBP)", "airport": "(KBP) Kiev - Borispol - Ukraine" },
+  { "id": 860, "code": "(KBY)", "airport": "(KBY) Streaky Bay - Australia" },
+  { "id": 861, "code": "(KCC)", "airport": "(KCC) Coffmann Cove (AK) - USA" },
+  { "id": 862, "code": "(KCH)", "airport": "(KCH) Kuching - Malaysia" },
+  { "id": 863, "code": "(KCM)", "airport": "(KCM) Kahramanmaras - Turkey" },
+  { "id": 864, "code": "(KCZ)", "airport": "(KCZ) Kochi - Japan" },
+  { "id": 865, "code": "(KDD)", "airport": "(KDD) Khuzdar - Pakistan" },
+  { "id": 866, "code": "(KDU)", "airport": "(KDU) Skardu - Pakistan" },
+  {
+    "id": 867,
+    "code": "(KEF)",
+    "airport": "(KEF) Reykjavik - Keflavik International - Iceland"
+  },
+  { "id": 868, "code": "(KEL)", "airport": "(KEL) Kiel - Holtenau - Germany" },
+  { "id": 869, "code": "(KEM)", "airport": "(KEM) Kemi/Tornio - Finland" },
+  { "id": 870, "code": "(KGC)", "airport": "(KGC) Kingscote - Australia" },
+  { "id": 871, "code": "(KGD)", "airport": "(KGD) Kaliningrad - Russia" },
+  { "id": 872, "code": "(KGI)", "airport": "(KGI) Kalgoorlie - Australia" },
+  {
+    "id": 873,
+    "code": "(KGL)",
+    "airport": "(KGL) Kigali - Gregoire Kayibanda - Rwanda"
+  },
+  { "id": 874, "code": "(KGS)", "airport": "(KGS) Kos - Greece" },
+  {
+    "id": 875,
+    "code": "(KHH)",
+    "airport": "(KHH) Kaohsiung International - Taiwan"
+  },
+  {
+    "id": 876,
+    "code": "(KHI)",
+    "airport": "(KHI) Karachi - Jinnah International Airport - Pakistan"
+  },
+  { "id": 877, "code": "(KHJ)", "airport": "(KHJ) Kauhajoki - Finland" },
+  {
+    "id": 878,
+    "code": "(KHV)",
+    "airport": "(KHV) Chabarovsk (Khabarovsk) - Russia"
+  },
+  { "id": 879, "code": "(KID)", "airport": "(KID) Kristianstad - Sweden" },
+  { "id": 880, "code": "(KIJ)", "airport": "(KIJ) Niigata - Japan" },
+  { "id": 881, "code": "(KIK)", "airport": "(KIK) Kirkuk - Iraq" },
+  { "id": 882, "code": "(KIM)", "airport": "(KIM) Kimberley - South Africa" },
+  {
+    "id": 883,
+    "code": "(KIN)",
+    "airport": "(KIN) Kingston - Norman Manley - Jamaica"
+  },
+  { "id": 884, "code": "(KIR)", "airport": "(KIR) Kerry County - Ireland" },
+  {
+    "id": 885,
+    "code": "(KIV)",
+    "airport": "(KIV) Chisinau - Chişinău International Airport - Moldova"
+  },
+  { "id": 886, "code": "(KIW)", "airport": "(KIW) Kitwe - Zambia" },
+  {
+    "id": 887,
+    "code": "(KIX)",
+    "airport": "(KIX) Osaka - Kansai International Airport - Japan"
+  },
+  { "id": 888, "code": "(KKC)", "airport": "(KKC) Khon Kaen - Thailand" },
+  { "id": 889, "code": "(KKN)", "airport": "(KKN) Kirkenes - Norway" },
+  { "id": 890, "code": "(KLR)", "airport": "(KLR) Kalmar - Sweden" },
+  { "id": 891, "code": "(KLU)", "airport": "(KLU) Klagenfurt - Austria" },
+  { "id": 892, "code": "(KLW)", "airport": "(KLW) Klawock (AK) - USA" },
+  { "id": 893, "code": "(KLX)", "airport": "(KLX) Kalamata - Greece" },
+  { "id": 894, "code": "(KLZ)", "airport": "(KLZ) Kleinsee - South Africa" },
+  { "id": 895, "code": "(KMI)", "airport": "(KMI) Miyazaki - Japan" },
+  { "id": 896, "code": "(KMJ)", "airport": "(KMJ) Kumamoto - Japan" },
+  { "id": 897, "code": "(KMP)", "airport": "(KMP) Keetmanshoop - Namibia" },
+  { "id": 898, "code": "(KMQ)", "airport": "(KMQ) Komatsu - Japan" },
+  {
+    "id": 899,
+    "code": "(KNO)",
+    "airport": "(KNO) Medan - Kualanamu International - Indonesia"
+  },
+  {
+    "id": 900,
+    "code": "(KNS)",
+    "airport": "(KNS) King Island - King Island (Australia)"
+  },
+  { "id": 901, "code": "(KNU)", "airport": "(KNU) Kanpur - India" },
+  { "id": 902, "code": "(KNX)", "airport": "(KNX) Kununurra - Australia" },
+  { "id": 903, "code": "(KOA)", "airport": "(KOA) Kona (HI) - USA" },
+  { "id": 904, "code": "(KOJ)", "airport": "(KOJ) Kagoshima - Japan" },
+  {
+    "id": 905,
+    "code": "(KOK)",
+    "airport": "(KOK) Kokkola/Pietarsaari - Finland"
+  },
+  { "id": 906, "code": "(KRB)", "airport": "(KRB) Karumba - Australia" },
+  {
+    "id": 907,
+    "code": "(KRK)",
+    "airport": "(KRK) Krakow (Cracow) - John Paul II International Airport - Poland"
+  },
+  { "id": 908, "code": "(KRN)", "airport": "(KRN) Kiruna - Sweden" },
+  { "id": 909, "code": "(KRP)", "airport": "(KRP) Karup - Denmark" },
+  { "id": 910, "code": "(KRS)", "airport": "(KRS) Kristiansand - Norway" },
+  {
+    "id": 911,
+    "code": "(KRT)",
+    "airport": "(KRT) Khartoum - Khartoum International Airport - Sudan"
+  },
+  { "id": 912, "code": "(KSD)", "airport": "(KSD) Karlstad - Sweden" },
+  { "id": 913, "code": "(KSL)", "airport": "(KSL) Kassala - Sudan" },
+  { "id": 914, "code": "(KSU)", "airport": "(KSU) Kristiansund - Norway" },
+  { "id": 915, "code": "(KTA)", "airport": "(KTA) Karratha - Australia" },
+  { "id": 916, "code": "(KTB)", "airport": "(KTB) Thorne Bay (AK) - USA" },
+  {
+    "id": 917,
+    "code": "(KTM)",
+    "airport": "(KTM) Kathmandu - Tribhuvan International Airport - Nepal"
+  },
+  { "id": 918, "code": "(KTN)", "airport": "(KTN) Ketchikan (AK) - USA" },
+  { "id": 919, "code": "(KTR)", "airport": "(KTR) Katherine - Australia" },
+  { "id": 920, "code": "(KTT)", "airport": "(KTT) Kittilä - Finland" },
+  { "id": 921, "code": "(KUA)", "airport": "(KUA) Kuantan - Malaysia" },
+  {
+    "id": 922,
+    "code": "(KUF)",
+    "airport": "(KUF) Samara - Kurumoch International Airport - Russia"
+  },
+  { "id": 923, "code": "(KUH)", "airport": "(KUH) Kushiro - Japan" },
+  {
+    "id": 924,
+    "code": "(KUL)",
+    "airport": "(KUL) Kuala Lumpur - International Airport - Malaysia"
+  },
+  { "id": 925, "code": "(KUO)", "airport": "(KUO) Kuopio - Finland" },
+  { "id": 926, "code": "(KVA)", "airport": "(KVA) Kavalla - Greece" },
+  {
+    "id": 927,
+    "code": "(KWI)",
+    "airport": "(KWI) Kuwait - Kuwait International - Kuwait"
+  },
+  {
+    "id": 928,
+    "code": "(KWL)",
+    "airport": "(KWL) Guilin - Liangjiang - Guangxi, PR China"
+  },
+  { "id": 929, "code": "(KWM)", "airport": "(KWM) Kowanyama - Australia" },
+  { "id": 930, "code": "(KYA)", "airport": "(KYA) Konya - Turkey" },
+  { "id": 931, "code": "(KYS)", "airport": "(KYS) Kars - Turkey" },
+  {
+    "id": 932,
+    "code": "(KZN)",
+    "airport": "(KZN) Kazan - Kazan International Airport - Russia"
+  },
+  {
+    "id": 933,
+    "code": "(LAD)",
+    "airport": "(LAD) Luanda - 4 de Fevereiro - Angola"
+  },
+  {
+    "id": 934,
+    "code": "(LAE)",
+    "airport": "(LAE) Lae - Lae Nadzab Airport - Papua New Guinea"
+  },
+  { "id": 935, "code": "(LAF)", "airport": "(LAF) Lafayette (IN) - USA" },
+  { "id": 936, "code": "(LAI)", "airport": "(LAI) Lannion - France" },
+  { "id": 937, "code": "(LAN)", "airport": "(LAN) Lansing (MI) - USA" },
+  { "id": 938, "code": "(LAP)", "airport": "(LAP) La Paz - Leon - Mexico" },
+  { "id": 939, "code": "(LAR)", "airport": "(LAR) Laramie (WY) - USA" },
+  { "id": 940, "code": "(LAS)", "airport": "(LAS) Las Vegas (NV) - USA" },
+  { "id": 941, "code": "(LAW)", "airport": "(LAW) Lawton (OK) - USA" },
+  {
+    "id": 942,
+    "code": "(LAX)",
+    "airport": "(LAX) Los Angeles (CA) - International - USA"
+  },
+  { "id": 943, "code": "(LBB)", "airport": "(LBB) Lubbock (TX) - USA" },
+  { "id": 944, "code": "(LBE)", "airport": "(LBE) Latrobe (PA) - USA" },
+  {
+    "id": 945,
+    "code": "(LBG)",
+    "airport": "(LBG) Paris - Le Bourget - France"
+  },
+  { "id": 946, "code": "(LBI)", "airport": "(LBI) Albi - France" },
+  { "id": 947, "code": "(LBQ)", "airport": "(LBQ) Lambarene - Gabon" },
+  { "id": 948, "code": "(LBU)", "airport": "(LBU) Labuan - Malaysia" },
+  { "id": 949, "code": "(LBV)", "airport": "(LBV) Libreville - Gabon" },
+  { "id": 950, "code": "(LCA)", "airport": "(LCA) Larnaca - Cyprus" },
+  { "id": 951, "code": "(LCG)", "airport": "(LCG) La Coruna - Spain" },
+  { "id": 952, "code": "(LCH)", "airport": "(LCH) Lake Charles (LA) - USA" },
+  {
+    "id": 953,
+    "code": "(LDC)",
+    "airport": "(LDC) Lindeman Island - Australia"
+  },
+  { "id": 954, "code": "(LDE)", "airport": "(LDE) Lourdes/Tarbes - France" },
+  { "id": 955, "code": "(LDK)", "airport": "(LDK) Lidkoeping - Sweden" },
+  {
+    "id": 956,
+    "code": "(LEA)",
+    "airport": "(LEA) Learmouth (Exmouth) - Australia"
+  },
+  { "id": 957, "code": "(LEB)", "airport": "(LEB) Lebanon (NH) - USA" },
+  {
+    "id": 958,
+    "code": "(LED)",
+    "airport": "(LED) St. Petersburg (Leningrad) - Pulkovo - Russia"
+  },
+  { "id": 959, "code": "(LEI)", "airport": "(LEI) Almeria - Spain" },
+  { "id": 960, "code": "(LEJ)", "airport": "(LEJ) Leipzig - Germany" },
+  { "id": 961, "code": "(LEK)", "airport": "(LEK) Labe - Guinea" },
+  { "id": 962, "code": "(LER)", "airport": "(LER) Leinster - Australia" },
+  { "id": 963, "code": "(LEX)", "airport": "(LEX) Lexington (KY) - USA" },
+  { "id": 964, "code": "(LEY)", "airport": "(LEY) Lelystad - Netherlands" },
+  { "id": 965, "code": "(LFT)", "airport": "(LFT) Lafayette, La - USA" },
+  { "id": 966, "code": "(LFW)", "airport": "(LFW) Lome - Togo" },
+  {
+    "id": 967,
+    "code": "(LGA)",
+    "airport": "(LGA) New York - LaGuardia (NY) - USA"
+  },
+  { "id": 968, "code": "(LGB)", "airport": "(LGB) Long Beach (CA) - USA" },
+  { "id": 969, "code": "(LGG)", "airport": "(LGG) Liege - Belgium" },
+  {
+    "id": 970,
+    "code": "(LGK)",
+    "airport": "(LGK) Langkawi (islands) - Malaysia"
+  },
+  { "id": 971, "code": "(LHE)", "airport": "(LHE) Lahore - Pakistan" },
+  { "id": 972, "code": "(LIF)", "airport": "(LIF) Lifou - Loyaute, Pazifik" },
+  { "id": 973, "code": "(LIG)", "airport": "(LIG) Limoges - France" },
+  { "id": 974, "code": "(LIH)", "airport": "(LIH) Lihue (HI) - USA" },
+  { "id": 975, "code": "(LIJ)", "airport": "(LIJ) Long Island (AK) - USA" },
+  {
+    "id": 976,
+    "code": "(LIL)",
+    "airport": "(LIL) Lille - Lille Airport - France"
+  },
+  {
+    "id": 977,
+    "code": "(LIM)",
+    "airport": "(LIM) Lima - J Chavez International - Peru"
+  },
+  { "id": 978, "code": "(LIN)", "airport": "(LIN) Milan - Linate - Italy" },
+  { "id": 979, "code": "(LIQ)", "airport": "(LIQ) Lisala - Congo (DRC)" },
+  { "id": 980, "code": "(LIS)", "airport": "(LIS) Lisbon - Lisboa - Portugal" },
+  { "id": 981, "code": "(LIT)", "airport": "(LIT) Little Rock (AR) - USA" },
+  {
+    "id": 982,
+    "code": "(LJU)",
+    "airport": "(LJU) Ljubljana - Brnik - Slovenia"
+  },
+  { "id": 983, "code": "(LKL)", "airport": "(LKL) Lakselv - Norway" },
+  { "id": 984, "code": "(LKO)", "airport": "(LKO) Lucknow - India" },
+  { "id": 985, "code": "(LLA)", "airport": "(LLA) Lulea - Sweden" },
+  {
+    "id": 986,
+    "code": "(LLW)",
+    "airport": "(LLW) Lilongwe - Lilongwe International - Malawi"
+  },
+  { "id": 987, "code": "(LMM)", "airport": "(LMM) Los Mochis - Mexico" },
+  { "id": 988, "code": "(LMP)", "airport": "(LMP) Lampedusa - Italy" },
+  { "id": 989, "code": "(LMT)", "airport": "(LMT) Klamath Fall (OR) - USA" },
+  { "id": 990, "code": "(LNK)", "airport": "(LNK) Lincoln (NE) - USA" },
+  { "id": 991, "code": "(LNO)", "airport": "(LNO) Leonora - Australia" },
+  { "id": 992, "code": "(LNS)", "airport": "(LNS) Lancaster (PA) - USA" },
+  { "id": 993, "code": "(LNY)", "airport": "(LNY) Lanai City (HI) - USA" },
+  {
+    "id": 994,
+    "code": "(LNZ)",
+    "airport": "(LNZ) Linz - Hoersching - Austria"
+  },
+  {
+    "id": 995,
+    "code": "(LOS)",
+    "airport": "(LOS) Lagos - Murtala Muhammed Airport - Nigeria"
+  },
+  { "id": 996, "code": "(LPA)", "airport": "(LPA) Las Palmas - Spain" },
+  { "id": 997, "code": "(LPB)", "airport": "(LPB) La Paz - El Alto - Bolivia" },
+  { "id": 998, "code": "(LPP)", "airport": "(LPP) Lappeenranta - Finland" },
+  { "id": 999, "code": "(LRD)", "airport": "(LRD) Laredo (TX) - USA" },
+  { "id": 1000, "code": "(LRE)", "airport": "(LRE) Longreach - Australia" },
+  {
+    "id": 1001,
+    "code": "(LRF)",
+    "airport": "(LRF) Jacksonville (AR) Little Rock AFB - USA"
+  },
+  { "id": 1002, "code": "(LRH)", "airport": "(LRH) La Rochelle - France" },
+  {
+    "id": 1003,
+    "code": "(LRM)",
+    "airport": "(LRM) Casa de Campo - La Romana International Airport - Dominican Republic"
+  },
+  { "id": 1004, "code": "(LRT)", "airport": "(LRT) Lorient - France" },
+  { "id": 1005, "code": "(LSE)", "airport": "(LSE) La Crosse (WI) - USA" },
+  { "id": 1006, "code": "(LST)", "airport": "(LST) Launceston - Australia" },
+  { "id": 1007, "code": "(LSY)", "airport": "(LSY) Lismore - Australia" },
+  {
+    "id": 1008,
+    "code": "(LSZ)",
+    "airport": "(LSZ) Losinj - Losinj Arpt - Croatia (Hrvatska)"
+  },
+  { "id": 1009, "code": "(LTO)", "airport": "(LTO) Loreto - Mexico" },
+  { "id": 1010, "code": "(LUD)", "airport": "(LUD) Luederitz - Namibia" },
+  { "id": 1011, "code": "(LUG)", "airport": "(LUG) Lugano - Switzerland" },
+  { "id": 1012, "code": "(LUJ)", "airport": "(LUJ) Lusisiki - South Africa" },
+  {
+    "id": 1013,
+    "code": "(LUM)",
+    "airport": "(LUM) Luxi - Mangshi - Yunnan, PR China"
+  },
+  {
+    "id": 1014,
+    "code": "(LUN)",
+    "airport": "(LUN) Lusaka - Lusaka International Airport - Zambia"
+  },
+  { "id": 1015, "code": "(LUX)", "airport": "(LUX) Luxembourg - Luxembourg" },
+  { "id": 1016, "code": "(LVO)", "airport": "(LVO) Laverton - Australia" },
+  {
+    "id": 1017,
+    "code": "(LWB)",
+    "airport": "(LWB) Greenbrier/Lewisburg (WV) - USA"
+  },
+  {
+    "id": 1018,
+    "code": "(LWO)",
+    "airport": "(LWO) Lvov (Lwow, Lemberg) - Ukraine"
+  },
+  { "id": 1019, "code": "(LWS)", "airport": "(LWS) Lewiston (ID) - USA" },
+  { "id": 1020, "code": "(LWT)", "airport": "(LWT) Lewistown (MT) - USA" },
+  { "id": 1021, "code": "(LXR)", "airport": "(LXR) Luxor - Egypt" },
+  { "id": 1022, "code": "(LYH)", "airport": "(LYH) Lynchburg (VA) - USA" },
+  {
+    "id": 1023,
+    "code": "(LYO)",
+    "airport": "(LYO) Lyons (KS) - Rice County Municipal - USA"
+  },
+  { "id": 1024, "code": "(LYP)", "airport": "(LYP) Faisalabad - Pakistan" },
+  {
+    "id": 1025,
+    "code": "(LYR)",
+    "airport": "(LYR) Longyearbyen - Svalbard - Svalbard/Norway"
+  },
+  {
+    "id": 1026,
+    "code": "(LYS)",
+    "airport": "(LYS) Lyon - Lyon-Saint Exupéry Airport - France"
+  },
+  { "id": 1027, "code": "(LZC)", "airport": "(LZC) Lazaro Cardenas - Mexico" },
+  { "id": 1028, "code": "(LZR)", "airport": "(LZR) Lizard Island - Australia" },
+  { "id": 1029, "code": "(MAA)", "airport": "(MAA) Chennai (Madras) - India" },
+  {
+    "id": 1030,
+    "code": "(MAD)",
+    "airport": "(MAD) Madrid - Barajas Airport - Spain"
+  },
+  { "id": 1031, "code": "(MAF)", "airport": "(MAF) Midland/Odessa (TX) - USA" },
+  { "id": 1032, "code": "(MAH)", "airport": "(MAH) Mahon - Spain" },
+  {
+    "id": 1033,
+    "code": "(MAO)",
+    "airport": "(MAO) Manaus - Eduardo Gomes International Airport - Brazil"
+  },
+  {
+    "id": 1034,
+    "code": "(MAR)",
+    "airport": "(MAR) Maracaibo - La Chinita International - Venezuela"
+  },
+  {
+    "id": 1035,
+    "code": "(MAU)",
+    "airport": "(MAU) Maupiti - French Polynesia"
+  },
+  { "id": 1036, "code": "(MAZ)", "airport": "(MAZ) Mayaguez - Puerto Rico" },
+  {
+    "id": 1037,
+    "code": "(MBA)",
+    "airport": "(MBA) Mombasa - Moi International - Kenya"
+  },
+  { "id": 1038, "code": "(MBH)", "airport": "(MBH) Maryborough - Australia" },
+  {
+    "id": 1039,
+    "code": "(MBJ)",
+    "airport": "(MBJ) Montego Bay - Sangster International - Jamaica"
+  },
+  { "id": 1040, "code": "(MBM)", "airport": "(MBM) Mkambati - South Africa" },
+  {
+    "id": 1041,
+    "code": "(MBS)",
+    "airport": "(MBS) Saginaw/Bay City/Midland (MI) - USA"
+  },
+  { "id": 1042, "code": "(MBX)", "airport": "(MBX) Maribor - Slovenia" },
+  { "id": 1043, "code": "(MCE)", "airport": "(MCE) Merced (CA) - USA" },
+  {
+    "id": 1044,
+    "code": "(MCI)",
+    "airport": "(MCI) Kansas City (MO) - Kansas City International Airport - USA"
+  },
+  { "id": 1045, "code": "(MCL)", "airport": "(MCL) Mt. McKinley (AK) - USA" },
+  { "id": 1046, "code": "(MCN)", "airport": "(MCN) Macon (GA) - USA" },
+  {
+    "id": 1047,
+    "code": "(MCO)",
+    "airport": "(MCO) Orlando - International Airport (FL) - USA"
+  },
+  {
+    "id": 1048,
+    "code": "(MCP)",
+    "airport": "(MCP) Macapa - Alberto Alcolumbre International Airport - Brazil"
+  },
+  { "id": 1049, "code": "(MCT)", "airport": "(MCT) Muscat - Seeb - Oman" },
+  { "id": 1050, "code": "(MCW)", "airport": "(MCW) Mason City IA - USA" },
+  {
+    "id": 1051,
+    "code": "(MCY)",
+    "airport": "(MCY) Sunshine Coast - Australia"
+  },
+  {
+    "id": 1052,
+    "code": "(MCZ)",
+    "airport": "(MCZ) Maceio - Zumbi dos Palmares International Airport - Brazil"
+  },
+  { "id": 1053, "code": "(MDC)", "airport": "(MDC) Manado - Indonesia" },
+  {
+    "id": 1054,
+    "code": "(MDE)",
+    "airport": "(MDE) Medellin - José María Córdova International - Colombia"
+  },
+  {
+    "id": 1055,
+    "code": "(MDL)",
+    "airport": "(MDL) Mandalay - Mandalay-Annisaton Airport - Myanmar"
+  },
+  { "id": 1056, "code": "(MDQ)", "airport": "(MDQ) Mar del Plata - Argentina" },
+  {
+    "id": 1057,
+    "code": "(MDT)",
+    "airport": "(MDT) Harrisburg (PA) - Harrisburg International - USA"
+  },
+  {
+    "id": 1058,
+    "code": "(MDW)",
+    "airport": "(MDW) Chicago (IL), Midway - USA"
+  },
+  {
+    "id": 1059,
+    "code": "(MDY)",
+    "airport": "(MDY) Midway Island - Sand Island Field - US Minor Outlying Islands"
+  },
+  { "id": 1060, "code": "(MDZ)", "airport": "(MDZ) Mendoza - Argentina" },
+  {
+    "id": 1061,
+    "code": "(MED)",
+    "airport": "(MED) Madinah (Medina) - Mohammad Bin Abdulaziz - Saudi Arabia"
+  },
+  { "id": 1062, "code": "(MEE)", "airport": "(MEE) Mare - New Caledonia" },
+  { "id": 1063, "code": "(MEI)", "airport": "(MEI) Meridian (MS) - USA" },
+  {
+    "id": 1064,
+    "code": "(MEL)",
+    "airport": "(MEL) Melbourne - Melbourne Airport (Tullamarine) - Australia"
+  },
+  { "id": 1065, "code": "(MEM)", "airport": "(MEM) Memphis (TN) - USA" },
+  {
+    "id": 1066,
+    "code": "(MES)",
+    "airport": "(MES) Medan - Polania Int'l (now Soewondo AFB) - Indonesia"
+  },
+  {
+    "id": 1067,
+    "code": "(MEX)",
+    "airport": "(MEX) Mexico City - Juarez International - Mexico"
+  },
+  { "id": 1068, "code": "(MEZ)", "airport": "(MEZ) Messina - South Africa" },
+  { "id": 1069, "code": "(MFE)", "airport": "(MFE) McAllen (TX) - USA" },
+  { "id": 1070, "code": "(MFF)", "airport": "(MFF) Moanda - Gabon" },
+  { "id": 1071, "code": "(MFG)", "airport": "(MFG) Muzaffarabad - Pakistan" },
+  {
+    "id": 1072,
+    "code": "(MFM)",
+    "airport": "(MFM) Macau - Macau International Airport - Macau, China SAR"
+  },
+  {
+    "id": 1073,
+    "code": "(MFN)",
+    "airport": "(MFN) Milford Sound - New Zealand"
+  },
+  {
+    "id": 1074,
+    "code": "(MFO)",
+    "airport": "(MFO) Manguna - Papua New Guinea"
+  },
+  { "id": 1075, "code": "(MFQ)", "airport": "(MFQ) Maradi - Niger" },
+  { "id": 1076, "code": "(MFR)", "airport": "(MFR) Medford (OR) - USA" },
+  { "id": 1077, "code": "(MFU)", "airport": "(MFU) Mfuwe - Zambia" },
+  {
+    "id": 1078,
+    "code": "(MGA)",
+    "airport": "(MGA) Managua - Augusto C Sandino - Nicaragua"
+  },
+  { "id": 1079, "code": "(MGB)", "airport": "(MGB) Mount Gambier - Australia" },
+  { "id": 1080, "code": "(MGH)", "airport": "(MGH) Margate - South Africa" },
+  {
+    "id": 1081,
+    "code": "(MGM)",
+    "airport": "(MGM) Montgomery (AL) - Montgomery Regional Airport - USA"
+  },
+  { "id": 1082, "code": "(MGQ)", "airport": "(MGQ) Mogadishu - Somalia" },
+  { "id": 1083, "code": "(MGW)", "airport": "(MGW) Morgantown (WV) - USA" },
+  { "id": 1084, "code": "(MHE)", "airport": "(MHE) Mitchell (SD) - USA" },
+  { "id": 1085, "code": "(MHH)", "airport": "(MHH) Marsh Harbour - Bahamas" },
+  {
+    "id": 1086,
+    "code": "(MHQ)",
+    "airport": "(MHQ) Mariehamn (Maarianhamina) - Finland"
+  },
+  { "id": 1087, "code": "(MHT)", "airport": "(MHT) Manchester (NH) - USA" },
+  { "id": 1088, "code": "(MIA)", "airport": "(MIA) Miami (FL) - USA" },
+  { "id": 1089, "code": "(MID)", "airport": "(MID) Merida - Mexico" },
+  { "id": 1090, "code": "(MIK)", "airport": "(MIK) Mikkeli - Finland" },
+  { "id": 1091, "code": "(MIL)", "airport": "(MIL) Milan - Italy" },
+  { "id": 1092, "code": "(MIM)", "airport": "(MIM) Merimbula - Australia" },
+  { "id": 1093, "code": "(MIR)", "airport": "(MIR) Monastir - Tunisia" },
+  { "id": 1094, "code": "(MJC)", "airport": "(MJC) Man - Cote d'Ivoire" },
+  { "id": 1095, "code": "(MJD)", "airport": "(MJD) Moenjodaro - Pakistan" },
+  { "id": 1096, "code": "(MJL)", "airport": "(MJL) Mouila - Gabon" },
+  { "id": 1097, "code": "(MJN)", "airport": "(MJN) Majunga - Madagascar" },
+  { "id": 1098, "code": "(MJQ)", "airport": "(MJQ) Jackson, MN - USA" },
+  {
+    "id": 1099,
+    "code": "(MJT)",
+    "airport": "(MJT) Mytilene (Lesbos) - Greece"
+  },
+  { "id": 1100, "code": "(MJV)", "airport": "(MJV) Murcia - Spain" },
+  { "id": 1101, "code": "(MKE)", "airport": "(MKE) Milwaukee (WI) - USA" },
+  { "id": 1102, "code": "(MKG)", "airport": "(MKG) Muskegon (MI) - USA" },
+  { "id": 1103, "code": "(MKK)", "airport": "(MKK) Kaunakakai (HI) - USA" },
+  {
+    "id": 1104,
+    "code": "(MKL)",
+    "airport": "(MKL) Jackson (TN) - Mckellar - USA"
+  },
+  { "id": 1105, "code": "(MKR)", "airport": "(MKR) Meekatharra - Australia" },
+  { "id": 1106, "code": "(MKY)", "airport": "(MKY) Mackay - Australia" },
+  { "id": 1107, "code": "(MLA)", "airport": "(MLA) Luga - Malta" },
+  { "id": 1108, "code": "(MLB)", "airport": "(MLB) Melbourne (FL) - USA" },
+  {
+    "id": 1109,
+    "code": "(MLE)",
+    "airport": "(MLE) Male - Velana International Airport - Maledives"
+  },
+  { "id": 1110, "code": "(MLH)", "airport": "(MLH) Mulhouse - France" },
+  {
+    "id": 1111,
+    "code": "(MLI)",
+    "airport": "(MLI) Moline/Quad Cities (IL) - USA"
+  },
+  { "id": 1112, "code": "(MLM)", "airport": "(MLM) Morelia - Mexico" },
+  { "id": 1113, "code": "(MLS)", "airport": "(MLS) Miles City (MT) - USA" },
+  { "id": 1114, "code": "(MLU)", "airport": "(MLU) Monroe (LA) - USA" },
+  {
+    "id": 1115,
+    "code": "(MLW)",
+    "airport": "(MLW) Monrovia - Metropolitan Area - Liberia"
+  },
+  { "id": 1116, "code": "(MLX)", "airport": "(MLX) Malatya - Turkey" },
+  { "id": 1117, "code": "(MMA)", "airport": "(MMA) Malmo (Malmoe) - Sweden" },
+  { "id": 1118, "code": "(MMG)", "airport": "(MMG) Mount Magnet - Australia" },
+  { "id": 1119, "code": "(MMJ)", "airport": "(MMJ) Matsumoto, Nagano - Japan" },
+  { "id": 1120, "code": "(MMK)", "airport": "(MMK) Murmansk - Russia" },
+  { "id": 1121, "code": "(MMM)", "airport": "(MMM) Middlemount - Australia" },
+  {
+    "id": 1122,
+    "code": "(MMX)",
+    "airport": "(MMX) Malmo (Malmö) - Malmö Airport - Sweden"
+  },
+  {
+    "id": 1123,
+    "code": "(MMY)",
+    "airport": "(MMY) Miyako Jima (Ryuku Islands) - Hirara - Japan"
+  },
+  {
+    "id": 1124,
+    "code": "(MOB)",
+    "airport": "(MOB) Mobile (AL) - Pascagoula (MS) - USA"
+  },
+  { "id": 1125, "code": "(MOD)", "airport": "(MOD) Modesto (CA) - USA" },
+  { "id": 1126, "code": "(MOT)", "airport": "(MOT) Minot (ND) - USA" },
+  { "id": 1127, "code": "(MOV)", "airport": "(MOV) Moranbah - Australia" },
+  {
+    "id": 1128,
+    "code": "(MOW)",
+    "airport": "(MOW) Moscow - Metropolitan Area - Russia"
+  },
+  { "id": 1129, "code": "(MOZ)", "airport": "(MOZ) Moorea - French Polynesia" },
+  {
+    "id": 1130,
+    "code": "(MPA)",
+    "airport": "(MPA) Katima Mulilo/Mpacha - Namibia"
+  },
+  { "id": 1131, "code": "(MPD)", "airport": "(MPD) Sindhri - Pakistan" },
+  {
+    "id": 1132,
+    "code": "(MPL)",
+    "airport": "(MPL) Montpellier - Montpellier-Méditerranée Airport - France"
+  },
+  {
+    "id": 1133,
+    "code": "(MPM)",
+    "airport": "(MPM) Maputo - Maputo International - Mozambique"
+  },
+  { "id": 1134, "code": "(MQL)", "airport": "(MQL) Mildura - Australia" },
+  { "id": 1135, "code": "(MQM)", "airport": "(MQM) Mardin - Turkey" },
+  {
+    "id": 1136,
+    "code": "(MQP)",
+    "airport": "(MQP) Nelspruit - Kruger Mpumalanga International Airport - South Africa"
+  },
+  { "id": 1137, "code": "(MQQ)", "airport": "(MQQ) Moundou - Chad" },
+  { "id": 1138, "code": "(MQT)", "airport": "(MQT) Marquette (MI) - USA" },
+  { "id": 1139, "code": "(MRB)", "airport": "(MRB) Martinsburg (WV) - USA" },
+  {
+    "id": 1140,
+    "code": "(MRS)",
+    "airport": "(MRS) Marseille - Marseille Provence Airport - France"
+  },
+  {
+    "id": 1141,
+    "code": "(MRU)",
+    "airport": "(MRU) Mauritius - S.Seewoosagur Ram International - Mauritius"
+  },
+  { "id": 1142, "code": "(MRV)", "airport": "(MRV) Mineralnye Vody - Russia" },
+  { "id": 1143, "code": "(MRY)", "airport": "(MRY) Monterey (CA) - USA" },
+  { "id": 1144, "code": "(MRZ)", "airport": "(MRZ) Moree - Australia" },
+  { "id": 1145, "code": "(MSL)", "airport": "(MSL) Muscle Shoals (AL) - USA" },
+  {
+    "id": 1146,
+    "code": "(MSN)",
+    "airport": "(MSN) Madison (WI) - Dane County Regional Airport - USA"
+  },
+  { "id": 1147, "code": "(MSO)", "airport": "(MSO) Missula (MT) - USA" },
+  {
+    "id": 1148,
+    "code": "(MSP)",
+    "airport": "(MSP) Minneapolis - St. Paul International Airport (MN) - USA"
+  },
+  {
+    "id": 1149,
+    "code": "(MSQ)",
+    "airport": "(MSQ) Minsk, International - Belarus"
+  },
+  { "id": 1150, "code": "(MSR)", "airport": "(MSR) Mus - Turkey" },
+  {
+    "id": 1151,
+    "code": "(MST)",
+    "airport": "(MST) Maastricht/Aachen - Netherlands"
+  },
+  {
+    "id": 1152,
+    "code": "(MSU)",
+    "airport": "(MSU) Maseru - Moshoeshoe International - Lesotho"
+  },
+  { "id": 1153, "code": "(MSY)", "airport": "(MSY) New Orleans, La - USA" },
+  { "id": 1154, "code": "(MTH)", "airport": "(MTH) Marathon (FL) - USA" },
+  {
+    "id": 1155,
+    "code": "(MTJ)",
+    "airport": "(MTJ) Montrose/Tellruide (CO) - USA"
+  },
+  { "id": 1156, "code": "(MTL)", "airport": "(MTL) Maitland - Australia" },
+  { "id": 1157, "code": "(MTM)", "airport": "(MTM) Metlakatla (AK) - USA" },
+  { "id": 1158, "code": "(MTO)", "airport": "(MTO) Mattoon (IL) - USA" },
+  {
+    "id": 1159,
+    "code": "(MTS)",
+    "airport": "(MTS) Manzini - Matsapha International - Swaziland"
+  },
+  { "id": 1160, "code": "(MTT)", "airport": "(MTT) Minatitlan - Mexico" },
+  {
+    "id": 1161,
+    "code": "(MTY)",
+    "airport": "(MTY) Monterrey - Gen. Mariano Escobedo - Mexico"
+  },
+  { "id": 1162, "code": "(MUB)", "airport": "(MUB) Maun - Botswana" },
+  {
+    "id": 1163,
+    "code": "(MUC)",
+    "airport": "(MUC) Muenchen (Munich) - Franz Josef Strauss - Germany"
+  },
+  { "id": 1164, "code": "(MUE)", "airport": "(MUE) Kamuela (HI) - USA" },
+  {
+    "id": 1165,
+    "code": "(MUH)",
+    "airport": "(MUH) Marsa Matrah (Marsa Matruh) - Egypt"
+  },
+  { "id": 1166, "code": "(MUX)", "airport": "(MUX) Multan - Pakistan" },
+  { "id": 1167, "code": "(MVB)", "airport": "(MVB) Mvengue - Gabon" },
+  {
+    "id": 1168,
+    "code": "(MVD)",
+    "airport": "(MVD) Montevideo - Carrasco International Airport - Uruguay"
+  },
+  { "id": 1169, "code": "(MVR)", "airport": "(MVR) Maroua - Cameroon" },
+  {
+    "id": 1170,
+    "code": "(MVY)",
+    "airport": "(MVY) Martha's Vineyard (MA) - USA"
+  },
+  { "id": 1171, "code": "(MVZ)", "airport": "(MVZ) Masvingo - Zimbabwe" },
+  { "id": 1172, "code": "(MWD)", "airport": "(MWD) Mianwali - Pakistan" },
+  { "id": 1173, "code": "(MWH)", "airport": "(MWH) Moses Lake (WA) - USA" },
+  { "id": 1174, "code": "(MXL)", "airport": "(MXL) Mexicali - Mexico" },
+  { "id": 1175, "code": "(MXP)", "airport": "(MXP) Milan - Malpensa - Italy" },
+  { "id": 1176, "code": "(MYA)", "airport": "(MYA) Moruya - Australia" },
+  { "id": 1177, "code": "(MYD)", "airport": "(MYD) Malindi - Kenya" },
+  { "id": 1178, "code": "(MYJ)", "airport": "(MYJ) Matsuyama - Japan" },
+  { "id": 1179, "code": "(MYQ)", "airport": "(MYQ) Mysore - India" },
+  {
+    "id": 1180,
+    "code": "(MYR)",
+    "airport": "(MYR) Myrtle Beach (SC) - Myrtle Beach AFB - USA"
+  },
+  { "id": 1181, "code": "(MYY)", "airport": "(MYY) Miri - Malaysia" },
+  { "id": 1182, "code": "(MZF)", "airport": "(MZF) Mzamba - South Africa" },
+  { "id": 1183, "code": "(MZG)", "airport": "(MZG) Makung - Taiwan" },
+  { "id": 1184, "code": "(MZM)", "airport": "(MZM) Metz - Frescaty - France" },
+  { "id": 1185, "code": "(MZT)", "airport": "(MZT) Mazatlan - Mexico" },
+  { "id": 1186, "code": "(MZY)", "airport": "(MZY) Mossel Bay - South Africa" },
+  { "id": 1187, "code": "(NAA)", "airport": "(NAA) Narrabri - Australia" },
+  { "id": 1188, "code": "(NAG)", "airport": "(NAG) Nagpur - India" },
+  { "id": 1189, "code": "(NAJ)", "airport": "(NAJ) Nakhichevan - Azerbaijan" },
+  { "id": 1190, "code": "(NAN)", "airport": "(NAN) Nadi - Fiji" },
+  {
+    "id": 1191,
+    "code": "(NAP)",
+    "airport": "(NAP) Naples - Naples Capodichino Airport - Italy"
+  },
+  {
+    "id": 1192,
+    "code": "(NAS)",
+    "airport": "(NAS) Bahamas - Lynden Pindling International Airport - The Bahamas"
+  },
+  {
+    "id": 1193,
+    "code": "(NAT)",
+    "airport": "(NAT) Natal - Augusto Severo International Airport - Brazil"
+  },
+  {
+    "id": 1194,
+    "code": "(NAY)",
+    "airport": "(NAY) Beijing - Nanyuan Airport - China"
+  },
+  { "id": 1195, "code": "(NBO)", "airport": "(NBO) Nairobi - Kenya" },
+  {
+    "id": 1196,
+    "code": "(NCE)",
+    "airport": "(NCE) Nice - Cote D'Azur Airport - France"
+  },
+  { "id": 1197, "code": "(NCS)", "airport": "(NCS) Newcastle - South Africa" },
+  { "id": 1198, "code": "(NCY)", "airport": "(NCY) Annecy - France" },
+  { "id": 1199, "code": "(NDB)", "airport": "(NDB) Nouadhibou - Mauritania" },
+  { "id": 1200, "code": "(NDJ)", "airport": "(NDJ) N'Djamena - Chad" },
+  { "id": 1201, "code": "(NDU)", "airport": "(NDU) Rundu - Namibia" },
+  {
+    "id": 1202,
+    "code": "(NEV)",
+    "airport": "(NEV) Nevis - St. Kitts and Nevis"
+  },
+  { "id": 1203, "code": "(NGE)", "airport": "(NGE) N'Gaoundere - Cameroon" },
+  {
+    "id": 1204,
+    "code": "(NGO)",
+    "airport": "(NGO) Nagoya - Komaki AFB - Japan"
+  },
+  { "id": 1205, "code": "(NGS)", "airport": "(NGS) Nagasaki - Japan" },
+  { "id": 1206, "code": "(NIC)", "airport": "(NIC) Nicosia - Cyprus" },
+  { "id": 1207, "code": "(NIM)", "airport": "(NIM) Niamey - Niger" },
+  {
+    "id": 1208,
+    "code": "(NIP)",
+    "airport": "(NIP) Jacksonville (FL) Jacksonville NAS - USA"
+  },
+  { "id": 1209, "code": "(NKC)", "airport": "(NKC) Nouakchott - Mauritania" },
+  { "id": 1210, "code": "(NLA)", "airport": "(NLA) N'Dola - Zambia" },
+  { "id": 1211, "code": "(NLD)", "airport": "(NLD) Nuevo Laredo - Mexico" },
+  {
+    "id": 1212,
+    "code": "(NLK)",
+    "airport": "(NLK) Norfolk Island - Australia"
+  },
+  { "id": 1213, "code": "(NLP)", "airport": "(NLP) Nelspruit - South Africa" },
+  {
+    "id": 1214,
+    "code": "(NLU)",
+    "airport": "(NLU) Mexico City - Santa Lucia - Mexico"
+  },
+  { "id": 1215, "code": "(NLV)", "airport": "(NLV) Nikolaev - Ukraine" },
+  {
+    "id": 1216,
+    "code": "(NNG)",
+    "airport": "(NNG) Nanning - Guangxi, PR China"
+  },
+  { "id": 1217, "code": "(NOC)", "airport": "(NOC) Knock - Ireland" },
+  { "id": 1218, "code": "(NOU)", "airport": "(NOU) Noumea - New Caledonia" },
+  { "id": 1219, "code": "(NRA)", "airport": "(NRA) Narrandera - Australia" },
+  { "id": 1220, "code": "(NRK)", "airport": "(NRK) Norrkoeping - Sweden" },
+  { "id": 1221, "code": "(NRT)", "airport": "(NRT) Tokyo - Narita - Japan" },
+  { "id": 1222, "code": "(NSA)", "airport": "(NSA) Noosa - Australia" },
+  { "id": 1223, "code": "(NSN)", "airport": "(NSN) Nelson - New Zealand" },
+  { "id": 1224, "code": "(NSO)", "airport": "(NSO) Scone - Australia" },
+  {
+    "id": 1225,
+    "code": "(NST)",
+    "airport": "(NST) Nakhon Si Thammarat - Thailand"
+  },
+  {
+    "id": 1226,
+    "code": "(NTE)",
+    "airport": "(NTE) Nantes - Nantes Atlantique Airport - France"
+  },
+  {
+    "id": 1227,
+    "code": "(NTL)",
+    "airport": "(NTL) Newcastle - Williamtown - Australia"
+  },
+  {
+    "id": 1228,
+    "code": "(NTR)",
+    "airport": "(NTR) Monterrey - Aeropuerto Del Norte - Mexico"
+  },
+  {
+    "id": 1229,
+    "code": "(NTY)",
+    "airport": "(NTY) Pilanesberg/Sun City - South Africa"
+  },
+  {
+    "id": 1230,
+    "code": "(NUE)",
+    "airport": "(NUE) Nürnberg (Nuremberg) - Germany"
+  },
+  { "id": 1231, "code": "(NYC)", "airport": "(NYC) New York (NY) - USA" },
+  {
+    "id": 1232,
+    "code": "(NZC)",
+    "airport": "(NZC) Jacksonville (FL) - Cecil Field NAS - USA"
+  },
+  { "id": 1233, "code": "(OAG)", "airport": "(OAG) Orange - Australia" },
+  { "id": 1234, "code": "(OAJ)", "airport": "(OAJ) Jacksonville (NC) - USA" },
+  { "id": 1235, "code": "(OAK)", "airport": "(OAK) Oakland (CA) - USA" },
+  {
+    "id": 1236,
+    "code": "(OAX)",
+    "airport": "(OAX) Oaxaca - Xoxocotlan - Mexico"
+  },
+  {
+    "id": 1237,
+    "code": "(ODA)",
+    "airport": "(ODA) Ouadda - Central African Republic"
+  },
+  { "id": 1238, "code": "(ODB)", "airport": "(ODB) Cordoba - Spain" },
+  { "id": 1239, "code": "(ODE)", "airport": "(ODE) Odense - Denmark" },
+  { "id": 1240, "code": "(ODS)", "airport": "(ODS) Odessa - Ukraine" },
+  { "id": 1241, "code": "(OGG)", "airport": "(OGG) Kahului (HI) - USA" },
+  { "id": 1242, "code": "(OHD)", "airport": "(OHD) Ohrid - Macedonia" },
+  { "id": 1243, "code": "(OHT)", "airport": "(OHT) Kohat - Pakistan" },
+  { "id": 1244, "code": "(OIT)", "airport": "(OIT) Oita - Japan" },
+  {
+    "id": 1245,
+    "code": "(OKA)",
+    "airport": "(OKA) Okinawa, Ryukyo Island - Naha - Japan"
+  },
+  {
+    "id": 1246,
+    "code": "(OKC)",
+    "airport": "(OKC) Oklahoma City (OK) - Will Rogers World - USA"
+  },
+  {
+    "id": 1247,
+    "code": "(OKD)",
+    "airport": "(OKD) Sapporo - Okadama - Hokkaido, Japan"
+  },
+  { "id": 1248, "code": "(OKJ)", "airport": "(OKJ) Okayama - Japan" },
+  { "id": 1249, "code": "(OKU)", "airport": "(OKU) Mokuti - Namibia" },
+  { "id": 1250, "code": "(OLB)", "airport": "(OLB) Olbia - Italy" },
+  { "id": 1251, "code": "(OLF)", "airport": "(OLF) Wolf Point (MT) - USA" },
+  { "id": 1252, "code": "(OLP)", "airport": "(OLP) Olympic Dam - Australia" },
+  { "id": 1253, "code": "(OMA)", "airport": "(OMA) Omaha (NE) - USA" },
+  { "id": 1254, "code": "(OMD)", "airport": "(OMD) Oranjemund - Namibia" },
+  { "id": 1255, "code": "(OME)", "airport": "(OME) Nome (AK) - USA" },
+  { "id": 1256, "code": "(OMH)", "airport": "(OMH) Urmiehm (Orumieh) - Iran" },
+  {
+    "id": 1257,
+    "code": "(OMO)",
+    "airport": "(OMO) Mostar - Bosnia and Herzegovina"
+  },
+  { "id": 1258, "code": "(OND)", "airport": "(OND) Ondangwa - Namibia" },
+  { "id": 1259, "code": "(ONT)", "airport": "(ONT) Ontario (CA) - USA" },
+  { "id": 1260, "code": "(OOL)", "airport": "(OOL) Gold Coast - Australia" },
+  { "id": 1261, "code": "(OPO)", "airport": "(OPO) Porto - Portugal" },
+  { "id": 1262, "code": "(ORB)", "airport": "(ORB) Oerebro - Sweden" },
+  {
+    "id": 1263,
+    "code": "(ORD)",
+    "airport": "(ORD) Chicago (IL), O'Hare International Airport - USA"
+  },
+  {
+    "id": 1264,
+    "code": "(ORF)",
+    "airport": "(ORF) Norfolk/Virginia Beach (VA) - USA"
+  },
+  { "id": 1265, "code": "(ORH)", "airport": "(ORH) Worcester (MA) - USA" },
+  { "id": 1266, "code": "(ORK)", "airport": "(ORK) Cork - Ireland" },
+  {
+    "id": 1267,
+    "code": "(ORL)",
+    "airport": "(ORL) Orlando Metropolitan Area (FL) - USA"
+  },
+  { "id": 1268, "code": "(ORN)", "airport": "(ORN) Oran (Ouahran) - Algeria" },
+  {
+    "id": 1269,
+    "code": "(ORS)",
+    "airport": "(ORS) Orpheus Island - Australia"
+  },
+  { "id": 1270, "code": "(ORY)", "airport": "(ORY) Paris - Orly - France" },
+  {
+    "id": 1271,
+    "code": "(OSA)",
+    "airport": "(OSA) Osaka, Metropolitan Area - Japan"
+  },
+  { "id": 1272, "code": "(OSH)", "airport": "(OSH) Oshkosh (WI) - USA" },
+  {
+    "id": 1273,
+    "code": "(OSI)",
+    "airport": "(OSI) Osijek - Croatia (Hrvatska)"
+  },
+  {
+    "id": 1274,
+    "code": "(OSL)",
+    "airport": "(OSL) Oslo - Oslo Airport, Gardermoen - Norway"
+  },
+  { "id": 1275, "code": "(OSM)", "airport": "(OSM) Mosul - Iraq" },
+  { "id": 1276, "code": "(OTH)", "airport": "(OTH) North Bend (OR) - USA" },
+  {
+    "id": 1277,
+    "code": "(OTP)",
+    "airport": "(OTP) Bucharest - Henri Coandă International Airport - Romania"
+  },
+  { "id": 1278, "code": "(OTZ)", "airport": "(OTZ) Kotzbue (AK) - USA" },
+  {
+    "id": 1279,
+    "code": "(OUA)",
+    "airport": "(OUA) Ouagadougou - Burkina Faso"
+  },
+  { "id": 1280, "code": "(OUD)", "airport": "(OUD) Oujda - Morocco" },
+  { "id": 1281, "code": "(OUH)", "airport": "(OUH) Oudtshoorn - South Africa" },
+  { "id": 1282, "code": "(OUL)", "airport": "(OUL) Oulu - Finland" },
+  { "id": 1283, "code": "(OUZ)", "airport": "(OUZ) Zouerate - Mauritania" },
+  {
+    "id": 1284,
+    "code": "(OVB)",
+    "airport": "(OVB) Novosibirsk - Tolmachevo Airport - Russia"
+  },
+  { "id": 1285, "code": "(OVD)", "airport": "(OVD) Oviedo - Spain" },
+  { "id": 1286, "code": "(OWB)", "airport": "(OWB) Owensboro (KY) - USA" },
+  { "id": 1287, "code": "(OXR)", "airport": "(OXR) Oxnard (CA) - USA" },
+  { "id": 1288, "code": "(OZZ)", "airport": "(OZZ) Ouarzazate - Morocco" },
+  {
+    "id": 1289,
+    "code": "(PAD)",
+    "airport": "(PAD) Paderborn/Lippstadt - Germany"
+  },
+  { "id": 1290, "code": "(PAH)", "airport": "(PAH) Paducah (KY) - USA" },
+  { "id": 1291, "code": "(PAP)", "airport": "(PAP) Port au Prince - Haiti" },
+  { "id": 1292, "code": "(PAR)", "airport": "(PAR) Paris - France" },
+  { "id": 1293, "code": "(PAT)", "airport": "(PAT) Patna - India" },
+  { "id": 1294, "code": "(PBC)", "airport": "(PBC) Puebla - Mexico" },
+  { "id": 1295, "code": "(PBH)", "airport": "(PBH) Paro - Bhutan" },
+  {
+    "id": 1296,
+    "code": "(PBI)",
+    "airport": "(PBI) West Palm Beach (FL) - USA"
+  },
+  {
+    "id": 1297,
+    "code": "(PBM)",
+    "airport": "(PBM) Paramaribo - Zanderij International - Suriname"
+  },
+  { "id": 1298, "code": "(PBO)", "airport": "(PBO) Paraburdoo - Australia" },
+  {
+    "id": 1299,
+    "code": "(PBZ)",
+    "airport": "(PBZ) Plettenberg Bay - South Africa"
+  },
+  { "id": 1300, "code": "(PDL)", "airport": "(PDL) Ponta Delgada - Portugal" },
+  { "id": 1301, "code": "(PDT)", "airport": "(PDT) Pendelton (OR) - USA" },
+  {
+    "id": 1302,
+    "code": "(PDX)",
+    "airport": "(PDX) Portland International (OR) - USA"
+  },
+  { "id": 1303, "code": "(PEG)", "airport": "(PEG) Perugia - Italy" },
+  { "id": 1304, "code": "(PEI)", "airport": "(PEI) Pereira - Colombia" },
+  { "id": 1305, "code": "(PEK)", "airport": "(PEK) Beijing - China" },
+  {
+    "id": 1306,
+    "code": "(PEN)",
+    "airport": "(PEN) Penang International - Malaysia"
+  },
+  {
+    "id": 1307,
+    "code": "(PER)",
+    "airport": "(PER) Perth International - Australia"
+  },
+  { "id": 1308, "code": "(PEW)", "airport": "(PEW) Peshawar - Pakistan" },
+  { "id": 1309, "code": "(PFN)", "airport": "(PFN) Panama City (FL) - USA" },
+  { "id": 1310, "code": "(PFO)", "airport": "(PFO) Paphos - Cyprus" },
+  {
+    "id": 1311,
+    "code": "(PGA)",
+    "airport": "(PGA) Page/Lake Powell (AZ) - USA"
+  },
+  { "id": 1312, "code": "(PGF)", "airport": "(PGF) Perpignan - France" },
+  { "id": 1313, "code": "(PGV)", "airport": "(PGV) Greenville (NC) - USA" },
+  { "id": 1314, "code": "(PHC)", "airport": "(PHC) Port Harcourt - Nigeria" },
+  { "id": 1315, "code": "(PHE)", "airport": "(PHE) Port Hedland - Australia" },
+  {
+    "id": 1316,
+    "code": "(PHF)",
+    "airport": "(PHF) Newport News/Williamsburg (VA) - USA"
+  },
+  {
+    "id": 1317,
+    "code": "(PHL)",
+    "airport": "(PHL) Philadelphia (PA) - International - USA"
+  },
+  { "id": 1318, "code": "(PHW)", "airport": "(PHW) Phalaborwa - South Africa" },
+  {
+    "id": 1319,
+    "code": "(PHX)",
+    "airport": "(PHX) Phoenix (AZ) - Sky Harbor International - USA"
+  },
+  {
+    "id": 1320,
+    "code": "(PIA)",
+    "airport": "(PIA) Peoria/Bloomington (IL) - USA"
+  },
+  {
+    "id": 1321,
+    "code": "(PIB)",
+    "airport": "(PIB) Laurel/Hattisburg (MS) - USA"
+  },
+  { "id": 1322, "code": "(PIH)", "airport": "(PIH) Pocatello (ID) - USA" },
+  { "id": 1323, "code": "(PIR)", "airport": "(PIR) Pierre (SD) - USA" },
+  { "id": 1324, "code": "(PIS)", "airport": "(PIS) Poitiers - Biard - France" },
+  {
+    "id": 1325,
+    "code": "(PIT)",
+    "airport": "(PIT) Pittsburgh International Airport (PA) - USA"
+  },
+  { "id": 1326, "code": "(PJG)", "airport": "(PJG) Panjgur - Pakistan" },
+  {
+    "id": 1327,
+    "code": "(PKB)",
+    "airport": "(PKB) Pakersburg (WV) /Marietta (OH) - USA"
+  },
+  { "id": 1328, "code": "(PKW)", "airport": "(PKW) Selibi Phikwe - Botswana" },
+  { "id": 1329, "code": "(PLB)", "airport": "(PLB) Plattsburgh (NY) - USA" },
+  { "id": 1330, "code": "(PLN)", "airport": "(PLN) Pellston (MI) - USA" },
+  { "id": 1331, "code": "(PLO)", "airport": "(PLO) Port Lincoln - Australia" },
+  {
+    "id": 1332,
+    "code": "(PLZ)",
+    "airport": "(PLZ) Port Elizabeth - South Africa"
+  },
+  {
+    "id": 1333,
+    "code": "(PMD)",
+    "airport": "(PMD) Palmdale/Lancaster (CA) - USA"
+  },
+  { "id": 1334, "code": "(PMI)", "airport": "(PMI) Palma de Mallorca - Spain" },
+  {
+    "id": 1335,
+    "code": "(PMO)",
+    "airport": "(PMO) Palermo - Punta Raisi - Italy"
+  },
+  {
+    "id": 1336,
+    "code": "(PMR)",
+    "airport": "(PMR) Palmerston North - New Zealand"
+  },
+  { "id": 1337, "code": "(PMV)", "airport": "(PMV) Margerita - Venezuela" },
+  { "id": 1338, "code": "(PMW)", "airport": "(PMW) Palmas - Brazil" },
+  {
+    "id": 1339,
+    "code": "(PNH)",
+    "airport": "(PNH) Phnom Penh - Pochentong - Cambodia"
+  },
+  { "id": 1340, "code": "(PNI)", "airport": "(PNI) Pohnpei - Micronesia" },
+  { "id": 1341, "code": "(PNL)", "airport": "(PNL) Pantelleria - Italy" },
+  { "id": 1342, "code": "(PNQ)", "airport": "(PNQ) Pune - India, Maharashtra" },
+  {
+    "id": 1343,
+    "code": "(PNR)",
+    "airport": "(PNR) Pointe Noire - Congo (ROC)"
+  },
+  { "id": 1344, "code": "(PNS)", "airport": "(PNS) Pensacola (FL) - USA" },
+  {
+    "id": 1345,
+    "code": "(POA)",
+    "airport": "(POA) Porto Alegre - Salgado Filho International Airport - Brazil"
+  },
+  { "id": 1346, "code": "(POG)", "airport": "(POG) Port Gentil - Gabon" },
+  {
+    "id": 1347,
+    "code": "(POM)",
+    "airport": "(POM) Port Moresby - Jackson Field - Papua New Guinea"
+  },
+  {
+    "id": 1348,
+    "code": "(POP)",
+    "airport": "(POP) Puerto Plata - Dominican Republic"
+  },
+  { "id": 1349, "code": "(POR)", "airport": "(POR) Pori - Finland" },
+  {
+    "id": 1350,
+    "code": "(POS)",
+    "airport": "(POS) Port of Spain - Piarco International - Trinidad and Tobago"
+  },
+  { "id": 1351, "code": "(POU)", "airport": "(POU) Poughkeepsie (NY) - USA" },
+  { "id": 1352, "code": "(POZ)", "airport": "(POZ) Poznan, Lawica - Poland" },
+  {
+    "id": 1353,
+    "code": "(PPG)",
+    "airport": "(PPG) Pago Pago - American Samoa"
+  },
+  { "id": 1354, "code": "(PPP)", "airport": "(PPP) Prosperpine - Australia" },
+  {
+    "id": 1355,
+    "code": "(PPT)",
+    "airport": "(PPT) Papeete - Faaa - French Polynesia (Tahiti)"
+  },
+  { "id": 1356, "code": "(PQI)", "airport": "(PQI) Presque Island (ME) - USA" },
+  {
+    "id": 1357,
+    "code": "(PQQ)",
+    "airport": "(PQQ) Port Macquarie - Australia"
+  },
+  {
+    "id": 1358,
+    "code": "(PRG)",
+    "airport": "(PRG) Prague - Václav Havel Airport (formerly Ruzyne) - Czech Republic"
+  },
+  { "id": 1359, "code": "(PRN)", "airport": "(PRN) Pristina - Serbia" },
+  {
+    "id": 1360,
+    "code": "(PRY)",
+    "airport": "(PRY) Pretoria - Wonderboom Apt. - South Africa"
+  },
+  {
+    "id": 1361,
+    "code": "(PSA)",
+    "airport": "(PSA) Pisa - Galileo Galilei - Italy"
+  },
+  { "id": 1362, "code": "(PSC)", "airport": "(PSC) Pasco (WA) - USA" },
+  { "id": 1363, "code": "(PSD)", "airport": "(PSD) Port Said - Egypt" },
+  { "id": 1364, "code": "(PSE)", "airport": "(PSE) Ponce - Puerto Rico" },
+  { "id": 1365, "code": "(PSG)", "airport": "(PSG) Petersburg (AK) - USA" },
+  { "id": 1366, "code": "(PSI)", "airport": "(PSI) Pasni - Pakistan" },
+  { "id": 1367, "code": "(PSP)", "airport": "(PSP) Palm Springs (CA) - USA" },
+  { "id": 1368, "code": "(PSR)", "airport": "(PSR) Pescara - Italy" },
+  {
+    "id": 1369,
+    "code": "(PTG)",
+    "airport": "(PTG) Pietersburg - South Africa"
+  },
+  { "id": 1370, "code": "(PTJ)", "airport": "(PTJ) Portland - Australia" },
+  {
+    "id": 1371,
+    "code": "(PTP)",
+    "airport": "(PTP) Basse-Terre - Pointe-à-Pitre International Airport - Guadeloupe"
+  },
+  {
+    "id": 1372,
+    "code": "(PTY)",
+    "airport": "(PTY) Panama City - Tocumen International - Panama"
+  },
+  { "id": 1373, "code": "(PUB)", "airport": "(PUB) Pueblo (CO) - USA" },
+  { "id": 1374, "code": "(PUF)", "airport": "(PUF) Pau - France" },
+  { "id": 1375, "code": "(PUG)", "airport": "(PUG) Port Augusta - Australia" },
+  {
+    "id": 1376,
+    "code": "(PUJ)",
+    "airport": "(PUJ) Punta Cana - Punta Cana International - Dominican Republic"
+  },
+  {
+    "id": 1377,
+    "code": "(PUQ)",
+    "airport": "(PUQ) Punta Arenas - Presidente Carlos Ibáñez del Campo - Chile"
+  },
+  {
+    "id": 1378,
+    "code": "(PUS)",
+    "airport": "(PUS) Pu San (Busan) - Gimhae International Airport - South Korea"
+  },
+  { "id": 1379, "code": "(PUW)", "airport": "(PUW) Pullman (WA) - USA" },
+  { "id": 1380, "code": "(PUY)", "airport": "(PUY) Pula - Croatia (Hrvatska)" },
+  { "id": 1381, "code": "(PVD)", "airport": "(PVD) Providence (RI) - USA" },
+  {
+    "id": 1382,
+    "code": "(PVG)",
+    "airport": "(PVG) Shanghai - Pu Dong - China"
+  },
+  { "id": 1383, "code": "(PVH)", "airport": "(PVH) Porto Velho - Brazil" },
+  { "id": 1384, "code": "(PVK)", "airport": "(PVK) Preveza/Lefkas - Greece" },
+  { "id": 1385, "code": "(PVR)", "airport": "(PVR) Puerto Vallarta - Mexico" },
+  { "id": 1386, "code": "(PWM)", "airport": "(PWM) Portland (ME) - USA" },
+  { "id": 1387, "code": "(PXM)", "airport": "(PXM) Puerto Escondido - Mexico" },
+  { "id": 1388, "code": "(PXO)", "airport": "(PXO) Porto Santo - Portugal" },
+  {
+    "id": 1389,
+    "code": "(PYB)",
+    "airport": "(PYB) Jeypore - Jeypore Airport - India"
+  },
+  { "id": 1390, "code": "(PYX)", "airport": "(PYX) Pattaya - Thailand" },
+  {
+    "id": 1391,
+    "code": "(PZB)",
+    "airport": "(PZB) Pietermaritzburg - South Africa"
+  },
+  { "id": 1392, "code": "(PZH)", "airport": "(PZH) Zhob - Pakistan" },
+  { "id": 1393, "code": "(PZO)", "airport": "(PZO) Puerto Ordaz - Venezuela" },
+  { "id": 1394, "code": "(QCB)", "airport": "(QCB) Chiba City - Japan" },
+  { "id": 1395, "code": "(QGF)", "airport": "(QGF) Montenegro - Brazil" },
+  { "id": 1396, "code": "(QLI)", "airport": "(QLI) Limassol - Cyprus" },
+  { "id": 1397, "code": "(QML)", "airport": "(QML) Mirpur - Pakistan" },
+  { "id": 1398, "code": "(QNB)", "airport": "(QNB) Anand - India" },
+  { "id": 1399, "code": "(QND)", "airport": "(QND) Novi Sad - Serbia" },
+  {
+    "id": 1400,
+    "code": "(QPG)",
+    "airport": "(QPG) Singapore - Paya Lebar - Singapore"
+  },
+  {
+    "id": 1401,
+    "code": "(QUF)",
+    "airport": "(QUF) Tallinn - Pirita Harbour - Estonia"
+  },
+  {
+    "id": 1402,
+    "code": "(RAI)",
+    "airport": "(RAI) Praia - Nelson Mandela International Airport - Cape Verde"
+  },
+  { "id": 1403, "code": "(RAJ)", "airport": "(RAJ) Rajkot - India" },
+  {
+    "id": 1404,
+    "code": "(RAK)",
+    "airport": "(RAK) Marrakesh - Menara Airport - Morocco"
+  },
+  { "id": 1405, "code": "(RAP)", "airport": "(RAP) Rapid City (SD) - USA" },
+  { "id": 1406, "code": "(RAR)", "airport": "(RAR) Rarotonga - Cook Island" },
+  { "id": 1407, "code": "(RAZ)", "airport": "(RAZ) Rawala Kot - Pakistan" },
+  {
+    "id": 1408,
+    "code": "(RBA)",
+    "airport": "(RBA) Rabat - Rabat-Salé Airport - Morocco"
+  },
+  {
+    "id": 1409,
+    "code": "(RBR)",
+    "airport": "(RBR) Rio Branco - Plácido de Castro International Airport - Brazil"
+  },
+  {
+    "id": 1410,
+    "code": "(RCB)",
+    "airport": "(RCB) Richards Bay - South Africa"
+  },
+  { "id": 1411, "code": "(RDD)", "airport": "(RDD) Redding (CA) - USA" },
+  { "id": 1412, "code": "(RDG)", "airport": "(RDG) Reading (PA) - USA" },
+  { "id": 1413, "code": "(RDM)", "airport": "(RDM) Redmond (OR) - USA" },
+  { "id": 1414, "code": "(RDU)", "airport": "(RDU) Raleigh/Durham (NC) - USA" },
+  { "id": 1415, "code": "(RDZ)", "airport": "(RDZ) Rodez - France" },
+  {
+    "id": 1416,
+    "code": "(REC)",
+    "airport": "(REC) Recife - Guararapes-Gilberto Freyre International - Brazil"
+  },
+  { "id": 1417, "code": "(REG)", "airport": "(REG) Reggio Calabria - Italy" },
+  {
+    "id": 1418,
+    "code": "(REK)",
+    "airport": "(REK) Reykjavik - Metropolitan Area - Iceland"
+  },
+  { "id": 1419, "code": "(REU)", "airport": "(REU) Reus - Spain" },
+  { "id": 1420, "code": "(RFD)", "airport": "(RFD) Rockford (IL) - USA" },
+  {
+    "id": 1421,
+    "code": "(RFP)",
+    "airport": "(RFP) Raiatea - French Polynesia"
+  },
+  {
+    "id": 1422,
+    "code": "(RGI)",
+    "airport": "(RGI) Rangiroa - French Polynesia"
+  },
+  {
+    "id": 1423,
+    "code": "(RGN)",
+    "airport": "(RGN) Rangoon (Yangon) - Mingaladon - Myanmar"
+  },
+  { "id": 1424, "code": "(RHI)", "airport": "(RHI) Rhinelander (WI) - USA" },
+  { "id": 1425, "code": "(RHO)", "airport": "(RHO) Rhodos - Greece" },
+  { "id": 1426, "code": "(RIC)", "airport": "(RIC) Richmond (VA) - USA" },
+  { "id": 1427, "code": "(RIO)", "airport": "(RIO) Rio de Janeiro - Brazil" },
+  { "id": 1428, "code": "(RIX)", "airport": "(RIX) Riga - Latvia" },
+  {
+    "id": 1429,
+    "code": "(RJK)",
+    "airport": "(RJK) Rijeka - Croatia (Hrvatska)"
+  },
+  { "id": 1430, "code": "(RKD)", "airport": "(RKD) Rockland (ME) - USA" },
+  { "id": 1431, "code": "(RKS)", "airport": "(RKS) Rock Springs (WY) - USA" },
+  {
+    "id": 1432,
+    "code": "(RKT)",
+    "airport": "(RKT) Ras al Khaymah (Ras al Khaimah) - United Arab Emirates"
+  },
+  { "id": 1433, "code": "(RLT)", "airport": "(RLT) Arlit - Niger" },
+  { "id": 1434, "code": "(RMF)", "airport": "(RMF) Marsa Alam - Egypt" },
+  { "id": 1435, "code": "(RMI)", "airport": "(RMI) Rimini - Italy" },
+  { "id": 1436, "code": "(RNB)", "airport": "(RNB) Ronneby - Sweden" },
+  { "id": 1437, "code": "(RNE)", "airport": "(RNE) Roanne - France" },
+  { "id": 1438, "code": "(RNN)", "airport": "(RNN) Roenne - Denmark" },
+  { "id": 1439, "code": "(RNO)", "airport": "(RNO) Reno (NV) - USA" },
+  { "id": 1440, "code": "(RNS)", "airport": "(RNS) Rennes - France" },
+  { "id": 1441, "code": "(ROA)", "airport": "(ROA) Roanoke (VA) - USA" },
+  {
+    "id": 1442,
+    "code": "(ROB)",
+    "airport": "(ROB) Monrovia - Roberts International - Liberia"
+  },
+  { "id": 1443, "code": "(ROC)", "airport": "(ROC) Rochester (NY) - USA" },
+  { "id": 1444, "code": "(ROK)", "airport": "(ROK) Rockhampton - Australia" },
+  { "id": 1445, "code": "(ROM)", "airport": "(ROM) Rome - Italy" },
+  { "id": 1446, "code": "(ROS)", "airport": "(ROS) Rosario - Argentina" },
+  { "id": 1447, "code": "(ROT)", "airport": "(ROT) Rotorua - New Zealand" },
+  { "id": 1448, "code": "(ROU)", "airport": "(ROU) Ruse - Bulgaria" },
+  {
+    "id": 1449,
+    "code": "(ROV)",
+    "airport": "(ROV) Rostov-on-Don - Platov International Airport - Russia"
+  },
+  {
+    "id": 1450,
+    "code": "(RRG)",
+    "airport": "(RRG) Rodrigues Island - Mauritius"
+  },
+  { "id": 1451, "code": "(RSA)", "airport": "(RSA) Santa Rosa - Argentina" },
+  { "id": 1452, "code": "(RSD)", "airport": "(RSD) Rock Sound - Bahamas" },
+  { "id": 1453, "code": "(RST)", "airport": "(RST) Rochester (MN) - USA" },
+  {
+    "id": 1454,
+    "code": "(RSW)",
+    "airport": "(RSW) Fort Myers, Southwest Florida Reg (FL) - USA"
+  },
+  { "id": 1455, "code": "(RTB)", "airport": "(RTB) Roatan - Honduras" },
+  { "id": 1456, "code": "(RTM)", "airport": "(RTM) Rotterdam - Netherlands" },
+  {
+    "id": 1457,
+    "code": "(RUH)",
+    "airport": "(RUH) Riyadh - King Khaled International - Saudi Arabia"
+  },
+  {
+    "id": 1458,
+    "code": "(RUN)",
+    "airport": "(RUN) Saint Denis - Roland Garros Airport - Reunion"
+  },
+  {
+    "id": 1459,
+    "code": "(RVI)",
+    "airport": "(RVI) Rostov-on-Don - Rostov-on-Don Airport - Russia"
+  },
+  { "id": 1460, "code": "(RVN)", "airport": "(RVN) Rovaniemi - Finland" },
+  {
+    "id": 1461,
+    "code": "(RWI)",
+    "airport": "(RWI) Rocky Mount - Wilson (NC) - USA"
+  },
+  { "id": 1462, "code": "(RWP)", "airport": "(RWP) Rawalpindi - Pakistan" },
+  {
+    "id": 1463,
+    "code": "(RYK)",
+    "airport": "(RYK) Rahim Yar Khan - Shaikh Zayed International Airport - Pakistan"
+  },
+  {
+    "id": 1464,
+    "code": "(SAH)",
+    "airport": "(SAH) Sanaa (Sana'a) - Sana'a International - Yemen"
+  },
+  {
+    "id": 1465,
+    "code": "(SAL)",
+    "airport": "(SAL) San Salvador - El Salvador"
+  },
+  {
+    "id": 1466,
+    "code": "(SAN)",
+    "airport": "(SAN) San Diego - Lindberg Field International (CA) - USA"
+  },
+  { "id": 1467, "code": "(SAO)", "airport": "(SAO) Sao Paulo - Brazil" },
+  { "id": 1468, "code": "(SAP)", "airport": "(SAP) San Pedro Sula - Honduras" },
+  { "id": 1469, "code": "(SAT)", "airport": "(SAT) San Antonio (TX) - USA" },
+  { "id": 1470, "code": "(SAV)", "airport": "(SAV) Savannah (GA) - USA" },
+  {
+    "id": 1471,
+    "code": "(SAW)",
+    "airport": "(SAW) Istanbul - Sabiha Gokcen - Turkey"
+  },
+  { "id": 1472, "code": "(SAY)", "airport": "(SAY) Salisbury - Zimbabwe" },
+  { "id": 1473, "code": "(SBA)", "airport": "(SBA) Santa Barbara (CA) - USA" },
+  { "id": 1474, "code": "(SBK)", "airport": "(SBK) Saint Brieuc - France" },
+  { "id": 1475, "code": "(SBN)", "airport": "(SBN) South Bend (IN) - USA" },
+  {
+    "id": 1476,
+    "code": "(SBP)",
+    "airport": "(SBP) San Luis Obisco (CA) - USA"
+  },
+  { "id": 1477, "code": "(SBU)", "airport": "(SBU) Springbok - South Africa" },
+  { "id": 1478, "code": "(SBW)", "airport": "(SBW) Sibu - Malaysia" },
+  { "id": 1479, "code": "(SBY)", "airport": "(SBY) Salisbury (MD) - USA" },
+  { "id": 1480, "code": "(SCC)", "airport": "(SCC) Prudhoe Bay (AK) - USA" },
+  {
+    "id": 1481,
+    "code": "(SCE)",
+    "airport": "(SCE) State College/Belefonte (PA) - USA"
+  },
+  { "id": 1482, "code": "(SCF)", "airport": "(SCF) Scottsdale (AZ) - USA" },
+  { "id": 1483, "code": "(SCK)", "airport": "(SCK) Stockton (CA) - USA" },
+  {
+    "id": 1484,
+    "code": "(SCL)",
+    "airport": "(SCL) Santiago de Chile - Arturo Merino Benitez - Chile"
+  },
+  { "id": 1485, "code": "(SCN)", "airport": "(SCN) Saarbruecken - Germany" },
+  {
+    "id": 1486,
+    "code": "(SCQ)",
+    "airport": "(SCQ) Santiago de Compostela - Spain"
+  },
+  {
+    "id": 1487,
+    "code": "(SCU)",
+    "airport": "(SCU) Santiago - Antonio Maceo Airport - Cuba"
+  },
+  { "id": 1488, "code": "(SDF)", "airport": "(SDF) Louisville (KY) - USA" },
+  {
+    "id": 1489,
+    "code": "(SDH)",
+    "airport": "(SDH) Santa Rosa, Copan - Honduras"
+  },
+  { "id": 1490, "code": "(SDJ)", "airport": "(SDJ) Sendai - Japan" },
+  { "id": 1491, "code": "(SDL)", "airport": "(SDL) Sundsvall - Sweden" },
+  {
+    "id": 1492,
+    "code": "(SDQ)",
+    "airport": "(SDQ) Santo Domingo - Dominican Republic"
+  },
+  { "id": 1493, "code": "(SDR)", "airport": "(SDR) Santander - Spain" },
+  { "id": 1494, "code": "(SDS)", "airport": "(SDS) Sado Shima - Japan" },
+  { "id": 1495, "code": "(SDT)", "airport": "(SDT) Saidu Sharif - Pakistan" },
+  {
+    "id": 1496,
+    "code": "(SDU)",
+    "airport": "(SDU) Rio de Janeiro - Santos Dumont - Brazil"
+  },
+  { "id": 1497, "code": "(SDY)", "airport": "(SDY) Sidney (MT) - USA" },
+  { "id": 1498, "code": "(SEA)", "airport": "(SEA) Seattle/Tacoma (WA) - USA" },
+  { "id": 1499, "code": "(SEB)", "airport": "(SEB) Sehba - Libya" },
+  {
+    "id": 1500,
+    "code": "(SEL)",
+    "airport": "(SEL) Seoul - Kimpo - South Korea"
+  },
+  { "id": 1501, "code": "(SEW)", "airport": "(SEW) Siwa - Egypt" },
+  {
+    "id": 1502,
+    "code": "(SEZ)",
+    "airport": "(SEZ) Mahe - Seychelles International - Seychelles"
+  },
+  { "id": 1503, "code": "(SFA)", "airport": "(SFA) Sfax - Tunisia" },
+  {
+    "id": 1504,
+    "code": "(SFG)",
+    "airport": "(SFG) St. Martin - St. Martin (Guadeloupe)"
+  },
+  {
+    "id": 1505,
+    "code": "(SFJ)",
+    "airport": "(SFJ) Soendre Stroemfjord - Greenland"
+  },
+  {
+    "id": 1506,
+    "code": "(SFO)",
+    "airport": "(SFO) San Francisco - International Airport, SA - USA"
+  },
+  { "id": 1507, "code": "(SGD)", "airport": "(SGD) Soenderborg - Denmark" },
+  { "id": 1508, "code": "(SGF)", "airport": "(SGF) Springfield (MO) - USA" },
+  {
+    "id": 1509,
+    "code": "(SGN)",
+    "airport": "(SGN) Ho Chi Minh City (Saigon) - Tan Son Nhat International - Viet Nam"
+  },
+  { "id": 1510, "code": "(SGU)", "airport": "(SGU) St. George (UT) - USA" },
+  { "id": 1511, "code": "(SGY)", "airport": "(SGY) Skagway (AK) - USA" },
+  {
+    "id": 1512,
+    "code": "(SHA)",
+    "airport": "(SHA) Shanghai - Hongqiao - China"
+  },
+  {
+    "id": 1513,
+    "code": "(SHD)",
+    "airport": "(SHD) Shenandoah Valley/Stauton (VA) - USA"
+  },
+  {
+    "id": 1514,
+    "code": "(SHE)",
+    "airport": "(SHE) Shenyang - Liaoning, PR China"
+  },
+  {
+    "id": 1515,
+    "code": "(SHJ)",
+    "airport": "(SHJ) Sharjah - United Arab Emirates"
+  },
+  { "id": 1516, "code": "(SHR)", "airport": "(SHR) Sheridan (WY) - USA" },
+  { "id": 1517, "code": "(SHV)", "airport": "(SHV) Shreveport, La - USA" },
+  { "id": 1518, "code": "(SID)", "airport": "(SID) Sal - Cape Verde" },
+  {
+    "id": 1519,
+    "code": "(SIN)",
+    "airport": "(SIN) Singapore - Changi - Singapore"
+  },
+  { "id": 1520, "code": "(SIP)", "airport": "(SIP) Simferopol - Ukraine" },
+  { "id": 1521, "code": "(SIS)", "airport": "(SIS) Sishen - South Africa" },
+  { "id": 1522, "code": "(SIT)", "airport": "(SIT) Sitka (AK) - USA" },
+  { "id": 1523, "code": "(SIX)", "airport": "(SIX) Singleton - Australia" },
+  { "id": 1524, "code": "(SJC)", "airport": "(SJC) San Jose (CA) - USA" },
+  { "id": 1525, "code": "(SJD)", "airport": "(SJD) Los Cabos - Mexico" },
+  {
+    "id": 1526,
+    "code": "(SJJ)",
+    "airport": "(SJJ) Sarajevo - Bosnia and Herzegovina"
+  },
+  { "id": 1527, "code": "(SJO)", "airport": "(SJO) San Jose - Costa Rica" },
+  { "id": 1528, "code": "(SJT)", "airport": "(SJT) San Angelo (TX) - USA" },
+  {
+    "id": 1529,
+    "code": "(SJU)",
+    "airport": "(SJU) San Juan - Luis Munoz Marin International Airport - Puerto Rico"
+  },
+  { "id": 1530, "code": "(SJY)", "airport": "(SJY) Seinaejoki - Finland" },
+  {
+    "id": 1531,
+    "code": "(SKB)",
+    "airport": "(SKB) Basseterre - Robert L. Bradshaw International Airport - Saint Kitts and Nevis"
+  },
+  {
+    "id": 1532,
+    "code": "(SKD)",
+    "airport": "(SKD) Samarkand - Samarkand International Airport - Uzbekistan"
+  },
+  { "id": 1533, "code": "(SKG)", "airport": "(SKG) Saloniki - Greece" },
+  { "id": 1534, "code": "(SKP)", "airport": "(SKP) Skopje - Macedonia" },
+  { "id": 1535, "code": "(SKS)", "airport": "(SKS) Skrydstrup - Denmark" },
+  {
+    "id": 1536,
+    "code": "(SKV)",
+    "airport": "(SKV) Santa Katarina - Mount Sinai - Egypt"
+  },
+  {
+    "id": 1537,
+    "code": "(SKX)",
+    "airport": "(SKX) Saransk - Saransk Airport - Russia"
+  },
+  { "id": 1538, "code": "(SKZ)", "airport": "(SKZ) Sukkur - Pakistan" },
+  {
+    "id": 1539,
+    "code": "(SLA)",
+    "airport": "(SLA) Salta, Gen Belgrano - Argentina"
+  },
+  { "id": 1540, "code": "(SLC)", "airport": "(SLC) Salt Lake City (UT) - USA" },
+  { "id": 1541, "code": "(SLE)", "airport": "(SLE) Salem (OR) - USA" },
+  { "id": 1542, "code": "(SLL)", "airport": "(SLL) Salalah - Oman" },
+  { "id": 1543, "code": "(SLP)", "airport": "(SLP) San Luis Potosi - Mexico" },
+  { "id": 1544, "code": "(SLS)", "airport": "(SLS) Silistra - Bulgaria" },
+  {
+    "id": 1545,
+    "code": "(SLU)",
+    "airport": "(SLU) Castries - George F. L. Charles Airport - Saint Lucia"
+  },
+  {
+    "id": 1546,
+    "code": "(SLZ)",
+    "airport": "(SLZ) Sao Luis - Marechal Cunha Machado International - Brazil"
+  },
+  { "id": 1547, "code": "(SMA)", "airport": "(SMA) Santa Maria - Portugal" },
+  { "id": 1548, "code": "(SMF)", "airport": "(SMF) Sacramento (CA) - USA" },
+  { "id": 1549, "code": "(SMI)", "airport": "(SMI) Samos - Greece" },
+  { "id": 1550, "code": "(SMX)", "airport": "(SMX) Santa Maria (CA) - USA" },
+  {
+    "id": 1551,
+    "code": "(SNA)",
+    "airport": "(SNA) Orange County (Santa Ana) (CA) - USA"
+  },
+  { "id": 1552, "code": "(SNC)", "airport": "(SNC) Salinas - Ecuador" },
+  {
+    "id": 1553,
+    "code": "(SNN)",
+    "airport": "(SNN) Shannon (Limerick) - Ireland"
+  },
+  { "id": 1554, "code": "(SNS)", "airport": "(SNS) Salinas (CA) - USA" },
+  {
+    "id": 1555,
+    "code": "(SOF)",
+    "airport": "(SOF) Sofia - Vrazhdebna - Bulgaria"
+  },
+  { "id": 1556, "code": "(SOG)", "airport": "(SOG) Sogndal - Norway" },
+  {
+    "id": 1557,
+    "code": "(SOI)",
+    "airport": "(SOI) South Molle Island - Australia"
+  },
+  { "id": 1558, "code": "(SON)", "airport": "(SON) Santo - Vanuatu" },
+  { "id": 1559, "code": "(SOT)", "airport": "(SOT) Sodankylae - Finland" },
+  {
+    "id": 1560,
+    "code": "(SPC)",
+    "airport": "(SPC) Santa Cruz de la Palma - Spain"
+  },
+  { "id": 1561, "code": "(SPI)", "airport": "(SPI) Springfield (IL) - USA" },
+  { "id": 1562, "code": "(SPK)", "airport": "(SPK) Sapporo - Hokkaido, Japan" },
+  {
+    "id": 1563,
+    "code": "(SPN)",
+    "airport": "(SPN) Saipan - Northern Mariana Islands"
+  },
+  { "id": 1564, "code": "(SPS)", "airport": "(SPS) Wichita Falls (TX) - USA" },
+  {
+    "id": 1565,
+    "code": "(SPU)",
+    "airport": "(SPU) Split - Croatia (Hrvatska)"
+  },
+  { "id": 1566, "code": "(SPY)", "airport": "(SPY) San Pedro - Cote d'Ivoire" },
+  { "id": 1567, "code": "(SRA)", "airport": "(SRA) Santa Rosa - Brazil" },
+  { "id": 1568, "code": "(SRB)", "airport": "(SRB) Santa Rosa - Bolivia" },
+  { "id": 1569, "code": "(SRL)", "airport": "(SRL) Santa Rosalia - Mexico" },
+  {
+    "id": 1570,
+    "code": "(SRQ)",
+    "airport": "(SRQ) Sarasota/Bradenton (FL) - USA"
+  },
+  {
+    "id": 1571,
+    "code": "(SRZ)",
+    "airport": "(SRZ) Santa Cruz de la Sierra - Bolivia"
+  },
+  {
+    "id": 1572,
+    "code": "(SSA)",
+    "airport": "(SSA) Salvador - Salvador International Airport - Brazil"
+  },
+  {
+    "id": 1573,
+    "code": "(SSG)",
+    "airport": "(SSG) Malabo - Malabo International Airport - Equatorial Guinea"
+  },
+  { "id": 1574, "code": "(SSH)", "airport": "(SSH) Sharm El Sheikh - Egypt" },
+  { "id": 1575, "code": "(SSL)", "airport": "(SSL) Santa Rosalia - Colombia" },
+  {
+    "id": 1576,
+    "code": "(STL)",
+    "airport": "(STL) St. Louis (MO) Lambert-St. Louis International Airport - USA"
+  },
+  {
+    "id": 1577,
+    "code": "(STO)",
+    "airport": "(STO) Stockholm Metropolitan Area - Sweden"
+  },
+  {
+    "id": 1578,
+    "code": "(STR)",
+    "airport": "(STR) Stuttgart - Echterdingen - Germany"
+  },
+  { "id": 1579, "code": "(STS)", "airport": "(STS) Santa Rosa (CA) - USA" },
+  {
+    "id": 1580,
+    "code": "(STT)",
+    "airport": "(STT) St. Thomas - Virgin Islands (U.S.)"
+  },
+  { "id": 1581, "code": "(STV)", "airport": "(STV) Surat - India" },
+  {
+    "id": 1582,
+    "code": "(STX)",
+    "airport": "(STX) St. Croix - Virgin Islands (U.S.)"
+  },
+  {
+    "id": 1583,
+    "code": "(SUB)",
+    "airport": "(SUB) Surabaya - Juanda - Indonesia"
+  },
+  { "id": 1584, "code": "(SUF)", "airport": "(SUF) Lamezia Terme - Italy" },
+  { "id": 1585, "code": "(SUL)", "airport": "(SUL) Sui - Pakistan" },
+  { "id": 1586, "code": "(SUM)", "airport": "(SUM) Agana (Hagåtña) - Guam" },
+  { "id": 1587, "code": "(SUN)", "airport": "(SUN) Sun Valley (ID) - USA" },
+  { "id": 1588, "code": "(SUV)", "airport": "(SUV) Nausori - Fiji/Suva" },
+  { "id": 1589, "code": "(SUX)", "airport": "(SUX) Sioux City IA - USA" },
+  {
+    "id": 1590,
+    "code": "(SVD)",
+    "airport": "(SVD) Kingstown - E. T. Joshua Airport - Saint Vincent and the Grenadines"
+  },
+  { "id": 1591, "code": "(SVG)", "airport": "(SVG) Stavanger - Norway" },
+  { "id": 1592, "code": "(SVL)", "airport": "(SVL) Savonlinna - Finland" },
+  {
+    "id": 1593,
+    "code": "(SVO)",
+    "airport": "(SVO) Moscow - Sheremetyevo - Russia"
+  },
+  { "id": 1594, "code": "(SVQ)", "airport": "(SVQ) Sevilla - Spain" },
+  {
+    "id": 1595,
+    "code": "(SVX)",
+    "airport": "(SVX) Yekaterinburg - Koltsovo Airport - Russia"
+  },
+  { "id": 1596, "code": "(SWF)", "airport": "(SWF) Newburgh (NY) - USA" },
+  { "id": 1597, "code": "(SWP)", "airport": "(SWP) Swakopmund - Namibia" },
+  {
+    "id": 1598,
+    "code": "(SXB)",
+    "airport": "(SXB) Strasbourg - Strasbourg Airport - France"
+  },
+  {
+    "id": 1599,
+    "code": "(SXF)",
+    "airport": "(SXF) Berlin, Schoenefeld - Germany"
+  },
+  { "id": 1600, "code": "(SXL)", "airport": "(SXL) Sligo - Ireland" },
+  {
+    "id": 1601,
+    "code": "(SXM)",
+    "airport": "(SXM) St. Marteen - Netherlands Antilles"
+  },
+  { "id": 1602, "code": "(SXR)", "airport": "(SXR) Srinagar - India" },
+  {
+    "id": 1603,
+    "code": "(SYD)",
+    "airport": "(SYD) Sydney - Sydney Airport - Australia"
+  },
+  { "id": 1604, "code": "(SYR)", "airport": "(SYR) Syracuse (NY) - USA" },
+  {
+    "id": 1605,
+    "code": "(SZB)",
+    "airport": "(SZB) Kuala Lumpur - Sultan Abdul Aziz Shah - Malaysia"
+  },
+  { "id": 1606, "code": "(SZF)", "airport": "(SZF) Samsun - Turkey" },
+  {
+    "id": 1607,
+    "code": "(SZG)",
+    "airport": "(SZG) Salzburg - W.A. Mozart - Austria"
+  },
+  { "id": 1608, "code": "(SZK)", "airport": "(SZK) Skukuza - South Africa" },
+  {
+    "id": 1609,
+    "code": "(SZX)",
+    "airport": "(SZX) Shenzhen - Shenzhen Bao'an International - Guangdong, PR China"
+  },
+  { "id": 1610, "code": "(SZZ)", "airport": "(SZZ) Stettin - Poland" },
+  {
+    "id": 1611,
+    "code": "(TAB)",
+    "airport": "(TAB) Scarborough - Crown Point International - Trinidad and Tobago"
+  },
+  { "id": 1612, "code": "(TAK)", "airport": "(TAK) Takamatsu - Japan" },
+  {
+    "id": 1613,
+    "code": "(TAM)",
+    "airport": "(TAM) Tampico - Gen. F. Javier Mina - Mexico"
+  },
+  {
+    "id": 1614,
+    "code": "(TAO)",
+    "airport": "(TAO) Qingdao - Shandong, PR China"
+  },
+  {
+    "id": 1615,
+    "code": "(TAS)",
+    "airport": "(TAS) Tashkent - International - Uzbekistan"
+  },
+  {
+    "id": 1616,
+    "code": "(TAY)",
+    "airport": "(TAY) Taipei - Sung Shan - Taiwan"
+  },
+  {
+    "id": 1617,
+    "code": "(TBS)",
+    "airport": "(TBS) Tbilisi - Novo Alexeyevka - Georgia"
+  },
+  {
+    "id": 1618,
+    "code": "(TBU)",
+    "airport": "(TBU) Nuku'alofa - Fua'Amotu International - Tonga"
+  },
+  { "id": 1619, "code": "(TCA)", "airport": "(TCA) Tennant Creek - Australia" },
+  { "id": 1620, "code": "(TCB)", "airport": "(TCB) Treasure Cay - Bahamas" },
+  { "id": 1621, "code": "(TCI)", "airport": "(TCI) Tenerife - Spain" },
+  { "id": 1622, "code": "(TCL)", "airport": "(TCL) Tuscaloosa (AL) - USA" },
+  { "id": 1623, "code": "(TCU)", "airport": "(TCU) Thaba'Nchu - South Africa" },
+  { "id": 1624, "code": "(TED)", "airport": "(TED) Thisted - Denmark" },
+  { "id": 1625, "code": "(TEM)", "airport": "(TEM) Temora - Australia" },
+  { "id": 1626, "code": "(TEQ)", "airport": "(TEQ) Tekirdag - Corlu - Turkey" },
+  { "id": 1627, "code": "(TER)", "airport": "(TER) Terceira - Portugal" },
+  { "id": 1628, "code": "(TEU)", "airport": "(TEU) Te Anau - New Zealand" },
+  { "id": 1629, "code": "(TEX)", "airport": "(TEX) Telluride (CO) - USA" },
+  {
+    "id": 1630,
+    "code": "(TFN)",
+    "airport": "(TFN) Los Rodeos - Teneriffa/Spain"
+  },
+  {
+    "id": 1631,
+    "code": "(TFS)",
+    "airport": "(TFS) Reina Sofia - Teneriffa/Spain"
+  },
+  { "id": 1632, "code": "(TGD)", "airport": "(TGD) Podgorica - Montenegro" },
+  { "id": 1633, "code": "(TGU)", "airport": "(TGU) Tegucigalpa - Honduras" },
+  { "id": 1634, "code": "(TGV)", "airport": "(TGV) Targovishte - Bulgaria" },
+  { "id": 1635, "code": "(TGZ)", "airport": "(TGZ) Tuxtla Gutierrez - Mexico" },
+  { "id": 1636, "code": "(THE)", "airport": "(THE) Teresina - Brazil" },
+  {
+    "id": 1637,
+    "code": "(THF)",
+    "airport": "(THF) Berlin, Tempelhof (ceased operating in 2008) - Germany"
+  },
+  {
+    "id": 1638,
+    "code": "(THR)",
+    "airport": "(THR) Tehran (Teheran) - Mehrabad - Iran"
+  },
+  { "id": 1639, "code": "(TIA)", "airport": "(TIA) Tirana - Rinas - Albania" },
+  { "id": 1640, "code": "(TIF)", "airport": "(TIF) Taif - Saudi Arabia" },
+  {
+    "id": 1641,
+    "code": "(TIJ)",
+    "airport": "(TIJ) Tijuana - Rodriguez - Mexico"
+  },
+  {
+    "id": 1642,
+    "code": "(TIP)",
+    "airport": "(TIP) Tripoli - Tripoli International - Libya"
+  },
+  {
+    "id": 1643,
+    "code": "(TIS)",
+    "airport": "(TIS) Thursday Island - Australia"
+  },
+  { "id": 1644, "code": "(TIV)", "airport": "(TIV) Tivat - Montenegro" },
+  { "id": 1645, "code": "(TKA)", "airport": "(TKA) Talkeetna (AK) - USA" },
+  { "id": 1646, "code": "(TKS)", "airport": "(TKS) Tokushima - Japan" },
+  { "id": 1647, "code": "(TKU)", "airport": "(TKU) Turku - Finland" },
+  { "id": 1648, "code": "(TLH)", "airport": "(TLH) Tallahassee (FL) - USA" },
+  {
+    "id": 1649,
+    "code": "(TLL)",
+    "airport": "(TLL) Tallinn - Ulemiste - Estonia"
+  },
+  {
+    "id": 1650,
+    "code": "(TLS)",
+    "airport": "(TLS) Toulouse - Blagnac Airport - France"
+  },
+  {
+    "id": 1651,
+    "code": "(TLV)",
+    "airport": "(TLV) Tel Aviv - Ben Gurion International - Israel"
+  },
+  { "id": 1652, "code": "(TMP)", "airport": "(TMP) Tampere - Finland" },
+  {
+    "id": 1653,
+    "code": "(TMS)",
+    "airport": "(TMS) Sao Tome - Sao Tome & Principe"
+  },
+  { "id": 1654, "code": "(TMW)", "airport": "(TMW) Tamworth - Australia" },
+  {
+    "id": 1655,
+    "code": "(TMZ)",
+    "airport": "(TMZ) Termez (Termes) - Uzbekistan"
+  },
+  {
+    "id": 1656,
+    "code": "(TNA)",
+    "airport": "(TNA) Jinan - Shandong, PR China"
+  },
+  {
+    "id": 1657,
+    "code": "(TNG)",
+    "airport": "(TNG) Tangier - Boukhalef - Morocco"
+  },
+  {
+    "id": 1658,
+    "code": "(TNR)",
+    "airport": "(TNR) Antananarivo (Tanannarive) - Ivato International Airport - Madagascar"
+  },
+  { "id": 1659, "code": "(TOD)", "airport": "(TOD) Tioman - Indonesia" },
+  { "id": 1660, "code": "(TOL)", "airport": "(TOL) Toledo (OH) - USA" },
+  { "id": 1661, "code": "(TOS)", "airport": "(TOS) Tromsoe - Norway" },
+  { "id": 1662, "code": "(TOU)", "airport": "(TOU) Touho - New Caledonia" },
+  {
+    "id": 1663,
+    "code": "(TOV)",
+    "airport": "(TOV) Tortola - British Virgin Islands"
+  },
+  { "id": 1664, "code": "(TOY)", "airport": "(TOY) Toyama - Japan" },
+  {
+    "id": 1665,
+    "code": "(TPA)",
+    "airport": "(TPA) Tampa - International (FL) - USA"
+  },
+  {
+    "id": 1666,
+    "code": "(TPE)",
+    "airport": "(TPE) Taipei - Chiang Kai Shek - Taiwan"
+  },
+  { "id": 1667, "code": "(TPR)", "airport": "(TPR) Tom Price - Australia" },
+  { "id": 1668, "code": "(TPS)", "airport": "(TPS) Trapani - Italy" },
+  { "id": 1669, "code": "(TRD)", "airport": "(TRD) Trondheim - Norway" },
+  {
+    "id": 1670,
+    "code": "(TRF)",
+    "airport": "(TRF) Oslo - Sandefjord - Norway"
+  },
+  {
+    "id": 1671,
+    "code": "(TRI)",
+    "airport": "(TRI) Tri-Cities Regional (TN) /VA - USA"
+  },
+  { "id": 1672, "code": "(TRN)", "airport": "(TRN) Turin - Italy" },
+  { "id": 1673, "code": "(TRO)", "airport": "(TRO) Taree - Australia" },
+  { "id": 1674, "code": "(TRS)", "airport": "(TRS) Trieste - Italy" },
+  {
+    "id": 1675,
+    "code": "(TRV)",
+    "airport": "(TRV) Thiruvananthapuram - India"
+  },
+  { "id": 1676, "code": "(TRZ)", "airport": "(TRZ) Tiruchirapally - India" },
+  { "id": 1677, "code": "(TSB)", "airport": "(TSB) Tsumeb - Namibia" },
+  {
+    "id": 1678,
+    "code": "(TSE)",
+    "airport": "(TSE) Astana - Astana International Airport - Kazakhstan"
+  },
+  { "id": 1679, "code": "(TSF)", "airport": "(TSF) Treviso - Italy" },
+  { "id": 1680, "code": "(TSN)", "airport": "(TSN) Tianjin - China" },
+  { "id": 1681, "code": "(TSV)", "airport": "(TSV) Townsville - Australia" },
+  {
+    "id": 1682,
+    "code": "(TTN)",
+    "airport": "(TTN) Trenton/Princeton (NJ) - USA"
+  },
+  { "id": 1683, "code": "(TUK)", "airport": "(TUK) Turbat - Pakistan" },
+  { "id": 1684, "code": "(TUL)", "airport": "(TUL) Tulsa (OK) - USA" },
+  {
+    "id": 1685,
+    "code": "(TUN)",
+    "airport": "(TUN) Tunis - Carthage - Tunisia"
+  },
+  { "id": 1686, "code": "(TUP)", "airport": "(TUP) Tulepo (MS) - USA" },
+  { "id": 1687, "code": "(TUS)", "airport": "(TUS) Tucson (AZ) - USA" },
+  { "id": 1688, "code": "(TUU)", "airport": "(TUU) Tabuk - Saudi Arabia" },
+  { "id": 1689, "code": "(TVC)", "airport": "(TVC) Traverse City (MI) - USA" },
+  {
+    "id": 1690,
+    "code": "(TVF)",
+    "airport": "(TVF) Thief River Falls (MN) - USA"
+  },
+  { "id": 1691, "code": "(TVL)", "airport": "(TVL) Lake Tahoe (CA) - USA" },
+  { "id": 1692, "code": "(TWB)", "airport": "(TWB) Toowoomba - Australia" },
+  { "id": 1693, "code": "(TWF)", "airport": "(TWF) Twin Falls (ID) - USA" },
+  { "id": 1694, "code": "(TWU)", "airport": "(TWU) Tawau - Malaysia" },
+  { "id": 1695, "code": "(TXK)", "airport": "(TXK) Texarkana (AR) - USA" },
+  { "id": 1696, "code": "(TXL)", "airport": "(TXL) Berlin, Tegel - Germany" },
+  {
+    "id": 1697,
+    "code": "(TYN)",
+    "airport": "(TYN) Taiyuan - Shanxi, PR China"
+  },
+  { "id": 1698, "code": "(TYO)", "airport": "(TYO) Tokyo - Japan" },
+  { "id": 1699, "code": "(TYR)", "airport": "(TYR) Tyler (TX) - USA" },
+  { "id": 1700, "code": "(TYS)", "airport": "(TYS) Knoxville (TN) - USA" },
+  { "id": 1701, "code": "(TZX)", "airport": "(TZX) Trabzon - Turkey" },
+  {
+    "id": 1702,
+    "code": "(UAH)",
+    "airport": "(UAH) Ua Huka - French Polynesia"
+  },
+  { "id": 1703, "code": "(UAK)", "airport": "(UAK) Narsarsuaq - Greenland" },
+  { "id": 1704, "code": "(UAP)", "airport": "(UAP) Ua Pou - French Polynesia" },
+  { "id": 1705, "code": "(UBA)", "airport": "(UBA) Uberaba - Brazil" },
+  { "id": 1706, "code": "(UBJ)", "airport": "(UBJ) Ube - Japan" },
+  {
+    "id": 1707,
+    "code": "(UBP)",
+    "airport": "(UBP) Ubon Ratchathani - Muang Ubon Airport - Thailand"
+  },
+  {
+    "id": 1708,
+    "code": "(UCA)",
+    "airport": "(UCA) Utica (NY) - Oneida County Airport - USA"
+  },
+  { "id": 1709, "code": "(UCT)", "airport": "(UCT) Ukhta - Russia" },
+  {
+    "id": 1710,
+    "code": "(UDE)",
+    "airport": "(UDE) Uden - Volkel Airport - Netherlands"
+  },
+  {
+    "id": 1711,
+    "code": "(UDI)",
+    "airport": "(UDI) Uberlandia - Eduardo Gomes Airport - Brazil"
+  },
+  { "id": 1712, "code": "(UDJ)", "airport": "(UDJ) Uzhgorod - Ukraine" },
+  {
+    "id": 1713,
+    "code": "(UDR)",
+    "airport": "(UDR) Udaipur - Dabok Airport - India"
+  },
+  { "id": 1714, "code": "(UEE)", "airport": "(UEE) Queenstown - Australia" },
+  { "id": 1715, "code": "(UET)", "airport": "(UET) Quetta - Pakistan" },
+  { "id": 1716, "code": "(UFA)", "airport": "(UFA) Ufa - Russia" },
+  { "id": 1717, "code": "(UGC)", "airport": "(UGC) Urgench - Uzbekistan" },
+  { "id": 1718, "code": "(UGO)", "airport": "(UGO) Uige - Angola" },
+  {
+    "id": 1719,
+    "code": "(UHE)",
+    "airport": "(UHE) Uherske Hradiste - Czech Republic"
+  },
+  { "id": 1720, "code": "(UII)", "airport": "(UII) Utila - Honduras" },
+  { "id": 1721, "code": "(UIN)", "airport": "(UIN) Quincy (IL) - USA" },
+  {
+    "id": 1722,
+    "code": "(UIO)",
+    "airport": "(UIO) Quito - Mariscal Sucre International Airport - Ecuador"
+  },
+  { "id": 1723, "code": "(UIP)", "airport": "(UIP) Quimper - France" },
+  {
+    "id": 1724,
+    "code": "(UIT)",
+    "airport": "(UIT) Jaluit Island - Marshall Islands"
+  },
+  { "id": 1725, "code": "(UKB)", "airport": "(UKB) Kobe - Japan" },
+  { "id": 1726, "code": "(UKI)", "airport": "(UKI) Ukiah (CA) - USA" },
+  { "id": 1727, "code": "(UKY)", "airport": "(UKY) Kyoto - Japan" },
+  { "id": 1728, "code": "(ULB)", "airport": "(ULB) Ulei - Vanuatu" },
+  { "id": 1729, "code": "(ULD)", "airport": "(ULD) Ulundi - South Africa" },
+  {
+    "id": 1730,
+    "code": "(ULN)",
+    "airport": "(ULN) Ulaanbaatar - Buyant Uhaa Airport - Mongolia"
+  },
+  { "id": 1731, "code": "(ULU)", "airport": "(ULU) Gulu - Uganda" },
+  { "id": 1732, "code": "(UMD)", "airport": "(UMD) Uummannaq - Greenland" },
+  { "id": 1733, "code": "(UME)", "airport": "(UME) Umea - Sweden" },
+  { "id": 1734, "code": "(UMR)", "airport": "(UMR) Woomera - Australia" },
+  {
+    "id": 1735,
+    "code": "(UNI)",
+    "airport": "(UNI) Union Island - Saint Vincent and the Grenadines"
+  },
+  { "id": 1736, "code": "(UNK)", "airport": "(UNK) Unalakleet (AK) - USA" },
+  {
+    "id": 1737,
+    "code": "(UPG)",
+    "airport": "(UPG) Ujung Pandang - Hasanudin Airport - Indonesia"
+  },
+  { "id": 1738, "code": "(UPL)", "airport": "(UPL) Upala - Costa Rica" },
+  { "id": 1739, "code": "(UPN)", "airport": "(UPN) Uruapan - Mexico" },
+  { "id": 1740, "code": "(UPP)", "airport": "(UPP) Upolu Point (HI) - USA" },
+  {
+    "id": 1741,
+    "code": "(URB)",
+    "airport": "(URB) Urubupunga - Ernesto Pochler Airport - Brazil"
+  },
+  {
+    "id": 1742,
+    "code": "(URC)",
+    "airport": "(URC) Urumqi - Xinjiang, PR China"
+  },
+  {
+    "id": 1743,
+    "code": "(URG)",
+    "airport": "(URG) Uruguaiana - Ruben Berta Airport - Brazil"
+  },
+  { "id": 1744, "code": "(URM)", "airport": "(URM) Uriman - Venezuela" },
+  { "id": 1745, "code": "(URZ)", "airport": "(URZ) Uruzgan - Afghanistan" },
+  {
+    "id": 1746,
+    "code": "(USH)",
+    "airport": "(USH) Ushuaia - Islas Malvinas Airport - Argentina"
+  },
+  { "id": 1747, "code": "(USN)", "airport": "(USN) Ulsan - South Korea" },
+  { "id": 1748, "code": "(UTH)", "airport": "(UTH) Udon Thani - Thailand" },
+  { "id": 1749, "code": "(UTN)", "airport": "(UTN) Upington - South Africa" },
+  {
+    "id": 1750,
+    "code": "(UTP)",
+    "airport": "(UTP) Utapao (Pattaya) - Thailand"
+  },
+  { "id": 1751, "code": "(UTT)", "airport": "(UTT) Umtata - South Africa" },
+  { "id": 1752, "code": "(UUD)", "airport": "(UUD) Ulan-Ude - Russia" },
+  { "id": 1753, "code": "(UVE)", "airport": "(UVE) Oyem - Gabon/Loyautte" },
+  {
+    "id": 1754,
+    "code": "(UVF)",
+    "airport": "(UVF) St. Lucia Hewanorra - Saint Lucia"
+  },
+  {
+    "id": 1755,
+    "code": "(UVL)",
+    "airport": "(UVL) Kharga - New Valley - Egypt"
+  },
+  { "id": 1756, "code": "(VAA)", "airport": "(VAA) Vaasa - Finland" },
+  {
+    "id": 1757,
+    "code": "(VAN)",
+    "airport": "(VAN) Van - Ferit Melen - Turkey"
+  },
+  { "id": 1758, "code": "(VAP)", "airport": "(VAP) Valparaiso - Chile" },
+  { "id": 1759, "code": "(VAR)", "airport": "(VAR) Varna - Bulgaria" },
+  { "id": 1760, "code": "(VAS)", "airport": "(VAS) Sivas - Turkey" },
+  {
+    "id": 1761,
+    "code": "(VBS)",
+    "airport": "(VBS) Brescia, Montichiari - Italy"
+  },
+  { "id": 1762, "code": "(VBY)", "airport": "(VBY) Visby - Sweden" },
+  {
+    "id": 1763,
+    "code": "(VCE)",
+    "airport": "(VCE) Venice - Marco Polo - Italy"
+  },
+  {
+    "id": 1764,
+    "code": "(VCP)",
+    "airport": "(VCP) Sao Paulo - Viracopos - Brazil"
+  },
+  { "id": 1765, "code": "(VDA)", "airport": "(VDA) Elat, Ovula - Israel" },
+  { "id": 1766, "code": "(VDE)", "airport": "(VDE) Valverde - Spain" },
+  { "id": 1767, "code": "(VDZ)", "airport": "(VDZ) Valdez (AK) - USA" },
+  { "id": 1768, "code": "(VEL)", "airport": "(VEL) Vernal (UT) - USA" },
+  { "id": 1769, "code": "(VER)", "airport": "(VER) Veracruz - Mexico" },
+  { "id": 1770, "code": "(VFA)", "airport": "(VFA) Victoria Falls - Zimbabwe" },
+  { "id": 1771, "code": "(VGO)", "airport": "(VGO) Vigo - Spain" },
+  { "id": 1772, "code": "(VID)", "airport": "(VID) Vidin - Bulgaria" },
+  {
+    "id": 1773,
+    "code": "(VIE)",
+    "airport": "(VIE) Wien (Vienna) - Vienna International - Austria"
+  },
+  {
+    "id": 1774,
+    "code": "(VIJ)",
+    "airport": "(VIJ) Virgin Gorda - Virgin Islands (British)"
+  },
+  { "id": 1775, "code": "(VIS)", "airport": "(VIS) Visalia (CA) - USA" },
+  { "id": 1776, "code": "(VIT)", "airport": "(VIT) Vitoria - Spain" },
+  {
+    "id": 1777,
+    "code": "(VIX)",
+    "airport": "(VIX) Vitoria - Eurico de Aguiar Salles Airport - Brazil"
+  },
+  { "id": 1778, "code": "(VKO)", "airport": "(VKO) Moscow - Vnukovo - Russia" },
+  { "id": 1779, "code": "(VLC)", "airport": "(VLC) Valencia - Spain" },
+  { "id": 1780, "code": "(VLD)", "airport": "(VLD) Valdosta (GA) - USA" },
+  { "id": 1781, "code": "(VLI)", "airport": "(VLI) Port Vila - Vanuatu" },
+  { "id": 1782, "code": "(VLL)", "airport": "(VLL) Valladolid - Spain" },
+  { "id": 1783, "code": "(VLN)", "airport": "(VLN) Valencia - Venezuela" },
+  {
+    "id": 1784,
+    "code": "(VLU)",
+    "airport": "(VLU) Velikiye Luki (Welikije Luki) - Russia"
+  },
+  { "id": 1785, "code": "(VNO)", "airport": "(VNO) Vilnius - Lithuania" },
+  { "id": 1786, "code": "(VNS)", "airport": "(VNS) Varanasi - India" },
+  {
+    "id": 1787,
+    "code": "(VPS)",
+    "airport": "(VPS) Fort Walton Beach (FL) - USA"
+  },
+  { "id": 1788, "code": "(VRA)", "airport": "(VRA) Varadero - Cuba" },
+  {
+    "id": 1789,
+    "code": "(VRB)",
+    "airport": "(VRB) Vero Beach/Ft. Pierce (FL) - USA"
+  },
+  { "id": 1790, "code": "(VRK)", "airport": "(VRK) Varkaus - Finland" },
+  { "id": 1791, "code": "(VRN)", "airport": "(VRN) Verona - Italy" },
+  { "id": 1792, "code": "(VSA)", "airport": "(VSA) Villahermosa - Mexico" },
+  { "id": 1793, "code": "(VST)", "airport": "(VST) Vasteras - Sweden" },
+  {
+    "id": 1794,
+    "code": "(VTE)",
+    "airport": "(VTE) Vientiane - Wattay - Lao PDR"
+  },
+  { "id": 1795, "code": "(VXO)", "airport": "(VXO) Vaexjoe - Sweden" },
+  { "id": 1796, "code": "(VYD)", "airport": "(VYD) Vryheid - South Africa" },
+  { "id": 1797, "code": "(WAS)", "airport": "(WAS) Washington DC - USA" },
+  {
+    "id": 1798,
+    "code": "(WAW)",
+    "airport": "(WAW) Warsaw - Frédéric Chopin - Poland"
+  },
+  {
+    "id": 1799,
+    "code": "(WDH)",
+    "airport": "(WDH) Windhoek - Hosea Kutako International - Namibia"
+  },
+  { "id": 1800, "code": "(WEI)", "airport": "(WEI) Weipa - Australia" },
+  { "id": 1801, "code": "(WEL)", "airport": "(WEL) Welkom - South Africa" },
+  { "id": 1802, "code": "(WGA)", "airport": "(WGA) Wagga - Australia" },
+  { "id": 1803, "code": "(WHK)", "airport": "(WHK) Whakatane - New Zealand" },
+  { "id": 1804, "code": "(WHM)", "airport": "(WHM) Wickham - Australia" },
+  {
+    "id": 1805,
+    "code": "(WIE)",
+    "airport": "(WIE) Wiesbaden, Air Base - Germany"
+  },
+  { "id": 1806, "code": "(WLB)", "airport": "(WLB) Labouchere Bay (AK) - USA" },
+  { "id": 1807, "code": "(WLG)", "airport": "(WLG) Wellington - New Zealand" },
+  {
+    "id": 1808,
+    "code": "(WLS)",
+    "airport": "(WLS) Wallis - Wallis and Futuna Islands"
+  },
+  { "id": 1809, "code": "(WMB)", "airport": "(WMB) Warrnambool - Australia" },
+  { "id": 1810, "code": "(WNS)", "airport": "(WNS) Nawab Shah - Pakistan" },
+  { "id": 1811, "code": "(WOL)", "airport": "(WOL) Wollongong - Australia" },
+  { "id": 1812, "code": "(WRE)", "airport": "(WRE) Whangarei - New Zealand" },
+  { "id": 1813, "code": "(WRG)", "airport": "(WRG) Wrangell (AK) - USA" },
+  { "id": 1814, "code": "(WRL)", "airport": "(WRL) Worland (WY) - USA" },
+  { "id": 1815, "code": "(WUH)", "airport": "(WUH) Wuhan - Hubei, PR China" },
+  { "id": 1816, "code": "(WUN)", "airport": "(WUN) Wiluna - Australia" },
+  { "id": 1817, "code": "(WVB)", "airport": "(WVB) Walvis Bay - South Africa" },
+  { "id": 1818, "code": "(WYA)", "airport": "(WYA) Whyalla - Australia" },
+  { "id": 1819, "code": "(WYN)", "airport": "(WYN) Wyndham - Australia" },
+  {
+    "id": 1820,
+    "code": "(WYS)",
+    "airport": "(WYS) West Yellowstone (MT) - USA"
+  },
+  {
+    "id": 1821,
+    "code": "(XIY)",
+    "airport": "(XIY) Xi'an - Xianyang - Shaanxi, PR China"
+  },
+  { "id": 1822, "code": "(XLB)", "airport": "(XLB) Lac Brochet, MB - Canada" },
+  { "id": 1823, "code": "(XMH)", "airport": "(XMH) Manihi - French Polynesia" },
+  { "id": 1824, "code": "(XMN)", "airport": "(XMN) Xiamen - Fujian, PR China" },
+  { "id": 1825, "code": "(XPK)", "airport": "(XPK) Pukatawagan - Canada" },
+  {
+    "id": 1826,
+    "code": "(XRY)",
+    "airport": "(XRY) Jerez de la Frontera/Cadiz - La Parra - Spain"
+  },
+  {
+    "id": 1827,
+    "code": "(XSI)",
+    "airport": "(XSI) South Indian Lake, MB - Canada"
+  },
+  {
+    "id": 1828,
+    "code": "(XSP)",
+    "airport": "(XSP) Singapore - Seletar - Singapore"
+  },
+  { "id": 1829, "code": "(YAK)", "airport": "(YAK) Yakutat (AK) - USA" },
+  { "id": 1830, "code": "(YAO)", "airport": "(YAO) Yaounde - Cameroon" },
+  { "id": 1831, "code": "(YAT)", "airport": "(YAT) Attawapiskat, NT - Canada" },
+  { "id": 1832, "code": "(YBE)", "airport": "(YBE) Uranium City - Canada" },
+  { "id": 1833, "code": "(YCB)", "airport": "(YCB) Cambridge Bay - Canada" },
+  {
+    "id": 1834,
+    "code": "(YDF)",
+    "airport": "(YDF) Deer Lake/Corner Brook - Canada"
+  },
+  { "id": 1835, "code": "(YEA)", "airport": "(YEA) Edmonton - Canada" },
+  {
+    "id": 1836,
+    "code": "(YEG)",
+    "airport": "(YEG) Edmonton, International - Canada"
+  },
+  { "id": 1837, "code": "(YEV)", "airport": "(YEV) Inuvik - Canada" },
+  { "id": 1838, "code": "(YFA)", "airport": "(YFA) Fort Albert - Canada" },
+  {
+    "id": 1839,
+    "code": "(YFB)",
+    "airport": "(YFB) Iqaluit (Frobisher Bay) - Canada"
+  },
+  { "id": 1840, "code": "(YFC)", "airport": "(YFC) Fredericton - Canada" },
+  { "id": 1841, "code": "(YFO)", "airport": "(YFO) Flin Flon - Canada" },
+  { "id": 1842, "code": "(YGL)", "airport": "(YGL) La Grande - Canada" },
+  { "id": 1843, "code": "(YGW)", "airport": "(YGW) Kuujjuarapik - Canada" },
+  { "id": 1844, "code": "(YGX)", "airport": "(YGX) Gillam - Canada" },
+  { "id": 1845, "code": "(YHM)", "airport": "(YHM) Hamilton - Canada" },
+  {
+    "id": 1846,
+    "code": "(YHR)",
+    "airport": "(YHR) Harrington Harbour, PQ - Canada"
+  },
+  {
+    "id": 1847,
+    "code": "(YHZ)",
+    "airport": "(YHZ) Halifax International - Canada"
+  },
+  { "id": 1848, "code": "(YIF)", "airport": "(YIF) St. Augustin, PQ - Canada" },
+  { "id": 1849, "code": "(YIH)", "airport": "(YIH) Yichang - Hubei, PR China" },
+  { "id": 1850, "code": "(YKA)", "airport": "(YKA) Kamloops, BC - Canada" },
+  { "id": 1851, "code": "(YKM)", "airport": "(YKM) Yakima (WA) - USA" },
+  { "id": 1852, "code": "(YKS)", "airport": "(YKS) Yakutsk - Russia" },
+  { "id": 1853, "code": "(YLR)", "airport": "(YLR) Leaf Rapids - Canada" },
+  { "id": 1854, "code": "(YLW)", "airport": "(YLW) Kelowna, BC - Canada" },
+  { "id": 1855, "code": "(YMM)", "airport": "(YMM) Fort McMurray - Canada" },
+  { "id": 1856, "code": "(YMQ)", "airport": "(YMQ) Montreal - Canada" },
+  {
+    "id": 1857,
+    "code": "(YMX)",
+    "airport": "(YMX) Montreal - Mirabel - Canada"
+  },
+  { "id": 1858, "code": "(YNB)", "airport": "(YNB) Yanbu - Saudi Arabia" },
+  { "id": 1859, "code": "(YOK)", "airport": "(YOK) Yokohama - Japan" },
+  { "id": 1860, "code": "(YOP)", "airport": "(YOP) Rainbow Lake, AB - Canada" },
+  { "id": 1861, "code": "(YOW)", "airport": "(YOW) Ottawa - Hull - Canada" },
+  { "id": 1862, "code": "(YPN)", "airport": "(YPN) Port Menier, PQ - Canada" },
+  {
+    "id": 1863,
+    "code": "(YPR)",
+    "airport": "(YPR) Prince Rupert/Digby Island - Canada"
+  },
+  {
+    "id": 1864,
+    "code": "(YQB)",
+    "airport": "(YQB) Quebec - Quebec International - Canada"
+  },
+  { "id": 1865, "code": "(YQD)", "airport": "(YQD) The Pas - Canada" },
+  { "id": 1866, "code": "(YQG)", "airport": "(YQG) Windsor Ontario - Canada" },
+  { "id": 1867, "code": "(YQM)", "airport": "(YQM) Moncton - Canada" },
+  { "id": 1868, "code": "(YQR)", "airport": "(YQR) Regina - Canada" },
+  { "id": 1869, "code": "(YQT)", "airport": "(YQT) Thunder Bay - Canada" },
+  { "id": 1870, "code": "(YQX)", "airport": "(YQX) Gander - Canada" },
+  { "id": 1871, "code": "(YRB)", "airport": "(YRB) Resolute Bay - Canada" },
+  { "id": 1872, "code": "(YSJ)", "airport": "(YSJ) Saint John - Canada" },
+  { "id": 1873, "code": "(YSM)", "airport": "(YSM) Fort Smith - Canada" },
+  { "id": 1874, "code": "(YSR)", "airport": "(YSR) Nanisivik - Canada" },
+  { "id": 1875, "code": "(YTH)", "airport": "(YTH) Thompson - Canada" },
+  { "id": 1876, "code": "(YTO)", "airport": "(YTO) Toronto - Canada" },
+  {
+    "id": 1877,
+    "code": "(YTZ)",
+    "airport": "(YTZ) Toronto - Billy Bishop Toronto City Airport - Canada"
+  },
+  { "id": 1878, "code": "(YUD)", "airport": "(YUD) Umiujaq - Canada" },
+  {
+    "id": 1879,
+    "code": "(YUL)",
+    "airport": "(YUL) Montreal - Dorval (Montréal-Trudeau) - Canada"
+  },
+  { "id": 1880, "code": "(YUM)", "airport": "(YUM) Yuma (AZ) - USA" },
+  { "id": 1881, "code": "(YUX)", "airport": "(YUX) Hall Beach - Canada" },
+  { "id": 1882, "code": "(YVB)", "airport": "(YVB) Bonaventure, PQ - Canada" },
+  { "id": 1883, "code": "(YVO)", "airport": "(YVO) Val d'Or - Canada" },
+  {
+    "id": 1884,
+    "code": "(YVP)",
+    "airport": "(YVP) Kuujjuaq (FortChimo) - Canada"
+  },
+  { "id": 1885, "code": "(YVQ)", "airport": "(YVQ) Norman Wells - Canada" },
+  {
+    "id": 1886,
+    "code": "(YVR)",
+    "airport": "(YVR) Vancouver - Vancouver International - Canada"
+  },
+  {
+    "id": 1887,
+    "code": "(YWG)",
+    "airport": "(YWG) Winnipeg International - Canada"
+  },
+  { "id": 1888, "code": "(YWK)", "airport": "(YWK) Wabush - Canada" },
+  {
+    "id": 1889,
+    "code": "(YXD)",
+    "airport": "(YXD) Edmonton, Municipal - Canada"
+  },
+  { "id": 1890, "code": "(YXE)", "airport": "(YXE) Saskatoon - Canada" },
+  { "id": 1891, "code": "(YXJ)", "airport": "(YXJ) Fort St. John - Canada" },
+  { "id": 1892, "code": "(YXN)", "airport": "(YXN) Whale Cove, NT - Canada" },
+  { "id": 1893, "code": "(YXS)", "airport": "(YXS) Prince George - Canada" },
+  { "id": 1894, "code": "(YXT)", "airport": "(YXT) Terrace - Canada" },
+  { "id": 1895, "code": "(YXY)", "airport": "(YXY) Whitehorse - Canada" },
+  {
+    "id": 1896,
+    "code": "(YYC)",
+    "airport": "(YYC) Calgary - Calgary International Airport - Canada"
+  },
+  { "id": 1897, "code": "(YYD)", "airport": "(YYD) Smithers - Canada" },
+  { "id": 1898, "code": "(YYJ)", "airport": "(YYJ) Victoria - Canada" },
+  { "id": 1899, "code": "(YYQ)", "airport": "(YYQ) Churchill - Canada" },
+  { "id": 1900, "code": "(YYR)", "airport": "(YYR) Goose Bay - Canada" },
+  { "id": 1901, "code": "(YYT)", "airport": "(YYT) St. John's - Canada" },
+  {
+    "id": 1902,
+    "code": "(YYZ)",
+    "airport": "(YYZ) Toronto - Toronto Pearson International Airport - Canada"
+  },
+  { "id": 1903, "code": "(YZF)", "airport": "(YZF) Yellowknife - Canada" },
+  { "id": 1904, "code": "(YZP)", "airport": "(YZP) Sandspit - Canada" },
+  {
+    "id": 1905,
+    "code": "(ZAD)",
+    "airport": "(ZAD) Zadar - Croatia (Hrvatska)"
+  },
+  {
+    "id": 1906,
+    "code": "(ZAG)",
+    "airport": "(ZAG) Zagreb - Zagreb Airport Pleso - Croatia (Hrvatska)"
+  },
+  { "id": 1907, "code": "(ZAZ)", "airport": "(ZAZ) Zaragoza - Spain" },
+  { "id": 1908, "code": "(ZCL)", "airport": "(ZCL) Zacatecas - Mexico" },
+  {
+    "id": 1909,
+    "code": "(ZDJ)",
+    "airport": "(ZDJ) Berne, Railway Service - Switzerland"
+  },
+  {
+    "id": 1910,
+    "code": "(ZIH)",
+    "airport": "(ZIH) Ixtapa/Zihuatenejo - Mexico"
+  },
+  {
+    "id": 1911,
+    "code": "(ZJK)",
+    "airport": "(ZJK) Hong Kong - Chek Lap Kok - Hong Kong"
+  },
+  { "id": 1912, "code": "(ZKE)", "airport": "(ZKE) Kaschechawan, PQ - Canada" },
+  { "id": 1913, "code": "(ZLO)", "airport": "(ZLO) Manzanillo - Mexico" },
+  { "id": 1914, "code": "(ZND)", "airport": "(ZND) Zinder - Niger" },
+  { "id": 1915, "code": "(ZNE)", "airport": "(ZNE) Newman - Australia" },
+  { "id": 1916, "code": "(ZQN)", "airport": "(ZQN) Queenstown - New Zealand" },
+  {
+    "id": 1917,
+    "code": "(ZRH)",
+    "airport": "(ZRH) Zurich (Zürich) - Kloten - Switzerland"
+  },
+  { "id": 1918, "code": "(ZSA)", "airport": "(ZSA) San Salvador - Bahamas" },
+  { "id": 1919, "code": "(ZSS)", "airport": "(ZSS) Sassandra - Cote d'Ivoire" },
+  { "id": 1920, "code": "(ZTH)", "airport": "(ZTH) Zakynthos - Greece" },
+  { "id": 1921, "code": "(ZTM)", "airport": "(ZTM) Shamattawa, MB - Canada" },
+  { "id": 1922, "code": "(ZYL)", "airport": "(ZYL) Sylhet - Bangladesh" }
+]
+
 ]
