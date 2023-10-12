@@ -98,14 +98,14 @@ export default function page({
               <div className="group">
                 <div className="bg-blue-600">
                   <h3 className="text-white p-3 font-bold ">
-                    Fly now to any favourite destinations
+                    Now Book your Flights Hassle Free with
                   </h3>
                 </div>
                 <div className="p-4">
-                  <h3>Free Reservations on 24 hours</h3>
-                  <p className="text-red-500">* Matt I need Contents</p>
-                  <p className="text-red-500">* Matt I need Contents</p>
-                  <p className="text-red-500">* Matt I need Contents</p>
+                  <h3>Free Fare Hold for 24 Hours</h3>
+                  <p className="text-red-500">* Lock your Fare</p>
+                  <p className="text-red-500">* No prepayment needed</p>
+                  <p className="text-red-500">* No credit card needed</p>
                 </div>
                 <div>
                 </div>
