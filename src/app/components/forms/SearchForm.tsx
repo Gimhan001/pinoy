@@ -78,9 +78,9 @@ export default function SearchForm() {
     return current < dayjs();
   };
 
-  // const disabledDateReturn: RangePickerProps['disabledDate'] = () => {
-  //   return  departureDate;
-  // };
+  const disabledDateReturn: RangePickerProps['disabledDate'] = (current) => {
+    return  dayjs(current) < dayjs(departureDate);
+  };
 
   const onChangeReturn: DatePickerProps["onChange"] = (date, dateString) => {
     setReturndate(dateString);
@@ -309,7 +309,7 @@ export default function SearchForm() {
                   // style={{ width: "100%" }}
                   onChange={onChangeReturn}
                   disabled={disableReturn}
-                  // disabledDate={disabledDateReturn}
+                  disabledDate={disabledDateReturn}
                 />
               </div>
               <div className="group rounded-xl border-2 border-slate-700">
