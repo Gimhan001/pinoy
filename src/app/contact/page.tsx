@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import Banner from "@/app/assets/images/template-cover.jpg";
+import Banner from "@/app/assets/images/contact-new.webp";
 import ContactForm from "@/app/components/forms/ContactForm";
 
 const inter = Inter({ subsets: ["latin"] });
