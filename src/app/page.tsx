@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Banner from "@/app/assets/images/home-new.webp";
+import Banner from "@/app/assets/images/home-n.webp";
 import AgentsCarousel from "@/app/components/carousel/AgentCarousel";
 import RoundTripCard from "@/app/components/card/RoundTripCard";
 import PopularDestinationsCard from "@/app/components/card/PopularDestinationsCard";
