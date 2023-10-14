@@ -3,7 +3,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import AboutBanner from "@/app/assets/images/about.webp";
+import AboutBanner from "@/app/assets/images/about-new.webp";
 
 
 const inter = Inter({ subsets: ["latin"] });
