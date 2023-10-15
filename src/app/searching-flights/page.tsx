@@ -10,7 +10,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Loading from "./loading";
 
-import Banner from "@/app/assets/images/home.webp";
+import Banner from "@/app/assets/images/home-n.webp";
 import BookingForm from "../components/forms/BookingForm";
 
 
