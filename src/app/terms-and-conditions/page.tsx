@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Banner from "@/app/assets/images/template-cover.jpg";
+import Banner from "@/app/assets/images/terms-conditions.webp";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
