@@ -2,7 +2,7 @@ import React from "react";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 
-import Banner from "@/app/assets/images/template-cover.jpg";
+import Banner from "@/app/assets/images/popular-destinations.webp";
 import PopularDestinations from "../components/card/PopularDestinationsCard";
 import destinationList from "@/app/utils/json/PopularDestination.json";
 

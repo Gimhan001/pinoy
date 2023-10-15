@@ -1,7 +1,7 @@
 
 import React from "react";
 import Image from "next/image";
-import Banner from "@/app/assets/images/template-cover.jpg";
+import Banner from "@/app/assets/images/faq.webp";
 import Faq from "../components/collapse/faq";
 
 import type { Metadata } from "next";
