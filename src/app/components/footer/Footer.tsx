@@ -22,7 +22,7 @@ export default function Footer() {
           <p className="text-sm">
             Pinoy Travel is your trusted Philippines travel agent dedicated to
             bringing you the most affordable flights and holidays to the
-            Philippines.<br></br>A fully owned subsidiary of Aero Travels!
+            Philippines.
           </p>
         </div>
         <div className="p-2">
@@ -41,7 +41,11 @@ export default function Footer() {
             Privacy Policy
           </Link>
           <br />
-          <Link className="link" href="/terms-and-conditions" as="/terms-and-conditions">
+          <Link
+            className="link"
+            href="/terms-and-conditions"
+            as="/terms-and-conditions"
+          >
             Terms And Condition
           </Link>
           <br />
@@ -52,21 +56,30 @@ export default function Footer() {
         <div className="p-2">
           <h2 className="text-lg font-bold uppercase mb-4">Connect With Us</h2>
           <div className="mb-3">
-            <Link href="https://www.facebook.com/pinoytravels.uk/" target="_blank">
+            <Link
+              href="https://www.facebook.com/pinoytravels.uk/"
+              target="_blank"
+            >
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"
                 icon={faFacebook}
               />
             </Link>
-            <Link  href="https://www.instagram.com/pinoy.travels.uk/" target="_blank">
+            <Link
+              href="https://www.instagram.com/pinoy.travels.uk/"
+              target="_blank"
+            >
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"
                 icon={faInstagram}
               />
             </Link>
-            <Link href="https://www.youtube.com/channel/UCEVVAsK2H6g4q_WqMjphf4w" target="_blank">
+            <Link
+              href="https://www.youtube.com/channel/UCEVVAsK2H6g4q_WqMjphf4w"
+              target="_blank"
+            >
               <FontAwesomeIcon
                 className="pr-3 link"
                 size="lg"
@@ -89,17 +102,22 @@ export default function Footer() {
               alt="payment"
               width={180}
               height={150}
-              style={{width: "170px", height: "40px"}}
+              style={{ width: "170px", height: "40px" }}
             />
           </div>
         </div>
       </div>
       <div className="text-center">
         <p className="text-xs">
-          &copy; Copyright <strong>Pinoy Travels</strong>. All Rights Reserved.
+          &copy; 2023 <strong>Pinoy Travels Limited</strong>. All Rights
+          Reserved.
         </p>
         <p className="text-xs">
-          Powered by <strong>Aero Travels</strong>.
+          A Subsidiary of{" "}
+          <a href="https://aerotravels.co.uk" target="_blank">
+            <strong>Aero Travels Group Limited</strong>
+          </a>
+          .
         </p>
       </div>
     </div>

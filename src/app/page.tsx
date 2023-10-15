@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="scroll-smooth mx-auto my-6">
+      {/* <div className="scroll-smooth mx-auto my-6">
         <div className="container mx-auto">
           <div className="grid justify-items-center">
             <div
@@ -56,7 +56,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="scroll-smooth mx-auto">
         <div className="scroll-smooth bg-slate-100 p-10 rounded-3xl h-full">

@@ -24,6 +24,7 @@ const config: Config = {
         ],
         'lg': '1100px',
         'xl': '1400px',
+        'xxl': '1800px',
       }
       // spacing: {
       //   px: "1px",

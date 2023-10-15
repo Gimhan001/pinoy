@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 
-import Banner from "@/app/assets/images/template-cover.jpg";
+import Banner from "@/app/assets/images/popular-destinations.webp";
 import destinatinData from "@/app/utils/json/PopularDestination.json";
 import airLines from "@/app/utils/json/Popular1.json";
 import { PopularDestinationModal } from "@/app/components/modals/PopularDestinationModal";
@@ -35,7 +35,7 @@ export default function Page({
                 placeholder="blur"
                 priority
               />
-              <div className="scroll-smooth bg-slate-100 lg:mb-6 sm:p-4 rounded-br-3xl rounded-bl-3xl">
+              <div className="container scroll-smooth bg-slate-100 lg:mb-6 sm:p-4 rounded-br-3xl rounded-bl-3xl">
                 <div className="container z-40 lg:p-2 mx-auto">
                   <BookingForm />
                 </div>
