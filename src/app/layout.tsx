@@ -16,8 +16,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pinoy Travels | Filipino travel agency in uk",
-  description: "Pinoy Travels - Filipino travel agency in uk",
+  title: "Pinoy Travels | Philippines travel agents in uk",
+  description: "Planning your trip back to Philippines from the UK? We're the UK's top Filipino travel agency, proudly owned by Aero Travels. Book now!",
 };
 
 export default function RootLayout({

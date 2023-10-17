@@ -1,12 +1,18 @@
 import React from "react";
 import { Inter } from "next/font/google";
 import Image from "next/image";
+import type { Metadata } from "next";
 
 import Banner from "@/app/assets/images/popular-destinations.webp";
 import PopularDestinations from "../components/card/PopularDestinationsCard";
 import destinationList from "@/app/utils/json/PopularDestination.json";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Popular Destinations in Philippines | Pinoy Travels",
+  description: "Beloved Philippine destinations - a heartfelt return for you. A journey filled with nostalgia and wonder to reconnect with your roots! Book Now with Pinoy Travels!",
+};
 
 const page = () => {
   return (

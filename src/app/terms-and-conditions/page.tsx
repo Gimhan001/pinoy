@@ -4,8 +4,8 @@ import Banner from "@/app/assets/images/terms-conditions.webp";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions | Pinoy",
-  description: "Travel anywahere It is All About Travel ",
+  title: "Terms and Conditions | Pinoy Travels",
+  description: "Dive into our terms and conditions - the simple yet vital rules for your adventure with Pinoy Travels. Let's go!",
 };
 
 export default function PrivacyPolicy() {
