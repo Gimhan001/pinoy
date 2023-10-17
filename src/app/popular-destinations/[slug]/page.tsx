@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, ResolvingMetadata } from "next";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 
@@ -10,18 +10,32 @@ import BookingForm from "@/app/components/forms/SearchForm";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Popular Destinations | Pinoy",
-  description: "...",
-};
+type Props = {
+  params: { slug: string }
+}
+ 
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  // read route params
+  const id = params.slug
+ 
+  return {
+    title: id,
+    description: "",
+  }
+}
+
 
 export default function Page({
   params,
 }: {
-  params: { slug: string; title: string };
+  params: { slug: string };
 }) {
   return (
     <>
+    
       {destinatinData.map((data) => {
         if (data.url == params.slug) {
           return (

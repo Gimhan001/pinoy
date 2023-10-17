@@ -4,8 +4,8 @@ import Banner from "@/app/assets/images/privacy-policy.webp";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Pinoy",
-  description: "Travel anywahere It is All About Travel ",
+  title: "Privacy Policy | Pinoy Travels",
+  description: "Read our privacy policy for transparency and data protection. Your information, your trust - we at Pinoy Travels committed to safeguarding it.",
 };
 
 export default function PrivacyPolicy() {

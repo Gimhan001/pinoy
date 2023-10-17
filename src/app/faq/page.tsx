@@ -7,8 +7,8 @@ import Faq from "../components/collapse/faq";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FAQ | Pinoy",
-  description: "Travel anywahere It is All About Travel ",
+  title: "FAQ | Pinoy Travels",
+  description: "Get answers in a flash! Check out our FAQ for quick info and travel tips. Your questions, our solutions.",
 };
 
 
