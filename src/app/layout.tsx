@@ -17,7 +17,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Pinoy Travels | Philippines travel agents in uk",
-  description: "Planning your trip back to Philippines from the UK? We're the UK's top Filipino travel agency, proudly owned by Aero Travels. Book now!",
+  description:
+    "Planning your trip back to Philippines from the UK? We're the UK's top Filipino travel agency, proudly owned by Aero Travels. Book now!",
 };
 
 export default function RootLayout({
@@ -40,6 +41,20 @@ export default function RootLayout({
           type="image/<generated>"
           sizes="<generated>"
         />
+        <script>
+          gtag('event', 'conversion',{" "}
+          {"send_to" + ":" + "AW-11358860077/RQCSCILlxu8YEK3mqagq"});
+        </script>
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-11358860077"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          dataLayer.push(arguments);&rbrace; gtag('js', new Date());
+          gtag('config', 'AW-11358860077');
+        </script>
 
         <Script
           id="google-analytics"
