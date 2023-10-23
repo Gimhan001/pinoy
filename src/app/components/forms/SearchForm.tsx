@@ -52,6 +52,7 @@ export default function SearchForm() {
   const [infants, setInfants] = useState(0);
   const [dropLable, setDropLable] = useState("Travellers");
   const [disableReturn, setDisableReturn] = useState(false);
+ const [disable, setDisable] = useState(false)
 
   const onChange = (e: RadioChangeEvent) => {
     settripTypeValue(e.target.value);
@@ -87,13 +88,17 @@ export default function SearchForm() {
   };
 
   const onChangeDeparture = (data: string) => {
-    setSearchDeparture(data);
-    console.log("search Airport :" + data);
+        setSearchDeparture(data)
+      console.log("search Airport :" + data);
   };
+
+  const onSelect = (value: any, option: any) => {
+    
+  }
 
   const onChangeDestination = (data: string) => {
     setSearchDestination(data);
-    console.log("search Airport :" + data);
+    // console.log("search Airport :" + data);
   };
 
   const handleChange = (value: string) => {
@@ -197,14 +202,22 @@ export default function SearchForm() {
   ];
 
   function onFinish() {
-    if(searchDeparture == "" ) {
-      return toast.error("Please Enter the Departure Details");
+    if(searchDeparture == "" && searchDeparture ) {
+      return (
+        setDisable(true),
+        toast.error("Please Enter the Departure Details"));
     } else if (searchDestination == "") {
-      return toast.error("Please Enter the Destination Details");
+      return (
+        setDisable(true),
+        toast.error("Please Enter the Destination Details"));
     } else if (departureDate == "") {
-      return toast.error("Please Enter the Departure Date");
+      return (
+        setDisable(true),
+        toast.error("Please Enter the Departure Date"));
     } else if (returnDate == "") {
-      return toast.error("Please Enter the Destination Date");
+      return (
+        setDisable(true),
+        toast.error("Please Enter the Destination Date"));
     }
   }
 
@@ -261,15 +274,15 @@ export default function SearchForm() {
                     option: item.airport,
                   }))}
                   onSearch={(value) => {
-                    setSearchDeparture(value);
                     const filteredOptions = airportList.filter((item) =>
                       item.airport.toLowerCase().includes(value.toLowerCase())
                     );
 
                     setOptions(filteredOptions);
+
                   }}
+                  onSelect={onSelect}
                   onChange={onChangeDeparture}
-                  value={searchDeparture}
                   style={{ width: "100%" }}
                 />
                 <AutoComplete
@@ -364,6 +377,7 @@ export default function SearchForm() {
                 icon={<SearchOutlined />}
                 style={{ fontFamily: "inter" }}
                 className=""
+                disabled={disable}
                 onClick={onFinish}
               >
                 Search Flight
