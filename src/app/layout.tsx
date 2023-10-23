@@ -42,31 +42,27 @@ export default function RootLayout({
           sizes="<generated>"
         />
         <Script
-          id="google-analytics"
-          dangerouslySetInnerHTML={{
-            __html: `
+          id="google-analytics">
+         {`
             gtag('event', 'conversion',{" "}
           {"send_to": "AW-11358860077/RQCSCILlxu8YEK3mqagq"});
-            `,
-          }}
-        />
+            `
+          }
+        </Script>
 
-        <script
+        <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-11358860077"
-        ></script>
-        <Script
-          id="google-analytics"
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-11358860077');
-            `,
-          }}
         />
+        <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'AW-11358860077');
+        `}
+      </Script>
 
         <Script
           id="google-analytics"
