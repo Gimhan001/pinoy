@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import thankYou from "@/app/assets/images/thankYou.webp";
-import Script from "next/script";
 import Head from "next/head";
 
 export const metadata: Metadata = {
