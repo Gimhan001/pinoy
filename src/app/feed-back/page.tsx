@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import thankYou from "@/app/assets/images/thankYou.webp";
-import Head from "next/head";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Feed Back | Pinoy",
@@ -15,24 +15,22 @@ const inter = Inter({ subsets: ["latin"] });
 export default function FeedBack() {
   return (
     <>
-      <Head>
-        <script>
-          {`
+      <Script id="google-analytics">
+        {`
             gtag('event', 'conversion',{" "}
           {"send_to": "AW-11358860077/RQCSCILlxu8YEK3mqagq"});
             `}
-        </script>
+      </Script>
 
-        <script src="https://www.googletagmanager.com/gtag/js?id=AW-11358860077" />
-        <script>
-          {`
+      <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11358860077" />
+      <Script id="google-analytics">
+        {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'AW-11358860077');
         `}
-        </script>
-      </Head>
+      </Script>
       <main className={inter.className}>
         <Image src={thankYou} alt="Thank you" />
         <div className="container mx-auto p-4 grid justify-items-center border rounded-xl shadow-2xl ">
