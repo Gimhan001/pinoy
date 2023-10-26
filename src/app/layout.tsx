@@ -52,25 +52,6 @@ export default function RootLayout({
             `}
         </Script>
 
-        {/* <Script id="google-analytics">
-          {`
-            gtag('event', 'conversion',{" "}
-          {"send_to": "AW-11358860077/RQCSCILlxu8YEK3mqagq"});
-            `}
-        </Script>
-
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11358860077"
-        />
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-11358860077');
-        `}
-        </Script> */}
-
       </head>
       <body className={inter.className}>
         <noscript
