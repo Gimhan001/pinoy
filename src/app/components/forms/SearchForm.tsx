@@ -268,7 +268,7 @@ export default function SearchForm() {
               <div className="group flex rounded-xl border-2 lg:col-span-2 border-slate-700">
                 <AutoComplete
                   bordered={false}
-                  placeholder="Where From"
+                  placeholder="Flying From"
                   options={options.map((item) => ({
                     value: item.airport,
                     option: item.airport,
@@ -287,7 +287,7 @@ export default function SearchForm() {
                 />
                 <AutoComplete
                   bordered={false}
-                  placeholder="Where From"
+                  placeholder="Flying To"
                   options={options.map((item) => ({
                     value: item.airport,
                     option: item.airport,
