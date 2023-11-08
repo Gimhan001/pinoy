@@ -26,9 +26,9 @@ export default function AgentCard(props: {
           <h4 className="text-base text-center text-pink-700 font-extrabold mb-4">
             {props.name}
           </h4>
-          <h6 className="text-xs text-center text-blue-800 font-medium mb-2">
+          {/* <h6 className="text-xs text-center text-blue-800 font-medium mb-2">
             {props.language}
-          </h6>
+          </h6> */}
           <div className="flex mt-2 justify-center">
             <a href={`tel:${props.contact}`}>
               <Button

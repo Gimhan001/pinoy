@@ -34,7 +34,7 @@ const BookingForm = ({
   const onFinish = async (data: FieldType) => {
     if(searchParams.from == "" || searchParams.to == "" || searchParams.departureDate == "" || searchParams.returnDate == "" ) {
       setIsLoading(false);
-      toast.error("Please Enter the invalid details");
+      toast.error("Please Enter the valid details");
     } else {
     setIsLoading(true);
     console.log(data);
@@ -106,7 +106,7 @@ const BookingForm = ({
     if (response.status === 200 && res.status === 200) {
       toast.success(`Hey ${data.fname} your enquiry send successfully..!`);
       setIsLoading(false);
-      router.replace("/feed-back");
+      router.push("/feed-back");
     } else {
       toast.error("Something went wrong.!");
       setIsLoading(false);
@@ -139,6 +139,7 @@ const BookingForm = ({
           name="fname"
           rules={[{ required: true, message: "Please input your first name!" }]}
         >
+          {/* <h6 className="text-sm mb-1 font-semibold" style={{ fontFamily: "inter" }}>First Name:</h6> */}
           <Input
             className="inter"
             style={{ fontFamily: "inter" }}
@@ -151,6 +152,7 @@ const BookingForm = ({
           name="email"
           rules={[{ required: true, message: "Please input your email!" }]}
         >
+          {/* <h6 className="text-sm mb-1 font-semibold" style={{ fontFamily: "inter" }}>Email:</h6> */}
           <Input
             placeholder="Email Address"
             style={{ fontFamily: "inter" }}
@@ -161,6 +163,7 @@ const BookingForm = ({
           name="mobile"
           rules={[{ required: true, message: "Please input your mobile!" }]}
         >
+          {/* <h6 className="text-sm mb-1 font-semibold" style={{ fontFamily: "inter" }}>Mobile Number:</h6> */}
           <InputNumber
             placeholder="Mobile Number"
             minLength={10}
@@ -178,7 +181,7 @@ const BookingForm = ({
             htmlType="submit"
             disabled={isLoading}
           >
-            {isLoading ? "Sending..." : "Submit"}
+            {isLoading ? "Sending..." : "Continue"}
           </Button>
           
         </Form.Item>

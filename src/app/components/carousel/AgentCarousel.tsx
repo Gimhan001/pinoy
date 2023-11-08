@@ -68,9 +68,9 @@ export default function AgentCarousel() {
                   <h4 className="text-base text-center text-pink-700 font-extrabold mb-2">
                     {data.name}
                   </h4>
-                  <p className="text-xs text-center text-blue-800 font-bold mb-2">
+                  {/* <p className="text-xs text-center text-blue-800 font-bold mb-2">
                     {data.language}
-                  </p>
+                  </p> */}
                   <div className="flex mt-2 justify-center">
                     <a href={`tel:${data.contact}`}>
                       <Button
