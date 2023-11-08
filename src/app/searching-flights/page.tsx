@@ -12,6 +12,7 @@ import Loading from "./loading";
 
 import Banner from "@/app/assets/images/home-n.webp";
 import BookingForm from "../components/forms/BookingForm";
+import SearchSteps from "../components/steps/SearchSteps";
 
 
 const inter = Inter({ subsets: ["latin"] });
