@@ -79,7 +79,7 @@ export default function About() {
           the Philippines.
           <br />
         </p>
-        <p className="text-start px-4">Kausapin Mo Kami!</p>
+        <p className="text-center mt-8 px-4">Kausapin Mo Kami!</p>
 
         <h4 className="text-xl font-bold text-start mt-6 px-4 text-black">
           What Makes Us Unique?
