@@ -37,7 +37,7 @@ export default function About() {
         </p>
         <p className="text-start mt-4 px-4">
           At Pinoy Travels, we understand that returning to your homeland is not
-          just a trip, it's a journey of the heart. As a part of the Aero
+          just a trip, it&#39;s a journey of the heart. As a part of the Aero
           Travels family, let Pinoy Travels be your guide as you return to the
           place where your heart truly belongs.
         </p>
