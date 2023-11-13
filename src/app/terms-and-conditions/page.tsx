@@ -5,7 +5,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms and Conditions | Pinoy Travels",
-  description: "Dive into our terms and conditions - the simple yet vital rules for your adventure with Pinoy Travels. Let's go!",
+  description:
+    "Dive into our terms and conditions - the simple yet vital rules for your adventure with Pinoy Travels. Let's go!",
 };
 
 export default function PrivacyPolicy() {
@@ -30,22 +31,22 @@ export default function PrivacyPolicy() {
             general terms and conditions of your use of the pinoytravels.uk
             website (&quot;Website&quot; or &quot;Service&quot;) and any of its
             related products and services (collectively, &quot;Services&quot;).
-            This Agreement is legally binding between you (&quot;User&quot;,
-            &quot;you&quot; or &quot;your&quot;) and PinoyTravels
-            (&quot;PinoyTravels&quot;, &quot;we&quot;, &quot;us&quot; or
-            &quot;our&quot;). By accessing and using the Website and Services,
-            you acknowledge that you have read, understood, and agree to be
-            bound by the terms of this Agreement. If you are entering into this
-            Agreement on behalf of a business or other legal entity, you
-            represent that you have the authority to bind such entity to this
-            Agreement, in which case the terms &quot;User&quot;, &quot;you&quot;
-            or &quot;your&quot; shall refer to such entity. If you do not have
-            such authority, or if you do not agree with the terms of this
-            Agreement, you must not accept this Agreement and may not access and
-            use the Website and Services. You acknowledge that this Agreement is
-            a contract between you and PinoyTravels, even though it is
-            electronic and is not physically signed by you, and it governs your
-            use of the Website and Services.
+            This Agreement is legally binding between you (&quot;User,&quot;
+            &quot;you,&quot; or &quot;your&quot;) and PinoyTravels
+            (&quot;PinoyTravels,&quot; &quot;we,&quot; &quot;us,&quot; or
+            &quot;our&quot;), a subsidiary of Aero Travel Group, and by
+            accessing and using the Website and Services, you acknowledge that
+            you have read, understood, and agree to be bound by the terms of
+            this Agreement. If you are entering into this Agreement on behalf of
+            a business or other legal entity, you represent that you have the
+            authority to bind such entity to this Agreement, in which case the
+            terms &quot;User&quot;, &quot;you&quot; or &quot;your&quot; shall
+            refer to such entity. If you do not have such authority, or if you
+            do not agree with the terms of this Agreement, you must not accept
+            this Agreement and may not access and use the Website and Services.
+            With Aero Travel Groups assuming all responsibilities. Aero Travel
+            Groups supports and assists with any associated matters related to
+            your use of the PinoyTravels Website and Service.
           </p>
         </div>
 
@@ -276,7 +277,8 @@ export default function PrivacyPolicy() {
               • Please note that banks generally take up to 14 business days to
               process and transfer the funds into your account. Some banks can
               take up to 25-30 days, or until your next billing cycle.
-              PinoyTravels has no influence over these timescales.
+              PinoyTravels or Aero Travel Groups has no influence over these
+              timescales.
             </li>
           </ul>
         </div>
@@ -388,9 +390,9 @@ export default function PrivacyPolicy() {
             practices, data security processes or other policies of such other
             services. You may be required to register for or log into such other
             services on their respective platforms. By enabling any other
-            services, you are expressly permitting PinoyTravels to disclose your
-            data as necessary to facilitate the use or enablement of such other
-            service.
+            services, you are expressly permitting PinoyTravels or the Aero
+            Travel Groups to disclose your data as necessary to facilitate the
+            use or enablement of such other service.
           </p>
         </div>
 
@@ -433,14 +435,14 @@ export default function PrivacyPolicy() {
             you any intellectual property owned by PinoyTravels or third
             parties, and all rights, titles, and interests in and to such
             property will remain (as between the parties) solely with
-            PinoyTravels. All trademarks, service marks, graphics and logos used
-            in connection with the Website and Services, are trademarks or
-            registered trademarks of PinoyTravels or its licensors. Other
-            trademarks, service marks, graphics and logos used in connection
-            with the Website and Services may be the trademarks of other third
-            parties. Your use of the Website and Services grants you no right or
-            license to reproduce or otherwise use any of PinoyTravels or third
-            party trademarks.
+            PinoyTravels or Aero Travel Groups. All trademarks, service marks,
+            graphics and logos used in connection with the Website and Services,
+            are trademarks or registered trademarks of PinoyTravels or its
+            licensors. Other trademarks, service marks, graphics and logos used
+            in connection with the Website and Services may be the trademarks of
+            other third parties. Your use of the Website and Services grants you
+            no right or license to reproduce or otherwise use any of
+            PinoyTravels or third party trademarks.
           </p>
         </div>
 
@@ -509,11 +511,11 @@ export default function PrivacyPolicy() {
             You agree to indemnify and hold PinoyTravels and its affiliates,
             directors, officers, employees, agents, suppliers and licensors
             harmless from and against any liabilities, losses, damages or costs,
-            including reasonable attorneys&apos; fees, incurred in connection with or
-            arising from any third-party allegations, claims, actions, disputes,
-            or demands asserted against any of them as a result of or relating
-            to your Content, your use of the Website and Services or any willful
-            misconduct on your part.
+            including reasonable attorneys&apos; fees, incurred in connection
+            with or arising from any third-party allegations, claims, actions,
+            disputes, or demands asserted against any of them as a result of or
+            relating to your Content, your use of the Website and Services or
+            any willful misconduct on your part.
           </p>
         </div>
 
@@ -571,8 +573,12 @@ export default function PrivacyPolicy() {
             If you would like to contact us to understand more about this
             Agreement or wish to contact us concerning any matter relating to
             it, you may do so via the contact form or send an email to{" "}
-            <a className="text-blue-500" href="mailto:cs@pinoytravels.uk">
-              cs@pinoytravels.uk
+            <a className="text-blue-500" href="mailto:cs@aerotravels.co.uk">
+              cs@aerotravels.co.uk
+            </a>{" "}
+            or{" "}
+            <a className="text-blue-500" href="mailto:info@pinoytravels.uk">
+              info@pinoytravels.uk
             </a>
           </p>
         </div>
