@@ -5,7 +5,6 @@ import { Inter } from "next/font/google";
 
 import AboutBanner from "@/app/assets/images/about-new.webp";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -28,14 +27,19 @@ export default function About() {
       <div className="container mx-auto w-full text-center mt-4">
         <h1 className="text-3xl font-bold">About Us</h1>
         <p className="text-center mt-4 px-4">
-          Established in 2019 and situated in West Horndon, Brentwood, Pinoy
-          Travels, a proud member of the Aero Travels Group. We specialize in
+          Established in 2019 and nestled in West Horndon, Brentwood, Pinoy
+          Travels proudly stands as a valued member of the esteemed Aero Travels
+          Group. Our roots in the travel industry run deep, specializing in
           flights, hotels, car rentals, travel insurance, holiday packages, and
-          last-minute deals. Aero Travels offers unbeatable airfares for flights
-          to Philippines, ensuring a seamless travel experience for our valued
-          customers. At Pinoy Travels, we understand that returning to
-          your homeland is not just a trip. let Pinoy Travels be your guide as
-          you return to the place where your heart truly belongs
+          last-minute deals. Aero Travels, the driving force behind our success,
+          offers unbeatable airfares for flights to the Philippines, ensuring a
+          seamless travel experience for our cherished customers.
+        </p>
+        <p className="text-start mt-4 px-4">
+          At Pinoy Travels, we understand that returning to your homeland is not
+          just a trip, it's a journey of the heart. As a part of the Aero
+          Travels family, let Pinoy Travels be your guide as you return to the
+          place where your heart truly belongs.
         </p>
 
         <h4 className="text-xl font-bold text-start mt-10 px-4 text-black">
@@ -43,20 +47,37 @@ export default function About() {
         </h4>
         <p className="text-start mt-3 px-4">
           Our passionate Tagalog and Bisaya-speaking travel agents bring their
-          deep travel knowledge to provide exceptional service. We continuously
-          strive to offer travel services at the cheapest airfares to
-          Philippines, which are lower than standard industry prices.
+          deep travel knowledge to the forefront, providing exceptional service
+          that goes beyond the ordinary. We are committed to offering travel
+          services at the most competitive airfares to the Philippines,
+          consistently surpassing standard industry prices.
         </p>
 
         <h4 className="text-xl font-bold text-start mt-6 px-4 text-black">
           What we provide?
         </h4>
         <p className="text-start mt-3 px-4">
-          At our core, we&apos;re committed to offering unbeatable value for
-          flights, holiday booking, visa consultation, visa consultations, and
-          Travel advice. Our dedicated team of filipino travel experts with a
-          knowledge of the market to bring you deals that encompass a wide range
-          of destinations in Philippines from cheapest to convenience.
+          At our core, we are dedicated to offering unbeatable value across a
+          spectrum of travel services:
+          <br />
+          • Flights: <br />
+          Experience affordability and convenience with our unbeatable airfares.
+          <br />
+          • Holiday Booking:
+          <br />
+          Craft unforgettable memories with our holiday packages tailored to
+          your desires.
+          <br />
+          • Visa Consultations:
+          <br />
+          Navigate the complexities of travel documentation with our expert
+          guidance.
+          <br />
+          • Travel Advice: <br />
+          Trust our dedicated team of Filipino travel experts with market
+          knowledge to bring you deals spanning a wide range of destinations in
+          the Philippines.
+          <br />
         </p>
         <p className="text-start px-4">Kausapin Mo Kami!</p>
 
@@ -64,9 +85,14 @@ export default function About() {
           What Makes Us Unique?
         </h4>
         <p className="text-start mt-3 px-4">
-          We set ourselves apart with extraordinary benefits like free
+          We set ourselves apart with extraordinary benefits, including free
           cancellations, low deposit bookings, and airfares to the Philippines
-          that redefine affordability.
+          that redefine affordability. Join us on a journey where every detail
+          is crafted with care, and every traveler is welcomed home with warmth.
+          <br />
+          <br />
+          Thank you for choosing Pinoy Travels, a proud member of the Aero
+          Travels Group.
         </p>
       </div>
 
