@@ -66,11 +66,11 @@ export default function Contact() {
               />{" "}
             </h2>
             <a
-              href="mailto:info@pinoy.co.uk"
+              href="mailto:info@pinoytravels.uk"
               className=""
               rel="noopener noreferrer"
             >
-              <h4 className="font-bold text-center">info@pinoy.co.uk</h4>
+              <h4 className="font-bold text-center">info@pinoytravels.uk</h4>
             </a>
           </div>
           <div className="rounded-lg border bg-gradient-to-r from-violet-200 via-sky-200 to-emerald-200  lg:px-10 py-4 shadow-lg mt-6">
