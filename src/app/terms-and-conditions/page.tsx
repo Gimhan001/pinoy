@@ -33,20 +33,21 @@ export default function PrivacyPolicy() {
             related products and services (collectively, &quot;Services&quot;).
             This Agreement is legally binding between you (&quot;User,&quot;
             &quot;you,&quot; or &quot;your&quot;) and PinoyTravels
-            (&quot;PinoyTravels,&quot; &quot;we,&quot; &quot;us,&quot; or
-            &quot;our&quot;), a subsidiary of Aero Travel Group, and by
-            accessing and using the Website and Services, you acknowledge that
-            you have read, understood, and agree to be bound by the terms of
-            this Agreement. If you are entering into this Agreement on behalf of
-            a business or other legal entity, you represent that you have the
-            authority to bind such entity to this Agreement, in which case the
-            terms &quot;User&quot;, &quot;you&quot; or &quot;your&quot; shall
-            refer to such entity. If you do not have such authority, or if you
-            do not agree with the terms of this Agreement, you must not accept
-            this Agreement and may not access and use the Website and Services.
-            With Aero Travel Groups assuming all responsibilities. Aero Travel
-            Groups supports and assists with any associated matters related to
-            your use of the PinoyTravels Website and Service.
+            (&quot;PinoyTravels,&quot; &quot;we, &quot;us,&quot;
+            or&quot;our&quot;), Trading as Pinoy Travels, all rights reserved
+            Aero Travel Groups Limited, and by accessing and using the Website
+            and Services, you acknowledge that you have read, understood, and
+            agree to be bound by the terms of this Agreement. If you are
+            entering into this Agreement on behalf of a business or other legal
+            entity, you represent that you have the authority to bind such
+            entity to this Agreement, in which case the terms &quot;User&quot;,
+            &quot;you&quot; or &quot;your&quot; shall refer to such entity. If
+            you do not have such authority, or if you do not agree with the
+            terms of this Agreement, you must not accept this Agreement and may
+            not access and use the Website and Services. With Aero Travel Groups
+            assuming all responsibilities. Aero Travel Groups supports and
+            assists with any associated matters related to your use of the
+            PinoyTravels Website and Services.
           </p>
         </div>
 
