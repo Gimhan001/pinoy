@@ -109,15 +109,12 @@ export default function Footer() {
       </div>
       <div className="text-center">
         <p className="text-xs">
-          &copy; 2023 <strong>Pinoy Travels Limited</strong>. All Rights
-          Reserved.
+          &copy; 2023 All rights reserved <a href="https://aerotravels.co.uk" target="_blank"><strong>Aero Travel Groups Limited.</strong></a> 
         </p>
         <p className="text-xs">
-          A Subsidiary of{" "}
-          <a href="https://aerotravels.co.uk" target="_blank">
-            <strong>Aero Travels Group Limited</strong>
+          <a href="https://www.pinoytravels.uk" target="_blank">
+          Trading as {" "}<strong>Pinoy Travels Limited.</strong>{" "}
           </a>
-          .
         </p>
       </div>
     </div>
