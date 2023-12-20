@@ -113,7 +113,7 @@ export default function Footer() {
         </p>
         <p className="text-xs">
           <a href="https://www.pinoytravels.uk" target="_blank">
-          Trading as {" "}<strong>Pinoy Travels Limited.</strong>{" "}
+          Trading as {" "}<strong>Pinoy Travels.</strong>{" "}
           </a>
         </p>
       </div>
