@@ -8,6 +8,7 @@ import { Inter } from "next/font/google";
 import PopularDestination from "@/app/utils/json/PopularDestination.json";
 import Link from "next/link";
 import chm from "@/app/assets/images/chm.png";
+import atol from "@/app/assets/images/atol.png"
 import { Button } from "antd";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -326,7 +327,7 @@ export default function Home() {
         </div>
 
         <div className="scroll-smooth mt-6 bg-slate-100 p-10 rounded-3xl">
-          <div className="grid justify-items-center">
+          <div className="flex gap-4 lg:gap-8 justify-center sm:flex-row">
             <div className="group ">
               <a
                 href="https://find-and-update.company-information.service.gov.uk/company/14920973"
@@ -335,6 +336,15 @@ export default function Home() {
                 <Image src={chm} alt="company house" width={100} height={100} />
               </a>
               <p className="text-xs uppercase">reg no: 14920973</p>
+            </div>
+            <div className="group ">
+              <a
+                href="#"
+                target="_blank"
+              >
+                <Image src={atol} alt="atol-12116" width={100} height={100} />
+              </a>
+              <p className="text-xs uppercase">reg no: 12116</p>
             </div>
           </div>
         </div>
