@@ -78,6 +78,10 @@ export default function PrivacyPolicy() {
               payments due from each and every party member for whom you are
               making a booking.
             </li>
+            <li className="text-sm px-8 mt-2">
+              • All our flight-inclusive bookings and packages are ATOL
+              protected.
+            </li>
           </ul>
         </div>
 
