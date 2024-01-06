@@ -339,8 +339,9 @@ export default function Home() {
             </div>
             <div className="group ">
               <a
-                href="#"
+                href="/atolpdf.pdf"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Image src={atol} alt="atol-12116" width={100} height={100} />
               </a>
