@@ -339,12 +339,12 @@ export default function Home() {
             </div>
             <div className="group ">
               <a
-                href="#"
+                href="/atolpdf.pdf"
                 target="_blank"
+                rel="noopener noreferrer"
               >
-                <Image src={atol} alt="atol-12116" width={100} height={100} />
+                <Image className="mt-3" src={atol} alt="atol-12116" width={80} height={80} />
               </a>
-              <p className="text-xs uppercase">reg no: 12116</p>
             </div>
           </div>
         </div>
